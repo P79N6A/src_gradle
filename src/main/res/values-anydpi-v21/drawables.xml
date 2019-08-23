@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="ag9">r/e/ag9.xml</drawable>
+    <drawable name="ag_">r/e/ag_.xml</drawable>
+    <drawable name="aek">r/g/a9.xml</drawable>
+    <drawable name="ael">r/e/ael.xml</drawable>
+    <drawable name="aem">r/e/aem.xml</drawable>
+    <drawable name="aen">r/e/aen.xml</drawable>
+    <drawable name="aeo">r/e/aeo.xml</drawable>
+    <drawable name="aep">r/e/aep.xml</drawable>
+    <drawable name="aeq">r/e/aeq.xml</drawable>
+    <drawable name="aer">r/e/aer.xml</drawable>
+</resources>

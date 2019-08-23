@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/a80" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/chv" android:background="@color/ao4" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.ss.android.ugc.aweme.base.ui.RemoteImageView android:id="@+id/lr" android:layout_width="match_parent" android:layout_height="150dp" android:tint="@color/a1m" android:layout_alignParentTop="true"/>
+        <View android:id="@+id/d6s" android:background="@color/ao4" android:visibility="gone" android:layout_width="match_parent" android:layout_height="200dp" android:layout_marginTop="157dp"/>
+        <android.support.v7.widget.RecyclerView android:id="@+id/ccf" android:background="@color/a" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:overScrollMode="never" android:animateLayoutChanges="false"/>
+        <include android:id="@+id/ft" layout="@layout/f3"/>
+        <LinearLayout android:id="@+id/bi3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/ft"/>
+        <RelativeLayout android:orientation="horizontal" android:id="@+id/a34" android:background="@color/ao4" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="148dp">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="120dp" android:layout_centerHorizontal="true" android:alpha="0.8">
+                <ProgressBar android:id="@+id/a35" android:visibility="invisible" android:layout_width="15dp" android:layout_height="15dp" android:layout_marginRight="10dp" android:indeterminate="true" android:indeterminateDrawable="@drawable/pa" android:layout_marginEnd="10dp"/>
+                <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/a1m" android:id="@+id/a36" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/b75" style="@style/s9"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+    <LinearLayout android:layout_gravity="end" android:orientation="vertical" android:id="@+id/bfz" android:background="@color/ao4" android:layout_width="250dp" android:layout_height="match_parent">
+        <View android:id="@+id/t2" android:layout_width="match_parent" android:layout_height="26dp"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/a17" android:gravity="center" android:id="@+id/d_h" android:layout_width="match_parent" android:layout_height="44dp" android:text="@string/x8" style="@style/sc"/>
+        <View android:background="@color/a1g" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+        <android.support.v7.widget.RecyclerView android:id="@+id/cie" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/a0l" android:gravity="center_horizontal" android:id="@+id/dtm" android:paddingTop="202dp" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/yq" style="@style/sa"/>
+    </LinearLayout>
+</android.support.v4.widget.DrawerLayout>

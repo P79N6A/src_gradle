@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <LinearLayout android:layout_gravity="top" android:orientation="vertical" android:id="@+id/d5_" android:layout_width="match_parent" android:layout_height="0px">
+        <View android:id="@+id/d59" android:background="@color/h7" android:layout_width="match_parent" android:layout_height="0px"/>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="top|left|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/awh"/>
+            <ImageView android:layout_gravity="top|right|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/awi"/>
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/md" android:layout_width="match_parent" android:layout_height="0px">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="bottom|left|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/awj"/>
+            <ImageView android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/awk"/>
+        </FrameLayout>
+        <View android:id="@+id/mc" android:background="@color/h7" android:layout_width="match_parent" android:layout_height="0px"/>
+    </LinearLayout>
+</merge>

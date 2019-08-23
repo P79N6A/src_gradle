@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="272dp" android:layout_height="wrap_content">
+    <android.support.constraint.ConstraintLayout android:id="@+id/t0" android:layout_width="match_parent" android:layout_height="96dp">
+        <ImageView android:id="@+id/ayx" android:layout_width="0dp" android:layout_height="0dp" android:src="#803a3a3a" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+        <com.ss.android.ugc.aweme.base.ui.RemoteImageView android:id="@+id/b2_" android:layout_width="80dp" android:layout_height="80dp" app:placeholderImage="@color/ao4" app:actualImageScaleType="6" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" app:placeholderImageScaleType="6"/>
+        <ImageView android:id="@+id/azy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:src="@drawable/av2" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0"/>
+        <TextView android:textColor="@color/hx" android:ellipsize="end" android:id="@+id/dkk" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:maxLines="1" app:layout_constraintEnd_toStartOf="@+id/azy" app:layout_constraintStart_toEndOf="@+id/b2_" app:layout_constraintTop_toTopOf="0" style="@style/sc"/>
+        <TextView android:textColor="@color/hx" android:ellipsize="end" android:id="@+id/dau" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:maxLines="2" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toEndOf="@+id/b2_" app:layout_constraintTop_toBottomOf="@+id/dkk" style="@style/s9"/>
+    </android.support.constraint.ConstraintLayout>
+    <FrameLayout android:id="@+id/nn" android:layout_width="match_parent" android:layout_height="34dp">
+        <com.ss.android.ugc.aweme.base.ui.RemoteImageView android:id="@+id/azg" android:layout_width="match_parent" android:layout_height="match_parent" app:placeholderImage="@drawable/nx" app:actualImageScaleType="6" app:roundedCornerRadius="2dp" app:roundTopLeft="false" app:roundTopRight="false" app:placeholderImageScaleType="6"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/anp" android:layout_gravity="center" android:id="@+id/d9r" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableEnd="@drawable/as6" style="@style/s9"/>
+    </FrameLayout>
+</merge>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:padding="9dp" android:layout_width="74dp" android:layout_height="74dp">
+    <ImageView android:id="@+id/ato" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/nf" android:layout_centerInParent="true"/>
+    <com.ss.android.ugc.aweme.base.ui.RemoteImageView android:id="@+id/atq" android:layout_width="50dp" android:layout_height="50dp" android:scaleType="fitXY" android:layout_centerInParent="true" app:placeholderImage="@drawable/b_1"/>
+    <ImageView android:id="@+id/ats" android:visibility="visible" android:layout_width="18dp" android:layout_height="18dp" android:layout_margin="3dp" android:src="@drawable/an9" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true"/>
+    <ImageView android:id="@+id/atp" android:visibility="gone" android:layout_width="6dp" android:layout_height="6dp" android:layout_margin="1dp" android:src="@drawable/oe" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentEnd="true"/>
+</RelativeLayout>

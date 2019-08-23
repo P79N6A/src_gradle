@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.android.livesdk.widget.GestureDetectLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/bwf" android:layout_width="match_parent" android:layout_height="match_parent">
+    <SurfaceView android:id="@+id/cxh" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:id="@+id/yx" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/ae1" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="@dimen/nl" android:textColor="@color/a_i" android:gravity="center" android:layout_gravity="center" android:id="@+id/ae2" android:layout_width="192dp" android:layout_height="32dp" android:layout_marginLeft="@dimen/nk" android:layout_marginRight="@dimen/nk" android:text="@string/djz" android:shadowColor="@color/abp" android:shadowDx="1" android:shadowDy="1" android:lineSpacingExtra="8sp"/>
+    </LinearLayout>
+</com.bytedance.android.livesdk.widget.GestureDetectLayout>

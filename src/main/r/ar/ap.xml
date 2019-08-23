@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/a3z" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="com.ss.android.ugc.aweme.base.opensourcemodified.android.support.design.widget.ViewPagerBottomSheetBehavior">
+        <android.support.v4.widget.Space android:id="@+id/css" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <RelativeLayout android:background="@drawable/p8" android:layout_width="match_parent" android:layout_height="@dimen/r7">
+            <ImageView android:layout_gravity="center_vertical" android:id="@+id/ix" android:padding="10dp" android:focusableInTouchMode="true" android:layout_width="44dp" android:layout_height="44dp" android:layout_marginLeft="6dp" android:src="@drawable/b9a" android:scaleType="centerInside" android:layout_centerVertical="true" android:contentDescription="@string/m" android:layout_marginStart="6dp"/>
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textStyle="bold" android:textColor="#e6161823" android:gravity="center" android:layout_gravity="center" android:id="@+id/dkk" android:layout_width="wrap_content" android:layout_height="@dimen/r7" android:layout_centerInParent="true" style="@style/sf"/>
+            <com.ss.android.ugc.aweme.views.AutoRTLTextView android:textColor="@color/i3" android:gravity="center" android:id="@+id/dhp" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="6dp" android:text="@string/bf1" android:layout_alignParentRight="true" android:layout_marginEnd="6dp" android:layout_alignParentEnd="true" style="@style/sc"/>
+        </RelativeLayout>
+        <FrameLayout android:id="@+id/aic" android:background="@color/anp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentStart="true"/>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

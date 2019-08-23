@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/clm" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/zy" android:id="@+id/cll" android:paddingTop="15dp" android:paddingBottom="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15dp" app:fontType="7" style="@style/s9"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/cli" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <RelativeLayout android:id="@+id/cln" android:background="@color/a17" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/zx" android:id="@+id/clq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/eg" android:lines="1" android:layout_centerVertical="true" style="@style/s7"/>
+        <com.ss.android.ugc.aweme.views.AutoRTLImageView android:id="@+id/b4k" android:layout_width="14dp" android:layout_height="14dp" android:src="@drawable/b4c" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/clp" android:background="@color/a17" android:layout_width="match_parent" android:layout_height="60dp">
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/zx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:text="@string/bcg" style="@style/s7"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/clo" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+    <include layout="@layout/a06"/>
+    <ViewStub android:id="@+id/ckh" android:layout="@layout/a81" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

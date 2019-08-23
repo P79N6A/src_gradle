@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.profile.tab.MusProfileNavigator xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/c77" android:background="@color/a17" android:layout_width="match_parent" android:layout_height="40dp">
+    <View android:background="@color/r" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_above="@+id/czq"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/cyn" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <View android:background="@color/r" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_alignParentBottom="true"/>
+</com.ss.android.ugc.aweme.profile.tab.MusProfileNavigator>

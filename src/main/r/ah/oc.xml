@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/aj3" android:background="@color/yx" android:layout_width="match_parent" android:layout_height="0dp"/>
+    <include android:id="@+id/ckz" android:layout_width="match_parent" android:layout_height="@dimen/r7" android:layout_below="@+id/aj3" layout="@layout/l0"/>
+    <FrameLayout android:id="@+id/aib" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/ckz">
+        <FrameLayout android:id="@+id/aic" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <com.ss.android.ugc.aweme.discover.ui.SearchIntermediateView android:id="@+id/clf" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+</RelativeLayout>

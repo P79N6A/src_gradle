@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.bytedance.ies.dmt.ui.titlebar.TextTitleBar android:id="@+id/d3m" android:layout_width="match_parent" android:layout_height="@dimen/r7" app:endTextSize="15dp" app:titleText="@string/bbb" app:titleTextColor="@color/a08" app:useBackIcon="true"/>
+    <android.support.v7.widget.RecyclerView android:id="@+id/bcz" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/d3m"/>
+    <com.bytedance.ies.dmt.ui.widget.DmtStatusView android:id="@+id/cvd" android:background="@color/yx" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/d3m"/>
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="aef">r/ae/aef.xml</drawable>
+    <drawable name="um">r/ae/um.xml</drawable>
+</resources>

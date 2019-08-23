@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:background="@color/ao4" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.ss.android.ugc.aweme.base.ui.RemoteImageView android:id="@+id/l0" android:layout_width="120dp" android:layout_height="120dp" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:layout_marginBottom="16dp" android:scaleType="centerCrop" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" app:roundedCornerRadius="2dp"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textStyle="bold" android:textColor="@color/a17" android:ellipsize="end" android:id="@+id/l4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:maxLines="2" android:layout_alignTop="@+id/l0" app:fontType="2" style="@style/sc"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/xw" android:id="@+id/l1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:layout_below="@+id/l4" style="@style/s9"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/gm" android:id="@+id/l2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_toRightOf="@+id/l1" android:layout_below="@+id/l4" android:layout_alignBaseline="@+id/l1" style="@style/s7"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/gm" android:id="@+id/l3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:layout_alignBottom="@+id/l0" style="@style/s9"/>
+    </RelativeLayout>
+    <View android:id="@+id/ani" android:background="@color/a7l" android:visibility="gone" android:layout_width="match_parent" android:layout_height="8dp"/>
+</LinearLayout>

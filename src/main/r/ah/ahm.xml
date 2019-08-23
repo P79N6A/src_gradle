@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:id="@+id/b6x" android:background="@drawable/a_s" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <RelativeLayout android:id="@+id/b6w" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="56dp" android:layout_centerHorizontal="true">
+        <View android:id="@+id/b6v" android:background="@drawable/a_t" android:layout_width="0dp" android:layout_height="38dp" android:layout_centerHorizontal="true"/>
+        <com.bytedance.android.livesdk.widget.VHeadView android:id="@+id/ayr" android:padding="3dp" android:layout_width="38dp" android:layout_height="38dp" android:layout_alignLeft="@+id/b6v" app:placeholderImage="@drawable/c1r" app:roundAsCircle="true" app:overlayImage="@color/a7r" app:retryImageScaleType="0"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/b6z" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="42dp" android:layout_centerVertical="true">
+            <TextView android:textSize="15sp" android:textStyle="bold" android:textColor="#de000000" android:ellipsize="end" android:id="@+id/dli" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:maxEms="3"/>
+            <TextView android:textSize="15sp" android:textStyle="bold" android:textColor="@color/aew" android:id="@+id/b6t" android:paddingRight="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:text="@string/czn"/>
+        </LinearLayout>
+    </RelativeLayout>
+</merge>

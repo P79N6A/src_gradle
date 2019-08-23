@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content" app:frMode="1" app:whRatio="1">
+    <com.ss.android.ugc.aweme.base.ui.AnimatedImageView android:id="@+id/a1a" android:layout_width="match_parent" android:layout_height="match_parent" app:placeholderImage="@color/z2" app:placeholderImageScaleType="6"/>
+</com.ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout>

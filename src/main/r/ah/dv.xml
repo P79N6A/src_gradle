@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/a17" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/d3v" layout="@layout/abz"/>
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/d3v">
+        <LinearLayout android:orientation="vertical" android:paddingTop="8dp" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.bytedance.ies.dmt.ui.common.views.CommonItemView android:id="@+id/ik" android:layout_width="match_parent" android:layout_height="wrap_content" app:hide_right_icon="true" app:left_text="@string/f5"/>
+            <com.bytedance.ies.dmt.ui.common.views.CommonItemView android:id="@+id/bpc" android:layout_width="match_parent" android:layout_height="wrap_content" app:left_text="@string/bfu"/>
+            <com.bytedance.ies.dmt.ui.common.views.CommonItemView android:id="@+id/l9" android:layout_width="match_parent" android:layout_height="wrap_content" app:left_text="@string/m1"/>
+            <com.bytedance.ies.dmt.ui.common.views.CommonItemView android:id="@+id/l_" android:layout_width="match_parent" android:layout_height="wrap_content" app:left_text="@string/n5"/>
+            <com.bytedance.ies.dmt.ui.common.views.CommonItemView android:id="@+id/cjc" android:layout_width="match_parent" android:layout_height="wrap_content" app:left_text="@string/c1a" app:right_ui_mode="1"/>
+            <com.bytedance.ies.dmt.ui.widget.setting.Divider style="@style/tt"/>
+            <com.bytedance.ies.dmt.ui.common.views.CommonItemView android:id="@+id/in" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:left_text="@string/c4z"/>
+            <com.bytedance.ies.dmt.ui.common.views.CommonItemView android:id="@+id/rd" android:layout_width="match_parent" android:layout_height="wrap_content" app:left_text="@string/c52"/>
+            <com.bytedance.ies.dmt.ui.common.views.CommonItemView android:id="@+id/a4b" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:left_text="@string/c55"/>
+            <com.bytedance.ies.dmt.ui.widget.setting.Divider style="@style/tt"/>
+            <com.bytedance.ies.dmt.ui.common.views.CommonItemView android:id="@+id/bxi" android:layout_width="match_parent" android:layout_height="wrap_content" app:desc="@string/c5e" app:left_text="@string/bm9"/>
+            <com.bytedance.ies.dmt.ui.widget.setting.Divider android:id="@+id/c1j" style="@style/tt"/>
+            <com.bytedance.ies.dmt.ui.common.views.CommonItemView android:textColor="@color/zy" android:id="@+id/bz_" android:layout_width="match_parent" android:layout_height="wrap_content" app:desc="@string/c5h" app:left_text="@string/c5f"/>
+            <com.bytedance.ies.dmt.ui.widget.setting.Divider style="@style/tt"/>
+            <com.bytedance.ies.dmt.ui.common.views.CommonItemView android:id="@+id/io" android:layout_width="match_parent" android:layout_height="wrap_content" app:desc="@string/c51" app:left_text="@string/c50"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

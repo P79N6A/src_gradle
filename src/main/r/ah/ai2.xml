@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="#ffffff" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="216dp">
+    <FrameLayout android:id="@+id/b9b" android:padding="8dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="24sp" android:textColor="#ff2200" android:layout_gravity="center_horizontal" android:id="@+id/dab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32dp"/>
+        <LinearLayout android:gravity="center" android:id="@+id/b_b" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="38dp">
+            <View android:background="@drawable/a4i" android:layout_width="5dp" android:layout_height="8dp"/>
+            <View android:background="@drawable/a4j" android:layout_width="5dp" android:layout_height="12dp"/>
+            <View android:background="@drawable/a4i" android:layout_width="5dp" android:layout_height="8dp"/>
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/b9c" android:padding="8dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textColor="#404040" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:text="@string/d66"/>
+        <LinearLayout android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:baselineAligned="false">
+            <FrameLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                <TextView android:textSize="16sp" android:textColor="#404040" android:gravity="center" android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/nh" android:background="@drawable/a4p" android:layout_width="128dp" android:layout_height="40dp" android:layout_marginBottom="16dp" android:text="@string/d6_"/>
+            </FrameLayout>
+            <FrameLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                <TextView android:textSize="16sp" android:textColor="@color/ao4" android:gravity="center" android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/nj" android:background="@drawable/a5p" android:layout_width="128dp" android:layout_height="40dp" android:layout_marginTop="130dp" android:layout_marginBottom="16dp" android:text="@string/d69"/>
+            </FrameLayout>
+        </LinearLayout>
+    </FrameLayout>
+    <LinearLayout android:padding="8dp" android:layout_width="match_parent" android:layout_height="match_parent" android:baselineAligned="false">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <com.bytedance.android.livesdk.widget.VHeadView android:id="@+id/ang" android:padding="4dp" android:layout_width="56dp" android:layout_height="56dp" android:layout_marginTop="16dp" app:placeholderImage="@drawable/c1r" app:roundAsCircle="true" app:retryImageScaleType="0"/>
+            <TextView android:textSize="14sp" android:textColor="#404040" android:id="@+id/dfd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:maxWidth="120dp" android:maxLines="1" android:singleLine="true"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <com.bytedance.android.livesdk.widget.VHeadView android:id="@+id/anf" android:padding="4dp" android:layout_width="56dp" android:layout_height="56dp" android:layout_marginTop="16dp" app:placeholderImage="@drawable/c1r" app:roundAsCircle="true" app:retryImageScaleType="0"/>
+            <TextView android:textSize="14sp" android:textColor="@color/a9o" android:id="@+id/dfc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="？？？"/>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textSize="10sp" android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/deg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="72dp"/>
+    <View android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:background="#14161823" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginBottom="49dp"/>
+    <TextView android:textSize="16sp" android:textColor="#161823" android:gravity="center" android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/ng" android:layout_width="match_parent" android:layout_height="48dp" android:text="@string/cpv"/>
+</FrameLayout>

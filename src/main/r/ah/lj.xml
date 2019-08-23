@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="@dimen/fk" android:layout_height="@dimen/fk">
+    <com.bytedance.android.live.core.widget.HSImageView android:id="@+id/apc" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <View android:id="@+id/du0" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <TextView android:textSize="12dp" android:textColor="@color/lm" android:gravity="center" android:id="@+id/djm" android:background="@drawable/tg" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/a9h" android:includeFontPadding="false"/>
+    <LinearLayout android:gravity="center" android:layout_gravity="bottom" android:id="@+id/bgk" android:layout_width="match_parent" android:layout_height="20dp">
+        <com.bytedance.android.livesdk.livecommerce.view.ECExplainingView android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</merge>

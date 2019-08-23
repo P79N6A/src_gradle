@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <xml name="a">r/o/a.xml</xml>
+    <xml name="b">r/o/b.xml</xml>
+    <xml name="c">r/o/c.xml</xml>
+    <xml name="d">r/o/d.xml</xml>
+    <xml name="e">r/o/e.xml</xml>
+    <xml name="f">r/o/f.xml</xml>
+    <xml name="g">r/o/g.xml</xml>
+    <xml name="h">r/o/h.xml</xml>
+    <xml name="i">r/o/i.xml</xml>
+</resources>

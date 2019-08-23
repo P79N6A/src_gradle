@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/a_6" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/d3m" android:background="@color/a_i" android:layout_width="match_parent" android:layout_height="@dimen/qc">
+        <ImageView android:id="@+id/iu" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/wp"/>
+        <TextView android:gravity="center_vertical" android:id="@+id/s3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/d2c" android:layout_centerInParent="true" style="@style/ws"/>
+        <ImageView android:id="@+id/b1z" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginRight="8dp" android:src="@drawable/c22" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+        <View android:background="@color/a9d" android:layout_width="match_parent" android:layout_height="1px" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <android.support.v4.widget.SwipeRefreshLayout android:id="@+id/aci" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/qc">
+        <android.support.v7.widget.RecyclerView android:id="@+id/ac_" android:layout_width="match_parent" android:layout_height="match_parent" app:layoutManager="android.support.v7.widget.LinearLayoutManager"/>
+    </android.support.v4.widget.SwipeRefreshLayout>
+</RelativeLayout>

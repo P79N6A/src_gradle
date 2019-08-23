@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:id="@+id/acj" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <FrameLayout android:id="@+id/aon" android:visibility="visible" android:layout_width="32dp" android:layout_height="16dp">
+        <TextView android:textSize="11sp" android:textStyle="italic" android:textColor="#ffffff" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/dcv" android:visibility="gone" android:layout_width="13dp" android:layout_height="wrap_content" android:layout_marginLeft="18dp" android:lineSpacingExtra="2dp"/>
+    </FrameLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/d6o" android:layout_width="50dp" android:layout_height="16dp">
+        <TextView android:textSize="8sp" android:textColor="#ffffff" android:gravity="center_vertical" android:id="@+id/dkb" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="21dp" android:shadowColor="#26000000" android:shadowDy="1" android:shadowRadius="1" android:lineSpacingExtra="2dp"/>
+    </LinearLayout>
+    <TextView android:textSize="14sp" android:textColor="#ffffff" android:ellipsize="middle" android:gravity="center" android:id="@+id/dlg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_marginRight="5dp" android:maxWidth="200dp" android:singleLine="true" android:shadowColor="#4c000000" android:shadowDy="1" android:shadowRadius="1" android:lineSpacingExtra="2dp"/>
+</merge>

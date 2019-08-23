@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ss.android.ugc.aweme.views.RoundedFrameLayout android:id="@+id/c1x" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerVertical="true" app:rounded_radius="@dimen/km">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.ss.android.ugc.aweme.views.SmartAnimatedImageView android:id="@+id/an4" android:layout_width="match_parent" android:layout_height="match_parent" app:placeholderImage="@color/a0i" app:placeholderImageScaleType="6" app:viewAspectRatio="1"/>
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textStyle="bold" android:textColor="@color/hx" android:gravity="center" android:id="@+id/an0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="@color/hv" android:shadowDy="2" android:shadowRadius="4" android:layout_centerInParent="true" style="@style/sf"/>
+            <View android:id="@+id/bay" android:background="@drawable/jy" android:layout_width="15dp" android:layout_height="1.5dp" android:layout_marginRight="8.5dp" android:layout_toLeftOf="@+id/an0" android:layout_centerVertical="true" android:layout_marginEnd="8.5dp" android:layout_toStartOf="@+id/an0"/>
+            <View android:id="@+id/cen" android:background="@drawable/jy" android:layout_width="15dp" android:layout_height="1.5dp" android:layout_marginLeft="8.5dp" android:layout_toRightOf="@+id/an0" android:layout_centerVertical="true" android:layout_marginStart="8.5dp" android:layout_toEndOf="@+id/an0"/>
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="9sp" android:textColor="@color/hy" android:gravity="center" android:id="@+id/ana" android:background="@drawable/jn" android:paddingLeft="4dp" android:paddingRight="4dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="4dp" android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+    </com.ss.android.ugc.aweme.views.RoundedFrameLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="171dp" android:layout_height="wrap_content">
+    <LinearLayout android:background="@drawable/t_" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.bytedance.android.live.core.widget.HSImageView android:layout_gravity="center_vertical" android:id="@+id/arb" android:layout_width="46dp" android:layout_height="46dp" android:layout_margin="4dp"/>
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingRight="8dp" android:layout_width="match_parent" android:layout_height="46dp" android:layout_marginLeft="4dp" android:paddingEnd="8dp">
+            <TextView android:textSize="13sp" android:textColor="@color/kz" android:ellipsize="none" android:id="@+id/d1h" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:text="名字超出截断，名字超出截断" android:singleLine="true" android:includeFontPadding="false"/>
+            <com.bytedance.android.livesdk.livecommerce.view.ECPriceView android:id="@+id/d1i" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" app:priceTextColor="@color/lu" app:priceTextSize="13dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

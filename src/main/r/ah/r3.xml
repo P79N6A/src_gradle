@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/yx" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/c7h" layout="@layout/apm"/>
+    <ScrollView android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/c7h">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <FrameLayout android:layout_gravity="center_horizontal" android:id="@+id/ar6" android:layout_width="84dp" android:layout_height="84dp" android:layout_marginTop="32dp">
+                <com.ss.android.ugc.aweme.base.ui.AvatarImageView android:layout_gravity="center" android:id="@+id/ank" android:layout_width="84dp" android:layout_height="84dp"/>
+                <com.ss.android.ugc.aweme.base.ui.RemoteImageView android:layout_width="match_parent" android:layout_height="match_parent" app:placeholderImage="@color/a18" app:roundAsCircle="true" app:placeholderImageScaleType="6"/>
+                <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/b4a"/>
+            </FrameLayout>
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/zy" android:layout_gravity="center_horizontal" android:id="@+id/ig" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/rs" style="@style/sa"/>
+            <include android:layout_gravity="bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" layout="@layout/api"/>
+        </LinearLayout>
+    </ScrollView>
+    <com.bytedance.ies.dmt.ui.widget.DmtStatusView android:id="@+id/cvd" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+</RelativeLayout>

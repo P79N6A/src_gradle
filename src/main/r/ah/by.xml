@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/yx" android:fitsSystemWindows="true" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout android:theme="@style/m8" android:id="@+id/ck9" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="212.5dp">
+        <android.support.design.widget.CollapsingToolbarLayout android:id="@+id/tz" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/r7" android:layout_weight="1" app:layout_scrollFlags="3">
+            <FrameLayout android:id="@+id/asn" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_collapseMode="2" app:layout_collapseParallaxMultiplier="0.5">
+                <com.ss.android.ugc.aweme.base.ui.RemoteImageView android:layout_gravity="center" android:id="@+id/asl" android:layout_width="match_parent" android:layout_height="wrap_content" app:failureImageScaleType="6" app:placeholderImage="@drawable/ap1" app:failureImage="@drawable/ap1" app:actualImageScaleType="6" app:placeholderImageScaleType="6" app:viewAspectRatio="2.25"/>
+                <View android:layout_gravity="top|right|center_vertical|center_horizontal|center" android:id="@+id/asm" android:visibility="gone" android:layout_width="0dp" android:layout_height="0dp"/>
+            </FrameLayout>
+            <com.bytedance.ies.dmt.ui.titlebar.NormalTitleBar android:id="@+id/d3m" android:layout_width="match_parent" android:layout_height="@dimen/r7" app:layout_collapseMode="1" app:endDrawable="@drawable/b9j" app:titleText="@string/cln" app:titleTextColor="@color/zt" app:useBackIcon="true"/>
+        </android.support.design.widget.CollapsingToolbarLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/ap3" android:background="@color/w9" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.ss.android.ugc.aweme.views.AwemeViewPagerNavigator android:id="@+id/ap2" android:layout_width="match_parent" android:layout_height="@dimen/r7"/>
+            <View android:id="@+id/aoz" android:background="@color/r" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+        </LinearLayout>
+    </android.support.design.widget.AppBarLayout>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/dw">
+        <com.ss.android.ugc.aweme.views.RtlViewPager android:id="@+id/duv" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/aoz"/>
+    </FrameLayout>
+</android.support.design.widget.CoordinatorLayout>

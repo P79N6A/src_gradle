@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.base.ui.RemoteImageView xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/b1i" android:background="@color/a7l" android:layout_width="80dp" android:layout_height="80dp" app:placeholderImage="@drawable/xc" app:actualImageScaleType="2"/>

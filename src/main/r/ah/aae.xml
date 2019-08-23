@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:paddingTop="20dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.ss.android.ugc.aweme.base.ui.RemoteImageView android:id="@+id/bmw" android:layout_width="48dp" android:layout_height="48dp" app:actualImageScaleType="4" app:roundedCornerRadius="2dp"/>
+    <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="15sp" android:textColor="@color/ii" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@+id/bmy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2"/>
+</LinearLayout>

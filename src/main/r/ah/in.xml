@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="bottom" android:orientation="vertical" android:background="@drawable/kb" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:padding="12dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <android.support.v7.widget.SwitchCompat android:textSize="18dp" android:textColor="@color/iu" android:layout_gravity="center_vertical" android:id="@+id/cy6" android:padding="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/n7" android:drawablePadding="4dp" app:switchMinWidth="40dp" app:thumbTint="@color/gc" app:trackTint="@color/ge"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="18dp" android:textColor="@color/c" android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/y0" android:background="?attr/a1z" android:padding="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/n6"/>
+    </FrameLayout>
+    <com.ss.android.ugc.aweme.common.widget.datepicker.DatePicker android:layout_gravity="center_horizontal" android:id="@+id/a7m" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32dp" android:layout_marginRight="8dp" android:layout_marginBottom="32dp"/>
+</LinearLayout>

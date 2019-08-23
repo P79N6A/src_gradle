@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ViewStub android:id="@+id/ct4" android:visibility="gone" android:layout="@layout/ad8" android:layout_width="match_parent" android:layout_height="27dp"/>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:id="@+id/ct7" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/jm">
+            <com.ss.android.ad.splash.core.BDASplashImageView android:id="@+id/ctf" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY"/>
+            <com.ss.android.ad.splash.core.video2.BDASplashVideoView android:id="@+id/cte" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/ct9" android:background="@color/a4a" android:visibility="gone" android:layout_width="match_parent" android:layout_height="60dp" android:layout_alignBottom="@+id/ct7">
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <TextView android:textSize="20dp" android:textColor="@color/a4g" android:ellipsize="end" android:id="@+id/cta" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="200dp" android:text="@string/c9r" android:lines="1" android:layout_centerVertical="true"/>
+                <ImageView android:paddingTop="1dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:src="@drawable/ajc" android:layout_toRightOf="@+id/cta" android:layout_centerVertical="true"/>
+            </RelativeLayout>
+        </RelativeLayout>
+        <ImageView android:id="@+id/cy" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14dp" android:layout_marginTop="14dp" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+        <android.widget.Space android:id="@+id/jm" android:background="@color/a4g" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+        <TextView android:textSize="12dp" android:textColor="#ffffff" android:id="@+id/cv" android:padding="3dp" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginRight="9dp" android:shadowColor="#7f000000" android:shadowRadius="12" android:layout_toLeftOf="@+id/c8" android:layout_alignParentTop="true"/>
+        <FrameLayout android:id="@+id/c8" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/lg" android:layout_marginTop="8dp" android:layout_marginRight="10dp" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+            <TextView android:textSize="12dp" android:textColor="@color/a4e" android:gravity="center" android:layout_gravity="center" android:id="@+id/cu" android:background="@drawable/zs" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="wrap_content" android:layout_height="24dp" android:text="@string/c9v"/>
+            <ImageView android:layout_gravity="center" android:id="@+id/ct" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY"/>
+        </FrameLayout>
+        <include layout="@layout/a8o"/>
+        <include layout="@layout/a8n"/>
+        <RelativeLayout android:id="@+id/ctd" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+            <FrameLayout android:id="@+id/ctc" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

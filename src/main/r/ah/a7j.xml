@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="right" android:orientation="horizontal" android:id="@+id/c4o" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="26dp" android:layout_marginTop="-10.5dp">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/c4q" android:paddingLeft="2dp" android:paddingRight="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <com.ss.android.ugc.aweme.base.ui.RemoteImageView android:id="@+id/c4s" android:layout_width="0px" android:layout_height="12dp" android:scaleType="fitCenter"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="11sp" android:textColor="@color/h" android:id="@+id/c4t" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:lineSpacingExtra="3sp"/>
+    </LinearLayout>
+    <ImageView android:id="@+id/c4r" android:layout_width="24dp" android:layout_height="16dp" android:scaleType="fitXY" android:layout_toLeftOf="@+id/c4q" android:layout_alignParentBottom="true"/>
+    <View android:id="@+id/c4p" android:background="@color/h5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/c4r" android:layout_alignTop="@+id/c4r" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

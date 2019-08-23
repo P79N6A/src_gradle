@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <LinearLayout android:orientation="vertical" android:id="@+id/adn" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@+id/ba2" android:layout_width="match_parent" android:layout_height="40dp" android:layout_marginLeft="16dp" android:layout_marginStart="16dp">
+            <com.ss.android.ugc.aweme.themechange.base.AVDmtImageView android:id="@+id/as9" android:focusableInTouchMode="true" android:visibility="gone" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginRight="16dp" android:src="@drawable/b9y" android:layout_centerVertical="true" android:layout_marginEnd="16dp" app:isSelected="true"/>
+            <com.ss.android.ugc.aweme.themechange.base.AVDmtTabLayout android:id="@+id/ae3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toRightOf="@+id/as9" android:layout_toEndOf="@+id/as9" app:tabBackground="@android:color/transparent" app:tabGravity="0" app:tabIndicatorColor="?attr/zu" app:tabIndicatorHeight="2dp" app:tabMinWidth="30dp" app:tabMode="1" app:tabPaddingEnd="0dp" app:tabPaddingStart="0dp" app:theme="@style/p4"/>
+            <com.ss.android.ugc.aweme.themechange.base.AVDmtView android:id="@+id/cz4" android:background="@color/p" android:visibility="gone" android:layout_width="0.5dp" android:layout_height="16dp" android:layout_alignLeft="@+id/ae3" android:layout_centerVertical="true" android:layout_alignStart="@+id/ae3" app:subView="true"/>
+        </RelativeLayout>
+        <com.ss.android.ugc.aweme.themechange.base.AVDmtPanelRecyleView android:id="@+id/ae0" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_marginBottom="24dp" app:firstItemMargin="16dp" app:itemMargin="16dp" app:lastItemMargin="16dp"/>
+    </LinearLayout>
+</merge>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="aeu" />
+    <drawable name="aev" />
+    <drawable name="aew" />
+    <drawable name="aex" />
+    <drawable name="aey" />
+    <drawable name="aez" />
+    <drawable name="af2" />
+    <drawable name="af3" />
+    <drawable name="af4" />
+    <drawable name="af5" />
+    <drawable name="af6" />
+    <drawable name="af7" />
+    <drawable name="af8">r/ai/af9.webp</drawable>
+    <drawable name="af9" />
+    <drawable name="af_" />
+    <drawable name="afa">r/ai/afb.webp</drawable>
+    <drawable name="afb" />
+    <drawable name="afm" />
+    <drawable name="afn" />
+    <drawable name="afq" />
+    <drawable name="afr" />
+    <drawable name="afs" />
+    <drawable name="aft" />
+    <drawable name="afu" />
+    <drawable name="afx" />
+</resources>

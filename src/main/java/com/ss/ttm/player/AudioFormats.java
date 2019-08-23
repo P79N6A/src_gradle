@@ -1,0 +1,29 @@
+package com.ss.ttm.player;
+
+import android.os.Build;
+import com.meituan.robust.ChangeQuickRedirect;
+
+public class AudioFormats {
+    public static ChangeQuickRedirect changeQuickRedirect;
+    private static final int[] validSampleRates = {4000, 8000, 11025, 16000, 22050, 32000, 37800, 44056, 44100, 47250, 48000, 50000, 50400, 88200, 96000, 176400, 192000, 352800, 2822400, 5644800};
+
+    public static int getDefaultSampleRatesNB() {
+        return validSampleRates.length;
+    }
+
+    public static int getMaxSupportedSampleRates(int[] iArr) {
+        int i;
+        int length = validSampleRates.length;
+        if (Build.VERSION.SDK_INT >= 23) {
+            i = length - 3;
+        } else if (Build.VERSION.SDK_INT >= 21) {
+            i = length - 5;
+        } else {
+            i = length - 9;
+        }
+        for (int i2 = 0; i2 < i; i2++) {
+            iArr[i2] = validSampleRates[i2];
+        }
+        return i;
+    }
+}

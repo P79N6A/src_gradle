@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_vertical" android:id="@+id/cfk" android:background="@color/yx" android:layout_width="match_parent" android:layout_height="@dimen/r7">
+        <com.bytedance.ies.dmt.ui.widget.AutoRTLImageView android:layout_gravity="center_vertical" android:id="@+id/ix" android:layout_width="44dp" android:layout_height="44dp" android:src="@drawable/caj" android:scaleType="centerInside" style="@style/wx"/>
+        <include android:layout_gravity="center_vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" layout="@layout/kz"/>
+        <com.ss.android.ugc.aweme.discover.ui.SearchScanView android:id="@+id/clv" android:layout_width="wrap_content" android:layout_height="match_parent"/>
+    </LinearLayout>
+    <FrameLayout android:background="@color/a25" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/cfk">
+        <FrameLayout android:id="@+id/aic" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <FrameLayout android:id="@+id/clb" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/akx" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@drawable/iq" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ss.android.ugc.aweme.base.widget.ScaleImageView android:layout_gravity="start" android:id="@+id/czv" android:padding="10dp" android:layout_width="44dp" android:layout_height="44dp" android:layout_marginLeft="6dp" android:layout_marginTop="24dp" android:layout_marginRight="6dp" android:src="@drawable/b9f"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="36sp" android:textColor="@color/hb" android:gravity="center" android:id="@+id/fe" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="200dp"/>
+        <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="187dp" android:layout_marginTop="8dp">
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="15sp" android:textColor="@color/hb" android:gravity="center" android:id="@+id/fd" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="40dp" android:layout_marginRight="40dp"/>
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="15sp" android:textStyle="bold" android:textColor="@color/sk" android:gravity="center" android:id="@+id/bkn" android:background="@drawable/h4" android:layout_width="match_parent" android:layout_height="44dp" android:layout_marginLeft="40dp" android:layout_marginRight="40dp" android:foreground="?attr/a1z" android:text="@string/ci_" android:layout_alignParentBottom="true"/>
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="15sp" android:textColor="@color/i" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="40dp" android:layout_marginRight="40dp" android:layout_marginBottom="12dp" android:text="@string/cik" android:layout_above="@+id/bkn"/>
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>

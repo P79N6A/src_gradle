@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.story.feed.view.ui.comment.StoryCommentView xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:textColor="@color/ao4" android:ellipsize="end" android:paddingBottom="6dp" android:layout_width="match_parent" android:layout_height="wrap_content" app:textSize="14sp" app:userColor="@color/ao4" app:userTextSize="14sp"/>

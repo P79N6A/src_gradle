@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/chu" android:layout_width="match_parent" android:layout_height="match_parent" android:keepScreenOn="true">
+    <com.ss.android.ugc.aweme.common.widget.DragView android:id="@+id/a45" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.ss.android.ugc.aweme.common.widget.DiggLayout android:id="@+id/a51" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:id="@+id/av6" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@+id/bu" android:visibility="gone" android:layout_width="match_parent" android:layout_height="44dp" android:layout_marginLeft="12dp" android:layout_marginRight="12dp" android:layout_marginBottom="16dp" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_alignParentStart="true" android:layout_alignParentEnd="true">
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/anp" android:id="@+id/bje" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="@string/ae2" android:layout_marginStart="10dp" style="@style/s9"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/anp" android:id="@+id/bjg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginStart="5dp" style="@style/s3"/>
+        <com.ss.android.ugc.aweme.views.AutoRTLImageView android:layout_gravity="center" android:id="@+id/a76" android:paddingTop="1dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/as6"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/b9e" android:paddingTop="6dp" android:paddingBottom="6dp" android:visibility="gone" android:layout_width="152dp" android:layout_height="60dp" android:layout_marginLeft="12dp" android:layout_above="@+id/bu" android:layout_alignParentLeft="true" android:layout_marginStart="12dp" android:layout_alignParentStart="true">
+        <ImageView android:id="@+id/bof" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="1dp" android:src="@drawable/ayy" android:alpha="0.9" android:layout_marginEnd="1dp"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textStyle="bold" android:textColor="@color/hw" android:id="@+id/bol" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bko" android:shadowColor="@color/a3_" android:shadowDx="0" android:shadowDy="2" android:shadowRadius="2" app:fontType="2" style="@style/s9"/>
+        <FrameLayout android:id="@+id/b9f" android:paddingTop="5dp" android:paddingBottom="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.5dp" android:layout_marginStart="4.5dp">
+            <com.ss.android.ugc.aweme.feed.widget.MarqueeView android:id="@+id/bov" android:layout_width="match_parent" android:layout_height="wrap_content" app:speed="25dp" app:txt_color="@color/a09" app:txt_shadow="@color/mc" app:txt_size="14sp"/>
+        </FrameLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@+id/b9t" android:layout_width="60dp" android:layout_height="60dp" android:layout_above="@+id/bu" android:layout_alignParentRight="true" android:layout_alignParentEnd="true">
+        <ImageView android:layout_gravity="center" android:id="@+id/b43" android:padding="16dp" android:visibility="gone" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/ay3"/>
+        <ImageView android:layout_gravity="center" android:id="@+id/b3s" android:padding="16dp" android:visibility="gone" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/ay2"/>
+        <ImageView android:layout_gravity="center" android:id="@+id/b2w" android:padding="16dp" android:visibility="gone" android:layout_width="60dp" android:layout_height="60dp" android:src="@drawable/ay1"/>
+    </FrameLayout>
+</RelativeLayout>

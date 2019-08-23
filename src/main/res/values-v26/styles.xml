@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="bl">
+    </style>
+    <style name="bs">
+    </style>
+    <style name="xo">
+        <item name="fu">?unknown_attr_ref: 1010543</item>
+    </style>
+    <style name="xp">
+        <item name="fu">?unknown_attr_ref: 1010543</item>
+    </style>
+    <style name="xq">
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="?0x1010540">true</item>
+    </style>
+    <style name="em">
+    </style>
+    <style name="ow">
+        <item name="android:background">?attr/fq</item>
+        <item name="android:stateListAnimator">@animator/l</item>
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="?0x1010540">true</item>
+    </style>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/cqi" android:background="@color/ao4" android:layout_width="750px" android:layout_height="wrap_content">
+    <ImageView android:layout_gravity="left" android:layout_width="362px" android:layout_height="82px" android:layout_marginLeft="32px" android:layout_marginTop="32px" android:src="@drawable/bj0"/>
+    <FrameLayout android:id="@+id/cpi" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="top|center_vertical|center_horizontal|center" android:layout_width="686px" android:layout_height="370px" android:layout_marginLeft="32px" android:layout_marginTop="56px" android:layout_marginRight="32px" android:src="@drawable/btd"/>
+        <FrameLayout android:layout_gravity="center_horizontal" android:background="@color/a3x" android:padding="4px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="152px">
+            <com.ss.android.ugc.aweme.base.ui.AnimatedImageView android:id="@+id/asf" android:layout_width="390px" android:layout_height="390px"/>
+            <ImageView android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:layout_width="84px" android:layout_height="80px" android:src="@drawable/b62" android:scaleType="fitXY"/>
+        </FrameLayout>
+    </FrameLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="32px" android:layout_marginTop="72px" android:layout_marginRight="32px" android:layout_marginBottom="72px">
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="30px" android:textStyle="normal" android:textColor="@color/a42" android:ellipsize="end" android:id="@+id/dkk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15px" android:layout_marginRight="272px" android:maxLines="2" android:lineSpacingExtra="4px" app:fontType="1"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="40px" android:textStyle="bold" android:textColor="@color/fo" android:ellipsize="end" android:id="@+id/dgk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="42px" android:layout_marginRight="272px" android:text="@string/cck" android:lines="1" android:layout_below="@+id/dkk" app:fontType="7"/>
+        <FrameLayout android:layout_width="200px" android:layout_height="200px" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <com.ss.android.ugc.aweme.base.ui.AnimatedImageView android:id="@+id/ate" android:background="@color/a7l" android:layout_width="200px" android:layout_height="200px"/>
+            <com.bytedance.ies.dmt.ui.widget.DmtStatusView android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/cvd" android:background="@color/a7l" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </FrameLayout>
+    </RelativeLayout>
+    <include layout="@layout/a7z"/>
+</LinearLayout>

@@ -1,0 +1,4 @@
+package com.ss.android.ugc.aweme.shortvideo.ui;
+
+public interface p {
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.ss.android.ugc.aweme.common.widget.scrollablelayout.ScrollableLayout android:id="@+id/ck9" android:layout_width="match_parent" android:layout_height="match_parent" app:tabs_marginTop="@dimen/r7">
+            <include layout="@layout/aak"/>
+            <com.ss.android.ugc.aweme.views.AwemeViewPagerNavigator android:id="@+id/bq0" android:background="@color/a26" android:layout_width="match_parent" android:layout_height="45dp"/>
+            <com.ss.android.ugc.aweme.views.RtlViewPager android:id="@+id/duu" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </com.ss.android.ugc.aweme.common.widget.scrollablelayout.ScrollableLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@+id/d3v" android:background="@color/ano" android:layout_width="match_parent" android:layout_height="@dimen/r7">
+        <View android:id="@+id/d3q" android:background="@color/a17" android:layout_width="match_parent" android:layout_height="match_parent" android:alpha="0"/>
+        <com.ss.android.ugc.aweme.views.AutoRTLImageView android:id="@+id/ix" android:paddingLeft="18dp" android:paddingTop="12dp" android:paddingRight="6dp" android:paddingBottom="12dp" android:layout_width="44dp" android:layout_height="44dp" android:src="@drawable/b3s" android:layout_centerVertical="true" android:paddingStart="18dp" android:paddingEnd="6dp"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/a08" android:ellipsize="end" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_centerInParent="true" style="@style/sc"/>
+        <ImageView android:id="@+id/cp9" android:padding="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/b9q" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true"/>
+        <com.ss.android.ugc.aweme.music.ui.CheckableImageView android:id="@+id/bo_" android:padding="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/b9p" android:layout_toLeftOf="@+id/cp9" android:layout_centerVertical="true" android:layout_toStartOf="@+id/cp9"/>
+    </RelativeLayout>
+    <FrameLayout android:id="@+id/cup" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="96dp" android:layout_height="96dp" android:layout_marginBottom="8dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:contentDescription="@string/cdm">
+        <View android:layout_gravity="center" android:id="@+id/cus" android:background="@drawable/av_" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="71dp" android:layout_height="71dp"/>
+        <View android:background="@drawable/apv" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="96dp" android:layout_height="96dp"/>
+    </FrameLayout>
+    <com.bytedance.ies.dmt.ui.widget.DmtStatusView android:id="@+id/cvd" android:background="@color/yx" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/r7"/>
+</RelativeLayout>

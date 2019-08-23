@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:id="@+id/bqb" android:background="@color/aj4" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <LinearLayout android:orientation="horizontal" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/atj" android:background="@drawable/l_" android:visibility="invisible" android:layout_width="9dp" android:layout_height="9dp" android:layout_marginLeft="-4.5dp" android:layout_marginTop="19dp" android:layout_marginStart="-4.5dp"/>
+        <com.ss.android.ugc.aweme.base.ui.AvatarImageWithVerify android:id="@+id/ayr" android:layout_width="48dp" android:layout_height="48dp"/>
+        <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginStart="12dp">
+            <LinearLayout android:orientation="horizontal" android:id="@+id/az8" android:layout_width="wrap_content" android:layout_height="36dp" android:layout_marginTop="6dp" android:layout_alignParentEnd="true">
+                <com.ss.android.ugc.aweme.notification.view.FansFollowUserBtn android:layout_gravity="center_vertical" android:id="@+id/o2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12dp" android:layout_marginEnd="12dp"/>
+                <ImageView android:layout_gravity="center_vertical" android:id="@+id/az7" android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/uh"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/b89" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="8dp" android:layout_toLeftOf="@+id/az8" android:layout_marginEnd="8dp" android:layout_toStartOf="@+id/az8">
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/za" android:ellipsize="end" android:id="@+id/dnq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" android:layout_weight="1" app:fontType="7" style="@style/sc"/>
+                    <com.ss.android.ugc.aweme.views.AutoRTLImageView android:layout_gravity="center_vertical" android:id="@+id/b0u" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:src="@drawable/axi" android:layout_marginStart="4dp"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@+id/czc" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp"/>
+                <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp">
+                    <com.ss.android.ugc.aweme.friends.ui.RelativeUserAvatarListView android:id="@+id/cd2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                    <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/zb" android:ellipsize="end" android:id="@+id/dau" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" style="@style/s9"/>
+                </FrameLayout>
+                <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/zb" android:id="@+id/dn1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginRight="8dp" android:lines="1" android:layout_marginEnd="8dp" style="@style/s9"/>
+            </LinearLayout>
+            <android.support.v7.widget.RecyclerView android:id="@+id/bcv" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_below="@+id/b89"/>
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>

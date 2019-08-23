@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="12dp" android:paddingBottom="5dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:id="@+id/bg0" android:paddingLeft="16dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:paddingStart="16dp">
+            <TextView android:textSize="14sp" android:textColor="@color/aka" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/vo"/>
+            <TextView android:textSize="14sp" android:textColor="@color/aka" android:id="@+id/d_r" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_marginStart="4dp"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:id="@+id/bik" android:paddingLeft="16dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:paddingStart="16dp">
+            <TextView android:textSize="14sp" android:textColor="@color/aka" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/w2"/>
+            <TextView android:textSize="14sp" android:textColor="@color/aka" android:id="@+id/dlj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_marginStart="4dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <com.ss.android.ugc.aweme.story.comment.widget.LineWithPick android:id="@+id/a5t" android:layout_width="match_parent" android:layout_height="6.7dp"/>
+    <View android:id="@+id/a5r" android:background="@color/ajt" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/bij" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.bytedance.ies.dmt.ui.widget.DmtStatusView android:id="@+id/dut" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <com.ss.android.ugc.aweme.story.comment.widget.NestedScrollingRecyclerView android:id="@+id/ciu" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:overScrollMode="never"/>
+    </LinearLayout>
+</LinearLayout>

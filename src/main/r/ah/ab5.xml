@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/cv2" android:layout_width="match_parent" android:layout_height="128dp">
+    <ImageView android:id="@+id/aq8" android:layout_width="128dp" android:layout_height="128dp" android:scaleType="centerCrop"/>
+    <include android:layout_width="48dp" android:layout_height="48dp" android:layout_marginLeft="2dp" android:layout_marginRight="2dp" android:layout_alignParentRight="true" layout="@layout/ab1"/>
+    <include android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="128dp" android:layout_toLeftOf="@+id/q5" layout="@layout/ab9"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/bm3" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginLeft="12dp" android:layout_marginRight="12dp" android:layout_toRightOf="@+id/aq8" android:layout_alignParentBottom="true"/>
+    <ImageView android:id="@+id/ac" android:background="?android:attr/dividerHorizontal" android:layout_width="match_parent" android:layout_height="1dp" android:layout_toRightOf="@+id/aq8" android:layout_above="@+id/bm3"/>
+</RelativeLayout>

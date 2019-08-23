@@ -1,0 +1,197 @@
+package android.arch.persistence.room;
+
+import android.arch.persistence.db.SupportSQLiteProgram;
+import android.arch.persistence.db.SupportSQLiteQuery;
+import android.support.annotation.RestrictTo;
+import android.support.annotation.VisibleForTesting;
+import java.util.Arrays;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.TreeMap;
+
+@RestrictTo({RestrictTo.Scope.LIBRARY_GROUP})
+public class RoomSQLiteQuery implements SupportSQLiteProgram, SupportSQLiteQuery {
+    @VisibleForTesting
+    static final TreeMap<Integer, RoomSQLiteQuery> sQueryPool = new TreeMap<>();
+    @VisibleForTesting
+    int mArgCount;
+    private final int[] mBindingTypes;
+    @VisibleForTesting
+    final byte[][] mBlobBindings;
+    @VisibleForTesting
+    final int mCapacity;
+    @VisibleForTesting
+    final double[] mDoubleBindings;
+    @VisibleForTesting
+    final long[] mLongBindings;
+    private volatile String mQuery;
+    @VisibleForTesting
+    final String[] mStringBindings;
+
+    public void close() {
+    }
+
+    public int getArgCount() {
+        return this.mArgCount;
+    }
+
+    public String getSql() {
+        return this.mQuery;
+    }
+
+    public void clearBindings() {
+        Arrays.fill(this.mBindingTypes, 1);
+        Arrays.fill(this.mStringBindings, null);
+        Arrays.fill(this.mBlobBindings, null);
+        this.mQuery = null;
+    }
+
+    public void release() {
+        synchronized (sQueryPool) {
+            sQueryPool.put(Integer.valueOf(this.mCapacity), this);
+            prunePoolLocked();
+        }
+    }
+
+    private static void prunePoolLocked() {
+        if (sQueryPool.size() > 15) {
+            int size = sQueryPool.size() - 10;
+            Iterator<Integer> it2 = sQueryPool.descendingKeySet().iterator();
+            while (true) {
+                int i = size - 1;
+                if (size > 0) {
+                    it2.next();
+                    it2.remove();
+                    size = i;
+                } else {
+                    return;
+                }
+            }
+        }
+    }
+
+    public void bindNull(int i) {
+        this.mBindingTypes[i] = 1;
+    }
+
+    private RoomSQLiteQuery(int i) {
+        this.mCapacity = i;
+        int i2 = i + 1;
+        this.mBindingTypes = new int[i2];
+        this.mLongBindings = new long[i2];
+        this.mDoubleBindings = new double[i2];
+        this.mStringBindings = new String[i2];
+        this.mBlobBindings = new byte[i2][];
+    }
+
+    public static RoomSQLiteQuery copyFrom(SupportSQLiteQuery supportSQLiteQuery) {
+        RoomSQLiteQuery acquire = acquire(supportSQLiteQuery.getSql(), supportSQLiteQuery.getArgCount());
+        supportSQLiteQuery.bindTo(new SupportSQLiteProgram(acquire) {
+            final /* synthetic */ RoomSQLiteQuery val$query;
+
+            public final void close() {
+            }
+
+            public final void clearBindings() {
+                this.val$query.clearBindings();
+            }
+
+            {
+                this.val$query = r1;
+            }
+
+            public final void bindNull(int i) {
+                this.val$query.bindNull(i);
+            }
+
+            public final void bindBlob(int i, byte[] bArr) {
+                this.val$query.bindBlob(i, bArr);
+            }
+
+            public final void bindDouble(int i, double d2) {
+                this.val$query.bindDouble(i, d2);
+            }
+
+            public final void bindLong(int i, long j) {
+                this.val$query.bindLong(i, j);
+            }
+
+            public final void bindString(int i, String str) {
+                this.val$query.bindString(i, str);
+            }
+        });
+        return acquire;
+    }
+
+    public void copyArgumentsFrom(RoomSQLiteQuery roomSQLiteQuery) {
+        int argCount = roomSQLiteQuery.getArgCount() + 1;
+        System.arraycopy(roomSQLiteQuery.mBindingTypes, 0, this.mBindingTypes, 0, argCount);
+        System.arraycopy(roomSQLiteQuery.mLongBindings, 0, this.mLongBindings, 0, argCount);
+        System.arraycopy(roomSQLiteQuery.mStringBindings, 0, this.mStringBindings, 0, argCount);
+        System.arraycopy(roomSQLiteQuery.mBlobBindings, 0, this.mBlobBindings, 0, argCount);
+        System.arraycopy(roomSQLiteQuery.mDoubleBindings, 0, this.mDoubleBindings, 0, argCount);
+    }
+
+    public void bindTo(SupportSQLiteProgram supportSQLiteProgram) {
+        for (int i = 1; i <= this.mArgCount; i++) {
+            switch (this.mBindingTypes[i]) {
+                case 1:
+                    supportSQLiteProgram.bindNull(i);
+                    break;
+                case 2:
+                    supportSQLiteProgram.bindLong(i, this.mLongBindings[i]);
+                    break;
+                case 3:
+                    supportSQLiteProgram.bindDouble(i, this.mDoubleBindings[i]);
+                    break;
+                case 4:
+                    supportSQLiteProgram.bindString(i, this.mStringBindings[i]);
+                    break;
+                case 5:
+                    supportSQLiteProgram.bindBlob(i, this.mBlobBindings[i]);
+                    break;
+            }
+        }
+    }
+
+    /* access modifiers changed from: package-private */
+    public void init(String str, int i) {
+        this.mQuery = str;
+        this.mArgCount = i;
+    }
+
+    public void bindBlob(int i, byte[] bArr) {
+        this.mBindingTypes[i] = 5;
+        this.mBlobBindings[i] = bArr;
+    }
+
+    public void bindDouble(int i, double d2) {
+        this.mBindingTypes[i] = 3;
+        this.mDoubleBindings[i] = d2;
+    }
+
+    public void bindLong(int i, long j) {
+        this.mBindingTypes[i] = 2;
+        this.mLongBindings[i] = j;
+    }
+
+    public void bindString(int i, String str) {
+        this.mBindingTypes[i] = 4;
+        this.mStringBindings[i] = str;
+    }
+
+    public static RoomSQLiteQuery acquire(String str, int i) {
+        synchronized (sQueryPool) {
+            Map.Entry<Integer, RoomSQLiteQuery> ceilingEntry = sQueryPool.ceilingEntry(Integer.valueOf(i));
+            if (ceilingEntry != null) {
+                sQueryPool.remove(ceilingEntry.getKey());
+                RoomSQLiteQuery value = ceilingEntry.getValue();
+                value.init(str, i);
+                return value;
+            }
+            RoomSQLiteQuery roomSQLiteQuery = new RoomSQLiteQuery(i);
+            roomSQLiteQuery.init(str, i);
+            return roomSQLiteQuery;
+        }
+    }
+}

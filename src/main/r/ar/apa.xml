@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/chy" android:background="@color/iu" android:layout_width="match_parent" android:layout_height="52dp">
+    <ImageView android:id="@+id/b2k" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="16dp" android:layout_centerVertical="true" android:layout_marginStart="16dp"/>
+    <RelativeLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/cgo" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="12dp" android:layout_marginRight="8dp" android:layout_toLeftOf="@+id/cem" android:layout_toRightOf="@+id/b2k" android:layout_marginStart="12dp" android:layout_marginEnd="8dp" android:layout_toStartOf="@+id/cem" android:layout_toEndOf="@+id/b2k">
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/aka" android:ellipsize="end" android:id="@+id/ddn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" style="@style/sc"/>
+        <FrameLayout android:id="@+id/afu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/ddn" android:layout_alignTop="@+id/ddn" android:layout_alignBottom="@+id/ddn" android:layout_toEndOf="@+id/ddn"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/akc" android:ellipsize="end" android:id="@+id/ddm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:maxLines="1" android:layout_below="@+id/ddn" style="@style/s9"/>
+    </RelativeLayout>
+    <FrameLayout android:id="@+id/cem" android:layout_width="160dp" android:layout_height="match_parent" android:layout_alignParentRight="true" android:layout_alignParentEnd="true">
+        <FrameLayout android:layout_gravity="end" android:id="@+id/cej" android:layout_width="wrap_content" android:layout_height="match_parent"/>
+    </FrameLayout>
+    <View android:id="@+id/dnx" android:background="#99999999" android:layout_width="match_parent" android:layout_height="1px" android:layout_alignParentBottom="true" android:layout_marginStart="16dp" android:layout_marginEnd="16dp"/>
+</RelativeLayout>

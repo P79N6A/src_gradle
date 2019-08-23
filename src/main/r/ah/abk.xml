@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/a08" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="210dp">
+        <com.ss.android.ugc.aweme.profile.ui.WheelPicker android:id="@+id/bl6" android:layout_width="0dp" android:layout_height="210dp" android:layout_marginLeft="20dp" android:layout_weight="1" app:wheel_atmospheric="true" app:wheel_curved="true" app:wheel_cyclic="false" app:wheel_item_align="0" app:wheel_item_text_color="#40161823" app:wheel_item_text_size="16dp" app:wheel_selected_item_text_color="@color/a17"/>
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:src="@drawable/b2n"/>
+        <com.ss.android.ugc.aweme.profile.ui.WheelPicker android:id="@+id/bl7" android:layout_width="0dp" android:layout_height="210dp" android:layout_marginRight="20dp" android:layout_weight="1" app:wheel_atmospheric="true" app:wheel_curved="true" app:wheel_cyclic="false" app:wheel_item_align="0" app:wheel_item_text_color="#40161823" app:wheel_item_text_size="16dp" app:wheel_selected_item_text_color="@color/a17"/>
+    </LinearLayout>
+    <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/cj" android:gravity="center" android:id="@+id/dfp" android:background="@drawable/im" android:layout_width="match_parent" android:layout_height="49dp" android:text="@string/ag_" style="@style/sf"/>
+</LinearLayout>

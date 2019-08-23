@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp">
+    <TextView android:textSize="13sp" android:textColor="@color/aoa" android:gravity="center" android:layout_gravity="center" android:id="@+id/text" android:layout_width="wrap_content" android:layout_height="36dp" android:text="@string/arg" android:drawablePadding="6.5dp" android:drawableEnd="@drawable/bgj" android:paddingStart="16dp" android:paddingEnd="16dp"/>
+    <com.bytedance.ies.dmt.ui.widget.DmtLoadingLayout android:layout_gravity="center" android:id="@+id/biy" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="36dp"/>
+    <com.bytedance.ies.dmt.ui.widget.DmtDefaultView android:id="@+id/a9o" android:layout_width="match_parent" android:layout_height="145dp" app:defaultDescText="@string/are" app:defaultTitleText="@string/arf"/>
+</FrameLayout>

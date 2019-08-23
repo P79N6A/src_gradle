@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:icon="@drawable/ua" android:id="@+id/apn" android:title="@string/an_" android:showAsAction="ifRoom"/>
+    <item android:icon="@drawable/ub" android:id="@+id/apq" android:title="@string/ann" android:showAsAction="ifRoom"/>
+</menu>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/c6n" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/c6s" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18dp" android:layout_marginBottom="4dp">
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textStyle="bold" android:textColor="@color/h" android:gravity="start" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/z2" android:layout_weight="1" style="@style/s9"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/j" android:gravity="end" android:id="@+id/c6o" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/s7"/>
+        <ImageView android:background="@drawable/aid" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3dp"/>
+    </LinearLayout>
+    <com.ss.android.ugc.aweme.widget.flowlayout.TagFlowLayout android:id="@+id/ut" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" app:tag_gravity="-1" app:tag_space_horizontal="5dp" app:tag_space_vertical="5dp"/>
+    <android.support.v7.widget.RecyclerView android:id="@+id/c6q" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <View android:id="@+id/c6p" android:background="@color/f1" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginTop="8dp"/>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:background="@color/sg" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/dru" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginBottom="15dp" android:layout_weight="1">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@+id/ds7" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginTop="15dp" android:src="@drawable/c7p"/>
+        <TextView android:textColor="#80ffffff" android:gravity="center_horizontal" android:id="@+id/dt1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="@string/dcu"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/gd" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@+id/gg" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginTop="15dp" android:src="@drawable/c7g"/>
+        <TextView android:textColor="#80ffffff" android:gravity="center_horizontal" android:id="@+id/gi" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="@string/dcq"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/d2g" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@+id/d2h" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginTop="15dp" android:src="@drawable/c7m"/>
+        <TextView android:textColor="#80ffffff" android:gravity="center_horizontal" android:id="@+id/d2j" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="@string/dcs"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/cjz" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@+id/ck0" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginTop="15dp" android:src="@drawable/c7j"/>
+        <TextView android:textColor="#80ffffff" android:gravity="center_horizontal" android:id="@+id/ck2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="@string/dcr"/>
+    </LinearLayout>
+</LinearLayout>

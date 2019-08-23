@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:id="@+id/cv2" android:layout_width="match_parent" android:layout_height="64dp">
+    <include android:layout_width="@dimen/kc" android:layout_height="@dimen/kb" layout="@layout/ab8"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/bt7" android:paddingTop="@dimen/kd" android:layout_width="0dp" android:layout_height="wrap_content" android:minHeight="@dimen/kb" android:layout_weight="1" android:layout_toLeftOf="@+id/q5" android:layout_toStartOf="@+id/q5">
+        <FrameLayout android:id="@+id/bt6" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ka" android:layout_marginRight="8dp" android:layout_marginBottom="8dp" android:layout_weight="1" android:layout_marginStart="@dimen/ka" android:layout_marginEnd="8dp"/>
+        <FrameLayout android:id="@+id/cev" android:paddingTop="@dimen/kg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8dp" android:layout_marginEnd="8dp">
+            <DateTimeView android:textAppearance="@style/jo" android:layout_gravity="top|right|center_vertical|center_horizontal|center|end" android:id="@+id/time" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+            <Chronometer android:textAppearance="@style/jo" android:layout_gravity="top|right|center_vertical|center_horizontal|center|end" android:id="@+id/sr" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+            <TextView android:textAppearance="@style/jj" android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/aub" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:singleLine="true"/>
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:orientation="horizontal" android:id="@+id/bm3" android:layout_width="wrap_content" android:layout_height="match_parent" android:layoutDirection="ltr"/>
+    <include android:layout_width="48dp" android:layout_height="match_parent" android:layout_marginRight="6dp" android:layout_marginEnd="6dp" layout="@layout/ab1"/>
+    <ImageView android:id="@+id/a_6" android:layout_width="6dp" android:layout_height="match_parent"/>
+</LinearLayout>

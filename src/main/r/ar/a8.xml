@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/yx" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:background="@color/yx" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/d3m" android:layout_width="match_parent" android:layout_height="@dimen/r7">
+            <com.ss.android.ugc.aweme.imported.AutoRTLTextView android:textColor="@color/zt" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/iu" android:paddingLeft="10dp" android:layout_width="wrap_content" android:layout_height="44dp" android:layout_marginLeft="6dp" android:drawableLeft="@drawable/b97" android:drawablePadding="10dp" android:drawableStart="@drawable/b97" android:layout_marginStart="6dp" app:fontType="1" style="@style/se"/>
+        </LinearLayout>
+        <com.ss.android.ugc.aweme.imported.FakeBoldTextView android:textColor="@color/zt" android:layout_gravity="center" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dr" app:fontType="1" style="@style/sf"/>
+    </FrameLayout>
+    <com.bytedance.ies.dmt.ui.widget.setting.SettingItemSwitch android:id="@+id/vm" android:layout_width="match_parent" android:layout_height="52dp" app:isShowUnderLine="false" app:startIcon="@drawable/bw4" app:startText="@string/v0" app:textColor="@color/zt"/>
+    <com.bytedance.ies.dmt.ui.widget.setting.SettingItemSwitch android:id="@+id/cac" android:layout_width="match_parent" android:layout_height="52dp" app:isShowUnderLine="false" app:startIcon="@drawable/bw6" app:startText="@string/bh_" app:textColor="@color/zt"/>
+</LinearLayout>

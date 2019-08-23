@@ -1,0 +1,44 @@
+[
+  {
+    "_comment": "外置耦合插件",
+    "packageName": "com.ss.android.ugc.aweme.miniappplugin",
+    "pluginType": 2,
+    "standalone": false,
+    "minVersionCode": 71000,
+    "extraPackages": [
+      "com.tt.miniapp",
+      "com.eclipsesource.v8",
+      "uk.co.senab",
+      "com.squareup.picasso",
+      "com.bytedance.v8_inspect"
+    ]
+  },
+  {
+    "packageName": "com.ss.android.ies.live.liveresource",
+    "pluginType": 2,
+    "loadSign": 1,
+    "minVersionCode": 7502
+  },
+  {
+    "packageName": "com.ss.android.ugc.aweme.fusionfuelplugin",
+    "pluginType": 2,
+    "extraPackages": [
+      "com.rocket.android",
+      "extrocket"
+    ],
+    "minVersionCode": 3000
+  },
+  {
+    "_comment": "外置耦合插件",
+    "packageName": "com.ss.android.ugc.aweme.player_pluginv3",
+    "pluginType": 2,
+    "standalone": false,
+    "shareRes": false,
+    "loadSign": 1,
+    "minVersionCode": 1001,
+    "extraPackages": [
+      "com.ss.ttmplugin",
+      "com.ss.android.ugc.aweme.player.sdk.plugin"
+    ]
+  }
+]

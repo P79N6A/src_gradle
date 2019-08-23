@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/bkx" android:paddingLeft="2dp" android:paddingRight="2dp" android:paddingBottom="4dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.ss.android.ugc.aweme.views.RoundedRelativeLayout android:id="@+id/dxx" android:background="@color/a0k" android:layout_width="match_parent" android:layout_height="wrap_content" app:rounded_radius="2dp">
+        <com.ss.android.ugc.aweme.base.ui.AnimatedImageView android:id="@+id/ue" android:background="@color/a0k" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="178dp"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/ao4" android:ellipsize="end" android:id="@+id/ug" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginTop="12dp" android:layout_marginRight="8dp" android:maxLines="1" android:layout_below="@+id/ue" style="@style/s9"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginTop="8dp" android:layout_marginRight="8dp" android:layout_marginBottom="12dp" android:layout_below="@+id/ug">
+            <com.ss.android.ugc.aweme.commerce.service.widgets.PriceTextView android:id="@+id/uf" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/a1b" android:gravity="right" android:id="@+id/ud" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/s6"/>
+        </LinearLayout>
+    </com.ss.android.ugc.aweme.views.RoundedRelativeLayout>
+</RelativeLayout>

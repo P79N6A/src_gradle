@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/bkz" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.bytedance.ies.dmt.ui.common.views.CommonItemView android:id="@+id/dqf" android:layout_width="match_parent" android:layout_height="wrap_content" app:hide_right_icon="true" app:left_icon="@drawable/b_j" app:left_text="@string/dqe"/>
+    <com.bytedance.ies.dmt.ui.common.views.CommonItemView android:id="@+id/bp8" android:layout_width="match_parent" android:layout_height="wrap_content" app:hide_right_icon="true" app:left_icon="@drawable/bug" app:left_text="@string/bfk" app:show_yellow_dot="true"/>
+    <View android:id="@+id/dw9" style="@style/u0"/>
+    <com.bytedance.ies.dmt.ui.common.views.CommonItemView android:id="@+id/bpl" android:layout_width="match_parent" android:layout_height="wrap_content" app:hide_right_icon="true" app:left_icon="@drawable/ba1" app:left_text="@string/dsv"/>
+    <com.bytedance.ies.dmt.ui.common.views.CommonItemView android:id="@+id/bv_" android:layout_width="match_parent" android:layout_height="wrap_content" app:hide_right_icon="true" app:left_icon="@drawable/b1o" app:left_text="@string/bkj"/>
+    <com.ss.android.ugc.aweme.setting.ui.ExpandSettingItem android:id="@+id/co4" android:layout_width="match_parent" android:layout_height="52dp" app:startIcon="@drawable/b1w" app:startText="@string/c4_"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/biq" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.ss.android.ugc.aweme.setting.ui.SettingItemWithNotifyText android:id="@+id/cqw" android:layout_width="match_parent" android:layout_height="52dp" app:hideRightIcon="true" app:startIcon="@drawable/a0m" app:startText="@string/c7w">
+            <include layout="@layout/ap6"/>
+        </com.ss.android.ugc.aweme.setting.ui.SettingItemWithNotifyText>
+        <com.bytedance.ies.dmt.ui.common.views.CommonItemView android:id="@+id/bva" android:layout_width="match_parent" android:layout_height="wrap_content" app:hide_right_icon="true" app:left_icon="@drawable/a0m" app:left_text="@string/bkk"/>
+        <com.bytedance.ies.dmt.ui.common.views.CommonItemView android:id="@+id/a6c" android:layout_width="match_parent" android:layout_height="wrap_content" app:hide_right_icon="true" app:left_icon="@drawable/a0m" app:left_text="@string/a6j"/>
+        <com.bytedance.ies.dmt.ui.common.views.CommonItemView android:id="@+id/cf4" android:layout_width="match_parent" android:layout_height="wrap_content" app:hide_right_icon="true" app:left_icon="@drawable/a0m" app:left_text="@string/c0d"/>
+        <com.bytedance.ies.dmt.ui.common.views.CommonItemView android:id="@+id/ain" android:layout_width="match_parent" android:layout_height="wrap_content" app:hide_right_icon="true" app:left_icon="@drawable/a0m" app:left_text="@string/ahu"/>
+    </LinearLayout>
+    <View android:id="@+id/dw_" style="@style/u0"/>
+    <com.bytedance.ies.dmt.ui.common.views.CommonItemView android:id="@+id/cau" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:hide_right_icon="true" app:left_icon="@drawable/b38" app:left_text="@string/bbb"/>
+    <com.bytedance.ies.dmt.ui.common.views.CommonItemView android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/a0m" android:layout_width="match_parent" android:layout_height="wrap_content" app:hide_right_icon="true" app:left_icon="@drawable/b18" app:left_text="@string/a2h"/>
+    <com.bytedance.ies.dmt.ui.common.views.CommonItemView android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/bmj" android:layout_width="match_parent" android:layout_height="wrap_content" app:hide_right_icon="true" app:left_icon="@drawable/b1i" app:left_text="@string/c5f"/>
+    <View android:id="@+id/dwa" style="@style/u0"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/czz" android:background="@drawable/acn" android:layout_width="match_parent" android:layout_height="52dp">
+        <ImageView android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="16dp" android:src="@drawable/b1_" android:layout_marginStart="16dp"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="15dp" android:textColor="@color/ajg" android:ellipsize="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:text="@string/c5u" android:singleLine="true" android:layout_marginStart="12dp"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="10sp" android:textColor="@color/akv" android:ellipsize="end" android:id="@+id/c8a" android:background="@drawable/xy" android:paddingLeft="5dp" android:paddingTop="1dp" android:paddingRight="5dp" android:paddingBottom="1dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:text="@string/bsr" android:singleLine="true" android:paddingStart="5dp" android:paddingEnd="5dp" android:layout_marginStart="4dp"/>
+    </LinearLayout>
+    <View android:id="@+id/dwb" style="@style/u0"/>
+    <com.bytedance.ies.dmt.ui.common.views.CommonItemView android:id="@+id/dr9" android:layout_width="match_parent" android:layout_height="wrap_content" app:hide_right_icon="true" app:left_icon="@drawable/axd" app:left_text="@string/a8i"/>
+    <com.bytedance.ies.dmt.ui.common.views.CommonItemView android:id="@+id/dra" android:layout_width="match_parent" android:layout_height="wrap_content" app:hide_right_icon="true" app:left_icon="@drawable/b1x" app:left_text="@string/c4x"/>
+    <View android:id="@+id/dwc" style="@style/u0"/>
+    <com.ss.android.ugc.aweme.setting.ui.ExpandSettingItem android:id="@+id/bnp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:startIcon="@drawable/b38" app:startText="@string/bbb" style="@style/tu"/>
+    <android.support.v7.widget.RecyclerView android:id="@+id/bmz" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="48dp" android:layout_marginBottom="22dp" android:layout_marginStart="48dp"/>
+</LinearLayout>

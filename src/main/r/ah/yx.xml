@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/c0q" android:paddingTop="14dp" android:paddingBottom="@dimen/kp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/kp" android:layout_marginRight="@dimen/kp">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@+id/c12" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="24dp" android:textStyle="bold" android:textColor="@color/ou" android:ellipsize="end" android:id="@+id/c0r" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="3" android:layout_weight="1" style="@style/sg"/>
+        <RelativeLayout android:id="@+id/c0m" android:layout_width="72dp" android:layout_height="28dp" android:layout_marginLeft="10dp" android:layout_marginTop="2dp">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <com.ss.android.ugc.aweme.music.ui.CheckableImageView android:id="@+id/c0l" android:layout_width="16dp" android:layout_height="16dp" android:src="@drawable/aw7"/>
+                <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/ou" android:id="@+id/c0n" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:text="@string/bo0" style="@style/sa"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/c0y" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp">
+        <com.ss.android.ugc.aweme.poi.widget.PoiLabelsLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/c0o" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/ou" android:id="@+id/c10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8dp" style="@style/sc"/>
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/ou" android:id="@+id/c0x" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8dp" style="@style/sc"/>
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/ou" android:gravity="right" android:id="@+id/c0z" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" style="@style/sc"/>
+        </com.ss.android.ugc.aweme.poi.widget.PoiLabelsLayout>
+    </LinearLayout>
+    <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/hg" android:ellipsize="end" android:id="@+id/c13" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="9dp" android:maxLines="3" style="@style/s9"/>
+</LinearLayout>

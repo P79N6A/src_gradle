@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/aeu" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <RelativeLayout android:id="@+id/d4j" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="4dp" android:layout_marginStart="4dp">
+        <ImageView android:id="@+id/p6" android:layout_width="32dp" android:layout_height="32dp" android:src="@drawable/bc_" android:scaleType="fitXY" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"/>
+        <com.ss.android.ugc.aweme.themechange.base.AVDmtTextView android:textSize="10dp" android:textColor="@color/a30" android:gravity="center" android:id="@+id/p8" android:layout_width="56dp" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:text="@string/bc_" android:maxLines="2" android:shadowColor="@color/ce" android:shadowDx="0" android:shadowDy="1" android:shadowRadius="2" android:layout_below="@+id/p6" android:layout_centerHorizontal="true" android:lineSpacingExtra="0dp" android:fontFamily="PingFangSC-Medium" android:paddingStart="4dp" android:paddingEnd="4dp" app:oldPanel="true"/>
+    </RelativeLayout>
+</LinearLayout>

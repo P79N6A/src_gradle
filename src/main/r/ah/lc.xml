@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/b__" android:background="@drawable/tf" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/agd" android:layout_width="match_parent" android:layout_height="@dimen/fh">
+        <com.bytedance.android.livesdk.livecommerce.view.ECHostCloseButton2 android:layout_gravity="center_vertical" android:id="@+id/b00" android:paddingLeft="12dp" android:paddingRight="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/asi"/>
+        <TextView android:textSize="17dp" android:textStyle="bold" android:textColor="@color/lt" android:layout_gravity="center" android:id="@+id/de2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/a9_"/>
+        <LinearLayout android:layout_gravity="right|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <com.bytedance.android.livesdk.livecommerce.view.ECHostAddButton android:textSize="14dp" android:textColor="@color/l8" android:gravity="center" android:id="@+id/amk" android:paddingLeft="8dp" android:paddingRight="8dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent"/>
+            <TextView android:textSize="15dp" android:textColor="@color/lt" android:layout_gravity="center_vertical" android:id="@+id/dea" android:paddingLeft="8dp" android:paddingRight="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/a9d" android:includeFontPadding="false"/>
+        </LinearLayout>
+        <View android:layout_gravity="bottom" android:id="@+id/dqq" android:background="@color/lc" android:layout_width="match_parent" android:layout_height="1px"/>
+    </FrameLayout>
+    <android.support.v7.widget.RecyclerView android:id="@+id/cis" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/agd"/>
+    <com.bytedance.android.livesdk.livecommerce.view.ECHostLiveNoPromotionLayout android:id="@+id/bu7" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/agd"/>
+    <com.bytedance.android.livesdk.livecommerce.view.ECLoadingStateView android:gravity="center" android:id="@+id/a8d" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/fh"/>
+</RelativeLayout>

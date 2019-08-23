@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/a7l" android:layout_width="match_parent" android:layout_height="match_parent" android:onClick="dismiss">
+    <FrameLayout android:layout_gravity="bottom" android:background="@drawable/h5" android:layout_width="match_parent" android:layout_height="340dp">
+        <com.ss.android.ugc.aweme.crossplatform.view.CrossPlatformWebView android:id="@+id/dx6" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <ImageView android:layout_gravity="end" android:id="@+id/ti" android:paddingTop="13dp" android:paddingBottom="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/aw6" android:paddingStart="18dp" android:paddingEnd="18dp"/>
+    </FrameLayout>
+</FrameLayout>

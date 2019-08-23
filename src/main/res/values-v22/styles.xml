@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="bl">
+    </style>
+    <style name="bs">
+    </style>
+    <style name="xi">
+        <item name="z">?android:attr/actionModeShareDrawable</item>
+        <item name="im">?android:attr/editTextBackground</item>
+    </style>
+    <style name="xj">
+        <item name="z">?android:attr/actionModeShareDrawable</item>
+        <item name="im">?android:attr/editTextBackground</item>
+    </style>
+</resources>

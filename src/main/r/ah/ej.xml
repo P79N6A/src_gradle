@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.shortvideo.widget.ScreenSizeAspectFrameLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/ba5" android:background="@color/d5" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ss.android.ugc.aweme.shortvideo.widget.VEVideoPublishPreviewSurfaceView android:id="@+id/c5m" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ImageView android:layout_gravity="center" android:id="@+id/dsq" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.ss.android.ugc.aweme.shortvideo.edit.infosticker.interact.vote.VotingStickerView android:id="@+id/c5r" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <View android:id="@+id/dtw" android:background="@color/d5" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</com.ss.android.ugc.aweme.shortvideo.widget.ScreenSizeAspectFrameLayout>

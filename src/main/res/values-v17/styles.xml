@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="eq">
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:paddingStart">12dp</item>
+        <item name="android:paddingEnd">12dp</item>
+    </style>
+    <style name="g9">
+        <item name="android:layout_width">32dp</item>
+        <item name="android:layout_height">32dp</item>
+        <item name="android:layout_marginLeft">12dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginStart">12dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+    </style>
+    <style name="g_">
+        <item name="android:layout_width">32dp</item>
+        <item name="android:layout_height">32dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">12dp</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginEnd">12dp</item>
+    </style>
+    <style name="h2">
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+    <style name="h3">
+        <item name="android:layout_gravity">right|center_horizontal|clip_horizontal</item>
+        <item name="android:paddingEnd">8dp</item>
+    </style>
+    <style name="h4">
+        <item name="android:layout_marginEnd">8dp</item>
+    </style>
+    <style name="h5">
+        <item name="android:paddingEnd">16dp</item>
+    </style>
+    <style name="h6">
+        <item name="android:layout_marginStart">16dp</item>
+    </style>
+    <style name="h7">
+        <item name="android:textAlignment">viewEnd</item>
+        <item name="android:layout_marginStart">16dp</item>
+    </style>
+    <style name="h8">
+        <item name="android:layout_marginStart">8dp</item>
+    </style>
+    <style name="h9">
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+    <style name="h_">
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:layout_marginStart">16dp</item>
+    </style>
+    <style name="ha">
+        <item name="android:paddingStart">@dimen/aj</item>
+        <item name="android:paddingEnd">4dp</item>
+    </style>
+    <style name="hb">
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+    <style name="hc">
+        <item name="android:layout_toStartOf">@id/a8s</item>
+    </style>
+    <style name="hd">
+        <item name="android:layout_alignParentEnd">true</item>
+    </style>
+    <style name="he">
+        <item name="android:layout_toStartOf">@android:id/icon2</item>
+        <item name="android:layout_toEndOf">@android:id/icon1</item>
+    </style>
+    <style name="hf">
+        <item name="android:layout_marginStart">@dimen/aj</item>
+    </style>
+    <style name="hg">
+        <item name="android:paddingStart">12dp</item>
+        <item name="android:paddingEnd">12dp</item>
+    </style>
+    <style name="hh">
+        <item name="android:paddingStart">@dimen/l</item>
+        <item name="android:paddingEnd">@dimen/k</item>
+    </style>
+    <style name="qo">
+        <item name="android:textColor">@color/hx</item>
+        <item name="android:background">@drawable/pb</item>
+        <item name="android:paddingLeft">4dp</item>
+        <item name="android:paddingRight">4dp</item>
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="android:paddingStart">4dp</item>
+        <item name="android:paddingEnd">4dp</item>
+        <item name="android:layout_marginStart">4dp</item>
+    </style>
+    <style name="qp">
+        <item name="android:textColor">@color/a08</item>
+        <item name="android:background">@drawable/pb</item>
+        <item name="android:paddingLeft">4dp</item>
+        <item name="android:paddingRight">4dp</item>
+        <item name="android:layout_marginLeft">6dp</item>
+        <item name="android:paddingStart">4dp</item>
+        <item name="android:paddingEnd">4dp</item>
+        <item name="android:layout_marginStart">6dp</item>
+    </style>
+    <style name="qs">
+        <item name="android:textColor">@color/p_</item>
+        <item name="android:gravity">clip_horizontal</item>
+        <item name="android:background">@drawable/e8</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">14dp</item>
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:text">@string/b5l</item>
+        <item name="android:paddingStart">4dp</item>
+        <item name="android:paddingEnd">4dp</item>
+    </style>
+    <style name="qy">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/a0b</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">14dp</item>
+        <item name="android:maxWidth">97dp</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:paddingStart">4dp</item>
+        <item name="android:paddingEnd">4dp</item>
+    </style>
+    <style name="sr">
+        <item name="android:layout_width">28dp</item>
+        <item name="android:layout_height">28dp</item>
+        <item name="android:layout_marginRight">12dp</item>
+        <item name="android:layout_marginEnd">12dp</item>
+    </style>
+    <style name="tj">
+        <item name="android:layout_gravity">right|center_horizontal</item>
+        <item name="android:layout_width">20dp</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:layout_marginTop">24.5dp</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:layout_marginEnd">16dp</item>
+    </style>
+    <style name="to">
+        <item name="android:textColor">@color/uq</item>
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:layout_gravity">clip_horizontal</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:shadowColor">@color/ce</item>
+        <item name="android:shadowDx">@null</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">2</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:paddingEnd">10dp</item>
+    </style>
+    <style name="up">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/a0r</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingTop">20dp</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingStart">15dp</item>
+        <item name="android:paddingEnd">15dp</item>
+    </style>
+    <style name="ur">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/a08</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginStart">40dp</item>
+        <item name="android:layout_marginEnd">40dp</item>
+    </style>
+    <style name="wx">
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_marginLeft">6dp</item>
+        <item name="android:height">44dp</item>
+        <item name="android:width">44dp</item>
+        <item name="android:layout_marginStart">6dp</item>
+    </style>
+</resources>

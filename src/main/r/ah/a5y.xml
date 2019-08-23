@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.ss.android.ugc.aweme.common.widget.tablayout.CommonTabLayout android:id="@+id/cyz" android:layout_width="wrap_content" android:layout_height="52dp" android:layout_marginBottom="1dp" android:layout_centerInParent="true" app:tabBackground="@null" app:tabIndicatorColor="@color/zo" app:tabIndicatorHeight="2dp" app:tabMinWidth="24dp" app:tabMode="0" app:tabPaddingEnd="1dp" app:tabPaddingStart="1dp" app:tabSelectedTextColor="@color/a09" app:tabTextAppearance="@style/sf" app:tabTextColor="@color/zx"/>
+</RelativeLayout>

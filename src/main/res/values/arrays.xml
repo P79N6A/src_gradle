@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="a">
+        <item>不显示地理位置</item>
+    </array>
+    <array name="b">
+        <item>从相册选择</item>
+        <item>拍照</item>
+        <item>取消</item>
+    </array>
+    <array name="c">
+        <item>/aweme/v1/feed/</item>
+        <item>/aweme/v1/commit/item/digg/</item>
+        <item>/aweme/v1/commit/follow/user/</item>
+        <item>/aweme/v1/aweme/post/</item>
+        <item>/aweme/v1/aweme/favorite/</item>
+        <item>/aweme/v1/general/search/</item>
+        <item>/aweme/v1/search/item/</item>
+        <item>/aweme/v2/shop/search/vertical/</item>
+        <item>/aweme/v2/follow/feed/</item>
+        <item>/aweme/v1/follow/feed/</item>
+        <item>/aweme/v1/follow/feed/recommend/</item>
+        <item>/aweme/v1/friend/feed/</item>
+    </array>
+    <array name="d">
+        <item>• 实名认证</item>
+        <item>• 绑定手机号</item>
+        <item>• 授权通讯录</item>
+        <item>• 文明主播认证答题</item>
+    </array>
+    <array name="e">
+        <item>工商银行</item>
+        <item>农业银行</item>
+        <item>邮储银行</item>
+        <item>邮政储蓄银行</item>
+        <item>建设银行</item>
+        <item>招商银行</item>
+        <item>中国银行</item>
+        <item>交通银行</item>
+        <item>浦发银行</item>
+        <item>广发银行</item>
+        <item>民生银行</item>
+        <item>平安银行</item>
+        <item>光大银行</item>
+        <item>兴业银行</item>
+        <item>中信银行</item>
+        <item>上海银行</item>
+    </array>
+    <array name="f">
+        <item>拍一张</item>
+        <item>相册选择</item>
+        <item>从图库选择</item>
+        <item>查看大图</item>
+        <item>取消</item>
+    </array>
+    <array name="g">
+        <item>清理</item>
+        <item>取消</item>
+    </array>
+    <array name="h">
+        <item>所有人</item>
+        <item>互相关注</item>
+        <item>你关注的人</item>
+        <item>关闭</item>
+    </array>
+    <array name="i">
+        <item>热门</item>
+        <item>最新</item>
+        <item>···</item>
+        <item>···</item>
+        <item>···</item>
+    </array>
+    <array name="j">
+        <item>@string/b40</item>
+        <item>@string/dnr</item>
+        <item>@string/akx</item>
+        <item>@string/a6_</item>
+    </array>
+    <array name="k">
+        <item>@color/xr</item>
+        <item>@color/e7</item>
+        <item>@color/k1</item>
+        <item>@color/mx</item>
+        <item>@color/ms</item>
+        <item>@color/a05</item>
+        <item>@color/rw</item>
+        <item>@color/a3t</item>
+        <item>@color/d_</item>
+        <item>@color/a3d</item>
+        <item>@color/rx</item>
+        <item>@color/yl</item>
+        <item>@color/a68</item>
+        <item>@color/a3a</item>
+        <item>@color/n1</item>
+        <item>@color/n2</item>
+        <item>@color/ax</item>
+        <item>@color/ao3</item>
+        <item>@color/n0</item>
+    </array>
+    <array name="l">
+        <item>相册选择</item>
+        <item>取消</item>
+    </array>
+    <array name="m">
+        <item>@string/b9u</item>
+        <item>@string/aek</item>
+        <item>@string/bfc</item>
+    </array>
+    <array name="n">
+        <item>1|[微笑]</item>
+        <item>2|[色]</item>
+        <item>2|[爱慕]</item>
+        <item>3|[发呆]</item>
+        <item>3|[惊呆]</item>
+        <item>4|[酷拽]</item>
+        <item>5|[抠鼻]</item>
+        <item>6|[流泪]</item>
+        <item>7|[发怒]</item>
+        <item>8|[呲牙]</item>
+        <item>9|[睡]</item>
+        <item>9|[鼾睡]</item>
+        <item>10|[害羞]</item>
+        <item>11|[调皮]</item>
+        <item>11|[可爱]</item>
+        <item>12|[晕]</item>
+        <item>13|[衰]</item>
+        <item>14|[闭嘴]</item>
+        <item>15|[机智]</item>
+        <item>16|[来看我]</item>
+        <item>17|[灵机一动]</item>
+        <item>17|[灵光一闪]</item>
+        <item>18|[耶]</item>
+        <item>19|[捂脸]</item>
+        <item>20|[打脸]</item>
+        <item>21|[大笑]</item>
+        <item>22|[哈欠]</item>
+        <item>23|[震惊]</item>
+        <item>24|[送心]</item>
+        <item>25|[困]</item>
+        <item>26|[疑问]</item>
+        <item>26|[what]</item>
+        <item>27|[泣不成声]</item>
+        <item>28|[小鼓掌]</item>
+        <item>29|[大金牙]</item>
+        <item>30|[偷笑]</item>
+        <item>31|[石化]</item>
+        <item>32|[思考]</item>
+        <item>33|[吐血]</item>
+        <item>34|[可怜]</item>
+        <item>35|[嘘]</item>
+        <item>36|[撇嘴]</item>
+        <item>37|[尴尬]</item>
+        <item>37|[黑线]</item>
+        <item>38|[笑哭]</item>
+        <item>39|[生病]</item>
+        <item>39|[雾霾]</item>
+        <item>40|[奸笑]</item>
+        <item>41|[得意]</item>
+        <item>42|[坏笑]</item>
+        <item>43|[抓狂]</item>
+        <item>44|[泪奔]</item>
+        <item>45|[钱]</item>
+        <item>46|[亲亲]</item>
+        <item>46|[吻]</item>
+        <item>47|[恐惧]</item>
+        <item>48|[愉快]</item>
+        <item>48|[笑]</item>
+        <item>49|[快哭了]</item>
+        <item>50|[傲慢]</item>
+        <item>50|[翻白眼]</item>
+        <item>51|[互粉]</item>
+        <item>52|[赞]</item>
+        <item>53|[鼓掌]</item>
+        <item>54|[感谢]</item>
+        <item>54|[祈祷]</item>
+        <item>55|[嘴唇]</item>
+        <item>55|[kiss]</item>
+        <item>56|[去污粉]</item>
+        <item>57|[666]</item>
+        <item>58|[玫瑰]</item>
+        <item>59|[胡瓜]</item>
+        <item>60|[啤酒]</item>
+        <item>61|[我想静静]</item>
+        <item>62|[委屈]</item>
+        <item>63|[舔屏]</item>
+        <item>64|[鄙视]</item>
+        <item>65|[飞吻]</item>
+        <item>66|[再见]</item>
+        <item>67|[紫薇别走]</item>
+        <item>68|[听歌]</item>
+        <item>69|[拥抱]</item>
+        <item>69|[求抱抱]</item>
+        <item>70|[绝望的凝视]</item>
+        <item>71|[不失礼貌的微笑]</item>
+        <item>72|[吐舌]</item>
+        <item>73|[呆无辜]</item>
+        <item>74|[看]</item>
+        <item>75|[白眼]</item>
+        <item>76|[熊吉]</item>
+        <item>77|[骷髅]</item>
+        <item>78|[黑脸]</item>
+        <item>79|[吃瓜群众]</item>
+        <item>80|[绿帽子]</item>
+        <item>81|[流汗]</item>
+        <item>81|[汗]</item>
+        <item>82|[摸头]</item>
+        <item>83|[皱眉]</item>
+        <item>84|[擦汗]</item>
+        <item>85|[红脸]</item>
+        <item>86|[尬笑]</item>
+        <item>87|[做鬼脸]</item>
+        <item>88|[强]</item>
+        <item>89|[如花]</item>
+        <item>90|[吐]</item>
+        <item>91|[惊喜]</item>
+        <item>92|[敲打]</item>
+        <item>93|[奋斗]</item>
+        <item>94|[吐彩虹]</item>
+        <item>95|[大哭]</item>
+        <item>96|[比心]</item>
+        <item>97|[强壮]</item>
+        <item>97|[加油]</item>
+        <item>98|[碰拳]</item>
+        <item>99|[OK]</item>
+        <item>99|[ok]</item>
+        <item>100|[击掌]</item>
+        <item>101|[左上]</item>
+        <item>102|[握手]</item>
+        <item>103|[18禁]</item>
+        <item>104|[菜刀]</item>
+        <item>104|[刀]</item>
+        <item>105|[V5]</item>
+        <item>106|[给力]</item>
+        <item>107|[爱心]</item>
+        <item>107|[心]</item>
+        <item>108|[心碎]</item>
+        <item>108|[伤心]</item>
+        <item>109|[便便]</item>
+        <item>109|[屎]</item>
+        <item>110|[礼物]</item>
+        <item>111|[蛋糕]</item>
+        <item>112|[派对]</item>
+        <item>112|[撒花]</item>
+        <item>113|[不看]</item>
+        <item>114|[炸弹]</item>
+        <item>115|[憨笑]</item>
+        <item>116|[悠闲]</item>
+        <item>117|[嘿哈]</item>
+        <item>118|[加好友]</item>
+        <item>119|[惊讶]</item>
+        <item>120|[囧]</item>
+        <item>121|[阴险]</item>
+        <item>122|[惊恐]</item>
+        <item>123|[难过]</item>
+        <item>124|[斜眼]</item>
+        <item>125|[左哼哼]</item>
+        <item>126|[右哼哼]</item>
+        <item>127|[咒骂]</item>
+        <item>128|[咖啡]</item>
+        <item>129|[西瓜]</item>
+        <item>130|[太阳]</item>
+        <item>131|[月亮]</item>
+        <item>132|[发]</item>
+        <item>133|[猪头]</item>
+        <item>134|[凋谢]</item>
+        <item>135|[红包]</item>
+        <item>136|[拳头]</item>
+        <item>137|[勾引]</item>
+        <item>138|[胜利]</item>
+        <item>139|[抱拳]</item>
+        <item>140|[弱]</item>
+        <item>141|[左边]</item>
+        <item>142|[右边]</item>
+    </array>
+    <array name="o">
+        <item>星期日</item>
+        <item>星期一</item>
+        <item>星期二</item>
+        <item>星期三</item>
+        <item>星期四</item>
+        <item>星期五</item>
+        <item>星期六</item>
+    </array>
+    <array name="p">
+        <item>[赞]</item>
+        <item>[玫瑰]</item>
+        <item>[捂脸]</item>
+        <item>[666]</item>
+        <item>[鼓掌]</item>
+        <item>[呲牙]</item>
+        <item>[微笑]</item>
+        <item>[耶]</item>
+    </array>
+    <array name="q">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </array>
+    <array name="r">
+        <item>一月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>十一月</item>
+        <item>十二月</item>
+    </array>
+    <array name="s">
+        <item>@drawable/bt1</item>
+    </array>
+    <array name="t">
+        <item>@drawable/bt2</item>
+    </array>
+    <array name="u">
+        <item>自然</item>
+        <item>白皙</item>
+        <item>慕斯</item>
+        <item>初恋</item>
+        <item>日系</item>
+    </array>
+    <array name="v">
+        <item>normal</item>
+        <item>rixi</item>
+        <item>nianhua</item>
+        <item>qingchun</item>
+        <item>feifan</item>
+    </array>
+    <array name="w">
+        <item>@drawable/at1</item>
+        <item>@drawable/at0</item>
+        <item>@drawable/asy</item>
+        <item>@drawable/asz</item>
+        <item>@drawable/asx</item>
+    </array>
+    <array name="x">
+        <item>/api/ad/v2/ack/splash/</item>
+        <item>/service/1/update_token/</item>
+        <item>/service/1/z_app_stats/</item>
+        <item>/service/2/device_register/</item>
+        <item>/service/2/log_settings/</item>
+        <item>/aweme/v1/aweme/detail/</item>
+        <item>/cloudpush/update_sender/</item>
+        <item>/api/plugin/config/v1/</item>
+        <item>/ies/network/aweme/</item>
+        <item>/cloudpush/callback/android_red_badge/</item>
+        <item>/aweme/v1/check/in/</item>
+        <item>/aweme/v1/user/</item>
+        <item>/2/user/info/</item>
+        <item>/api/ad/splash/aweme/v14/</item>
+        <item>/api/apps/device/blacklist</item>
+        <item>/api/plugin/config/v1</item>
+        <item>/aweme/v1/abtest/param/</item>
+        <item>/aweme/v1/aweme/stats/</item>
+        <item>/aweme/v1/commerce/settings</item>
+        <item>/aweme/v1/feed/</item>
+        <item>/aweme/v1/im/reboot/misc/</item>
+        <item>/aweme/v1/im/resources/sticker/list/</item>
+        <item>/aweme/v1/im/unreaditems</item>
+        <item>/aweme/v1/notice/count/</item>
+        <item>/aweme/v1/poi/samecity/active/</item>
+        <item>/aweme/v1/room/recommended/avatars/</item>
+        <item>/aweme/v1/settings/</item>
+        <item>/aweme/v1/spotlight/relation/</item>
+        <item>/aweme/v1/story/</item>
+        <item>/aweme/v1/user/settings/</item>
+        <item>/aweme/v2/game/entry/</item>
+        <item>/aweme/v2/platform/share/settings/</item>
+        <item>/check_version/v6/</item>
+        <item>/common</item>
+        <item>/config</item>
+        <item>/gecko/server/package</item>
+        <item>/get_domains/v4/</item>
+        <item>/location/sulite</item>
+        <item>/log/collect</item>
+        <item>/monitor/appmonitor/v2/settings</item>
+        <item>/passport/token/beat/</item>
+        <item>/service/2/app_alert/</item>
+        <item>/service/2/app_log/</item>
+        <item>/service/settings/v2/</item>
+        <item>/v.s</item>
+        <item>/webcast/assets/effects/</item>
+        <item>/webcast/gift/list/</item>
+        <item>/webcast/qos/node_sort/</item>
+        <item>/webcast/setting/</item>
+        <item>/webcast/setting/i18n/package/</item>
+        <item>/webcast/tab/</item>
+        <item>/weasel/wukong/</item>
+        <item>/location/sulite/</item>
+        <item>/aweme/v1/im/cloud/token/</item>
+        <item>/service/1/app_notice_status/</item>
+        <item>/aweme/v1/upload/contacts/</item>
+        <item>/et_api/logview/verify</item>
+        <item>/v2/s</item>
+        <item>bytecdn</item>
+        <item>:10304</item>
+        <item>/v/</item>
+        <item>/push/get_service_addrs/</item>
+        <item>/aweme/v1/aweme/post</item>
+        <item>/service/2/app_notify/</item>
+        <item>/service/2/device_register/</item>
+        <item>update_sender</item>
+        <item>/passport/mobile/send_code/v1/</item>
+        <item>/passport/mobile/login/</item>
+        <item>/passport/mobile/sms_login/</item>
+        <item>/aweme/v1/follow/feed</item>
+        <item>/passport/open/check_login/</item>
+        <item>api/v1/be/user</item>
+        <item>/cloudpush/local_push/v1/report_launch/</item>
+        <item>/aweme/v1/sticker/detail/</item>
+        <item>/oauth/auth_info/</item>
+    </array>
+    <array name="y">
+        <item>哆</item>
+        <item>来</item>
+        <item>咪</item>
+        <item>发</item>
+        <item>索</item>
+        <item>拉</item>
+        <item>西</item>
+    </array>
+    <array name="z">
+        <item>举报</item>
+    </array>
+    <array name="a0">
+        <item>随拍设置</item>
+        <item>保存</item>
+        <item>删除</item>
+    </array>
+    <array name="a1">
+        <item>关注</item>
+        <item>推荐</item>
+        <item>新鲜</item>
+    </array>
+    <array name="a2">
+        <item>关注</item>
+        <item>推荐</item>
+    </array>
+    <array name="a3">
+        <item>关注</item>
+        <item>推荐</item>
+        <item>附近</item>
+    </array>
+    <array name="a4">
+        <item>同城</item>
+        <item>推荐</item>
+    </array>
+    <array name="a5">
+        <item>关注</item>
+        <item>推荐</item>
+        <item>同城</item>
+    </array>
+    <array name="a6">
+        <item>关注</item>
+        <item>发现</item>
+        <item>同城</item>
+    </array>
+    <array name="a7">
+        <item>关注</item>
+        <item>发现</item>
+        <item>附近</item>
+    </array>
+    <array name="a8">
+        <item>发现</item>
+        <item>推荐</item>
+        <item>同城</item>
+    </array>
+    <array name="a9">
+        <item>发现</item>
+        <item>推荐</item>
+        <item>关注</item>
+    </array>
+    <array name="a_">
+        <item>关注</item>
+        <item>发现</item>
+        <item>新鲜</item>
+    </array>
+    <array name="aa">
+        <item>从手机相册选择</item>
+        <item>拍照</item>
+        <item>取消</item>
+    </array>
+    <array name="ab">
+        <item>@drawable/ajn</item>
+        <item>@drawable/ajo</item>
+        <item>@drawable/ajp</item>
+        <item>@drawable/ajq</item>
+        <item>@drawable/ajr</item>
+        <item>@drawable/ajs</item>
+        <item>@drawable/ajt</item>
+    </array>
+    <array name="ac">
+        <item>@drawable/a9p</item>
+        <item>@drawable/a9q</item>
+        <item>@drawable/a9r</item>
+    </array>
+    <array name="ad">
+    </array>
+    <array name="ae">
+    </array>
+    <array name="af">
+        <item>@string/dbh</item>
+        <item>@string/dbi</item>
+        <item>@string/db5</item>
+        <item>@string/dba</item>
+        <item>@string/dbd</item>
+        <item>@string/db6</item>
+        <item>@string/db9</item>
+        <item>@string/dbn</item>
+        <item>@string/dbp</item>
+    </array>
+    <array name="ag">
+        <item>@string/dbg</item>
+    </array>
+    <array name="ah">
+        <item>Filter_01</item>
+        <item>Filter_02</item>
+        <item>Filter_03</item>
+        <item>Filter_04</item>
+        <item>Filter_05</item>
+    </array>
+    <array name="ai">
+        <item>无</item>
+        <item>粉黛</item>
+        <item>甜蜜</item>
+        <item>暖茶</item>
+        <item>知性</item>
+        <item>红润</item>
+        <item>小清新</item>
+        <item>自然</item>
+        <item>阳光</item>
+        <item>婴儿肌</item>
+        <item>怀旧</item>
+        <item>明亮</item>
+        <item>可爱</item>
+        <item>水蜜桃</item>
+        <item>落日</item>
+    </array>
+    <array name="aj">
+        <item>本场榜</item>
+        <item>周榜</item>
+        <item>总榜</item>
+        <item>西瓜榜单</item>
+    </array>
+    <array name="ak">
+        <item>一</item>
+        <item>二</item>
+        <item>三</item>
+        <item>四</item>
+        <item>五</item>
+        <item>六</item>
+        <item>七</item>
+        <item>八</item>
+        <item>九</item>
+        <item>十</item>
+        <item>十一</item>
+        <item>十二</item>
+    </array>
+    <array name="al">
+        <item>@drawable/c_c</item>
+        <item>@drawable/ca1</item>
+        <item>@drawable/c_z</item>
+        <item>@drawable/ca0</item>
+        <item>@drawable/ca2</item>
+    </array>
+    <array name="am">
+        <item>@drawable/c_c</item>
+        <item>@drawable/ca1</item>
+        <item>@drawable/c_p</item>
+        <item>@drawable/c_q</item>
+    </array>
+    <array name="an">
+        <item>无</item>
+        <item>自然</item>
+        <item>清新</item>
+        <item>日系</item>
+        <item>动人</item>
+    </array>
+    <array name="ao">
+        <item>无</item>
+        <item>自然</item>
+        <item>透亮</item>
+        <item>初恋</item>
+    </array>
+    <array name="ap">
+        <item>举报</item>
+        <item>取消</item>
+    </array>
+    <array name="aq">
+        <item>@drawable/as7</item>
+        <item>@drawable/as8</item>
+        <item>@drawable/as9</item>
+        <item>@drawable/as_</item>
+        <item>@drawable/asa</item>
+        <item>@drawable/asb</item>
+        <item>@drawable/asc</item>
+        <item>@drawable/asd</item>
+        <item>@drawable/ase</item>
+        <item>@drawable/asf</item>
+    </array>
+    <array name="ar">
+        <item>周一</item>
+        <item>周二</item>
+        <item>周三</item>
+        <item>周四</item>
+        <item>周五</item>
+        <item>周六</item>
+        <item>周日</item>
+    </array>
+</resources>

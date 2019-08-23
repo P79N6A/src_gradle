@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:paddingBottom="16dp" android:layout_width="124dp" android:layout_height="match_parent">
+    <FrameLayout android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/afw" android:layout_width="124dp" android:layout_height="124dp" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+        <com.ss.android.ugc.aweme.shortvideo.widget.ShapedRemoteImageView android:id="@+id/boa" android:layout_width="124dp" android:layout_height="124dp" android:scaleType="fitXY" app:placeholderImage="@drawable/b3g" app:round_radius="2dp" app:shape_mode="1"/>
+        <ImageView android:layout_gravity="top|left|center_vertical|center_horizontal|center|start" android:id="@+id/bvh" android:visibility="gone" android:layout_width="40dp" android:layout_height="40dp"/>
+        <ImageView android:layout_gravity="center" android:id="@+id/b45" android:visibility="gone" android:layout_width="39dp" android:layout_height="39dp" android:src="@drawable/b75"/>
+    </FrameLayout>
+    <TextView android:textSize="14sp" android:textColor="#e6ffffff" android:ellipsize="end" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="TextView" android:maxLines="1" android:lineSpacingExtra="3sp" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/afw"/>
+    <TextView android:textSize="12sp" android:textColor="#80ffffff" android:id="@+id/a08" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="TextView" android:lineSpacingExtra="3sp" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/title"/>
+</android.support.constraint.ConstraintLayout>

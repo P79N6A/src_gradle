@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/p9" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/d3v" layout="@layout/abz"/>
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/d3v">
+        <LinearLayout android:orientation="vertical" android:paddingTop="8dp" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.bytedance.ies.dmt.ui.common.views.CommonItemView android:id="@+id/a8a" android:layout_width="match_parent" android:layout_height="wrap_content" app:left_text="@string/a8g" app:right_ui_mode="1"/>
+            <com.bytedance.ies.dmt.ui.common.views.CommonItemView android:id="@+id/dod" android:layout_width="match_parent" android:layout_height="wrap_content" app:left_text="@string/sg"/>
+            <com.bytedance.ies.dmt.ui.common.views.CommonItemView android:id="@+id/h1" android:layout_width="match_parent" android:layout_height="wrap_content" app:left_text="@string/i2" app:right_ui_mode="1"/>
+            <com.bytedance.ies.dmt.ui.common.views.CommonItemView android:id="@+id/c55" android:layout_width="match_parent" android:layout_height="wrap_content" app:left_text="@string/bqb" app:right_ui_mode="1"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

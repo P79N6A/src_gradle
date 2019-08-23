@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.themechange.base.AVDmtPanelLinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ss.android.ugc.aweme.themechange.base.AVDmtTextView android:textColor="@color/hx" android:gravity="center" android:layout_width="match_parent" android:layout_height="52dp" android:text="@string/a2e" app:fontType="7" style="@style/rh"/>
+    <FrameLayout android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.ss.android.ugc.aweme.themechange.base.AVDmtTextView android:textSize="11dp" android:textStyle="bold" android:textColor="@color/a0b" android:id="@+id/d1w" android:layout_width="wrap_content" android:layout_height="wrap_content" app:fontType="7" app:isSelected="false"/>
+            <android.support.v4.widget.Space android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+            <com.ss.android.ugc.aweme.themechange.base.AVDmtTextView android:textSize="11dp" android:textStyle="bold" android:textColor="@color/a0b" android:id="@+id/d0u" android:layout_width="wrap_content" android:layout_height="wrap_content" app:fontType="7" app:isSelected="false"/>
+        </LinearLayout>
+        <com.ss.android.ugc.aweme.themechange.base.AVDmtTextView android:textSize="11dp" android:textStyle="bold" android:textColor="@color/a09" android:id="@+id/d1j" android:layout_width="wrap_content" android:layout_height="wrap_content" app:fontType="7"/>
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:paddingLeft="16dp" android:paddingRight="16dp" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.ss.android.ugc.aweme.shortvideo.widget.VolumeTapsView android:id="@+id/dvf" android:paddingTop="3dp" android:paddingBottom="3dp" android:layout_width="match_parent" android:layout_height="66dp" android:layout_marginTop="4dp"/>
+    </LinearLayout>
+    <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textStyle="bold" android:textColor="@color/anp" android:gravity="center" android:id="@+id/cup" android:background="@drawable/lc" android:layout_width="match_parent" android:layout_height="44dp" android:layout_marginLeft="16dp" android:layout_marginTop="20dp" android:layout_marginRight="16dp" android:foreground="?attr/a1z" android:text="@string/a2d" app:fontType="7"/>
+</com.ss.android.ugc.aweme.themechange.base.AVDmtPanelLinearLayout>

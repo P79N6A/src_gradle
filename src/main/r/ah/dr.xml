@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/h5" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.bytedance.ies.dmt.ui.titlebar.TextTitleBar android:id="@+id/d3b" android:layout_width="match_parent" android:layout_height="@dimen/r7" app:lineVisible="0" app:titleText="@string/su" app:titleTextColor="@color/a6j" app:titleTextSize="17sp" app:useBackIcon="true"/>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <android.support.v7.widget.RecyclerView android:id="@+id/cc5" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <com.ss.android.ugc.aweme.account.login.ui.WaveSideBar android:layout_gravity="center_vertical" android:id="@+id/crd" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" app:sidebar_text_color="@color/a6j" app:sidebar_text_size="12dp"/>
+    </FrameLayout>
+</LinearLayout>

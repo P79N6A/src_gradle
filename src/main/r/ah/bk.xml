@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/ao4" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.bytedance.ies.dmt.ui.widget.DmtTextView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_marginBottom="20dp" android:text="上个月数据"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:layout_gravity="center_vertical" android:layout_width="100dp" android:layout_height="wrap_content" android:layout_margin="10dp" android:text="非Wifi下启动"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:id="@+id/b7c" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:layout_gravity="center_vertical" android:layout_width="100dp" android:layout_height="wrap_content" android:layout_margin="10dp" android:text="Wifi下启动"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:id="@+id/b7f" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+    </LinearLayout>
+    <com.bytedance.ies.dmt.ui.widget.DmtTextView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_marginBottom="30dp" android:text="本月数据"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="20dp">
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:layout_gravity="center_vertical" android:layout_width="100dp" android:layout_height="wrap_content" android:layout_margin="10dp" android:text="非Wifi下启动"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:id="@+id/br1" android:layout_width="0dp" android:layout_height="wrap_content" android:text="1-7" android:layout_weight="1"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:id="@+id/br2" android:layout_width="0dp" android:layout_height="wrap_content" android:text="8-18" android:layout_weight="1"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:id="@+id/br3" android:layout_width="0dp" android:layout_height="wrap_content" android:text="19-25" android:layout_weight="1"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:id="@+id/br4" android:layout_width="0dp" android:layout_height="wrap_content" android:text="26-31" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:layout_gravity="center_vertical" android:layout_width="100dp" android:layout_height="wrap_content" android:layout_margin="10dp" android:text="Wifi下启动"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:id="@+id/dxo" android:layout_width="0dp" android:layout_height="wrap_content" android:text="1-7" android:layout_weight="1"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:id="@+id/dxp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="8-18" android:layout_weight="1"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:id="@+id/dxq" android:layout_width="0dp" android:layout_height="wrap_content" android:text="19-25" android:layout_weight="1"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:id="@+id/dxr" android:layout_width="0dp" android:layout_height="wrap_content" android:text="26-31" android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

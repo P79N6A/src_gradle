@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/baf" android:layout_width="165dp" android:layout_height="220dp">
+    <include layout="@layout/a65"/>
+    <com.ss.android.ugc.aweme.feed.ui.LongPressLayout android:id="@+id/bkq" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="@string/ahm"/>
+    <com.ss.android.ugc.aweme.common.widget.DiggLayout android:id="@+id/a51" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</FrameLayout>

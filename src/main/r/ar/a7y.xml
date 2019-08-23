@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="36dp">
+    <com.ss.android.ugc.aweme.views.HotSearchClipLinearLayout android:orientation="horizontal" android:id="@+id/bg4" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/azd" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/az5" android:scaleType="centerInside" android:alpha="0.6"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="14sp" android:textColor="@color/a6i" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/di5" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="36dp" android:maxLines="1" android:layout_marginStart="-2dp"/>
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/b4u" android:layout_width="22dp" android:layout_height="22dp" android:src="@drawable/ayc" android:layout_marginEnd="5dp"/>
+    </com.ss.android.ugc.aweme.views.HotSearchClipLinearLayout>
+</RelativeLayout>

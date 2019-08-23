@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/yx" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/d3v" layout="@layout/ae2"/>
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/m0" android:layout_below="@+id/d3v">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:paddingTop="20dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_horizontal" android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/b91" android:alpha="1"/>
+                <LinearLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <View android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
+                    <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="20sp" android:textColor="@color/zt" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ckv" android:includeFontPadding="false"/>
+                    <FrameLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+                </LinearLayout>
+                <View android:id="@+id/dnx" android:background="@color/zh" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginTop="20dp"/>
+            </LinearLayout>
+            <com.ss.android.ugc.aweme.antiaddic.lock.ui.widget.TimeLockDesc android:id="@+id/d2z" android:layout_width="match_parent" android:layout_height="wrap_content" app:desc="@string/cjz" app:startDrawable="@drawable/bki"/>
+            <com.ss.android.ugc.aweme.antiaddic.lock.ui.widget.TimeLockDesc android:id="@+id/d30" android:layout_width="match_parent" android:layout_height="wrap_content" app:desc="@string/ck0" app:startDrawable="@drawable/bkk"/>
+            <com.ss.android.ugc.aweme.antiaddic.lock.ui.widget.TimeLockDesc android:id="@+id/d2y" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:desc="@string/ck0" app:startDrawable="@drawable/bkh"/>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="vertical" android:id="@+id/m0" android:padding="15dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="5dp" android:layout_alignParentBottom="true">
+        <com.bytedance.ies.dmt.ui.widget.DmtButton android:textSize="15sp" android:textColor="@color/a30" android:id="@+id/od" android:background="@drawable/acl" android:layout_width="match_parent" android:layout_height="44dp" android:text="@string/ck5" style="?android:attr/borderlessButtonStyle"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtButton android:textSize="15sp" android:textColor="@color/oy" android:id="@+id/oe" android:background="@drawable/n_" android:layout_width="match_parent" android:layout_height="44dp" android:layout_marginTop="10dp" android:text="@string/ck4" android:textAllCaps="false" style="?android:attr/borderlessButtonStyle"/>
+    </LinearLayout>
+    <com.bytedance.ies.dmt.ui.widget.DmtStatusView android:id="@+id/cvd" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</RelativeLayout>

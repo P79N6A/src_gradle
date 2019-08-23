@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/abe" android:layout_width="match_parent" android:layout_height="215dp">
+    <com.ss.android.ugc.aweme.base.ui.AnimationImageView android:gravity="center" android:layout_gravity="center" android:id="@+id/asu" android:layout_width="match_parent" android:layout_height="150dp"/>
+    <com.ss.android.ugc.aweme.base.ui.AnimationImageView android:gravity="center" android:layout_gravity="center" android:id="@+id/ast" android:layout_width="match_parent" android:layout_height="150dp"/>
+    <ImageView android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="215dp" android:src="@drawable/auw" android:scaleType="fitCenter"/>
+    <RelativeLayout android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.ss.android.ugc.aweme.base.ui.AvatarImageView android:layout_gravity="center" android:id="@+id/atu" android:layout_width="56dp" android:layout_height="56dp" android:scaleType="centerInside" android:layout_centerInParent="true"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/a6m" android:id="@+id/b7v" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="48dp" android:text="@string/ace" android:layout_below="@+id/atu" android:layout_centerHorizontal="true" style="@style/sa"/>
+    </RelativeLayout>
+    <View android:layout_gravity="bottom" android:id="@+id/abi" android:background="@color/a7l" android:layout_width="match_parent" android:layout_height="1px"/>
+</FrameLayout>

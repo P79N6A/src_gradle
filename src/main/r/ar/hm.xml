@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ss.android.ugc.aweme.base.ui.RemoteImageView android:id="@+id/b47" android:layout_width="match_parent" android:layout_height="match_parent" app:roundedCornerRadius="2dp"/>
+    <View android:background="@drawable/pk" android:layout_width="match_parent" android:layout_height="68dp" android:layout_alignParentBottom="true"/>
+    <com.ss.android.ugc.aweme.commerce.service.widgets.PriceView android:id="@+id/c9k" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4dp" android:layout_alignParentBottom="true" android:layout_marginStart="8dp" app:priceTextColor="@color/ao4" app:priceTextSize="14dp" app:spaceSize="3dp" app:yangTextSize="10dp"/>
+    <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="12dp" android:textColor="@color/ao4" android:id="@+id/df7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:layout_marginBottom="2dp" android:maxLines="1" android:layout_above="@+id/c9k"/>
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:id="@+id/c9z" android:background="@drawable/mh" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.bytedance.ies.dmt.ui.widget.DmtRadioButton android:id="@+id/c_q" android:background="@drawable/mg" android:text="@string/dqy" style="@style/tn"/>
+    <com.bytedance.ies.dmt.ui.widget.DmtRadioButton android:id="@+id/c_r" android:background="@drawable/mg" android:text="@string/c8w" style="@style/tn"/>
+    <com.bytedance.ies.dmt.ui.widget.DmtRadioButton android:id="@+id/c_s" android:background="@drawable/mg" android:checked="true" android:text="@string/ccm" style="@style/tn"/>
+    <com.bytedance.ies.dmt.ui.widget.DmtRadioButton android:id="@+id/c_t" android:background="@drawable/mg" android:text="@string/adk" style="@style/tn"/>
+    <com.bytedance.ies.dmt.ui.widget.DmtRadioButton android:id="@+id/c_u" android:background="@drawable/mg" android:text="@string/dqw" style="@style/tn"/>
+</RadioGroup>

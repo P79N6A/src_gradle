@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/b__" android:background="@color/i0" android:layout_width="match_parent" android:layout_height="match_parent" android:keepScreenOn="true">
+    <RelativeLayout android:id="@+id/d3v" android:layout_width="match_parent" android:layout_height="@dimen/r7">
+        <com.ss.android.ugc.aweme.views.AutoRTLImageView android:id="@+id/ix" android:layout_width="44dp" android:layout_height="44dp" android:src="@drawable/b3s" android:layout_centerVertical="true" style="@style/wx"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textStyle="bold" android:textColor="@color/a08" android:ellipsize="end" android:gravity="center" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="88dp" android:layout_marginRight="88dp" android:text="@string/bpc" android:maxLines="1" style="@style/sf"/>
+        <ImageView android:id="@+id/cp9" android:padding="10dp" android:visibility="gone" android:layout_width="44dp" android:layout_height="44dp" android:src="@drawable/b9q" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+        <View android:background="@color/xn" android:visibility="visible" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <com.ss.android.ugc.aweme.common.widget.NestedScrollingRecyclerView android:id="@+id/bcz" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/d3v"/>
+    <com.bytedance.ies.dmt.ui.widget.DmtStatusView android:id="@+id/cuy" android:background="@color/i0" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/r7"/>
+</RelativeLayout>

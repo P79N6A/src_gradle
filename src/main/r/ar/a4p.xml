@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@drawable/vi" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@+id/chu" android:layout_width="280dp" android:layout_height="wrap_content">
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/ak8" android:gravity="center_horizontal" android:id="@+id/yp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="32dp" android:layout_marginRight="20dp" android:layout_marginBottom="32dp" android:maxLines="5" android:layout_marginStart="20dp" android:layout_marginEnd="20dp" style="@style/sf"/>
+        <View android:id="@+id/cpy" android:background="@color/aju" android:layout_width="match_parent" android:layout_height="1px"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/a4f" android:layout_width="match_parent" android:layout_height="47.5dp">
+            <com.bytedance.ies.dmt.ui.widget.DmtButton android:textColor="@color/rc" android:gravity="center" android:layout_gravity="start" android:id="@+id/q2" android:background="@null" android:layout_width="0dp" android:layout_height="47.5dp" android:text="@string/apk" android:layout_weight="1" android:textAllCaps="false" app:fontType="1" style="@style/sc"/>
+            <View android:layout_gravity="center_horizontal" android:background="@color/aju" android:layout_width="1px" android:layout_height="47.5dp"/>
+            <com.bytedance.ies.dmt.ui.widget.DmtButton android:textStyle="bold" android:textColor="@color/pv" android:gravity="center" android:layout_gravity="end" android:id="@+id/y0" android:background="@null" android:layout_width="0dp" android:layout_height="47.5dp" android:text="@string/aqb" android:layout_weight="1" android:textAllCaps="false" app:fontType="2" style="@style/sc"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

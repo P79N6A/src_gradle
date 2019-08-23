@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/a0b" android:id="@+id/a_o" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ab6" style="@style/s7"/>
+    <android.support.v7.widget.RecyclerView android:orientation="horizontal" android:id="@+id/a_n" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="50dp" android:layout_marginTop="3dp"/>
+</merge>

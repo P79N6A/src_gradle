@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="44dp">
+            <ImageView android:id="@+id/ts" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:src="@drawable/bbv" android:layout_centerVertical="true"/>
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="17sp" android:textColor="@color/ao4" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="24dp" android:text="@string/c6o" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <android.support.v7.widget.RecyclerView android:id="@+id/cc4" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <com.bytedance.ies.dmt.ui.widget.DmtStatusView android:id="@+id/cvd" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="100dp"/>
+</FrameLayout>

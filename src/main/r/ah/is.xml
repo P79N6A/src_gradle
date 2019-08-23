@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="bottom" android:id="@+id/chy" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/chu" android:background="@drawable/xk" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <HorizontalScrollView android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:paddingRight="15dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="13.5dp">
+                <LinearLayout android:orientation="vertical" android:id="@+id/a3g" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="21dp">
+                    <ImageView android:id="@+id/a3a" android:layout_width="48dp" android:layout_height="48dp" android:src="@drawable/be6"/>
+                    <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/a2p" android:layout_gravity="center_horizontal" android:id="@+id/a3b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9dp" android:text="@string/a4f" style="@style/s7"/>
+                </LinearLayout>
+            </LinearLayout>
+        </HorizontalScrollView>
+        <View android:background="@color/hl" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginTop="15dp"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/a2v" android:gravity="center" android:id="@+id/q2" android:background="@drawable/ob" android:layout_width="match_parent" android:layout_height="49dp" android:text="@string/pm" style="@style/sc"/>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

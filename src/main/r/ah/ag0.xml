@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="280dp" android:layout_height="wrap_content" android:layout_marginTop="45dp">
+        <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/a2x" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.bytedance.android.live.core.widget.FitTextView android:textSize="27sp" android:textColor="#ffffff" android:gravity="center_horizontal" android:id="@+id/dh2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="56dp" android:shadowColor="#7ae3492d" android:shadowDy="2" android:shadowRadius="3"/>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/bhp" android:background="@drawable/a31" android:paddingLeft="20dp" android:paddingTop="12dp" android:paddingRight="20dp" android:paddingBottom="12dp" android:layout_width="232dp" android:layout_height="98dp" android:layout_marginTop="16dp"/>
+            <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="#b74c02" android:gravity="center" android:id="@+id/dh3" android:background="@drawable/a2y" android:layout_width="232dp" android:layout_height="40dp" android:layout_marginTop="24dp" android:layout_marginBottom="24dp"/>
+        </LinearLayout>
+        <ImageView android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/azy" android:layout_width="36dp" android:layout_height="36dp" android:layout_marginTop="24dp" android:src="@drawable/c1c"/>
+    </LinearLayout>
+    <ImageView android:layout_gravity="center_horizontal" android:layout_width="130dp" android:layout_height="90dp" android:src="@drawable/c27"/>
+</FrameLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.shortvideo.ui.VideoRecordGestureLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/ajc" android:saveEnabled="false" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ss.android.ugc.aweme.base.ui.RemoteImageView android:id="@+id/cc2" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:id="@+id/cbw" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:id="@+id/ci4" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent">
+        <View android:id="@+id/ko" android:background="@drawable/b7" android:layout_width="match_parent" android:layout_height="90dp"/>
+        <View android:layout_gravity="bottom" android:background="@drawable/b6" android:layout_width="match_parent" android:layout_height="240dp"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <Space android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="6"/>
+            <android.support.v7.widget.ViewStubCompat android:layout_gravity="center" android:id="@+id/adr" android:layout="@layout/g4" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <Space android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="10"/>
+        </LinearLayout>
+        <com.ss.android.ugc.aweme.shortvideo.widget.RecordLayout android:enabled="false" android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/ca_" android:focusableInTouchMode="true" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="35dp" android:contentDescription="@string/t">
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/anp" android:layout_gravity="center" android:id="@+id/dh8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="66dp" android:text="@string/dm7" android:shadowColor="@color/zf" android:shadowDy="1" android:shadowRadius="2"/>
+        </com.ss.android.ugc.aweme.shortvideo.widget.RecordLayout>
+        <RelativeLayout android:id="@+id/py" android:layout_width="match_parent" android:layout_height="match_parent">
+            <include android:id="@+id/xj" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="150dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" layout="@layout/a2p"/>
+        </RelativeLayout>
+        <include layout="@layout/hu"/>
+        <include android:layout_gravity="bottom" android:layout_width="match_parent" android:layout_height="100dp" android:layout_marginBottom="40dp" layout="@layout/a7x"/>
+        <FrameLayout android:id="@+id/b_3" android:background="@color/ano" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+            <FrameLayout android:id="@+id/b_1" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <FrameLayout android:id="@+id/b_2" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </FrameLayout>
+        <RelativeLayout android:orientation="vertical" android:id="@+id/cg8" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+            <View android:id="@+id/aia" android:background="#80000000" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <RelativeLayout android:id="@+id/cff" android:layout_width="match_parent" android:layout_height="300dp">
+                <ImageView android:gravity="start" android:id="@+id/j5" android:padding="3dp" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginLeft="12dp" android:layout_marginTop="32dp" android:src="@drawable/ama" android:scaleType="centerInside"/>
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/avb" android:layout_centerInParent="true"/>
+            </RelativeLayout>
+            <FrameLayout android:id="@+id/aic" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/cff"/>
+        </RelativeLayout>
+    </FrameLayout>
+</com.ss.android.ugc.aweme.shortvideo.ui.VideoRecordGestureLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.newfollow.ui.FollowFeedCommentLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/b8m" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp">
+    <com.ss.android.ugc.aweme.newfollow.ui.CommentLikeListView android:id="@+id/b98" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <View android:id="@+id/css" android:background="@color/bs" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginTop="8dp"/>
+    <android.support.v7.widget.RecyclerView android:id="@+id/cc8" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp"/>
+    <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/zx" android:id="@+id/diz" android:paddingTop="12dp" android:paddingBottom="2dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/s_"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/b7s" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp">
+        <com.ss.android.ugc.aweme.base.ui.CircleImageView android:id="@+id/as5" android:layout_width="27dp" android:layout_height="27dp" app:placeholderImage="@color/fa" app:roundAsCircle="true" app:placeholderImageScaleType="6"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/zx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="@string/cr" android:layout_marginStart="10dp" style="@style/s9"/>
+    </LinearLayout>
+</com.ss.android.ugc.aweme.newfollow.ui.FollowFeedCommentLayout>

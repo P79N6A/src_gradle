@@ -1,0 +1,74 @@
+package android.support.design;
+
+import com.ss.android.ugc.aweme.C0906R;
+
+public final class R$styleable {
+    public static final int[] ActionBar = {C0906R.attr.bo, C0906R.attr.br, C0906R.attr.bs, C0906R.attr.c5, C0906R.attr.c6, C0906R.attr.c7, C0906R.attr.c8, C0906R.attr.ca, C0906R.attr.gj, C0906R.attr.gk, C0906R.attr.hi, C0906R.attr.i4, C0906R.attr.i5, C0906R.attr.li, C0906R.attr.lu, C0906R.attr.m6, C0906R.attr.m7, C0906R.attr.m_, C0906R.attr.n1, C0906R.attr.og, C0906R.attr.rr, C0906R.attr.vb, C0906R.attr.wd, C0906R.attr.wv, C0906R.attr.ww, C0906R.attr.a4b, C0906R.attr.a4e, C0906R.attr.a7e, C0906R.attr.a7p};
+    public static final int[] ActionBarLayout = {16842931};
+    public static final int[] ActionMenuItemView = {16843071};
+    public static final int[] ActionMode = {C0906R.attr.bo, C0906R.attr.br, C0906R.attr.fe, C0906R.attr.li, C0906R.attr.a4e, C0906R.attr.a7p};
+    public static final int[] ActivityChooserView = {C0906R.attr.ji, C0906R.attr.nf};
+    public static final int[] AlertDialog = {16842994, C0906R.attr.dr, C0906R.attr.ds, C0906R.attr.rd, C0906R.attr.re, C0906R.attr.v9, C0906R.attr.a2l, C0906R.attr.a2t};
+    public static final int[] AppBarLayout = {16842964, 16843919, 16844096, C0906R.attr.ca, C0906R.attr.jo, C0906R.attr.r3};
+    public static final int[] AppBarLayoutStates = {C0906R.attr.a3q, C0906R.attr.a3r, C0906R.attr.a3s, C0906R.attr.a3t};
+    public static final int[] AppBarLayout_Layout = {C0906R.attr.d5, C0906R.attr.qn};
+    public static final int[] AppCompatImageView = {16843033, C0906R.attr.d7, C0906R.attr.a7c, C0906R.attr.a7d};
+    public static final int[] AppCompatSeekBar = {16843074, C0906R.attr.a7_, C0906R.attr.a7a, C0906R.attr.a7b};
+    public static final int[] AppCompatTextHelper = {16842804, 16843117, 16843118, 16843119, 16843120, 16843666, 16843667};
+    public static final int[] AppCompatTextView = {16842804, C0906R.attr.bi, C0906R.attr.bj, C0906R.attr.bk, C0906R.attr.bl, C0906R.attr.bm, C0906R.attr.k_, C0906R.attr.ki, C0906R.attr.ou, C0906R.attr.r5, C0906R.attr.a62};
+    public static final int[] AppCompatTheme = {16842839, 16842926, C0906R.attr.f4369a, C0906R.attr.f4370b, C0906R.attr.f4371c, C0906R.attr.f4372d, C0906R.attr.f4373e, C0906R.attr.f4374f, C0906R.attr.g, C0906R.attr.h, C0906R.attr.i, C0906R.attr.j, C0906R.attr.k, C0906R.attr.l, C0906R.attr.m, C0906R.attr.o, C0906R.attr.p, C0906R.attr.q, C0906R.attr.r, C0906R.attr.s, C0906R.attr.t, C0906R.attr.u, C0906R.attr.v, C0906R.attr.w, C0906R.attr.x, C0906R.attr.y, C0906R.attr.z, C0906R.attr.a0, C0906R.attr.a1, C0906R.attr.a2, C0906R.attr.a3, C0906R.attr.a4, C0906R.attr.a7, C0906R.attr.af, C0906R.attr.ag, C0906R.attr.ah, C0906R.attr.ai, C0906R.attr.bh, C0906R.attr.ck, C0906R.attr.dj, C0906R.attr.dk, C0906R.attr.dl, C0906R.attr.dm, C0906R.attr.dn, C0906R.attr.f0do, C0906R.attr.dp, C0906R.attr.du, C0906R.attr.dv, C0906R.attr.e7, C0906R.attr.eb, C0906R.attr.eq, C0906R.attr.fo, C0906R.attr.fp, C0906R.attr.fq, C0906R.attr.fr, C0906R.attr.fs, C0906R.attr.ft, C0906R.attr.fu, C0906R.attr.fv, C0906R.attr.fy, C0906R.attr.gt, C0906R.attr.hw, C0906R.attr.hx, C0906R.attr.hy, C0906R.attr.i7, C0906R.attr.ia, C0906R.attr.ij, C0906R.attr.ik, C0906R.attr.im, C0906R.attr.f4376io, C0906R.attr.ip, C0906R.attr.m6, C0906R.attr.mz, C0906R.attr.r_, C0906R.attr.rc, C0906R.attr.rf, C0906R.attr.rg, C0906R.attr.rh, C0906R.attr.ri, C0906R.attr.rj, C0906R.attr.rk, C0906R.attr.rl, C0906R.attr.vw, C0906R.attr.vx, C0906R.attr.vy, C0906R.attr.wc, C0906R.attr.we, C0906R.attr.yi, C0906R.attr.yp, C0906R.attr.yq, C0906R.attr.yr, C0906R.attr.a1v, C0906R.attr.a1x, C0906R.attr.a1z, C0906R.attr.a20, C0906R.attr.a33, C0906R.attr.a34, C0906R.attr.a4j, C0906R.attr.a6c, C0906R.attr.a6d, C0906R.attr.a6e, C0906R.attr.a6f, C0906R.attr.a6h, C0906R.attr.a6i, C0906R.attr.a6j, C0906R.attr.a6k, C0906R.attr.a6q, C0906R.attr.a6r, C0906R.attr.a7s, C0906R.attr.a7t, C0906R.attr.a7u, C0906R.attr.a7v, C0906R.attr.a_3, C0906R.attr.a_t, C0906R.attr.a_u, C0906R.attr.a_v, C0906R.attr.a_w, C0906R.attr.a_x, C0906R.attr.a_y, C0906R.attr.a_z, C0906R.attr.aa0};
+    public static final int[] BottomAppBar = {C0906R.attr.bt, C0906R.attr.jw, C0906R.attr.jx, C0906R.attr.jy, C0906R.attr.jz, C0906R.attr.lv};
+    public static final int[] BottomNavigationView = {C0906R.attr.ca, C0906R.attr.o4, C0906R.attr.o7, C0906R.attr.ob, C0906R.attr.oc, C0906R.attr.ok, C0906R.attr.ol, C0906R.attr.om, C0906R.attr.ot, C0906R.attr.ur};
+    public static final int[] BottomSheetBehavior_Layout = {C0906R.attr.c2, C0906R.attr.c4, C0906R.attr.gr, C0906R.attr.gs};
+    public static final int[] ButtonBarLayout = {C0906R.attr.al};
+    public static final int[] CardView = {16843071, 16843072, C0906R.attr.dz, C0906R.attr.e0, C0906R.attr.e1, C0906R.attr.e2, C0906R.attr.e3, C0906R.attr.e4, C0906R.attr.gl, C0906R.attr.gm, C0906R.attr.gn, C0906R.attr.go, C0906R.attr.gp};
+    public static final int[] Chip = {16842804, 16842923, 16843039, 16843087, 16843237, C0906R.attr.e9, C0906R.attr.e_, C0906R.attr.ea, C0906R.attr.ec, C0906R.attr.ed, C0906R.attr.ee, C0906R.attr.eg, C0906R.attr.eh, C0906R.attr.ei, C0906R.attr.ej, C0906R.attr.ek, C0906R.attr.el, C0906R.attr.er, C0906R.attr.es, C0906R.attr.et, C0906R.attr.f7, C0906R.attr.f8, C0906R.attr.f9, C0906R.attr.f_, C0906R.attr.fa, C0906R.attr.fb, C0906R.attr.fc, C0906R.attr.lt, C0906R.attr.mb, C0906R.attr.mg, C0906R.attr.a0d, C0906R.attr.a2j, C0906R.attr.a6t, C0906R.attr.a6y};
+    public static final int[] ChipGroup = {C0906R.attr.e8, C0906R.attr.em, C0906R.attr.en, C0906R.attr.eo, C0906R.attr.a2u, C0906R.attr.a2v};
+    public static final int[] CollapsingToolbarLayout = {C0906R.attr.fi, C0906R.attr.fj, C0906R.attr.gq, C0906R.attr.i0, C0906R.attr.jp, C0906R.attr.jq, C0906R.attr.jr, C0906R.attr.js, C0906R.attr.jt, C0906R.attr.ju, C0906R.attr.jv, C0906R.attr.a1n, C0906R.attr.a1p, C0906R.attr.a3v, C0906R.attr.a7e, C0906R.attr.a7r};
+    public static final int[] CollapsingToolbarLayout_Layout = {C0906R.attr.i1, C0906R.attr.p0};
+    public static final int[] ColorStateListItem = {16843173, 16843551, C0906R.attr.am};
+    public static final int[] CompoundButton = {16843015, C0906R.attr.dw, C0906R.attr.dx};
+    public static final int[] CoordinatorLayout = {C0906R.attr.os, C0906R.attr.a3u};
+    public static final int[] CoordinatorLayout_Layout = {16842931, C0906R.attr.in, C0906R.attr.oy, C0906R.attr.oz, C0906R.attr.q8, C0906R.attr.qh, C0906R.attr.qi};
+    public static final int[] DesignTheme = {C0906R.attr.cq, C0906R.attr.cr};
+    public static final int[] DrawerArrowToggle = {C0906R.attr.b2, C0906R.attr.b3, C0906R.attr.by, C0906R.attr.fk, C0906R.attr.ih, C0906R.attr.l2, C0906R.attr.a32, C0906R.attr.a72};
+    public static final int[] FloatingActionButton = {C0906R.attr.bt, C0906R.attr.bu, C0906R.attr.ca, C0906R.attr.ch, C0906R.attr.k0, C0906R.attr.k1, C0906R.attr.lt, C0906R.attr.m8, C0906R.attr.uj, C0906R.attr.wj, C0906R.attr.a0d, C0906R.attr.a2j, C0906R.attr.a9l};
+    public static final int[] FloatingActionButton_Behavior_Layout = {C0906R.attr.c1};
+    public static final int[] FlowLayout = {C0906R.attr.oi, C0906R.attr.r6};
+    public static final int[] FontFamily = {C0906R.attr.kj, C0906R.attr.kk, C0906R.attr.kl, C0906R.attr.km, C0906R.attr.kn, C0906R.attr.ko};
+    public static final int[] FontFamilyFont = {16844082, 16844083, 16844095, 16844143, 16844144, C0906R.attr.kh, C0906R.attr.kp, C0906R.attr.kr, C0906R.attr.ks, C0906R.attr.a8g};
+    public static final int[] ForegroundLinearLayout = {16843017, 16843264, C0906R.attr.kw};
+    public static final int[] LinearLayoutCompat = {16842927, 16842948, 16843046, 16843047, 16843048, C0906R.attr.i5, C0906R.attr.i9, C0906R.attr.uq, C0906R.attr.a2i};
+    public static final int[] LinearLayoutCompat_Layout = {16842931, 16842996, 16842997, 16843137};
+    public static final int[] ListPopupWindow = {16843436, 16843437};
+    public static final int[] MaterialButton = {16843191, 16843192, 16843193, 16843194, C0906R.attr.bt, C0906R.attr.bu, C0906R.attr.gv, C0906R.attr.m_, C0906R.attr.mc, C0906R.attr.f4378me, C0906R.attr.mf, C0906R.attr.mi, C0906R.attr.mj, C0906R.attr.a0d, C0906R.attr.a42, C0906R.attr.a43};
+    public static final int[] MaterialCardView = {C0906R.attr.a42, C0906R.attr.a43};
+    public static final int[] MaterialComponentsTheme = {C0906R.attr.cq, C0906R.attr.cr, C0906R.attr.ef, C0906R.attr.ep, C0906R.attr.eq, C0906R.attr.eu, C0906R.attr.fo, C0906R.attr.fq, C0906R.attr.fs, C0906R.attr.fx, C0906R.attr.ip, C0906R.attr.kg, C0906R.attr.uc, C0906R.attr.ud, C0906R.attr.vc, C0906R.attr.a1o, C0906R.attr.a2w, C0906R.attr.a59, C0906R.attr.a63, C0906R.attr.a64, C0906R.attr.a65, C0906R.attr.a66, C0906R.attr.a67, C0906R.attr.a68, C0906R.attr.a69, C0906R.attr.a6_, C0906R.attr.a6a, C0906R.attr.a6b, C0906R.attr.a6g, C0906R.attr.a6l, C0906R.attr.a6m, C0906R.attr.a6u};
+    public static final int[] MenuGroup = {16842766, 16842960, 16843156, 16843230, 16843231, 16843232};
+    public static final int[] MenuItem = {16842754, 16842766, 16842960, 16843014, 16843156, 16843230, 16843231, 16843233, 16843234, 16843235, 16843236, 16843237, 16843375, C0906R.attr.n, C0906R.attr.a5, C0906R.attr.a6, C0906R.attr.an, C0906R.attr.gi, C0906R.attr.mi, C0906R.attr.mj, C0906R.attr.vi, C0906R.attr.a2e, C0906R.attr.a7w};
+    public static final int[] MenuView = {16842926, 16843052, 16843053, 16843054, 16843055, 16843056, 16843057, C0906R.attr.wg, C0906R.attr.a47};
+    public static final int[] NavigationView = {16842964, 16842973, 16843039, C0906R.attr.ca, C0906R.attr.lg, C0906R.attr.o4, C0906R.attr.o5, C0906R.attr.oa, C0906R.attr.oc, C0906R.attr.oj, C0906R.attr.om, C0906R.attr.ur};
+    public static final int[] PopupWindow = {16843126, 16843465, C0906R.attr.vo};
+    public static final int[] PopupWindowBackgroundState = {C0906R.attr.a3p};
+    public static final int[] RecycleListView = {C0906R.attr.vr, C0906R.attr.vu};
+    public static final int[] RecyclerView = {16842948, 16842993, C0906R.attr.k5, C0906R.attr.k6, C0906R.attr.k7, C0906R.attr.k8, C0906R.attr.k9, C0906R.attr.ox, C0906R.attr.z_, C0906R.attr.a30, C0906R.attr.a3_};
+    public static final int[] ScrimInsetsFrameLayout = {C0906R.attr.nh};
+    public static final int[] ScrollingViewBehavior_Layout = {C0906R.attr.c3};
+    public static final int[] SearchView = {16842970, 16843039, 16843296, 16843364, C0906R.attr.f7, C0906R.attr.g8, C0906R.attr.hr, C0906R.attr.l4, C0906R.attr.mk, C0906R.attr.ow, C0906R.attr.yg, C0906R.attr.yh, C0906R.attr.a1t, C0906R.attr.a1u, C0906R.attr.a4a, C0906R.attr.a4f, C0906R.attr.a_5};
+    public static final int[] Snackbar = {C0906R.attr.a2w, C0906R.attr.a2x};
+    public static final int[] SnackbarLayout = {16843039, C0906R.attr.ca, C0906R.attr.uf};
+    public static final int[] Spinner = {16842930, 16843126, 16843131, 16843362, C0906R.attr.wd};
+    public static final int[] SwitchCompat = {16843044, 16843045, 16843074, C0906R.attr.a2k, C0906R.attr.a35, C0906R.attr.a4h, C0906R.attr.a4i, C0906R.attr.a4k, C0906R.attr.a76, C0906R.attr.a77, C0906R.attr.a78, C0906R.attr.a82, C0906R.attr.a83, C0906R.attr.a84};
+    public static final int[] TabItem = {16842754, 16842994, 16843087};
+    public static final int[] TabLayout = {C0906R.attr.a4m, C0906R.attr.a4n, C0906R.attr.a4o, C0906R.attr.a4p, C0906R.attr.a4q, C0906R.attr.a4r, C0906R.attr.a4s, C0906R.attr.a4t, C0906R.attr.a4u, C0906R.attr.a4v, C0906R.attr.a4w, C0906R.attr.a4y, C0906R.attr.a4z, C0906R.attr.a50, C0906R.attr.a51, C0906R.attr.a52, C0906R.attr.a53, C0906R.attr.a54, C0906R.attr.a55, C0906R.attr.a56, C0906R.attr.a57, C0906R.attr.a58, C0906R.attr.a5_, C0906R.attr.a5a, C0906R.attr.a5b};
+    public static final int[] TextAppearance = {16842901, 16842902, 16842903, 16842904, 16842906, 16842907, 16843105, 16843106, 16843107, 16843108, 16843692, C0906R.attr.ki, C0906R.attr.a62};
+    public static final int[] TextInputLayout = {16842906, 16843088, C0906R.attr.cv, C0906R.attr.cw, C0906R.attr.cx, C0906R.attr.cy, C0906R.attr.cz, C0906R.attr.d0, C0906R.attr.d1, C0906R.attr.d2, C0906R.attr.d3, C0906R.attr.gy, C0906R.attr.gz, C0906R.attr.h0, C0906R.attr.h1, C0906R.attr.jc, C0906R.attr.jd, C0906R.attr.lj, C0906R.attr.lk, C0906R.attr.lr, C0906R.attr.m2, C0906R.attr.m3, C0906R.attr.m5, C0906R.attr.vz, C0906R.attr.w0, C0906R.attr.w1, C0906R.attr.w2, C0906R.attr.w3};
+    public static final int[] ThemeEnforcement = {16842804, C0906R.attr.j9, C0906R.attr.j_};
+    public static final int[] Toolbar = {16842927, 16843072, C0906R.attr.c5, C0906R.attr.c6, C0906R.attr.c7, C0906R.attr.c8, C0906R.attr.dq, C0906R.attr.ff, C0906R.attr.fg, C0906R.attr.gj, C0906R.attr.gk, C0906R.attr.rr, C0906R.attr.rs, C0906R.attr.ug, C0906R.attr.v_, C0906R.attr.va, C0906R.attr.wd, C0906R.attr.a4b, C0906R.attr.a4c, C0906R.attr.a4d, C0906R.attr.a7e, C0906R.attr.a7f, C0906R.attr.a7g, C0906R.attr.a7h, C0906R.attr.a7i, C0906R.attr.a7j, C0906R.attr.a7k, C0906R.attr.a7m, C0906R.attr.a7n};
+    public static final int[] View = {16842752, 16842970, C0906R.attr.vs, C0906R.attr.vt, C0906R.attr.a71};
+    public static final int[] ViewBackgroundHelper = {16842964, C0906R.attr.bt, C0906R.attr.bu};
+    public static final int[] ViewStubCompat = {16842960, 16842994, 16842995};
+
+    private R$styleable() {
+    }
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingBottom="50dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="100dp" android:src="@drawable/asq"/>
+        <TextView android:textSize="14dp" android:textColor="@color/l8" android:id="@+id/dfg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/a9e" android:maxLines="1"/>
+        <TextView android:textSize="14dp" android:textColor="@color/lm" android:gravity="center" android:id="@+id/d8y" android:background="@drawable/sl" android:layout_width="match_parent" android:layout_height="44dp" android:layout_marginLeft="77dp" android:layout_marginTop="20dp" android:layout_marginRight="77dp" android:text="@string/a8l" android:maxLines="1"/>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

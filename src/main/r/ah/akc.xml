@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="56dp">
+    <RelativeLayout android:id="@+id/c_j" android:layout_width="48dp" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <ImageView android:id="@+id/c_h" android:visibility="gone" android:layout_width="24dp" android:layout_height="24dp" android:layout_centerInParent="true"/>
+        <com.bytedance.android.live.core.widget.CustomFontTextView android:textSize="20sp" android:textColor="@color/abc" android:gravity="center" android:id="@+id/c_l" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_centerHorizontal="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <FrameLayout android:id="@+id/ai3" android:layout_width="48dp" android:layout_height="48dp" android:layout_marginLeft="40dp" android:layout_centerVertical="true">
+        <ImageView android:layout_gravity="center" android:id="@+id/dp2" android:layout_width="33dp" android:layout_height="33dp" android:scaleType="fitXY"/>
+        <com.bytedance.android.live.core.widget.HSImageView android:layout_gravity="center" android:id="@+id/ays" android:layout_width="42dp" android:layout_height="42dp"/>
+    </FrameLayout>
+    <RelativeLayout android:gravity="left" android:id="@+id/dq3" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_toLeftOf="@+id/d2q" android:layout_toRightOf="@+id/ai3">
+        <TextView android:textSize="15sp" android:textColor="@color/aba" android:ellipsize="end" android:id="@+id/dq2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_toLeftOf="@+id/bee" android:layout_centerVertical="true"/>
+        <ImageView android:id="@+id/bee" android:visibility="visible" android:layout_width="32dp" android:layout_height="16dp" android:layout_marginLeft="4dp" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <TextView android:textSize="13sp" android:textColor="@color/abd" android:gravity="right" android:id="@+id/d2q" android:paddingLeft="24dp" android:paddingRight="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="80dp" android:maxLines="1" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+</RelativeLayout>

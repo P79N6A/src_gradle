@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:background="#80000000" android:padding="@dimen/kp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.ss.android.ugc.aweme.poi.preview.view.indicator.NumberIndicator android:id="@+id/c5l" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+        <com.ss.android.ugc.aweme.poi.preview.view.indicator.TitleIndicator android:id="@+id/c5o" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+</LinearLayout>

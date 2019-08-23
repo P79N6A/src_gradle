@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:oneshot="false">
+    <item android:duration="42" android:drawable="@drawable/al7"/>
+    <item android:duration="42" android:drawable="@drawable/al8"/>
+    <item android:duration="42" android:drawable="@drawable/ali"/>
+    <item android:duration="42" android:drawable="@drawable/aln"/>
+    <item android:duration="42" android:drawable="@drawable/alo"/>
+    <item android:duration="42" android:drawable="@drawable/alp"/>
+    <item android:duration="42" android:drawable="@drawable/alq"/>
+    <item android:duration="42" android:drawable="@drawable/alr"/>
+    <item android:duration="42" android:drawable="@drawable/als"/>
+    <item android:duration="42" android:drawable="@drawable/alt"/>
+    <item android:duration="42" android:drawable="@drawable/al9"/>
+    <item android:duration="42" android:drawable="@drawable/al_"/>
+    <item android:duration="42" android:drawable="@drawable/ala"/>
+    <item android:duration="42" android:drawable="@drawable/alb"/>
+    <item android:duration="42" android:drawable="@drawable/alc"/>
+    <item android:duration="42" android:drawable="@drawable/ald"/>
+    <item android:duration="42" android:drawable="@drawable/ale"/>
+    <item android:duration="42" android:drawable="@drawable/alf"/>
+    <item android:duration="42" android:drawable="@drawable/alg"/>
+    <item android:duration="42" android:drawable="@drawable/alh"/>
+    <item android:duration="42" android:drawable="@drawable/alj"/>
+    <item android:duration="42" android:drawable="@drawable/alk"/>
+    <item android:duration="42" android:drawable="@drawable/all"/>
+    <item android:duration="42" android:drawable="@drawable/alm"/>
+</animation-list>

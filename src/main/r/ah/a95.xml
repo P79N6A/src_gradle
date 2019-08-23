@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="40dp" android:layout_height="40dp">
+    <ImageView android:id="@+id/a33" android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/bc7"/>
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <com.ss.android.ugc.aweme.base.ui.AvatarWithBorderView android:id="@+id/buj" android:visibility="gone" android:layout_width="26dp" android:layout_height="26dp"/>
+        <com.ss.android.ugc.aweme.base.ui.AvatarWithBorderView android:id="@+id/dm5" android:visibility="gone" android:layout_width="26dp" android:layout_height="26dp" android:layout_marginLeft="7dp"/>
+        <com.ss.android.ugc.aweme.base.ui.AvatarWithBorderView android:id="@+id/d2n" android:visibility="gone" android:layout_width="26dp" android:layout_height="26dp" android:layout_marginLeft="14dp"/>
+        <TextView android:textSize="13sp" android:textColor="#ffffff" android:gravity="center" android:id="@+id/b7k" android:background="@drawable/a09" android:visibility="gone" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginLeft="15dp" android:layout_marginTop="1dp" android:layout_marginRight="1dp" android:layout_marginBottom="1dp"/>
+    </FrameLayout>
+</RelativeLayout>

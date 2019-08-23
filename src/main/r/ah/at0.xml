@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.ss.android.ugc.aweme.story.feed.view.ui.StoryLoadingLine android:id="@+id/bja" android:layout_width="match_parent" android:layout_height="1dp"/>
+    <com.ss.android.ugc.aweme.story.feed.view.ui.AudioControlView android:id="@+id/gk" android:layout_width="match_parent" android:layout_height="1dp" android:alpha="0" app:foregroundColor="@color/a1s"/>
+</FrameLayout>

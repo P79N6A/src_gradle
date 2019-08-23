@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/ajl" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/ajm" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@+id/a6_" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_width="100dp" android:layout_height="100dp" android:src="@drawable/c2v"/>
+            <TextView android:textSize="12sp" android:textColor="@color/aef" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="@string/cy2"/>
+        </LinearLayout>
+        <com.bytedance.android.livesdk.gift.effect.doodle.view.DoodleGiftView android:id="@+id/a7y" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <com.bytedance.android.livesdk.gift.DoodleCanvasView android:id="@+id/ajn" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <TextView android:textSize="14sp" android:textColor="@color/aef" android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/cnr" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:text="@string/cxy"/>
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="end" android:layout_width="wrap_content" android:layout_height="40dp">
+        <ImageView android:layout_gravity="center" android:id="@+id/dny" android:visibility="gone" android:layout_width="32dp" android:layout_height="40dp" android:layout_marginRight="8dp" android:src="@drawable/ca6" android:layout_centerVertical="true" android:layout_marginEnd="8dp"/>
+        <ImageView android:id="@+id/t7" android:visibility="gone" android:layout_width="32dp" android:layout_height="40dp" android:layout_marginRight="8dp" android:src="@drawable/c2s" android:layout_centerVertical="true" android:layout_marginEnd="8dp"/>
+        <ImageView android:id="@+id/tq" android:visibility="visible" android:layout_width="32dp" android:layout_height="40dp" android:layout_marginRight="8dp" android:src="@drawable/c2u" android:layout_marginEnd="8dp"/>
+    </LinearLayout>
+</LinearLayout>

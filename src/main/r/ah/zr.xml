@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:id="@+id/bbl" android:background="@color/qf" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="16dp" android:layout_marginTop="8dp" android:layout_marginRight="16dp"/>
+    <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/a0b" android:id="@+id/d41" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="15dp" style="@style/s9"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_marginTop="15dp" android:layout_marginRight="10dp" android:layout_marginBottom="15dp">
+            <com.ss.android.ugc.aweme.base.ui.AvatarImageView android:id="@+id/i4" android:layout_width="49dp" android:layout_height="49dp"/>
+            <ImageView android:id="@+id/dr5" style="@style/fz"/>
+        </FrameLayout>
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="0dp" android:layout_height="49dp" android:layout_weight="1">
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/qd" android:gravity="center" android:id="@+id/bps" android:layout_width="wrap_content" android:layout_height="21dp" android:maxWidth="178dp" android:maxLines="1" android:singleLine="true" style="@style/sc"/>
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/a0b" android:gravity="center" android:id="@+id/czi" android:background="@drawable/np" android:layout_width="wrap_content" android:layout_height="16dp" android:layout_marginLeft="5dp" style="@style/s3"/>
+        </LinearLayout>
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/agx" android:visibility="gone" android:layout_width="19dp" android:layout_height="19dp" android:layout_marginLeft="5dp" android:layout_marginRight="15dp" android:src="@drawable/ate" android:scaleType="fitXY"/>
+    </LinearLayout>
+</LinearLayout>

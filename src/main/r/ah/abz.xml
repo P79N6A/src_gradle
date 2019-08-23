@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.ies.dmt.ui.titlebar.ButtonTitleBar xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/p9" android:layout_width="match_parent" android:layout_height="@dimen/r7" app:endButtonVisible="8" app:titleTextColor="@color/a09" app:useBackIcon="true"/>

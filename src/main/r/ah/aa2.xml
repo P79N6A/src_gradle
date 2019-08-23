@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.shortvideo.local.ChooseMediaGestureLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/ajc" android:background="@drawable/p8" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:id="@+id/cg1" android:layout_width="match_parent" android:layout_height="32dp">
+            <ImageView android:id="@+id/b38" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/auv" android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/bi7" android:layout_width="match_parent" android:layout_height="44dp">
+            <LinearLayout android:gravity="center" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="15sp" android:textColor="@color/a6k" android:gravity="center" android:id="@+id/dk8" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/du_" app:fontType="7"/>
+            </LinearLayout>
+            <View android:background="#33161823" android:layout_width="0.5dp" android:layout_height="match_parent" android:layout_marginTop="13dp" android:layout_marginBottom="13dp"/>
+            <RelativeLayout android:id="@+id/cgm" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="15sp" android:textColor="@color/p_" android:gravity="center" android:id="@+id/dk9" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/bmq" android:layout_centerInParent="true" app:fontType="7"/>
+                <ImageView android:id="@+id/b5u" android:visibility="gone" android:layout_width="20dp" android:layout_height="match_parent" android:src="@drawable/ax4" android:scaleType="center" android:layout_toRightOf="@+id/dk9"/>
+            </RelativeLayout>
+        </LinearLayout>
+        <View android:layout_gravity="bottom" android:background="@color/p" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+        <com.ss.android.ugc.aweme.effect.NoScrollViewPager android:id="@+id/duu" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </LinearLayout>
+</com.ss.android.ugc.aweme.shortvideo.local.ChooseMediaGestureLayout>

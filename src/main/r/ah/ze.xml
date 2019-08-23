@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="84dp">
+    <FrameLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14dp" android:layout_marginRight="10dp">
+        <com.ss.android.ugc.aweme.base.ui.AvatarImageView android:id="@+id/ayr" android:layout_width="49dp" android:layout_height="49dp"/>
+        <ImageView android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/dr3" android:visibility="gone" android:layout_width="16dp" android:layout_height="16dp" android:src="@drawable/b_q" android:scaleType="centerInside"/>
+    </FrameLayout>
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginRight="15dp" android:layout_weight="1">
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/anp" android:id="@+id/dnq" android:layout_width="match_parent" android:layout_height="wrap_content" android:lines="1" style="@style/sc"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="#99ffffff" android:id="@+id/dn1" android:layout_width="match_parent" android:layout_height="wrap_content" android:lines="1" style="@style/s7"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="#99ffffff" android:id="@+id/dmv" android:layout_width="match_parent" android:layout_height="wrap_content" android:lines="1" style="@style/s9"/>
+    </LinearLayout>
+    <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="#b31af4" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/dmz" android:background="@color/anp" android:layout_width="65dp" android:layout_height="36dp" android:layout_marginRight="15dp" android:text="@string/afp" style="@style/s9"/>
+</LinearLayout>

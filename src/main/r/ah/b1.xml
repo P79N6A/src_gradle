@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.motion.DecorRelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/y9" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/cv0"/>
+    <View android:id="@+id/cv0" android:layout_height="0dp" style="@style/h1"/>
+    <FrameLayout android:id="@+id/akx" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</com.ss.android.ugc.aweme.motion.DecorRelativeLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="p4">
+        <item name="a4o">1</item>
+        <item name="a51">1</item>
+    </style>
+    <style name="wg">
+        <item name="android:windowBackground">@color/a7l</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/wh</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="wh">
+        <item name="android:windowEnterAnimation">@anim/e7</item>
+        <item name="android:windowExitAnimation">@anim/ea</item>
+    </style>
+</resources>

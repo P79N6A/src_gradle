@@ -1,0 +1,83 @@
+package android.support.transition;
+
+import android.content.Context;
+import android.content.res.TypedArray;
+import android.graphics.Matrix;
+import android.graphics.Path;
+import android.graphics.PathMeasure;
+import android.support.v4.content.res.TypedArrayUtils;
+import android.support.v4.graphics.PathParser;
+import android.util.AttributeSet;
+import org.xmlpull.v1.XmlPullParser;
+
+public class PatternPathMotion extends PathMotion {
+    private Path mOriginalPatternPath;
+    private final Path mPatternPath = new Path();
+    private final Matrix mTempMatrix = new Matrix();
+
+    public Path getPatternPath() {
+        return this.mOriginalPatternPath;
+    }
+
+    public PatternPathMotion() {
+        this.mPatternPath.lineTo(1.0f, 0.0f);
+        this.mOriginalPatternPath = this.mPatternPath;
+    }
+
+    public PatternPathMotion(Path path) {
+        setPatternPath(path);
+    }
+
+    public void setPatternPath(Path path) {
+        PathMeasure pathMeasure = new PathMeasure(path, false);
+        float[] fArr = new float[2];
+        pathMeasure.getPosTan(pathMeasure.getLength(), fArr, null);
+        float f2 = fArr[0];
+        float f3 = fArr[1];
+        pathMeasure.getPosTan(0.0f, fArr, null);
+        float f4 = fArr[0];
+        float f5 = fArr[1];
+        if (f4 == f2 && f5 == f3) {
+            throw new IllegalArgumentException("pattern must not end at the starting point");
+        }
+        this.mTempMatrix.setTranslate(-f4, -f5);
+        float f6 = f2 - f4;
+        float f7 = f3 - f5;
+        float distance = 1.0f / distance(f6, f7);
+        this.mTempMatrix.postScale(distance, distance);
+        this.mTempMatrix.postRotate((float) Math.toDegrees(-Math.atan2((double) f7, (double) f6)));
+        path.transform(this.mTempMatrix, this.mPatternPath);
+        this.mOriginalPatternPath = path;
+    }
+
+    private static float distance(float f2, float f3) {
+        return (float) Math.sqrt((double) ((f2 * f2) + (f3 * f3)));
+    }
+
+    public PatternPathMotion(Context context, AttributeSet attributeSet) {
+        TypedArray obtainStyledAttributes = context.obtainStyledAttributes(attributeSet, Styleable.PATTERN_PATH_MOTION);
+        try {
+            String namedString = TypedArrayUtils.getNamedString(obtainStyledAttributes, (XmlPullParser) attributeSet, "patternPathData", 0);
+            if (namedString != null) {
+                setPatternPath(PathParser.createPathFromPathData(namedString));
+                return;
+            }
+            throw new RuntimeException("pathData must be supplied for patternPathMotion");
+        } finally {
+            obtainStyledAttributes.recycle();
+        }
+    }
+
+    public Path getPath(float f2, float f3, float f4, float f5) {
+        float f6 = f4 - f2;
+        float f7 = f5 - f3;
+        float distance = distance(f6, f7);
+        double atan2 = Math.atan2((double) f7, (double) f6);
+        this.mTempMatrix.setScale(distance, distance);
+        this.mTempMatrix.postRotate((float) Math.toDegrees(atan2));
+        this.mTempMatrix.postTranslate(f2, f3);
+        Path path = new Path();
+        this.mPatternPath.transform(this.mTempMatrix, path);
+        return path;
+    }
+}

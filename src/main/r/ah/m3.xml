@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.main.LongClickGuideView xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/h3" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:background="@color/h3" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="10">
+        <android.support.v4.widget.Space android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="3.7"/>
+        <com.ss.android.ugc.aweme.base.ui.AnimationImageView android:layout_gravity="center_horizontal" android:id="@+id/ama" android:layout_width="110dp" android:layout_height="80dp"/>
+        <android.support.v4.widget.Space android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="0.9"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="21sp" android:textColor="@color/a08" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@+id/bkp" android:layout_width="255dp" android:layout_height="wrap_content" android:text="@string/b9_" android:lineSpacingExtra="9sp"/>
+    </LinearLayout>
+</com.ss.android.ugc.aweme.main.LongClickGuideView>

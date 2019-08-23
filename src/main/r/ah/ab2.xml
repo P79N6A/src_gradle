@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/ao4" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:orientation="vertical" android:id="@+id/bu3" android:padding="10dp" android:layout_width="match_parent" android:layout_height="64dp">
+        <ImageView android:id="@+id/arq" android:layout_width="60dp" android:layout_height="50dp" android:scaleType="centerCrop" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+        <TextView android:textSize="15dp" android:textColor="@color/x7" android:ellipsize="end" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:maxLines="1" android:includeFontPadding="false" android:layout_toRightOf="@+id/arq" android:layout_alignTop="@+id/arq"/>
+        <TextView android:textSize="14dp" android:textColor="@color/x6" android:ellipsize="end" android:id="@+id/a3m" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:maxLines="1" android:includeFontPadding="false" android:layout_below="@+id/title" android:layout_alignLeft="@+id/title"/>
+    </RelativeLayout>
+</FrameLayout>

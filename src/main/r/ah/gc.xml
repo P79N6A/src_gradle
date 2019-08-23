@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/ano" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/dvb" android:layout_width="match_parent" android:layout_height="match_parent" android:soundEffectsEnabled="false" android:importantForAccessibility="no">
+        <FrameLayout android:id="@+id/b_3" android:background="@color/ano" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+            <FrameLayout android:id="@+id/b_1" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <FrameLayout android:id="@+id/b_2" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </FrameLayout>
+    </RelativeLayout>
+    <com.ss.android.ugc.aweme.themechange.base.AVDmtPanelRelativeLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/dv7" android:visibility="visible" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" app:oldPanel="true">
+        <com.ss.android.ugc.aweme.themechange.base.AVDmtTextView android:gravity="center_vertical" android:id="@+id/dva" android:layout_width="match_parent" android:layout_height="52dp" android:layout_marginLeft="16dp" android:text="@string/jf" android:maxLines="1" android:lineSpacingExtra="3sp" app:fontType="7" app:oldPanel="true" style="@style/rh"/>
+        <com.ss.android.ugc.aweme.themechange.base.AVDmtPanelRecyleView android:id="@+id/dv_" android:focusableInTouchMode="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:layout_marginBottom="24dp" android:layout_below="@+id/dva" app:firstItemMargin="16dp" app:itemMargin="16dp" app:lastItemMargin="16dp"/>
+    </com.ss.android.ugc.aweme.themechange.base.AVDmtPanelRelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

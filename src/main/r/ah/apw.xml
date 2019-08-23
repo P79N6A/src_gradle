@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.story.widget.TabHost xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/mu" android:layout_width="match_parent" android:layout_height="40dp">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.ss.android.ugc.aweme.shortvideo.widget.ScrollableLinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/y9" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+        <ImageView android:layout_gravity="center_horizontal" android:id="@+id/cbq" android:layout_width="5dp" android:layout_height="0dp" android:src="@drawable/xs" android:scaleType="center" android:layout_weight="1"/>
+    </LinearLayout>
+</com.ss.android.ugc.aweme.story.widget.TabHost>

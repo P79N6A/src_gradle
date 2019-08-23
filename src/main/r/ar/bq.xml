@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/ph" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ss.android.ugc.aweme.im.sdk.widget.ImTextTitleBar android:id="@+id/d3m" android:background="@drawable/d2" android:layout_width="match_parent" android:layout_height="@dimen/hg" app:imTitle="@string/aqp"/>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.bytedance.ies.dmt.ui.widget.DmtEditText android:textColor="@color/rq" android:textColorHint="@color/rq" android:id="@+id/aaj" android:background="@null" android:paddingLeft="16dp" android:paddingTop="14dp" android:paddingRight="16dp" android:paddingBottom="14dp" android:layout_width="0dp" android:layout_height="wrap_content" android:hint="@string/ax5" android:drawableLeft="@drawable/bpx" android:drawablePadding="8dp" android:layout_weight="1" android:drawableStart="@drawable/bpx" android:paddingStart="16dp" android:paddingEnd="16dp" style="@style/sc"/>
+        <ImageView android:id="@+id/azx" android:visibility="gone" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginLeft="8dp" android:layout_marginRight="16dp" android:src="@drawable/b0b" android:layout_marginStart="8dp" android:layout_marginEnd="16dp"/>
+    </LinearLayout>
+    <View android:background="@color/qf" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+    <android.support.v7.widget.RecyclerView android:id="@+id/cij" android:paddingTop="12dp" android:paddingBottom="12dp" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>

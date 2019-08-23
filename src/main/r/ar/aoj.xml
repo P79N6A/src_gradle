@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <FrameLayout android:id="@+id/ca6" android:background="@drawable/aes" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="12sp" android:textColor="@color/ao4" android:gravity="center_vertical" android:id="@+id/dlk" android:paddingLeft="6dp" android:paddingTop="4dp" android:paddingRight="6dp" android:paddingBottom="4dp" android:layout_width="228dp" android:layout_height="wrap_content" android:drawableLeft="@drawable/c28" android:drawablePadding="6dp" android:drawableStart="@drawable/c28" android:paddingStart="6dp" android:paddingEnd="6dp"/>
+    </FrameLayout>
+    <com.bytedance.android.live.uikit.rtl.AutoRTLImageView android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/b6g" android:layout_width="7dp" android:layout_height="12dp" android:src="@drawable/c38"/>
+</LinearLayout>

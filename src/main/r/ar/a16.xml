@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/a2u" android:layout_width="match_parent" android:layout_height="0dp" app:frMode="1" app:whRatio="0.75">
+    <com.ss.android.ugc.aweme.feed.widget.LinearGradientDraweeView android:id="@+id/a1a" android:layout_width="match_parent" android:layout_height="match_parent" app:end_color="@color/a2m" app:actualImageScaleType="7" app:lg_height="105dp"/>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_marginBottom="8dp" android:layout_marginStart="10dp" android:layout_marginEnd="10dp">
+        <com.ss.android.ugc.aweme.base.ui.TagLayout android:id="@+id/czc" android:layout_width="match_parent" android:layout_height="16dp" android:layout_marginBottom="6dp"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/a09" android:ellipsize="end" android:id="@+id/bog" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="6dp" android:maxLines="3" style="@style/sa"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="20dp">
+            <LinearLayout android:orientation="horizontal" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                <com.ss.android.ugc.aweme.base.ui.AvatarImageView android:id="@+id/hk" android:layout_width="18dp" android:layout_height="18dp"/>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/bjy" android:background="@drawable/ap9" android:paddingLeft="6dp" android:paddingTop="4dp" android:paddingRight="4dp" android:paddingBottom="4dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="20dp" android:layout_marginLeft="2dp" android:paddingStart="6dp" android:paddingEnd="4dp" android:layout_marginStart="2dp">
+                    <com.ss.android.ugc.aweme.base.ui.RemoteImageView android:id="@+id/bk0" android:layout_width="12dp" android:layout_height="12dp" android:layout_marginRight="1dp" android:src="@drawable/b50" android:layout_marginEnd="1dp"/>
+                    <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/a09" android:ellipsize="end" android:gravity="center" android:id="@+id/bjq" android:layout_width="wrap_content" android:layout_height="20dp" android:maxLines="1" style="@style/s9"/>
+                </LinearLayout>
+                <com.bytedance.ies.dmt.ui.widget.DmtTextView android:ellipsize="end" android:id="@+id/awq" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2dp" android:layout_marginRight="5dp" android:maxLines="1" android:layout_marginStart="2dp" android:layout_marginEnd="5dp" style="@style/r0"/>
+            </LinearLayout>
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textStyle="italic" android:id="@+id/dmw" android:layout_width="wrap_content" android:layout_height="match_parent" android:maxLines="1" style="@style/r0"/>
+        </LinearLayout>
+    </LinearLayout>
+</com.ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout>

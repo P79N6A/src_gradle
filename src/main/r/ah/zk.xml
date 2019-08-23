@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@drawable/kq" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.ss.android.ugc.aweme.follow.ui.RecommendUserView android:id="@+id/dox" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+        <View android:background="@color/a0k" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="10dp" android:layout_marginRight="10dp"/>
+        <com.ss.android.ugc.aweme.follow.ui.RecommendUserView android:id="@+id/doy" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="top|right|center_vertical|center_horizontal|center|end" android:id="@+id/fa" android:layout_width="60dp" android:layout_height="36dp">
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/a09" android:gravity="top" android:layout_gravity="top|right|center_vertical|center_horizontal|center|end" android:background="@drawable/apu" android:paddingLeft="10.5dp" android:paddingTop="3dp" android:layout_width="50.8dp" android:layout_height="24.5dp" android:text="@string/f_" style="@style/s7"/>
+    </FrameLayout>
+</FrameLayout>

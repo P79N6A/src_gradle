@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/bn" android:layout_width="match_parent" android:layout_height="160dp">
+    <RelativeLayout android:id="@+id/adm" android:background="@color/bn" android:layout_width="match_parent" android:layout_height="match_parent">
+        <android.support.v7.widget.RecyclerView android:id="@+id/ae0" android:layout_width="match_parent" android:layout_height="82.5dp" android:layout_marginTop="16dp"/>
+        <RelativeLayout android:id="@+id/adg" android:layout_width="match_parent" android:layout_height="52dp" android:layout_alignParentBottom="true">
+            <ImageView android:id="@+id/adj" android:layout_width="65dp" android:layout_height="match_parent" android:scaleType="centerInside" android:tint="@color/za" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" app:srcCompat="@drawable/bbu"/>
+            <ImageView android:id="@+id/adl" android:layout_width="65dp" android:layout_height="match_parent" android:scaleType="centerInside" android:tint="@color/za" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" app:srcCompat="@drawable/bbw"/>
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/a08" android:gravity="center" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/aes" android:layout_centerInParent="true" style="@style/sc"/>
+        </RelativeLayout>
+        <include android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_above="@+id/adg" layout="@layout/a3_"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/adz" android:background="@color/bn" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.ss.android.ugc.aweme.photo.setfilter.FilterRateSeekBar android:id="@+id/cms" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:max="100" android:progress="80" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentStart="true" app:rateTextColor="@color/a0b" app:rateTextOrientation="1" app:rateTextSize="15sp" style="@style/t9"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/adw" android:layout_width="match_parent" android:layout_height="52dp" android:layout_alignParentBottom="true">
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/a30" android:gravity="center" android:id="@+id/adx" android:background="#00ffffff" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/pm" android:layout_weight="1" style="@style/sc"/>
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/a30" android:gravity="center" android:id="@+id/ady" android:background="#00ffffff" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/b4_" android:layout_weight="1" style="@style/sc"/>
+        </LinearLayout>
+        <include android:layout_width="match_parent" android:layout_height="1px" android:layout_above="@+id/adw" layout="@layout/a3_"/>
+    </RelativeLayout>
+</FrameLayout>

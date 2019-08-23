@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:padding="12dp" android:layout_width="@dimen/db" android:layout_height="@dimen/d_">
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/b2_" android:layout_width="20dp" android:layout_height="20dp"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@+id/dkf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:maxLines="1" app:fontType="7" style="@style/sc"/>
+    </LinearLayout>
+</merge>

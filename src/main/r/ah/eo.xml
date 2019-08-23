@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/cga" android:background="@color/yx" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/a8u" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:layout_gravity="center" android:id="@+id/d1y" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:layout_gravity="center" android:id="@+id/d1z" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.ss.android.ugc.aweme.shortvideo.edit.infosticker.interact.vote.VotingStickerLayout android:layout_gravity="center" android:id="@+id/bai" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.ss.android.ugc.aweme.story.shootvideo.textsticker.gesture.StoryStickerGestureLayout android:id="@+id/cvh" android:background="#00000000" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <include layout="@layout/hu"/>
+    <FrameLayout android:id="@+id/a8z" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/a30" android:gravity="end" android:id="@+id/ds6" android:paddingRight="16dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="110dp" android:text="30" android:shadowColor="@color/ce" android:shadowDx="0" android:shadowDy="2" android:shadowRadius="2" style="@style/sc"/>
+    <FrameLayout android:id="@+id/a8h" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:id="@+id/bah" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ViewStub android:layout_gravity="bottom|left|center_vertical|center_horizontal|center|start" android:id="@+id/cx4" android:visibility="gone" android:layout="@layout/a8m" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <ViewStub android:layout_gravity="bottom" android:id="@+id/cwx" android:layout="@layout/gf" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <ViewStub android:layout_gravity="bottom" android:id="@+id/cwf" android:layout="@layout/fw" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <FrameLayout android:id="@+id/b8g" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+    <com.ss.android.ugc.aweme.story.shootvideo.textsticker.view.TextStickerInputLayout android:id="@+id/d1x" android:background="#80000000" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" app:iconStyle="1"/>
+    <ViewStub android:id="@+id/cwp" android:layout="@layout/a51" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</FrameLayout>

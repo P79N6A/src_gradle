@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:id="@+id/b8v" android:background="@drawable/ly" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="match_parent" android:layout_height="74dp">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+        <ImageView android:layout_width="50dp" android:layout_height="50dp" android:src="@drawable/bjj"/>
+        <TextView android:textSize="10dp" android:textColor="@color/i1" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:text="@string/c6z" android:lineSpacingExtra="3dp"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <ImageView android:layout_width="50dp" android:layout_height="50dp" android:src="@drawable/bjl"/>
+        <TextView android:textSize="10dp" android:textColor="@color/i1" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:text="@string/c70" android:lineSpacingExtra="3dp"/>
+    </LinearLayout>
+    <ImageView android:layout_width="25dp" android:layout_height="25dp" android:src="@drawable/bji" android:layout_centerInParent="true"/>
+</RelativeLayout>

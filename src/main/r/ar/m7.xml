@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/a17" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/cv0" android:background="@color/a0i" android:layout_width="match_parent" android:layout_height="0dp"/>
+    <RelativeLayout android:id="@+id/d3m" android:layout_width="match_parent" android:layout_height="49dp" android:layout_below="@+id/cv0">
+        <com.ss.android.ugc.aweme.views.AutoRTLTextView android:id="@+id/iu" android:background="@drawable/b9l" android:padding="12dp" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="15dp" android:layout_centerVertical="true" android:layout_marginStart="15dp"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/a09" android:gravity="center" android:id="@+id/au8" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/aeg" android:layout_centerHorizontal="true" style="@style/rq"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/a08" android:gravity="center" android:id="@+id/cex" android:visibility="gone" android:layout_width="57dp" android:layout_height="30dp" android:layout_marginRight="15dp" android:text="@string/af_" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="15dp" android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+    <com.bytedance.ies.uikit.layout.SwipeOverlayFrameLayout android:id="@+id/cxy" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/d3m">
+        <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <FrameLayout android:id="@+id/aic" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/m0"/>
+            <FrameLayout android:id="@+id/m0" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/a09" android:textColorHint="@color/a0g" android:gravity="center_vertical" android:id="@+id/dxy" android:background="@drawable/e2" android:paddingLeft="10dp" android:paddingTop="10dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="40dp" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_marginBottom="7dp" android:hint="@string/aec" android:drawableLeft="@drawable/b47" android:drawablePadding="9dp" android:drawableStart="@drawable/b47" android:paddingStart="10dp" android:layout_marginStart="10dp" android:layout_marginEnd="10dp" style="@style/sc"/>
+                <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/a0y" android:gravity="center_vertical" android:id="@+id/bo7" android:paddingLeft="15dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="49dp" android:text="@string/bzi" android:paddingStart="15dp" style="@style/sc"/>
+            </FrameLayout>
+        </RelativeLayout>
+    </com.bytedance.ies.uikit.layout.SwipeOverlayFrameLayout>
+    <View android:id="@+id/bqt" style="@style/t2"/>
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/hx" android:layout_gravity="center_vertical" android:id="@+id/dgp" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/s7"/>
+    <SeekBar android:layout_gravity="center_vertical" android:id="@+id/cmo" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:maxHeight="2dp" android:max="10000" android:progressDrawable="@drawable/ya" android:minHeight="2dp" android:thumb="@drawable/y9" android:layout_weight="1" android:layout_marginStart="4dp"/>
+    <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/hx" android:layout_gravity="center_vertical" android:id="@+id/dl3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_marginStart="4dp" style="@style/s7"/>
+</merge>

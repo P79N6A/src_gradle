@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.newfollow.ui.FollowFeedLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:paddingTop="16dp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ViewStub android:id="@+id/cwi" android:layout="@layout/a3h" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <View android:id="@+id/d58" android:background="@color/z6" android:visibility="gone" android:layout_width="match_parent" android:layout_height="4dp"/>
+    <include android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/a43"/>
+    <ViewStub android:id="@+id/cwo" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/bg5" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ViewStub android:id="@+id/cwh" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <ViewStub android:id="@+id/cwl" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <ViewStub android:id="@+id/cwz" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <ViewStub android:id="@+id/cwk" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <ViewStub android:id="@+id/cwg" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <ViewStub android:id="@+id/cwm" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp"/>
+    </LinearLayout>
+    <View android:id="@+id/bbt" android:background="@color/zk" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginTop="16dp"/>
+    <View android:id="@+id/mb" android:background="@color/z6" android:visibility="gone" android:layout_width="match_parent" android:layout_height="4dp" android:layout_marginTop="16dp"/>
+</com.ss.android.ugc.aweme.newfollow.ui.FollowFeedLayout>

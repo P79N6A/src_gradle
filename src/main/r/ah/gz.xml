@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/u7" android:background="@drawable/dx" android:layout_width="wrap_content" android:layout_height="28dp">
+        <com.ss.android.ugc.aweme.music.ui.CheckableImageView android:id="@+id/b01" android:layout_width="16dp" android:layout_height="16dp" android:src="@drawable/b9p" android:scaleType="fitXY"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/zt" android:id="@+id/d_o" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/u2" style="@style/s9"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/d6a" android:background="@drawable/dx" android:paddingLeft="12dp" android:paddingRight="12dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="28dp">
+        <com.ss.android.ugc.aweme.music.ui.CheckableImageView android:id="@+id/b68" android:layout_width="16dp" android:layout_height="16dp" android:src="@drawable/bfl" android:scaleType="fitXY"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/hy" android:id="@+id/dl4" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/s9"/>
+    </LinearLayout>
+    <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/hy" android:ellipsize="end" android:gravity="center" android:id="@+id/d6_" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="28dp" android:maxLines="1" android:drawablePadding="5dp" android:drawableEnd="@drawable/bb8" style="@style/s9"/>
+</RelativeLayout>

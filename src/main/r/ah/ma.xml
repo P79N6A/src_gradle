@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="bottom" android:id="@+id/cyz" android:background="?attr/ce" android:layout_width="match_parent" android:layout_height="160dp">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/cyn" android:layout_width="match_parent" android:layout_height="40dp">
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="?attr/zl" android:id="@+id/cys" android:text="@string/aew" style="@style/rz"/>
+        <View style="@style/ry"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="?attr/zm" android:id="@+id/cz3" android:text="@string/aex" style="@style/rz"/>
+        <View style="@style/ry"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="?attr/zm" android:id="@+id/cym" android:text="@string/aev" style="@style/rz"/>
+    </LinearLayout>
+    <ImageView android:id="@+id/d5f" android:layout_width="32dp" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:src="?attr/r9" android:layout_centerHorizontal="true"/>
+    <android.support.v7.widget.RecyclerView android:id="@+id/ae0" style="@style/rs"/>
+    <com.ss.android.ugc.aweme.filter.FilterDialogExtContentLayout android:id="@+id/cse" android:visibility="gone" style="@style/rx"/>
+    <com.ss.android.ugc.aweme.filter.FilterDialogExtContentLayout android:id="@+id/kv" android:visibility="gone" style="@style/rr"/>
+</RelativeLayout>

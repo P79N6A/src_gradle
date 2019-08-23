@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@null" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.bytedance.android.live.core.widget.HSImageView android:id="@+id/bdj" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" app:placeholderImage="@drawable/a9v" app:roundedCornerRadius="@dimen/mw" app:placeholderImageScaleType="0"/>
+    <View android:background="@drawable/a4s" android:layout_width="match_parent" android:layout_height="56dp" android:layout_alignLeft="@+id/bdj" android:layout_alignRight="@+id/bdj" android:layout_alignBottom="@+id/bdj"/>
+    <com.bytedance.android.live.core.widget.HSImageView android:id="@+id/bf2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="22dp" android:layout_marginLeft="@dimen/na" android:layout_marginTop="@dimen/nb" android:scaleType="centerInside" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" app:roundedCornerRadius="2dp" app:roundTopLeft="true" app:roundTopRight="false" app:roundBottomRight="false" app:roundBottomLeft="false"/>
+    <LinearLayout android:gravity="center" android:background="@drawable/a2l" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="22dp" android:layout_marginTop="4dp" android:layout_marginRight="4dp" android:layout_alignTop="@+id/bdj" android:layout_alignRight="@+id/bdj">
+        <ImageView android:id="@+id/bfa" android:visibility="gone" android:layout_width="12dp" android:layout_height="12dp" android:layout_marginLeft="3dp" android:layout_marginTop="2dp" android:layout_marginBottom="2dp" android:src="@drawable/c9c"/>
+        <View android:id="@+id/bf5" android:background="@drawable/a_l" android:layout_width="4dp" android:layout_height="4dp" android:layout_marginLeft="6dp" android:layout_marginRight="4dp"/>
+        <TextView android:textSize="10sp" android:textColor="@color/aef" android:gravity="center" android:id="@+id/bf4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6dp" android:text="@string/cx5" android:includeFontPadding="false"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/yx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <ImageView android:id="@+id/ccl" android:layout_width="54dp" android:layout_height="20dp" android:layout_marginLeft="8dp" android:layout_marginBottom="4dp" android:scaleType="fitXY"/>
+        <TextView android:textSize="12dp" android:textColor="@color/ao4" android:gravity="center_vertical" android:id="@+id/bjo" android:layout_width="wrap_content" android:layout_height="17dp" android:layout_marginLeft="8dp" android:text="@string/cx1" android:singleLine="true"/>
+        <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginRight="4dp" android:layout_marginBottom="6dp" android:layout_alignParentBottom="true">
+            <TextView android:textSize="14dp" android:textStyle="bold" android:textColor="@color/ao4" android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/title" android:layout_width="118dp" android:layout_height="20dp" android:singleLine="true"/>
+            <View android:id="@+id/dxe" android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
+            <View android:layout_gravity="center_vertical" android:background="@drawable/c24" android:layout_width="16dp" android:layout_height="16dp"/>
+            <com.bytedance.android.live.core.widget.CustomFontTextView android:textSize="13sp" android:textStyle="bold" android:textColor="@color/aeh" android:gravity="center_vertical" android:id="@+id/gc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4dp" android:text="@string/cwt" android:singleLine="true"/>
+            <TextView android:textSize="10sp" android:textColor="@color/ao4" android:id="@+id/be6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cwu"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

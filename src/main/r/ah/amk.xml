@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/a29" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <FrameLayout android:id="@+id/a2b" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@+id/a2a" android:background="@drawable/a23" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_vertical" android:id="@+id/c_n" android:visibility="gone" android:layout_width="12dp" android:layout_height="12dp" android:layout_marginLeft="4dp" android:src="@drawable/c_7"/>
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="12sp" android:textColor="@color/a_i" android:gravity="center_vertical" android:id="@+id/a2_" android:layout_width="wrap_content" android:layout_height="20dp" android:layout_marginLeft="4dp" android:layout_marginRight="6dp" android:singleLine="true" android:includeFontPadding="false" android:drawableRight="@drawable/c6t" android:drawableEnd="@drawable/c6t"/>
+                </FrameLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/bk3" android:background="@drawable/a23" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_vertical" android:id="@+id/bk7" android:layout_width="12dp" android:layout_height="12dp" android:layout_marginLeft="4dp" android:src="@drawable/c6b"/>
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="12sp" android:textColor="@color/abb" android:gravity="center_vertical" android:id="@+id/bk2" android:layout_width="wrap_content" android:layout_height="20dp" android:layout_marginLeft="4dp" android:layout_marginRight="6dp" android:singleLine="true" android:includeFontPadding="false"/>
+                </FrameLayout>
+            </LinearLayout>
+        </FrameLayout>
+        <LinearLayout android:id="@+id/a2d" android:background="@drawable/a23" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="14dp" android:textColor="@color/a_i" android:ellipsize="end" android:id="@+id/a2c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="8dp" android:layout_marginRight="16dp" android:layout_marginBottom="8dp" android:maxLines="1"/>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textSize="12sp" android:textColor="@color/a_i" android:gravity="center_vertical" android:id="@+id/alz" android:background="@drawable/a3q" android:paddingLeft="8dp" android:paddingRight="8dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="20dp" android:layout_marginLeft="8dp" android:text="守护" android:drawableRight="@drawable/c6t" android:drawableEnd="@drawable/c6t"/>
+</LinearLayout>

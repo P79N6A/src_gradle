@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <menu name="a">r/m/a.xml</menu>
+    <menu name="b">r/m/b.xml</menu>
+    <menu name="c">r/m/c.xml</menu>
+</resources>

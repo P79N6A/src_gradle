@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/co6" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="72dp" android:paddingStart="16dp" android:paddingEnd="16dp">
+    <include layout="@layout/a0k"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginRight="6.5dp" android:layout_weight="1" android:layout_marginStart="12dp" android:layout_marginEnd="6.5dp">
+        <com.ss.android.ugc.aweme.im.sdk.widget.EllipsizeLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textStyle="normal" android:textColor="@color/ro" android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/dq2" android:layout_width="wrap_content" android:layout_height="22dp" android:maxLines="1" app:fontType="7" style="@style/sc"/>
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textStyle="normal" android:textColor="@color/ro" android:gravity="center_vertical" android:id="@+id/als" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="22dp" android:maxLines="1" app:fontType="7" style="@style/sc"/>
+                <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/a0b" android:gravity="center_vertical" android:id="@+id/czi" android:background="@drawable/np" android:paddingTop="1dp" android:paddingBottom="1dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:maxWidth="100dp" android:minWidth="30dp" android:maxLines="1" android:paddingStart="4dp" android:paddingEnd="4dp" android:layout_marginStart="4dp" style="@style/s3"/>
+            </LinearLayout>
+        </com.ss.android.ugc.aweme.im.sdk.widget.EllipsizeLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.ss.android.ugc.aweme.im.sdk.widget.SessionStatusImageView android:layout_gravity="center_vertical" android:id="@+id/b52" android:visibility="gone" android:layout_width="12dp" android:layout_height="12dp" android:layout_marginRight="4dp" android:layout_marginEnd="4dp"/>
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textStyle="normal" android:textColor="@color/rq" android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/b7d" android:layout_width="wrap_content" android:layout_height="24dp" android:maxLines="1" app:fontType="1" style="@style/s9"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="end" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/rq" android:gravity="center_vertical" android:id="@+id/b7e" android:layout_width="wrap_content" android:layout_height="22dp" style="@style/s7"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/b7r" android:layout_width="wrap_content" android:layout_height="24dp">
+            <ImageView android:id="@+id/bp5" android:visibility="gone" android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/bq6"/>
+            <ImageView android:id="@+id/ccr" android:visibility="gone" android:layout_width="8dp" android:layout_height="8dp" android:layout_marginLeft="8dp" android:src="@drawable/vg" android:layout_marginStart="8dp"/>
+            <com.ss.android.ugc.aweme.im.sdk.widget.BadgeTextView android:textColor="@color/pi" android:gravity="center" android:id="@+id/ccq" android:background="@drawable/oz" android:paddingLeft="6dp" android:paddingRight="6dp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="18dp" android:layout_marginLeft="8dp" android:minWidth="18dp" android:layout_marginStart="8dp" style="@style/s7"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

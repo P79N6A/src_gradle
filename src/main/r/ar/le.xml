@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:paddingLeft="20dp" android:layout_width="match_parent" android:layout_height="@dimen/fb" android:paddingStart="20dp">
+    <com.bytedance.android.livesdk.livecommerce.view.ChoosePromotionCheckbox android:id="@+id/a1k" android:layout_width="24dp" android:layout_height="24dp" android:layout_centerVertical="true"/>
+    <com.bytedance.android.livesdk.livecommerce.view.ECPromotionImageView android:id="@+id/bya" android:layout_width="@dimen/fc" android:layout_height="@dimen/fc" android:layout_marginLeft="20dp" android:layout_toRightOf="@+id/a1k" android:layout_centerVertical="true"/>
+    <FrameLayout android:id="@+id/aff" android:layout_width="match_parent" android:layout_height="@dimen/fc" android:layout_marginLeft="12dp" android:layout_marginRight="16dp" android:layout_toRightOf="@+id/bya" android:layout_centerVertical="true" android:layout_marginStart="12dp" android:layout_marginEnd="16dp">
+        <android.support.v7.widget.AppCompatTextView android:textSize="15dp" android:textColor="@color/lt" android:ellipsize="end" android:id="@+id/dgt" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="2"/>
+        <com.bytedance.android.livesdk.livecommerce.view.ECPriceView android:layout_gravity="bottom" android:id="@+id/a8e" android:layout_width="wrap_content" android:layout_height="wrap_content" app:priceBold="true" app:priceTextColor="@color/lt" app:priceTextSize="18dp" app:thinDecimal="true"/>
+    </FrameLayout>
+    <View android:id="@+id/dqq" android:background="@color/lc" android:layout_width="match_parent" android:layout_height="1px" android:layout_alignLeft="@+id/aff" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

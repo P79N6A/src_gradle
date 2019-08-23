@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/yx" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ss.android.ugc.aweme.commercialize.loft.LoftNestedRefreshLayout android:id="@+id/bkd" android:background="@color/yx" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerVertical="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <View android:id="@+id/aj3" android:layout_width="match_parent" android:layout_height="0dp"/>
+            <LinearLayout android:id="@+id/d5v" android:background="@color/yx" android:layout_width="match_parent" android:layout_height="@dimen/r7">
+                <FrameLayout android:id="@+id/bat" android:layout_width="wrap_content" android:layout_height="match_parent">
+                    <com.ss.android.ugc.aweme.views.AutoRTLImageView android:layout_gravity="center_vertical" android:id="@+id/j0" android:padding="10dp" android:visibility="visible" android:layout_width="44dp" android:layout_height="44dp" android:layout_marginLeft="6dp" android:src="@drawable/caj"/>
+                    <com.ss.android.ugc.aweme.discover.ui.SearchScanView android:id="@+id/clv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_centerVertical="true"/>
+                </FrameLayout>
+                <include android:layout_gravity="center_vertical" android:id="@+id/cfk" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_alignParentLeft="true" android:layout_centerVertical="true" layout="@layout/kz"/>
+                <FrameLayout android:id="@+id/cej" android:layout_width="wrap_content" android:layout_height="match_parent">
+                    <com.bytedance.ies.dmt.ui.widget.AutoRTLImageView android:layout_gravity="center" android:id="@+id/j1" android:paddingLeft="4dp" android:paddingRight="16dp" android:visibility="gone" android:layout_width="44dp" android:layout_height="match_parent" android:scaleType="centerInside" android:layout_alignParentRight="true" app:srcCompat="@drawable/b76"/>
+                    <com.ss.android.ugc.aweme.discover.ui.SearchScanView android:id="@+id/clw" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_centerVertical="true"/>
+                </FrameLayout>
+                <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/a1z" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/di9" android:paddingLeft="16dp" android:paddingRight="16dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:minWidth="64dp" android:text="@string/c1z" android:layout_alignParentRight="true" style="@style/sc"/>
+            </LinearLayout>
+        </LinearLayout>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <FrameLayout android:id="@+id/aic" android:background="@color/yx" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <com.ss.android.ugc.aweme.discover.ui.SearchIntermediateView android:id="@+id/clf" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </FrameLayout>
+    </com.ss.android.ugc.aweme.commercialize.loft.LoftNestedRefreshLayout>
+</RelativeLayout>

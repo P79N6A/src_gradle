@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@null" android:layout_width="match_parent" android:layout_height="match_parent" android:minWidth="54dp" android:minHeight="50dp">
+    <View android:layout_gravity="center" android:id="@+id/avk" android:background="@drawable/ajm" android:layout_width="6dp" android:layout_height="20dp" android:layout_marginRight="24dp"/>
+    <View android:layout_gravity="center" android:id="@+id/avl" android:background="@drawable/ajm" android:layout_width="6dp" android:layout_height="34dp" android:layout_marginRight="12dp"/>
+    <View android:layout_gravity="center" android:id="@+id/avm" android:background="@drawable/ajm" android:layout_width="6dp" android:layout_height="50dp"/>
+    <View android:layout_gravity="center" android:id="@+id/avn" android:background="@drawable/ajm" android:layout_width="6dp" android:layout_height="34dp" android:layout_marginLeft="12dp"/>
+    <View android:layout_gravity="center" android:id="@+id/avo" android:background="@drawable/ajm" android:layout_width="6dp" android:layout_height="20dp" android:layout_marginLeft="24dp"/>
+</FrameLayout>

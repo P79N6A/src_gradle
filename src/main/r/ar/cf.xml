@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/chu" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar android:theme="?attr/a7q" android:id="@+id/d4f" android:background="?attr/fq" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="20sp" android:textColor="?attr/ab" android:gravity="center" android:id="@+id/cnf" android:layout_width="wrap_content" android:layout_height="?attr/d" android:foreground="?attr/a1z" android:drawableRight="@drawable/agc"/>
+    </android.support.v7.widget.Toolbar>
+    <FrameLayout android:id="@+id/mv" android:background="?attr/ct" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <TextView android:textSize="16sp" android:textColor="?attr/cu" android:layout_gravity="start" android:id="@+id/px" android:padding="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="?attr/a1z" android:text="@string/bab"/>
+        <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/bvk" android:padding="16dp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="?attr/a1z">
+            <com.zhihu.matisse.internal.ui.widget.CheckRadioView android:layout_gravity="center_vertical" android:id="@+id/bvj" android:layout_width="16dp" android:layout_height="16dp" android:src="@drawable/aix"/>
+            <TextView android:enabled="true" android:textSize="14sp" android:textColor="?attr/cu" android:layout_gravity="center_vertical" android:paddingLeft="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/baa" android:paddingStart="4dp"/>
+        </LinearLayout>
+        <TextView android:textSize="16sp" android:textColor="?attr/cs" android:layout_gravity="end" android:id="@+id/ps" android:padding="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="?attr/a1z"/>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/y9" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/mv" android:layout_below="@+id/d4f"/>
+    <FrameLayout android:id="@+id/a9x" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/mv" android:layout_below="@+id/d4f">
+        <TextView android:textSize="16sp" android:textColor="?attr/ad" android:gravity="center" android:layout_gravity="center" android:id="@+id/a9y" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bae" android:drawableTop="?attr/ac" android:drawablePadding="8dp"/>
+    </FrameLayout>
+</RelativeLayout>

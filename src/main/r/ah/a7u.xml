@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ss.android.ugc.aweme.crossplatform.view.CrossPlatformWebView android:id="@+id/dx6" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:id="@+id/biy" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/apd" android:scaleType="centerCrop"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="14sp" android:textColor="#ffe0cd" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/d69" android:layout_width="wrap_content" android:layout_height="18.5dp" android:layout_marginTop="482dp" android:lineSpacingExtra="3sp"/>
+        <com.ss.android.ugc.aweme.base.ui.AnimationImageView android:layout_gravity="center_horizontal" android:id="@+id/bj3" android:layout_width="48dp" android:layout_height="48dp" android:layout_marginTop="541dp"/>
+    </FrameLayout>
+    <com.ss.android.ugc.aweme.views.AutoRTLImageView android:id="@+id/ti" android:background="@drawable/dr" android:padding="6dp" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginLeft="12dp" android:layout_marginTop="10dp" android:src="@drawable/bj1"/>
+    <com.ss.android.ugc.aweme.views.AutoRTLImageView android:layout_gravity="end" android:id="@+id/cp3" android:background="@drawable/dr" android:padding="6dp" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginTop="10dp" android:layout_marginRight="12dp" android:src="@drawable/b7h"/>
+</FrameLayout>

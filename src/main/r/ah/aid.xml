@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/a7l" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.bytedance.android.live.core.widget.HSImageView android:id="@+id/drs" android:layout_width="match_parent" android:layout_height="match_parent" android:foreground="@color/adf"/>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.bytedance.android.livesdkapi.view.TextureRenderView android:id="@+id/dt9" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </RelativeLayout>
+    <com.bytedance.android.live.core.widget.HSImageView android:id="@+id/bd3" android:background="@drawable/c3y" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+    <com.bytedance.android.live.core.widget.HSImageView android:id="@+id/c_2" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY"/>
+    <View android:id="@+id/c_3" android:background="#66000000" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:id="@+id/aic" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/bej" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.github.rahatarmanahmed.cpv.CircularProgressView android:id="@+id/beh" android:visibility="invisible" android:layout_width="32dp" android:layout_height="32dp" app:cpv_animAutostart="false" app:cpv_color="@color/afj" app:cpv_indeterminate="true" app:cpv_thickness="3dp"/>
+        <com.airbnb.lottie.LottieAnimationView android:id="@+id/beg" android:visibility="invisible" android:layout_width="56dp" android:layout_height="56dp" app:lottie_fileName="live_room_loading.json" app:lottie_autoPlay="true" app:lottie_loop="true"/>
+        <TextView android:textSize="15dp" android:textColor="@color/a_i" android:layout_gravity="center" android:id="@+id/bei" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/d8b"/>
+    </LinearLayout>
+    <ViewStub android:layout_gravity="center" android:id="@+id/r_" android:layout="@layout/alb" android:layout_width="300dp" android:layout_height="wrap_content"/>
+</FrameLayout>

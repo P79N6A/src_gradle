@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/a9p" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.bytedance.ies.dmt.ui.widget.DmtDefaultView android:id="@+id/a38" android:layout_width="match_parent" android:layout_height="350dp"/>
+    <com.ss.android.ugc.aweme.profile.ui.widget.RecommendCommonUserView android:id="@+id/duf" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

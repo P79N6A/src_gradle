@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.themechange.base.AVDmtPanelLinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:keepScreenOn="true" app:fsPanel="true">
+    <include layout="@layout/a33"/>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginTop="4dp" android:layout_weight="1">
+        <com.ss.android.ugc.aweme.photomovie.CompatTextureView android:id="@+id/cxe" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <ImageView android:layout_gravity="center" android:id="@+id/byk" android:visibility="gone" android:layout_width="45dp" android:layout_height="45dp" android:src="@drawable/amu" android:scaleType="centerInside"/>
+        <ViewStub android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/ct2" android:layout="@layout/a9z" android:layout_width="222dp" android:layout_height="32dp"/>
+    </FrameLayout>
+    <com.ss.android.ugc.aweme.themechange.base.AVDmtView android:layout_width="match_parent" android:layout_height="28dp"/>
+    <include layout="@layout/a2z"/>
+</com.ss.android.ugc.aweme.themechange.base.AVDmtPanelLinearLayout>

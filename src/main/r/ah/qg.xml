@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/vd" android:background="@drawable/mo" android:paddingBottom="44dp" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="0">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="57dp">
+        <TextView android:textSize="17sp" android:textColor="#e6ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="@string/c_e" android:includeFontPadding="false" android:layout_centerHorizontal="true" android:lineSpacingExtra="-1sp"/>
+        <ImageView android:id="@+id/ix" android:padding="8dp" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginTop="5dp" android:src="@drawable/avx" android:scaleType="centerInside" android:cropToPadding="true"/>
+    </RelativeLayout>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="246dp">
+        <com.ss.android.ugc.aweme.views.FpsRecyclerView android:id="@+id/cc5" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtStatusView android:id="@+id/cvd" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+</LinearLayout>

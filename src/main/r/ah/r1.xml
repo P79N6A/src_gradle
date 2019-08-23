@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/cv0">
+        <com.bytedance.ies.dmt.ui.titlebar.TextTitleBar android:id="@+id/d3m" android:background="@color/yx" android:layout_width="match_parent" android:layout_height="@dimen/r7" app:endTextSize="15dp" app:lineVisible="8" app:titleText="@string/bez" app:titleTextColor="@color/zt" app:useBackIcon="true"/>
+        <com.ss.android.ugc.aweme.views.AwemeViewPagerNavigator android:id="@+id/bq0" android:layout_width="match_parent" android:layout_height="40dp"/>
+        <View android:background="@color/r" android:layout_width="match_parent" android:layout_height="1dp"/>
+        <com.ss.android.ugc.aweme.views.RtlViewPager android:id="@+id/duu" android:background="@color/yx" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="8dp"/>
+    </LinearLayout>
+</RelativeLayout>

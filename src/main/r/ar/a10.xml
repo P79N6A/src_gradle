@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:paddingTop="12dp" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/jf" android:background="@drawable/a06" android:paddingLeft="20dp" android:paddingTop="12dp" android:paddingRight="8dp" android:paddingBottom="12dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="17dp">
+        <ImageView android:id="@+id/aqi" android:layout_width="44dp" android:layout_height="44dp" android:src="@drawable/axc" android:layout_centerVertical="true"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_toRightOf="@+id/aqi" android:layout_centerVertical="true">
+            <TextView android:textSize="15dp" android:textStyle="bold" android:textColor="#000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cfm"/>
+            <TextView android:textSize="13dp" android:textColor="#000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cfl"/>
+        </LinearLayout>
+        <ImageView android:id="@+id/jc" android:layout_width="26dp" android:layout_height="26dp" android:src="@drawable/b26" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <TextView android:textSize="13sp" android:textColor="#7e161823" android:layout_gravity="bottom" android:id="@+id/ano" android:visibility="gone" android:layout_width="match_parent" android:layout_height="40dp" android:layout_marginLeft="16dp" android:text="@string/cfn"/>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.ss.android.ugc.aweme.base.ui.AvatarImageWithVerify android:id="@+id/ckf" android:layout_width="56dp" android:layout_height="56dp" android:layout_marginLeft="16dp" android:layout_marginRight="12dp" android:layout_centerVertical="true"/>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="16dp" android:layout_toRightOf="@+id/ckf" android:layout_centerVertical="true" android:layout_toEndOf="@+id/ckf">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="15dp" android:layout_weight="1" android:layout_marginEnd="15dp">
+                <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/yx" android:id="@+id/df7" app:fontType="7" style="@style/sq"/>
+                <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/p3" android:id="@+id/dj1" android:visibility="gone" style="@style/sp"/>
+            </LinearLayout>
+            <ImageView android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/s_" android:layout_width="20dp" android:layout_height="20dp" android:src="@drawable/avq" android:layout_weight="0"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <TextView android:textSize="13sp" android:textColor="#7e161823" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/ahl" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="52dp" android:text="@string/cet" android:drawableRight="@drawable/bky"/>
+</LinearLayout>

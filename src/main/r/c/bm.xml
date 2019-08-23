@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translate xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:interpolator="@anim/c7" android:duration="@integer/x" android:fromYDelta="0" android:toYDelta="100%p"/>

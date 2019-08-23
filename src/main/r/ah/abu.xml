@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.common.widget.PullUpLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/c92" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/cgb" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@+id/bfj" android:background="@color/h5" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:paddingLeft="20dp" android:paddingTop="14dp" android:paddingBottom="5dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.ss.android.ugc.aweme.base.ui.RemoteImageView android:id="@+id/b2f" android:background="@color/a0b" android:layout_width="45.5dp" android:layout_height="62dp" android:layout_margin="1.5dp" android:layout_alignTop="@+id/dat" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" app:roundedCornerRadius="2dp"/>
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/i0" android:id="@+id/dat" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:text="@string/bq4" style="@style/s9"/>
+                    <HorizontalScrollView android:id="@+id/aor" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_marginTop="4dp" android:layout_toRightOf="@+id/b2f" android:layout_below="@+id/dat">
+                        <LinearLayout android:orientation="horizontal" android:id="@+id/dom" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                    </HorizontalScrollView>
+                    <ImageView android:layout_gravity="center_horizontal" android:layout_width="21dp" android:layout_height="3dp" android:layout_marginBottom="5dp" android:src="@drawable/btw" android:layout_below="@+id/aor" android:layout_centerHorizontal="true"/>
+                </LinearLayout>
+            </LinearLayout>
+            <View android:id="@+id/bbs" android:background="@color/hm" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="16dp" android:layout_marginRight="16dp"/>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/bg1" android:paddingLeft="3dp" android:paddingRight="3dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="40dp" android:layout_marginLeft="16dp" android:layout_marginRight="16dp">
+                <com.ss.android.ugc.aweme.base.ui.RemoteImageView android:layout_gravity="center_vertical" android:id="@+id/b03" android:background="@color/a0b" android:layout_width="23dp" android:layout_height="23dp" android:layout_marginRight="8.5dp"/>
+                <TextView android:textColor="@color/a6j" android:layout_gravity="center_vertical" android:id="@+id/d_t" android:layout_width="0dp" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1" style="@style/s9"/>
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="20dp" android:layout_height="20dp" android:src="@drawable/art" android:scaleType="fitXY"/>
+            </LinearLayout>
+        </LinearLayout>
+        <include layout="@layout/a7j"/>
+    </LinearLayout>
+</com.ss.android.ugc.aweme.common.widget.PullUpLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.ss.android.ugc.aweme.common.widget.datepicker.NonRecurrNumberPickerForString android:id="@+id/by6" android:paddingTop="30dp" android:paddingBottom="30dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" app:dateTextColor="@color/p9" app:dateTextSize="18dp" app:dividerColor="#33161823" app:dividerStroke="0.5dp" app:verticalSpacing="36dp"/>
+</LinearLayout>

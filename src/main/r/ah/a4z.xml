@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/bmh" android:background="@color/a17" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true"/>
+    <ImageView android:id="@+id/d6p" android:layout_width="12dp" android:layout_height="5.5dp" android:src="@drawable/ap6" android:scaleType="fitCenter" android:layout_below="@+id/bmh" android:layout_centerHorizontal="true"/>
+    <View android:id="@+id/bmi" android:background="#07ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:layout_marginBottom="-2dp" android:layout_alignLeft="@+id/bmh" android:layout_alignTop="@+id/bmh" android:layout_alignRight="@+id/bmh" android:layout_alignBottom="@+id/bmh"/>
+    <ImageView android:id="@+id/d6q" android:layout_width="12dp" android:layout_height="5.5dp" android:layout_marginBottom="-2dp" android:src="@drawable/ap7" android:scaleType="fitCenter" android:layout_alignBottom="@+id/d6p" android:layout_centerHorizontal="true"/>
+</RelativeLayout>

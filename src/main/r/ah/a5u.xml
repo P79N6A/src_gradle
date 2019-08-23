@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/yx" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ss.android.ugc.aweme.base.ui.RemoteImageView android:id="@+id/ayx" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.ss.android.ugc.aweme.base.ui.RemoteImageView android:id="@+id/b1m" android:visibility="invisible" android:layout_width="297dp" android:layout_height="246dp" android:layout_centerInParent="true"/>
+    <TextView android:textSize="14dp" android:textColor="@color/ao4" android:id="@+id/dkg" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15dp" android:layout_above="@+id/b1m" android:layout_centerHorizontal="true"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/bgb" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15dp" android:layout_above="@+id/dkg" android:layout_centerHorizontal="true">
+        <com.ss.android.ugc.aweme.base.ui.RemoteImageView android:id="@+id/b30" android:layout_width="wrap_content" android:layout_height="28.5dp" android:layout_marginRight="11.5dp"/>
+        <com.ss.android.ugc.aweme.base.ui.RemoteImageView android:background="@color/ao4" android:layout_width="1.5dp" android:layout_height="27.5dp"/>
+        <com.ss.android.ugc.aweme.base.ui.RemoteImageView android:id="@+id/b62" android:layout_width="wrap_content" android:layout_height="27dp" android:layout_marginLeft="8.5dp"/>
+    </LinearLayout>
+    <com.ss.android.ugc.aweme.base.ui.RemoteImageView android:id="@+id/b1l" android:visibility="invisible" android:layout_width="196dp" android:layout_height="196dp" android:layout_centerInParent="true"/>
+    <com.ss.android.ugc.aweme.base.ui.RemoteImageView android:id="@+id/b66" android:visibility="invisible" android:layout_width="80dp" android:layout_height="80dp" android:layout_marginLeft="21dp" android:layout_above="@+id/bgb"/>
+    <com.ss.android.ugc.aweme.base.ui.RemoteImageView android:id="@+id/b67" android:visibility="invisible" android:layout_width="90dp" android:layout_height="115dp" android:layout_above="@+id/bgb" android:layout_alignParentRight="true"/>
+    <com.ss.android.ugc.aweme.base.ui.RemoteImageView android:id="@+id/aza" android:visibility="invisible" android:layout_width="76dp" android:layout_height="99dp" android:layout_below="@+id/b1m"/>
+    <com.ss.android.ugc.aweme.base.ui.RemoteImageView android:id="@+id/azb" android:visibility="invisible" android:layout_width="70dp" android:layout_height="72.5dp" android:layout_marginRight="16dp" android:layout_below="@+id/b1m" android:layout_alignParentRight="true"/>
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <LinearLayout android:gravity="center" android:id="@+id/bh4" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:layout_alignParentBottom="true">
+        <ImageView android:id="@+id/b2s" android:layout_width="12dp" android:layout_height="12dp" android:layout_marginRight="8dp" android:src="@drawable/w_"/>
+        <TextView android:textSize="12dp" android:textColor="#e6ffffff" android:id="@+id/de4" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <ImageView android:id="@+id/b2u" android:layout_width="12dp" android:layout_height="12dp" android:layout_marginLeft="8dp" android:src="@drawable/wa"/>
+    </LinearLayout>
+    <com.bytedance.ies.dmt.ui.widget.DmtLoadingLayout android:id="@+id/brb" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+    <TextView android:textSize="12dp" android:textColor="@color/ao4" android:id="@+id/de5" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:layout_above="@+id/bh4" android:layout_centerHorizontal="true"/>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/bh3" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="11dp" android:layout_above="@+id/de5" android:layout_centerHorizontal="true">
+        <com.ss.android.ugc.aweme.base.ui.RemoteImageView android:id="@+id/b2t" android:layout_width="wrap_content" android:layout_height="20dp" android:layout_marginRight="6dp"/>
+        <com.ss.android.ugc.aweme.base.ui.RemoteImageView android:background="@color/ao4" android:layout_width="1px" android:layout_height="18dp"/>
+        <com.ss.android.ugc.aweme.base.ui.RemoteImageView android:id="@+id/b2v" android:layout_width="wrap_content" android:layout_height="20dp" android:layout_marginLeft="6dp"/>
+    </LinearLayout>
+    <ImageView android:id="@+id/azy" android:padding="16dp" android:layout_width="56dp" android:layout_height="56dp" android:layout_marginTop="24dp" android:src="@drawable/apt" android:scaleType="fitXY"/>
+</RelativeLayout>

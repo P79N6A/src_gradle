@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/i3" android:layout_width="@dimen/gz" android:layout_height="@dimen/gz">
+    <FrameLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.ss.android.ugc.aweme.base.ui.AvatarImageView android:id="@+id/i2" android:layout_width="@dimen/gy" android:layout_height="@dimen/gy"/>
+        <ImageView android:id="@+id/chc" style="@style/fz"/>
+    </FrameLayout>
+    <com.ss.android.ugc.aweme.im.sdk.story.widget.StoryCircleView android:id="@+id/ie" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" app:story_strokeWidth="2dp"/>
+    <com.ss.android.ugc.aweme.base.ui.AnimationImageView android:id="@+id/i8" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</FrameLayout>

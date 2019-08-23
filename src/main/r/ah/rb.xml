@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/aiy" android:background="@drawable/hg" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.bytedance.ies.uikit.imageview.imagezoom.ImageViewTouch android:id="@+id/aix" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter"/>
+    <ImageView android:id="@+id/d2o" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" android:layout_centerInParent="true"/>
+    <com.bytedance.ies.dmt.ui.widget.DmtTextView android:id="@+id/c80" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/si"/>
+    <ProgressBar android:id="@+id/c7k" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/sj"/>
+    <com.bytedance.ies.dmt.ui.widget.DmtTextView android:gravity="center" android:id="@+id/cdx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/c03" android:drawableTop="@drawable/af1" android:layout_centerInParent="true" style="@style/sk"/>
+</RelativeLayout>

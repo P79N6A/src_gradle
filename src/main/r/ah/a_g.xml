@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/bwc" android:background="@drawable/aix" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="40dp" android:layout_marginRight="40dp" android:minWidth="200dp">
+    <LinearLayout android:orientation="vertical" android:id="@+id/d4q" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="left|center_vertical|center_horizontal|center" android:orientation="horizontal" android:id="@+id/d3z" android:paddingLeft="24dp" android:paddingTop="22dp" android:paddingRight="24dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/aq8" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginRight="8dp" android:src="@null" android:scaleType="fitCenter"/>
+            <TextView android:textSize="17sp" android:textColor="@color/a4u" android:ellipsize="end" android:id="@+id/e5" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false"/>
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@+id/yt" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/bu" android:layout_weight="1">
+        <View android:layout_gravity="top" android:id="@+id/ck5" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1dp"/>
+        <ScrollView android:id="@+id/ck6" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="15sp" android:textColor="@color/a4v" android:id="@+id/bmn" android:paddingLeft="24dp" android:paddingTop="18dp" android:paddingRight="24dp" android:paddingBottom="20dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </ScrollView>
+        <View android:layout_gravity="bottom" android:id="@+id/ck4" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1dp"/>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/a21" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/bu" android:layout_weight="1">
+        <FrameLayout android:id="@+id/a20" android:paddingLeft="24dp" android:paddingRight="24dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </FrameLayout>
+    <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@+id/pq" android:paddingLeft="24dp" android:paddingTop="10dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@+id/pk" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/u3"/>
+        <View android:visibility="invisible" android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
+        <Button android:id="@+id/pj" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/u3"/>
+        <Button android:id="@+id/pi" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/u3"/>
+    </LinearLayout>
+</LinearLayout>

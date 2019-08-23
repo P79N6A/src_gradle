@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/a7l" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/z1" android:background="@drawable/ae" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11dp">
+        <ImageView android:id="@+id/e6" android:layout_width="@dimen/by" android:layout_height="@dimen/bx"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/as" android:gravity="center" android:id="@+id/y2" android:background="@drawable/ad" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="6dp" android:minHeight="36dp" style="@style/sg"/>
+    </LinearLayout>
+    <ImageView android:id="@+id/q6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-11dp" android:src="@drawable/ac" android:layout_toRightOf="@+id/z1"/>
+</RelativeLayout>

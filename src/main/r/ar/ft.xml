@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/jw" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/k0" android:layout_width="match_parent" android:layout_height="match_parent" android:soundEffectsEnabled="false" android:importantForAccessibility="no"/>
+    <RelativeLayout android:layout_gravity="bottom" android:id="@+id/he" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="140dp">
+        <com.ss.android.ugc.aweme.themechange.base.AVDmtTextView android:textColor="@color/am2" android:gravity="center" android:id="@+id/hh" android:background="@color/ak4" android:layout_width="60dp" android:layout_height="28dp" android:text="@string/i7" android:layout_centerVertical="true" android:layout_marginEnd="19dp" android:layout_alignParentEnd="true" style="@style/s9"/>
+        <com.ss.android.ugc.aweme.filter.widget.FilterBeautySeekBar android:id="@+id/hc" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxHeight="3dp" android:max="100" android:progress="30" android:indeterminate="false" android:progressDrawable="@drawable/ak" android:thumb="@drawable/al" android:layout_alignParentTop="true" android:layout_centerVertical="true" android:layout_marginStart="10dp" android:layout_marginEnd="10dp" android:layout_toStartOf="@+id/hh" android:layout_alignParentStart="true" app:rateTextColor="?attr/zz" app:rateTextSize="12dp"/>
+    </RelativeLayout>
+    <com.ss.android.ugc.aweme.themechange.base.AVDmtPanelFrameLayout android:layout_gravity="bottom" android:layout_width="match_parent" android:layout_height="136dp">
+        <include layout="@layout/fu"/>
+    </com.ss.android.ugc.aweme.themechange.base.AVDmtPanelFrameLayout>
+</FrameLayout>

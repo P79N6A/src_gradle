@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:background="@color/a6w" android:paddingLeft="@dimen/fn" android:paddingRight="@dimen/fn" android:layout_width="match_parent" android:layout_height="40dp">
+    <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="9dp" android:textColor="@color/g5" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/c84" android:background="@drawable/r2" android:layout_width="26dp" android:layout_height="13dp" android:text="@string/z3" android:layout_centerVertical="true"/>
+    <com.ss.android.ugc.aweme.commerce.sdk.widget.ReductionTextView android:layout_gravity="center_vertical" android:id="@+id/ccs" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_toRightOf="@+id/c84" android:layout_centerVertical="true"/>
+    <View android:id="@+id/dtl" android:background="#14161823" android:layout_width="match_parent" android:layout_height="1px" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

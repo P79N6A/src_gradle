@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/c_c" android:layout_width="wrap_content" android:layout_height="64dp" android:layout_alignParentBottom="true" android:elevation="8dp">
+        <TextView android:textSize="16sp" android:textColor="@color/si" android:gravity="center" android:id="@+id/bki" android:background="@drawable/a2k" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/mg" android:layout_marginLeft="@dimen/mh" android:layout_marginTop="@dimen/mi" android:layout_marginRight="@dimen/mh" android:layout_marginBottom="@dimen/mi" android:text="@string/dep" android:layout_centerVertical="true"/>
+        <RelativeLayout android:id="@+id/c_b" android:paddingRight="12dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="64dp" android:paddingEnd="12dp">
+            <RelativeLayout android:id="@+id/c_i" android:layout_width="48dp" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                <ImageView android:id="@+id/c_h" android:visibility="gone" android:layout_width="24dp" android:layout_height="24dp" android:layout_centerInParent="true"/>
+                <com.bytedance.android.live.core.widget.CustomFontTextView android:textSize="20sp" android:textStyle="bold" android:textColor="#1e1e1e" android:gravity="center" android:id="@+id/c_l" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+            </RelativeLayout>
+            <FrameLayout android:id="@+id/ai3" android:layout_width="48dp" android:layout_height="48dp" android:layout_marginLeft="40dp" android:layout_centerVertical="true" android:layout_marginStart="40dp">
+                <ImageView android:layout_gravity="center" android:id="@+id/dp2" android:layout_width="32dp" android:layout_height="32dp" android:scaleType="fitXY"/>
+                <com.bytedance.android.live.core.widget.HSImageView android:layout_gravity="center" android:id="@+id/ays" android:layout_width="42dp" android:layout_height="42dp"/>
+            </FrameLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_toLeftOf="@+id/cnt" android:layout_toRightOf="@+id/ai3" android:layout_centerVertical="true">
+                <TextView android:textSize="15sp" android:textColor="#1e1e1e" android:ellipsize="end" android:id="@+id/dq2" android:layout_width="0dp" android:layout_height="wrap_content" android:maxLines="1" android:lines="1" android:layout_weight="1"/>
+                <TextView android:textSize="12dp" android:textColor="@color/a9m" android:id="@+id/cnl" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:text="0" android:layout_toRightOf="@+id/dq2" android:layout_alignBaseline="@+id/dq2" android:layout_marginStart="8dp" android:layout_toEndOf="@+id/dq2"/>
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="24dp">
+                    <TextView android:textSize="10sp" android:textColor="#666666" android:gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/c_f" android:paddingLeft="4dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="0dp" android:maxLines="2"/>
+                </FrameLayout>
+            </LinearLayout>
+            <com.bytedance.android.live.core.widget.FitTextView android:textSize="14sp" android:textColor="@color/ab6" android:gravity="center" android:id="@+id/cnt" android:background="@drawable/a8a" android:layout_width="58dp" android:layout_height="28dp" android:layout_marginLeft="8dp" android:text="@string/djf" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    <android.support.v7.widget.RecyclerView android:id="@+id/c_k" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/c_c"/>
+    <com.bytedance.android.live.uikit.recyclerview.LoadingStatusView android:layout_gravity="center" android:id="@+id/cvd" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/qz" android:layout_above="@+id/c_c"/>
+</RelativeLayout>

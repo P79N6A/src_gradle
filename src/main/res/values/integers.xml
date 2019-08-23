@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="a">220</integer>
+    <integer name="b">150</integer>
+    <integer name="c">150</integer>
+    <integer name="d">150</integer>
+    <integer name="e">127</integer>
+    <integer name="f">@integer/h</integer>
+    <integer name="g">500</integer>
+    <integer name="h">400</integer>
+    <integer name="i">120</integer>
+    <integer name="j">200</integer>
+    <integer name="k">300</integer>
+    <integer name="l">150</integer>
+    <integer name="m">4000</integer>
+    <integer name="n">3</integer>
+    <integer name="o">5000</integer>
+    <integer name="p">500</integer>
+    <integer name="q">100</integer>
+    <integer name="r">0</integer>
+    <integer name="s">-90</integer>
+    <integer name="t">2</integer>
+    <integer name="u">300</integer>
+    <integer name="v">300</integer>
+    <integer name="w">240</integer>
+    <integer name="x">160</integer>
+    <integer name="y">360</integer>
+    <integer name="z">300</integer>
+    <integer name="a0">11011000</integer>
+    <integer name="a1">320</integer>
+    <integer name="a2">100</integer>
+    <integer name="a3">100</integer>
+    <integer name="a4">100</integer>
+    <integer name="a5">250</integer>
+    <integer name="a6">200</integer>
+    <integer name="a7">999</integer>
+</resources>

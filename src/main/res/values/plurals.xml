@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a">
+        <item quantity="other">是否删除所选通知？</item>
+    </plurals>
+    <plurals name="b">
+        <item quantity="other">您有%1$d条未读消息</item>
+    </plurals>
+    <plurals name="c">
+        <item quantity="other">%d天前</item>
+    </plurals>
+    <plurals name="d">
+        <item quantity="other">小时</item>
+    </plurals>
+    <plurals name="e">
+        <item quantity="other">%1$d小时前</item>
+    </plurals>
+    <plurals name="f">
+        <item quantity="other">分钟</item>
+    </plurals>
+    <plurals name="g">
+        <item quantity="other">%1$d分钟前</item>
+    </plurals>
+    <plurals name="h">
+        <item quantity="other">天</item>
+    </plurals>
+    <plurals name="i">
+        <item quantity="other">小时</item>
+    </plurals>
+    <plurals name="j">
+        <item quantity="other">分钟</item>
+    </plurals>
+    <plurals name="k">
+        <item quantity="other">月</item>
+    </plurals>
+    <plurals name="l">
+        <item quantity="other">秒</item>
+    </plurals>
+    <plurals name="m">
+        <item quantity="other">周</item>
+    </plurals>
+    <plurals name="n">
+        <item quantity="other">%1$d年前</item>
+    </plurals>
+    <plurals name="o">
+        <item quantity="other">抱歉！您正在被封禁\10距离可开播的时间还有：%1$d 天</item>
+    </plurals>
+    <plurals name="p">
+        <item quantity="other">抱歉！您正在被封禁\10距离可开播的时间还有：%1$d 小时</item>
+    </plurals>
+    <plurals name="q">
+        <item quantity="other">抱歉！您正在被封禁\10距离可开播的时间还有：%1$d 分钟</item>
+    </plurals>
+    <plurals name="r">
+        <item quantity="other">抱歉！您正在被封禁\10距离可开播的时间还有：%1$d 秒钟</item>
+    </plurals>
+    <plurals name="s">
+        <item quantity="other">有%d人正在观看你的直播，确认关闭直播么?</item>
+    </plurals>
+    <plurals name="t">
+        <item quantity="other">%d天后到期</item>
+    </plurals>
+    <plurals name="u">
+        <item quantity="other">%d小时到期</item>
+    </plurals>
+    <plurals name="v">
+        <item quantity="other">已连线%1$d分钟</item>
+    </plurals>
+    <plurals name="w">
+        <item quantity="other">已等待%1$d分钟</item>
+    </plurals>
+    <plurals name="x">
+        <item quantity="other">首充%1$d抖币赠送%2$d抖币！</item>
+    </plurals>
+    <plurals name="y">
+        <item quantity="other">分钟</item>
+    </plurals>
+</resources>

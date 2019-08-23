@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:layout_gravity="start" android:id="@+id/d34" android:visibility="invisible" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginLeft="20dp" android:layout_marginTop="24dp" android:layout_marginRight="20dp" android:src="@drawable/bfx"/>
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="26sp" android:textColor="@color/a08" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/dnn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="22dp" android:layout_marginRight="20dp" android:text="@string/cl8" android:includeFontPadding="false" android:lineSpacingExtra="2dp"/>
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/a08" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/dmv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40dp" android:layout_marginTop="8dp" android:layout_marginRight="40dp" android:text="@string/cl4" style="@style/sc"/>
+            <include layout="@layout/a3j"/>
+        </LinearLayout>
+        <com.bytedance.ies.dmt.ui.widget.DmtStatusView android:id="@+id/cvd" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+</ScrollView>

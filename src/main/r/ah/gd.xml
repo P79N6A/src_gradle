@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/ci4" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/ko" android:background="@drawable/b7" android:layout_width="match_parent" android:layout_height="90dp"/>
+    <View android:layout_gravity="bottom" android:background="@drawable/b6" android:layout_width="match_parent" android:layout_height="120dp"/>
+    <com.ss.android.ugc.aweme.shortvideo.widget.RecordLayout android:enabled="false" android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/ca_" android:focusableInTouchMode="true" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="35dp" android:contentDescription="@string/t">
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/anp" android:layout_gravity="center" android:id="@+id/dh8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="66dp" android:text="@string/dm7" android:shadowColor="@color/zf" android:shadowDy="1" android:shadowRadius="2"/>
+    </com.ss.android.ugc.aweme.shortvideo.widget.RecordLayout>
+    <RelativeLayout android:id="@+id/py" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.ss.android.ugc.aweme.views.AutoRTLImageView android:id="@+id/asa" android:focusableInTouchMode="true" android:layout_width="24dp" android:layout_height="44dp" android:layout_marginLeft="16dp" android:layout_marginTop="24.5dp" android:src="@drawable/b7y" android:scaleType="centerInside" android:contentDescription="@string/m"/>
+        <RelativeLayout android:gravity="center" android:layout_width="160dp" android:layout_height="44dp" android:layout_marginTop="24.5dp" android:layout_alignParentTop="true" android:layout_centerInParent="true">
+            <ImageView android:id="@+id/azs" android:layout_width="19dp" android:layout_height="44dp" android:src="@drawable/bbk" android:scaleType="center"/>
+            <com.bytedance.ies.uikit.textview.AlwaysMarqueeTextView android:textSize="13dp" android:textColor="@color/a13" android:ellipsize="marquee" android:gravity="center" android:layout_gravity="center" android:id="@+id/d_b" android:paddingBottom="1.5dp" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="44dp" android:layout_marginLeft="4dp" android:text="@string/sy" android:scrollHorizontally="true" android:singleLine="true" android:shadowColor="@color/ce" android:shadowDx="0" android:shadowDy="2" android:shadowRadius="2" android:layout_toRightOf="@+id/azs" android:marqueeRepeatLimit="marquee_forever"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    <com.ss.android.ugc.aweme.shortvideo.widget.ProgressSegmentView android:id="@+id/c7y" android:layout_width="match_parent" android:layout_height="18dp" android:layout_marginLeft="8dp" android:layout_marginTop="6dp" android:layout_marginRight="8dp"/>
+</FrameLayout>

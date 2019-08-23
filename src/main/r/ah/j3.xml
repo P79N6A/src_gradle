@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/chu" android:layout_width="280dp" android:layout_height="206dp">
+    <RelativeLayout android:background="@drawable/gj" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:id="@+id/da4" android:layout_width="26dp" android:layout_height="26dp" android:layout_marginTop="8dp" android:layout_marginRight="8dp" android:drawableLeft="@drawable/awt" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:drawableStart="@drawable/awt"/>
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/apc" android:scaleType="fitStart"/>
+        <ImageView android:id="@+id/arg" android:clickable="true" android:layout_width="256dp" android:layout_height="45dp" android:layout_marginTop="46dp" android:src="@drawable/b5p" android:scaleType="centerCrop" android:layout_centerHorizontal="true"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textStyle="bold" android:textColor="#7854c1" android:gravity="center" android:id="@+id/dj_" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="9.5dp" android:layout_below="@+id/arg" style="@style/se"/>
+        <LinearLayout android:gravity="center" android:id="@+id/b8s" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="26.5dp" android:layout_below="@+id/dj_" android:layout_centerHorizontal="true">
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textStyle="bold" android:textColor="@color/hx" android:gravity="center" android:id="@+id/da0" android:background="@drawable/h8" android:layout_width="190dp" android:layout_height="34dp" style="@style/se"/>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

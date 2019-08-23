@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/ci4" android:paddingTop="5dp" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:id="@+id/d63" android:background="@drawable/ji" android:paddingLeft="12dp" android:paddingRight="12dp" android:layout_width="wrap_content" android:layout_height="40dp" android:paddingStart="12dp" android:paddingEnd="12dp">
+        <com.ss.android.ugc.aweme.base.ui.AvatarImageView android:id="@+id/ayr" android:layout_width="20dp" android:layout_height="20dp"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/a09" android:id="@+id/dac" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:text="@string/afv" android:layout_marginStart="4dp" style="@style/sc"/>
+    </LinearLayout>
+    <ImageView android:id="@+id/az9" android:background="@drawable/aoy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_below="@+id/d63" android:layout_centerHorizontal="true"/>
+</RelativeLayout>

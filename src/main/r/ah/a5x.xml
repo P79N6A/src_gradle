@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/cga" android:background="@color/d5" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ss.android.ugc.aweme.story.base.view.viewpager.RollViewPager android:id="@+id/duu" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/d57" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginTop="8dp">
+        <com.ss.android.ugc.aweme.story.feed.view.ui.StoryProgressViewReal android:id="@+id/c81" android:layout_width="match_parent" android:layout_height="2dp" android:layout_marginRight="12dp" app:defaultColor="#33ffffff" app:storyProgressSpace="2dp"/>
+        <FrameLayout android:id="@+id/gt" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp"/>
+    </LinearLayout>
+</RelativeLayout>

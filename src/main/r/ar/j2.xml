@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center" android:id="@+id/chu" android:layout_width="280dp" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/b30" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/btk" android:scaleType="fitXY"/>
+    <RelativeLayout android:id="@+id/z1" android:background="@drawable/ac7" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/b30">
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/akg" android:gravity="center" android:id="@+id/dkk" android:paddingLeft="5.5dp" android:paddingRight="5.5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:layout_marginTop="24dp" android:layout_marginRight="24dp" android:layout_centerHorizontal="true" android:paddingStart="5.5dp" android:paddingEnd="5.5dp" android:layout_marginStart="24dp" android:layout_marginEnd="24dp" style="@style/sa"/>
+        <View android:id="@+id/a5x" android:background="@color/akh" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginTop="24dp" android:layout_below="@+id/dkk"/>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="47.5dp" android:layout_below="@+id/a5x">
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/akg" android:gravity="center" android:id="@+id/d9v" android:background="@drawable/ad4" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/blo" android:layout_weight="1" style="@style/sc"/>
+            <View android:id="@+id/dds" android:background="@color/akh" android:layout_width="0.5dp" android:layout_height="match_parent" android:layout_weight="0"/>
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textStyle="bold" android:textColor="@color/aki" android:gravity="center" android:id="@+id/da4" android:background="@drawable/ac9" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/a1z" android:layout_weight="1" app:fontType="2" style="@style/sc"/>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

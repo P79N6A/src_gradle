@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@drawable/ao" android:layout_width="match_parent" android:layout_height="487dp">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="52dp">
+        <ImageView android:id="@+id/j4" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginLeft="16dp" android:src="@drawable/avd" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+        <TextView android:textStyle="bold" android:textColor="@color/jr" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cfo" android:layout_centerInParent="true" style="@style/sf"/>
+        <TextView android:textStyle="bold" android:textColor="@color/xy" android:gravity="center" android:id="@+id/cxc" android:layout_width="70dp" android:layout_height="52dp" android:text="@string/af_" android:layout_alignParentRight="true" style="@style/sf"/>
+    </RelativeLayout>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+        <android.support.v7.widget.RecyclerView android:id="@+id/bd0" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtStatusView android:layout_gravity="center" android:id="@+id/cvd" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </FrameLayout>
+</LinearLayout>

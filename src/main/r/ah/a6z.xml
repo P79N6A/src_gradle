@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/c07" android:background="@color/i0" android:visibility="gone" android:layout_width="match_parent" android:layout_height="52dp" android:layout_alignParentBottom="true">
+    <View android:id="@+id/c09" android:background="@color/xn" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/c0b" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_weight="1">
+            <com.ss.android.ugc.aweme.music.ui.CheckableImageView android:id="@+id/c0a" android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/b9g"/>
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="13dp" android:textColor="@color/a0b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:text="@string/bo0"/>
+        </LinearLayout>
+        <View android:id="@+id/c08" android:background="@color/xn" android:visibility="gone" android:layout_width="0.5dp" android:layout_height="24dp"/>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/c1f" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_weight="1">
+            <com.ss.android.ugc.aweme.music.ui.CheckableImageView android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/b9j"/>
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="13dp" android:textColor="@color/a0b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:text="@string/c63"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

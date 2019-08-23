@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.ss.android.ugc.aweme.im.sdk.widget.ImTextTitleBar android:id="@+id/d3m" android:layout_width="match_parent" android:layout_height="@dimen/hg" app:imLeftText="@string/apy" app:imRightColor="@color/a09" app:imRightText="@string/ax9" app:imTitle="@string/axa"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/r8" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="36dp" android:layout_marginLeft="16dp" android:layout_marginTop="4dp" android:layout_marginRight="16dp" android:layout_marginBottom="8dp">
+            <com.bytedance.ies.dmt.ui.widget.AutoRTLImageView android:id="@+id/b4s" android:layout_width="16dp" android:layout_height="16dp" android:layout_marginLeft="11.5dp" android:src="@drawable/b79"/>
+            <com.bytedance.ies.dmt.ui.widget.DmtEditText android:textColor="@color/rj" android:textColorHint="@color/ri" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/cla" android:background="@null" android:paddingRight="14dp" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginLeft="8dp" android:layout_marginRight="4dp" android:hint="@string/atn" android:maxLines="1" android:singleLine="true" android:layout_weight="1" android:imeOptions="actionSearch" style="@style/sa"/>
+            <ImageButton android:id="@+id/ns" android:background="@drawable/aw4" android:visibility="gone" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginRight="4dp"/>
+        </LinearLayout>
+        <android.support.v7.widget.RecyclerView android:id="@+id/cc4" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </LinearLayout>
+    <com.bytedance.ies.dmt.ui.widget.DmtStatusView android:id="@+id/cvd" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="100dp"/>
+</FrameLayout>

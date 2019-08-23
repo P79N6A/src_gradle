@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/cqi" android:background="@color/a7l" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/cpi" android:scrollbars="none" android:layout_width="280dp" android:layout_height="match_parent" android:layout_centerHorizontal="true">
+        <FrameLayout android:background="@drawable/o4" android:layout_width="280dp" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:id="@+id/c9v" android:background="@drawable/o4" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.ss.android.ugc.aweme.base.ui.AnimatedImageView android:id="@+id/cpu" android:layout_width="280dp" android:layout_height="280dp" app:placeholderImage="@drawable/bt5" app:roundedCornerRadius="4px" app:roundBottomRight="false" app:roundBottomLeft="false"/>
+                    <RelativeLayout android:background="@color/ao4" android:layout_width="match_parent" android:layout_height="60dp">
+                        <LinearLayout android:orientation="vertical" android:layout_width="182dp" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_centerVertical="true" android:layout_marginStart="16dp">
+                            <ImageView android:layout_width="47dp" android:layout_height="23.5dp" android:src="@drawable/blo"/>
+                            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="13sp" android:textStyle="bold" android:textColor="#e6161823" android:id="@+id/cpl" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true"/>
+                        </LinearLayout>
+                        <com.ss.android.ugc.aweme.base.ui.AnimatedImageView android:id="@+id/cqg" android:layout_width="44dp" android:layout_height="44dp" android:layout_marginRight="16dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="16dp" android:layout_alignParentEnd="true" app:placeholderImage="@drawable/bt5"/>
+                    </RelativeLayout>
+                </LinearLayout>
+                <View android:id="@+id/cq0" android:background="@color/hl" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_marginStart="16dp" android:layout_marginEnd="16dp"/>
+                <include layout="@layout/a80"/>
+                <LinearLayout android:orientation="vertical" android:id="@+id/cqj" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <View android:id="@+id/cpz" android:background="@color/hl" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+                    <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="15dp" android:textStyle="bold" android:textColor="@color/i0" android:gravity="center" android:layout_gravity="bottom" android:id="@+id/cqm" android:layout_width="match_parent" android:layout_height="50dp" app:fontType="7"/>
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView android:layout_gravity="top|right|center_vertical|center_horizontal|center" android:id="@+id/ts" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginTop="8dp" android:layout_marginRight="6dp" android:src="@drawable/b7l" android:layout_marginEnd="6dp"/>
+            <com.bytedance.ies.dmt.ui.widget.DmtStatusView android:layout_gravity="top|center_vertical|center_horizontal|center" android:id="@+id/cvd" android:background="@color/a7l" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="85dp"/>
+        </FrameLayout>
+    </FrameLayout>
+    <include layout="@layout/a8h"/>
+</RelativeLayout>

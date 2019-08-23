@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.common.widget.RoundShadowLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/coy" android:layout_width="wrap_content" android:layout_height="wrap_content" app:bottomLeftRadius="16dp" app:shadowColor="@color/i3" app:shadowRadius="12dp" app:shadow_y="5dp" app:topLeftRadius="16dp">
+    <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="13dp" android:textColor="@color/g" android:gravity="center" android:id="@+id/dqb" android:background="@drawable/za" android:paddingLeft="16dp" android:paddingRight="32dp" android:layout_width="wrap_content" android:layout_height="32dp" android:layout_centerInParent="true" android:lineSpacingExtra="2sp"/>
+</com.ss.android.ugc.aweme.common.widget.RoundShadowLayout>

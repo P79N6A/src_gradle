@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/d3m" android:background="@color/yx" android:layout_width="match_parent" android:layout_height="@dimen/r7">
+            <com.ss.android.ugc.aweme.imported.AutoRTLTextView android:textSize="15sp" android:textColor="@color/zt" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/iu" android:layout_width="wrap_content" android:layout_height="44dp" android:layout_marginLeft="6dp" android:text="@string/kt" android:includeFontPadding="false" android:drawableLeft="@drawable/amz" android:drawablePadding="-10dp" android:lineSpacingExtra="0dp" android:contentDescription="@string/l" android:drawableStart="@drawable/amz" app:fontType="1"/>
+            <android.support.v4.widget.Space android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/um" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/q2" android:paddingLeft="16dp" android:paddingRight="16dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="44dp" android:text="@string/pm" app:fontType="1" style="@style/se"/>
+        </LinearLayout>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textStyle="bold" android:textColor="@color/zt" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cf7" style="@style/sf"/>
+    </FrameLayout>
+    <View android:background="@color/zf" android:layout_width="match_parent" android:layout_height="1px"/>
+    <FrameLayout android:id="@+id/aic" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>

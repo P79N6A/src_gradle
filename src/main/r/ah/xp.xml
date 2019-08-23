@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/bha" android:paddingLeft="14dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_gravity="center_vertical" android:id="@+id/cfo" android:layout_width="68dp" android:layout_height="68dp" android:layout_marginTop="8dp" android:layout_marginBottom="8dp">
+        <com.ss.android.ugc.aweme.base.ui.RemoteImageView android:id="@+id/b08" android:background="@drawable/s0" android:layout_width="64dp" android:layout_height="64dp" android:layout_centerInParent="true"/>
+        <ImageView android:id="@+id/b3h" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bsa"/>
+        <ImageView android:id="@+id/b5d" android:layout_width="33dp" android:layout_height="33dp" android:src="@drawable/b3d" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:layout_gravity="center_vertical" android:id="@+id/cg_" android:layout_width="0dp" android:layout_height="64dp" android:layout_marginLeft="12dp" android:layout_marginRight="8dp" android:layout_weight="1">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/bib" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/b3q" android:visibility="gone" android:layout_width="16dp" android:layout_height="16dp" android:src="@drawable/b3p"/>
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/a1f" android:ellipsize="end" android:id="@+id/df7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8dp" android:lines="1" android:drawablePadding="4dp" app:fontType="7" style="@style/sc"/>
+        </LinearLayout>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/p_" android:ellipsize="end" android:id="@+id/dj4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:layout_marginRight="8dp" android:lines="1" android:layout_below="@+id/bib" style="@style/s_"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/p_" android:id="@+id/df1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" style="@style/s_"/>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/cgr" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <com.ss.android.ugc.aweme.music.ui.CheckableImageView android:id="@+id/b3e" android:padding="8dp" android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/av0"/>
+        <ImageView android:id="@+id/b3g" android:padding="8dp" android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/bbc" android:scaleType="centerInside"/>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/bif" android:background="@drawable/ll" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="32dp" android:layout_marginLeft="8dp" android:layout_centerVertical="true">
+            <ImageView android:id="@+id/b6d" android:visibility="gone" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:src="@drawable/b3h"/>
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/anp" android:gravity="center" android:id="@+id/dlc" android:paddingLeft="17dp" android:paddingRight="17dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/dpf" android:maxLines="1" app:fontType="7" style="@style/sc"/>
+        </LinearLayout>
+        <Space android:id="@+id/dw8" android:layout_width="8dp" android:layout_height="match_parent"/>
+    </LinearLayout>
+</LinearLayout>

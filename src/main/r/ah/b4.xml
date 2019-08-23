@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/d3v" layout="@layout/abz"/>
+    <com.bytedance.ies.dmt.ui.common.views.CommonItemView android:id="@+id/aap" android:layout_width="match_parent" android:layout_height="52dp" app:left_text="@string/eb"/>
+    <com.bytedance.ies.dmt.ui.common.views.CommonItemView android:id="@+id/ais" android:layout_width="match_parent" android:layout_height="52dp" app:left_text="@string/bk9"/>
+    <com.bytedance.ies.dmt.ui.common.views.CommonItemView android:id="@+id/bu_" android:layout_width="match_parent" android:layout_height="wrap_content" app:left_text="@string/bjd"/>
+</LinearLayout>

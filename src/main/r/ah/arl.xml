@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/b_0" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/uq" android:id="@+id/dh4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:text="@string/b9q" style="@style/s7"/>
+    <ImageView android:id="@+id/c6a" android:layout_width="16dp" android:layout_height="16dp" android:layout_marginLeft="4dp" android:src="@drawable/bj8" android:layout_toRightOf="@+id/dh4" android:layout_alignBottom="@+id/dh4"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/bku" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16dp" android:layout_alignTop="@+id/dh4" android:layout_alignParentRight="true">
+        <com.ss.android.ugc.aweme.views.AutoRTLTextView android:textColor="@color/uq" android:gravity="top|center_vertical|center_horizontal|center" android:layout_gravity="center_vertical" android:id="@+id/bks" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/b9n" style="@style/s7"/>
+        <com.ss.android.ugc.aweme.views.AutoRTLImageView android:layout_gravity="center_vertical" android:id="@+id/bkt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_marginTop="1dp" android:src="@drawable/bj3"/>
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView android:id="@+id/ccc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:layout_below="@+id/dh4"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/ae_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/ccc" android:layout_centerHorizontal="true">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/ae8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+            <com.ss.android.ugc.aweme.base.ui.AvatarImageView android:layout_gravity="center_vertical" android:id="@+id/ae5" android:layout_width="20dp" android:layout_height="20dp"/>
+            <com.ss.android.ugc.aweme.base.ui.AvatarImageView android:layout_gravity="center_vertical" android:id="@+id/ae6" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="-4dp"/>
+            <com.ss.android.ugc.aweme.base.ui.AvatarImageView android:layout_gravity="center_vertical" android:id="@+id/ae7" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="-4dp"/>
+        </LinearLayout>
+        <TextView android:textSize="13sp" android:textColor="@color/uq" android:gravity="top|center_vertical|center_horizontal|center" android:layout_gravity="center_vertical" android:id="@+id/ae4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:text="@string/b9m" android:lineSpacingExtra="3sp" style="@style/s7"/>
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/ae9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_marginTop="1dp" android:src="@drawable/bj3"/>
+    </LinearLayout>
+    <TextView android:textColor="@color/hx" android:id="@+id/dgm" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:layout_below="@+id/ccc" style="@style/s7"/>
+    <View android:id="@+id/bbt" android:background="@color/zk" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

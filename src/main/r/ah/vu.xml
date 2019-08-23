@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/b9u" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.ss.android.ugc.aweme.im.sdk.videofileplay.widget.KeepSurfaceTextureView android:layout_gravity="center" android:id="@+id/cx5" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <com.ss.android.ugc.aweme.base.ui.RemoteImageView android:layout_gravity="center" android:id="@+id/cf9" android:layout_width="match_parent" android:layout_height="match_parent" app:placeholderImage="@drawable/mx" app:failureImage="@drawable/mx"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtStatusView android:id="@+id/a81" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <ImageView android:layout_gravity="center" android:id="@+id/b44" android:visibility="gone" android:layout_width="77dp" android:layout_height="77dp" android:src="@drawable/b4i" android:scaleType="fitCenter"/>
+    </FrameLayout>
+</FrameLayout>

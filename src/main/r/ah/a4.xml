@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/ae3"/>
+    <com.bytedance.ies.dmt.ui.widget.DmtEditText android:textSize="18dp" android:textColor="@color/ug" android:textColorHint="@color/zy" android:gravity="center_vertical" android:id="@+id/a94" android:background="@color/ano" android:paddingLeft="18dp" android:paddingRight="18dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="5dp" android:maxLines="1" android:textCursorDrawable="@drawable/s3" style="@style/sc"/>
+    <android.support.v7.widget.RecyclerView android:id="@+id/ciy" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ScrollView android:id="@+id/dw5" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@+id/b7o" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </ScrollView>
+</LinearLayout>

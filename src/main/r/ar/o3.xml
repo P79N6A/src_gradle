@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/afa" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <View android:background="@drawable/u4" android:layout_width="match_parent" android:layout_height="136dp"/>
+    <FrameLayout android:id="@+id/d3r" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="18dp" android:textStyle="bold" android:textColor="@color/a08" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/dbu" android:layout_marginTop="2dp" android:text="@string/ae6" android:alpha="1" style="@style/sz"/>
+        <LinearLayout android:gravity="center" android:layout_gravity="end" android:orientation="horizontal" android:id="@+id/bi1" android:padding="4dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginRight="12dp" android:layout_marginEnd="12dp">
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textStyle="bold" android:textColor="@color/aob" android:id="@+id/dj8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="@color/a2k" android:shadowDy="2" android:shadowRadius="2" app:fontType="7" style="@style/sc"/>
+            <com.ss.android.ugc.aweme.views.AutoRTLImageView android:id="@+id/b57" android:layout_width="12dp" android:layout_height="12dp" android:layout_marginLeft="4dp" android:src="@drawable/ay5" android:layout_marginStart="4dp"/>
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

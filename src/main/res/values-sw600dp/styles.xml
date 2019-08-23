@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="p4">
+        <item name="a4o">1</item>
+        <item name="a51">1</item>
+    </style>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/c7c" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:background="@color/zh" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="8dp" android:layout_marginStart="16dp" android:layout_marginEnd="16dp"/>
+    <com.bytedance.ies.dmt.ui.common.views.CommonItemView android:id="@+id/bqq" android:background="@drawable/acn" android:layout_width="match_parent" app:left_text="@string/bo" app:right_text="@string/bh0" style="@style/f5"/>
+    <com.bytedance.ies.dmt.ui.common.views.CommonItemView android:id="@+id/aqx" android:layout_width="match_parent" android:layout_height="wrap_content" app:left_text="@string/f5" style="@style/f5"/>
+    <com.bytedance.ies.dmt.ui.common.views.CommonItemView android:id="@+id/crg" android:layout_width="match_parent" app:left_text="@string/od" app:right_text="@string/oe" style="@style/f5"/>
+    <com.bytedance.ies.dmt.ui.common.views.CommonItemView android:id="@+id/cjv" android:layout_width="match_parent" app:left_text="@string/bp" app:right_text="@string/c1v" style="@style/f5"/>
+    <com.bytedance.ies.dmt.ui.common.views.CommonItemView android:id="@+id/aj6" android:layout_width="match_parent" app:left_text="@string/bn" app:right_text="@string/aip" style="@style/f5"/>
+    <com.bytedance.ies.dmt.ui.common.views.CommonItemView android:id="@+id/la" android:layout_width="match_parent" app:left_text="@string/bm" app:right_text="@string/n8" style="@style/f5"/>
+    <com.bytedance.ies.dmt.ui.common.views.CommonItemView android:id="@+id/bjy" android:layout_width="match_parent" app:left_text="@string/b7b" app:right_text="@string/b7c" style="@style/f5"/>
+    <com.bytedance.ies.dmt.ui.common.views.CommonItemView android:id="@+id/dxa" android:layout_width="match_parent" app:hide_right_icon="true" app:left_text="@string/dt7" app:right_text="@string/hm" style="@style/f5"/>
+    <include layout="@layout/a1j"/>
+</LinearLayout>

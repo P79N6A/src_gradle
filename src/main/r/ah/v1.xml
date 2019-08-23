@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="?attr/a1z" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:id="@+id/do8" android:paddingLeft="16dp" android:paddingTop="19.5dp" android:paddingRight="16dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="39.5dp">
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/b2p" android:layout_weight="1" style="@style/s9"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/b2d" android:drawableRight="@drawable/bkq" style="@style/s9"/>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/ait" android:layout_width="match_parent" android:layout_height="76dp">
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/atj" android:background="@drawable/l_" android:visibility="invisible" android:layout_width="9dp" android:layout_height="9dp" android:layout_marginLeft="-4.5dp"/>
+        <com.ss.android.ugc.aweme.base.ui.AvatarImageWithVerify android:layout_gravity="center_vertical" android:id="@+id/ayr" android:layout_width="48dp" android:layout_height="48dp" android:layout_marginLeft="11.5dp" android:layout_marginRight="12dp"/>
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginRight="15dp" android:layout_weight="1">
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:ellipsize="end" android:id="@+id/dnq" app:fontType="7" style="@style/sq"/>
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:ellipsize="end" android:id="@+id/dn1" style="@style/sp"/>
+        </LinearLayout>
+        <com.ss.android.ugc.aweme.following.ui.view.FollowAndInviteUserBtn android:layout_gravity="center_vertical" android:id="@+id/dmz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16dp"/>
+    </LinearLayout>
+</LinearLayout>

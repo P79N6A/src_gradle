@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.v7.widget.RecyclerView android:id="@+id/alh" android:background="@color/anp" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/a1k" android:layout_gravity="center" android:id="@+id/dcr" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/se"/>
+    <android.support.v7.widget.CardView android:layout_gravity="bottom|left|center_vertical|center_horizontal|center|start" android:id="@+id/qs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:layout_marginBottom="24dp" android:layout_marginStart="20dp" android:layout_marginEnd="20dp" app:cardBackgroundColor="@color/h5" app:cardCornerRadius="24dp" app:cardElevation="4dp">
+        <LinearLayout android:orientation="horizontal" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="48dp" android:contentDescription="@string/bcx">
+            <ImageView android:layout_gravity="center" android:id="@+id/b3d" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:src="@drawable/b3b" android:scaleType="centerInside" android:importantForAccessibility="no" android:layout_marginStart="10dp" android:elevation="1dp"/>
+            <TextView android:textSize="14sp" android:textColor="@color/i0" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/dew" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="20dp" android:text="@string/bcx" android:importantForAccessibility="no" android:layout_marginEnd="20dp"/>
+            <ImageView android:layout_gravity="center" android:id="@+id/b3c" android:background="@drawable/dl" android:visibility="gone" android:layout_width="48dp" android:layout_height="48dp" android:src="@drawable/b3c" android:scaleType="centerInside" android:importantForAccessibility="no"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <com.bytedance.ies.dmt.ui.widget.DmtLoadingLayout android:id="@+id/dsb" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</FrameLayout>

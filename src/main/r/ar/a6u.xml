@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/ym" android:visibility="gone" android:layout_width="match_parent" android:layout_height="120dp" android:layout_marginBottom="-140dp">
+        <ImageView android:layout_width="24dp" android:layout_height="24dp"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textStyle="bold" android:textColor="@color/vf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:maxWidth="245dp" android:text="@string/cgw" style="@style/sg"/>
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="center_horizontal" android:id="@+id/ye" android:visibility="gone" android:layout_width="156dp" android:layout_height="99dp" android:layout_marginTop="136dp">
+        <View android:layout_gravity="bottom" android:background="@drawable/ku" android:layout_width="156dp" android:layout_height="65dp"/>
+        <ImageView android:layout_gravity="center_horizontal" android:id="@+id/b0p" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textStyle="bold" android:textColor="#222222" android:gravity="top|center_vertical|center_horizontal|center" android:layout_gravity="center_horizontal" android:paddingTop="69dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/a6z" style="@style/sb"/>
+    </FrameLayout>
+    <RelativeLayout android:id="@+id/yi" android:background="@drawable/ku" android:padding="8dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="52dp" android:layout_marginTop="75dp" android:layout_marginStart="12dp" android:layout_marginEnd="12dp">
+        <ImageView android:id="@+id/bbe" android:padding="8dp" android:layout_width="36dp" android:layout_height="36dp" android:layout_alignParentLeft="true" android:layout_alignParentStart="true"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textStyle="bold" android:textColor="#222222" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="10.5dp" android:text="@string/dt" android:layout_toRightOf="@+id/bbe" android:layout_marginStart="10.5dp" android:layout_toEndOf="@+id/bbe" style="@style/sb"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/yd" android:background="@drawable/ku" android:padding="8dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="52dp" android:layout_marginTop="75dp" android:layout_marginStart="12dp" android:layout_marginEnd="12dp">
+        <ImageView android:id="@+id/a5l" android:padding="8dp" android:layout_width="36dp" android:layout_height="36dp" android:layout_alignParentLeft="true" android:layout_alignParentStart="true"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textStyle="bold" android:textColor="#222222" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="10.5dp" android:text="@string/bik" android:layout_toRightOf="@+id/a5l" android:layout_marginStart="10.5dp" android:layout_toEndOf="@+id/a5l" style="@style/sb"/>
+    </RelativeLayout>
+    <FrameLayout android:layout_gravity="bottom" android:id="@+id/yn" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="48dp">
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="24dp" android:textStyle="bold" android:textColor="#ffffff" android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/dk5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="68dp" android:layout_marginRight="68dp" android:layout_marginBottom="172dp" android:text="@string/cgv" android:alpha="0" android:layout_marginStart="68dp" android:layout_marginEnd="68dp"/>
+        <ImageView android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/b5r" android:layout_width="16dp" android:layout_height="160dp" android:layout_marginBottom="-160dp" android:src="@drawable/ui" android:alpha="0"/>
+    </FrameLayout>
+</FrameLayout>

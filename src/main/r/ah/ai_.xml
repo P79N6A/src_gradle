@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentBottom="true">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/dxj" android:clipChildren="false" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <TextView android:textSize="14sp" android:textColor="@color/adi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dhn"/>
+            <SeekBar android:id="@+id/dxk" android:background="#0000" android:paddingLeft="12dp" android:paddingRight="6dp" android:layout_width="119dp" android:layout_height="48dp" android:maxHeight="4dp" android:progress="30" android:progressDrawable="@drawable/a73" android:thumb="@drawable/aaf"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/jx" android:clipChildren="false" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <TextView android:textSize="14sp" android:textColor="@color/adi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cpl"/>
+            <SeekBar android:id="@+id/jy" android:background="#0000" android:paddingLeft="12dp" android:paddingRight="6dp" android:layout_width="119dp" android:layout_height="48dp" android:maxHeight="4dp" android:progress="30" android:progressDrawable="@drawable/a73" android:thumb="@drawable/aaf"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/kw" android:clipChildren="false" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <TextView android:textSize="14sp" android:textColor="@color/adi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cpn"/>
+            <SeekBar android:id="@+id/kx" android:background="#0000" android:paddingLeft="12dp" android:paddingRight="6dp" android:layout_width="119dp" android:layout_height="48dp" android:maxHeight="4dp" android:progress="30" android:progressDrawable="@drawable/a73" android:thumb="@drawable/aaf"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/abf" android:clipChildren="false" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <TextView android:textSize="14sp" android:textColor="@color/adi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cw_"/>
+            <SeekBar android:id="@+id/abg" android:background="#0000" android:paddingLeft="12dp" android:paddingRight="6dp" android:layout_width="119dp" android:layout_height="48dp" android:maxHeight="4dp" android:progress="30" android:progressDrawable="@drawable/a73" android:thumb="@drawable/aaf"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/d5" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/cmj" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="60dp" android:layout_marginBottom="47dp">
+        <LinearLayout android:orientation="vertical" android:id="@+id/baa" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="16sp" android:textColor="@color/hx" android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/dq4" android:maxLines="1" app:fontType="7"/>
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="13sp" android:textColor="@color/i4" android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:layout_marginBottom="16dp" android:text="@string/dq3" android:maxLines="2" app:fontType="7"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/b8y" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="46dp" android:layout_marginRight="46dp">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="3">
+                <FrameLayout android:background="@color/i1" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginRight="6dp" android:layout_weight="1">
+                    <com.ss.android.ugc.aweme.base.ui.AnimatedImageView android:id="@+id/arv" android:layout_width="match_parent" android:layout_height="wrap_content" app:viewAspectRatio="0.694"/>
+                </FrameLayout>
+                <FrameLayout android:background="@color/i1" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginRight="6dp" android:layout_weight="1">
+                    <com.ss.android.ugc.aweme.base.ui.AnimatedImageView android:id="@+id/arw" android:layout_width="match_parent" android:layout_height="wrap_content" app:viewAspectRatio="0.694"/>
+                </FrameLayout>
+                <FrameLayout android:background="@color/i1" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                    <com.ss.android.ugc.aweme.base.ui.AnimatedImageView android:id="@+id/arx" android:layout_width="match_parent" android:layout_height="wrap_content" app:viewAspectRatio="0.694"/>
+                </FrameLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:weightSum="3">
+                <FrameLayout android:background="@color/i1" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginRight="6dp" android:layout_weight="1">
+                    <com.ss.android.ugc.aweme.base.ui.AnimatedImageView android:id="@+id/ary" android:layout_width="match_parent" android:layout_height="wrap_content" app:viewAspectRatio="0.694"/>
+                </FrameLayout>
+                <FrameLayout android:background="@color/i1" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginRight="6dp" android:layout_weight="1">
+                    <com.ss.android.ugc.aweme.base.ui.AnimatedImageView android:id="@+id/arz" android:layout_width="match_parent" android:layout_height="wrap_content" app:viewAspectRatio="0.694"/>
+                </FrameLayout>
+                <FrameLayout android:background="@color/i1" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                    <com.ss.android.ugc.aweme.base.ui.AnimatedImageView android:id="@+id/as0" android:layout_width="match_parent" android:layout_height="wrap_content" app:viewAspectRatio="0.694"/>
+                </FrameLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:weightSum="3">
+                <FrameLayout android:background="@color/i1" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginRight="6dp" android:layout_weight="1">
+                    <com.ss.android.ugc.aweme.base.ui.AnimatedImageView android:id="@+id/as1" android:layout_width="match_parent" android:layout_height="wrap_content" app:viewAspectRatio="0.694"/>
+                </FrameLayout>
+                <FrameLayout android:background="@color/i1" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginRight="6dp" android:layout_weight="1">
+                    <com.ss.android.ugc.aweme.base.ui.AnimatedImageView android:id="@+id/as2" android:layout_width="match_parent" android:layout_height="wrap_content" app:viewAspectRatio="0.694"/>
+                </FrameLayout>
+                <FrameLayout android:background="@color/i1" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                    <com.ss.android.ugc.aweme.base.ui.AnimatedImageView android:id="@+id/as3" android:layout_width="match_parent" android:layout_height="wrap_content" app:viewAspectRatio="0.694"/>
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <com.ss.android.ugc.aweme.feed.widget.LineProgressBarView android:layout_gravity="bottom" android:id="@+id/c7k" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginBottom="47dp"/>
+</FrameLayout>

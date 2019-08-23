@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/i0" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/ao4" android:id="@+id/b7g" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="latitude"/>
+            <com.bytedance.ies.dmt.ui.widget.DmtEditText android:textColor="@color/ao4" android:id="@+id/b7h" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="none|number|numberSigned|numberDecimal"/>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/ao4" android:id="@+id/biv" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="longitude"/>
+            <com.bytedance.ies.dmt.ui.widget.DmtEditText android:textColor="@color/ao4" android:id="@+id/biw" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="none|number|numberSigned|numberDecimal"/>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textColor="@color/ao4" android:id="@+id/fg" android:background="@color/xy" android:padding="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Apply"/>
+</LinearLayout>

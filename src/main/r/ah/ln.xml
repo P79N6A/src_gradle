@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.commerce.service.widgets.InterceptTouchLinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/bhz" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/crt" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:minHeight="40dp"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="8dp" android:layout_marginRight="16dp" android:layout_marginBottom="10dp">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/a1m" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/yu" style="@style/s5"/>
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/a1m" android:id="@+id/d22" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/c38" android:includeFontPadding="false" style="@style/s5"/>
+        </LinearLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp">
+            <ImageView android:id="@+id/cn6" android:background="@drawable/ag0" android:layout_width="25dp" android:layout_height="25dp" android:layout_marginRight="4dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@null"/>
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/a17" android:gravity="center" android:id="@+id/cmy" android:background="@drawable/r5" android:layout_width="38dp" android:layout_height="25dp" android:layout_marginRight="4dp" android:layout_toRightOf="@+id/cn6" android:layout_centerVertical="true" style="@style/sa"/>
+            <ImageView android:id="@+id/cn9" android:background="@drawable/ag2" android:layout_width="25dp" android:layout_height="25dp" android:layout_toRightOf="@+id/cmy" android:layout_centerVertical="true" android:contentDescription="@null"/>
+        </RelativeLayout>
+    </LinearLayout>
+</com.ss.android.ugc.aweme.commerce.service.widgets.InterceptTouchLinearLayout>

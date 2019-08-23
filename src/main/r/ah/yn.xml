@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.ss.android.ugc.aweme.views.RoundedFrameLayout android:layout_width="@dimen/c4" android:layout_height="@dimen/c2" app:rounded_radius="@dimen/km">
+        <com.ss.android.ugc.aweme.base.ui.SquareImageView android:id="@+id/c1o" android:background="@color/a2u" android:layout_width="@dimen/c4" android:layout_height="@dimen/c2" android:scaleType="centerCrop" app:placeholderImage="@color/a0i" app:placeholderImageScaleType="6"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="10sp" android:textColor="#590011" android:ellipsize="end" android:id="@+id/c1p" android:background="@drawable/bt3" android:paddingLeft="4dp" android:paddingTop="2dp" android:paddingRight="4dp" android:paddingBottom="2dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:shadowColor="#529e5f1e" android:shadowDy="1" android:shadowRadius="2"/>
+    </com.ss.android.ugc.aweme.views.RoundedFrameLayout>
+    <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/g" android:ellipsize="end" android:gravity="center" android:id="@+id/c1q" android:layout_width="@dimen/c4" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:maxLines="1" style="@style/s9"/>
+</LinearLayout>

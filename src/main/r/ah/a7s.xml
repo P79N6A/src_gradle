@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="68dp">
+    <FrameLayout android:id="@+id/af6" android:layout_width="@dimen/i1" android:layout_height="@dimen/i1" android:layout_marginTop="7dp" android:layout_marginRight="@dimen/hs" android:layout_marginBottom="7dp" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <com.ss.android.ugc.aweme.base.ui.AvatarImageView android:layout_gravity="center" android:id="@+id/ayr" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="3dp"/>
+        <ImageView android:id="@+id/ayt" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/bz"/>
+        <ProgressBar android:id="@+id/c7_" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" android:max="100" android:progress="80" android:progressDrawable="@drawable/c1" style="?android:attr/progressBarStyleHorizontal"/>
+    </FrameLayout>
+    <com.ss.android.ugc.aweme.story.feed.view.profile.PlayingProfileIndicator android:id="@+id/c79" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="30dp" android:layout_alignRight="@+id/af6" android:layout_centerVertical="true"/>
+    <include layout="@layout/a7t"/>
+</RelativeLayout>

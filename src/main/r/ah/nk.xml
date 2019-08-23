@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/yx" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/cv0" android:background="@color/ano" android:layout_width="match_parent" android:layout_height="0dp"/>
+    <com.bytedance.ies.dmt.ui.titlebar.ButtonTitleBar android:id="@+id/d3m" android:layout_width="match_parent" android:layout_height="@dimen/r7" app:titleTextColor="@color/zt"/>
+    <android.support.v7.widget.RecyclerView android:id="@+id/ccc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@+id/b8b" android:layout_below="@+id/d3m"/>
+    <com.bytedance.ies.dmt.ui.widget.DmtStatusView android:id="@+id/a7n" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/b8b" android:layout_below="@+id/d3m"/>
+    <FrameLayout android:id="@+id/b8b" android:visibility="gone" android:layout_width="match_parent" android:layout_height="52dp" android:layout_alignParentBottom="true">
+        <View android:background="@color/zh" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/hs" android:gravity="center" android:id="@+id/dar" android:background="?attr/a1z" android:layout_width="match_parent" android:layout_height="52dp" app:fontType="2" style="@style/se"/>
+    </FrameLayout>
+</RelativeLayout>

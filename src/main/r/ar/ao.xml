@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/a3z" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="com.ss.android.ugc.aweme.base.opensourcemodified.android.support.design.widget.ViewPagerBottomSheetBehavior">
+        <View android:id="@+id/cv0" android:background="@color/yx" android:layout_width="match_parent" android:layout_height="0dp"/>
+        <FrameLayout android:background="@color/yx" android:layout_width="match_parent" android:layout_height="48dp">
+            <RelativeLayout android:background="@drawable/p8" android:layout_width="match_parent" android:layout_height="48dp">
+                <ImageView android:gravity="start" android:id="@+id/ix" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginLeft="16dp" android:src="@drawable/b9a" android:scaleType="centerInside" android:layout_centerVertical="true" android:layout_marginStart="16dp"/>
+                <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="#e6161823" android:gravity="center" android:layout_gravity="center" android:id="@+id/dkk" android:layout_width="wrap_content" android:layout_height="48dp" android:text="@string/dp9" android:layout_centerInParent="true" app:fontType="2" style="@style/sf"/>
+                <com.ss.android.ugc.aweme.views.AutoRTLTextView android:textStyle="bold" android:textColor="@color/a1z" android:gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/d8x" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginRight="16dp" android:maxLines="1" android:drawablePadding="3dp" android:layout_toRightOf="@+id/dkk" android:layout_centerVertical="true" android:layout_marginEnd="16dp" android:layout_toEndOf="@+id/dkk" app:autoSizeMaxTextSize="17dp" app:autoSizeMinTextSize="2dp" app:autoSizeStepGranularity="1dp" app:autoSizeTextType="1" app:fontType="7"/>
+            </RelativeLayout>
+        </FrameLayout>
+        <FrameLayout android:id="@+id/aic" android:background="@color/anp" android:layout_width="match_parent" android:layout_height="match_parent">
+            <android.support.v7.widget.RecyclerView android:id="@+id/arc" android:background="@color/anp" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <ProgressBar android:layout_gravity="center" android:id="@+id/arf" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" android:indeterminateDrawable="@drawable/w7" android:indeterminateDuration="1500"/>
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/a1k" android:layout_gravity="center" android:id="@+id/bqx" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/sc"/>
+        </FrameLayout>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

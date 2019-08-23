@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/ail" android:background="@color/a2s" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:layout_gravity="center" android:id="@+id/cpv" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ImageView android:layout_gravity="bottom" android:id="@+id/a75" android:background="@drawable/oa" android:layout_width="36dp" android:layout_height="36dp" android:layout_marginLeft="15dp" android:layout_marginBottom="12dp" android:src="@drawable/bka" android:scaleType="centerInside"/>
+    <ImageView android:layout_gravity="bottom" android:id="@+id/bwz" android:background="@drawable/oa" android:visibility="gone" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginLeft="20dp" android:layout_marginBottom="20dp" android:src="@drawable/bfq" android:scaleType="centerInside"/>
+</FrameLayout>

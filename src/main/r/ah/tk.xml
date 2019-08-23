@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="228.5dp">
+    <com.ss.android.ugc.aweme.base.ui.AnimatedImageView android:id="@+id/b08" android:background="@color/bn" android:layout_width="match_parent" android:layout_height="match_parent" app:roundedCornerRadius="2dp" app:roundingBorderWidth="0dp" app:roundWithOverlayColor="@color/bn"/>
+    <ImageView android:background="@drawable/d9" android:layout_width="match_parent" android:layout_height="100dp" android:layout_alignParentBottom="true"/>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="60dp" android:layout_alignParentBottom="true">
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textStyle="bold" android:textColor="@color/hy" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@+id/dkk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginRight="12dp" android:maxLines="2" android:shadowColor="#40000000" android:shadowDy="2" android:shadowRadius="6" style="@style/sc"/>
+    </FrameLayout>
+</RelativeLayout>

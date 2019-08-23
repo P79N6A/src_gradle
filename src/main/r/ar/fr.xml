@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:paddingTop="16dp" android:layout_width="match_parent" android:layout_height="159.5dp">
+    <FrameLayout android:id="@+id/d57" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/bit" android:layout_width="match_parent" android:layout_height="35dp" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="16dp" android:layout_toLeftOf="@+id/b6l" android:layout_marginStart="16dp" android:layout_marginEnd="16dp">
+            <com.ss.android.ugc.aweme.themechange.base.AVDmtTextView android:textSize="13dp" android:textColor="@color/b8" android:id="@+id/dm3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/is" android:maxLines="1" app:fontType="7" app:oldPanel="true" style="@style/rh"/>
+            <com.ss.android.ugc.aweme.shortvideo.lrc.LrcView android:textSize="11dp" android:textColor="@color/aoa" android:id="@+id/dly" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginRight="40dp"/>
+        </LinearLayout>
+        <FrameLayout android:id="@+id/d3s" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <com.ss.android.ugc.aweme.themechange.base.AVDmtTabLayout android:id="@+id/cz8" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="29dp" android:layout_marginLeft="6dp" android:layout_marginBottom="14.5dp" android:layout_marginStart="6dp" app:tabBackground="@android:color/transparent" app:tabIndicatorColor="@color/ao4" app:tabIndicatorHeight="2dp" app:tabMinWidth="30dp" app:tabMode="1" app:tabPaddingEnd="0dp" app:tabPaddingStart="0dp"/>
+    </FrameLayout>
+    <com.ss.android.ugc.aweme.themechange.base.AVDmtImageView android:id="@+id/b6l" android:visibility="invisible" android:layout_width="28dp" android:layout_height="28dp" android:layout_marginTop="4dp" android:layout_marginRight="16dp" android:src="@drawable/awn" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" app:oldPanel="true"/>
+    <RelativeLayout android:id="@+id/cb5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/d57">
+        <com.ss.android.ugc.aweme.themechange.base.AVDmtPanelRecyleView android:id="@+id/ciz" android:layout_width="match_parent" android:layout_height="wrap_content" app:firstItemMargin="16dp" app:itemMargin="12dp" app:lastItemMargin="16dp"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/u7" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/d57">
+        <com.ss.android.ugc.aweme.themechange.base.AVDmtPanelRecyleView android:id="@+id/cix" android:layout_width="match_parent" android:layout_height="wrap_content" app:firstItemMargin="16dp" app:itemMargin="12dp" app:lastItemMargin="16dp"/>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:layout_width="64dp" android:layout_height="26dp">
+    <TextView android:background="@drawable/a15" android:layout_width="64dp" android:layout_height="26dp" android:shadowColor="#4cff358d" android:shadowDy="2" android:shadowRadius="4"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="64dp" android:layout_height="26dp">
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="15dp" android:layout_height="16dp" app:srcCompat="@drawable/a_i"/>
+        <TextView android:textSize="11sp" android:textColor="@color/si" android:gravity="center" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cqx"/>
+        <com.bytedance.android.live.core.widget.HSImageView android:layout_gravity="center_vertical" android:id="@+id/dp2" android:background="@drawable/a1i" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="4dp" android:layout_marginRight="3dp" app:placeholderImage="@drawable/c1r" app:actualImageScaleType="6" app:roundAsCircle="true"/>
+    </LinearLayout>
+</merge>

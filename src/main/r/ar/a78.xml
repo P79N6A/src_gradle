@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center" android:id="@+id/chu" android:background="@drawable/jm" android:paddingLeft="20dp" android:paddingRight="20dp" android:paddingBottom="15dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="20dp" android:paddingEnd="20dp">
+    <RelativeLayout android:id="@+id/a22" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="19dp" android:layout_centerHorizontal="true">
+        <com.ss.android.ugc.aweme.plugin.ui.PluginCircularProgressView android:id="@+id/b2w" android:layout_width="36dp" android:layout_height="36dp" android:layout_centerInParent="true" app:cpv_animAutostart="true" app:cpv_color="@color/ao4" app:cpv_indeterminate="true" app:cpv_maxProgress="100" app:cpv_thickness="2dp"/>
+        <TextView android:textSize="11sp" android:textColor="@color/ao4" android:gravity="center" android:id="@+id/c7k" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0%" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <TextView android:textSize="15sp" android:textColor="@color/ao4" android:gravity="center" android:id="@+id/bmn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_below="@+id/a22" android:layout_centerHorizontal="true"/>
+</RelativeLayout>

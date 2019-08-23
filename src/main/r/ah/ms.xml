@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="#cc000000" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ss.android.ugc.aweme.crossplatform.view.CrossPlatformWebView android:id="@+id/dx6" android:visibility="gone" android:layout_width="match_parent" android:layout_height="320dp" android:layout_marginTop="90dp"/>
+    <com.bytedance.ies.dmt.ui.widget.DmtStatusView android:layout_gravity="center" android:id="@+id/bjl" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/a11" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/bm" android:layout_width="295dp" android:layout_height="40dp" android:text="@string/sf" style="@style/sc"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/a11" android:gravity="center" android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/cde" android:layout_width="295dp" android:layout_height="40dp" android:layout_marginBottom="70dp" android:text="@string/ae3" style="@style/sc"/>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,15 @@
+package com.facebook.jni;
+
+import com.facebook.proguard.annotations.DoNotStrip;
+
+@DoNotStrip
+public class CpuCapabilitiesJni {
+    @DoNotStrip
+    public static native boolean nativeDeviceSupportsNeon();
+
+    @DoNotStrip
+    public static native boolean nativeDeviceSupportsVFPFP16();
+
+    @DoNotStrip
+    public static native boolean nativeDeviceSupportsX86();
+}

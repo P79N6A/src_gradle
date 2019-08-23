@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="#fafafa" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="24sp" android:textColor="#454545" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="25dp" android:layout_marginBottom="25dp" android:text="@string/caq"/>
+    <ScrollView android:scrollbarStyle="outsideOverlay" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="#707070" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/can" android:lineSpacingMultiplier="1.1" style="@style/sc"/>
+    </ScrollView>
+    <CheckBox android:textColor="#707070" android:id="@+id/cd_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:checked="true" android:text="@string/cau"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="match_parent" android:layout_height="95dp">
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="#454545" android:gravity="center" android:id="@+id/q6" android:background="@drawable/ot" android:layout_width="0dp" android:layout_height="44dp" android:layout_marginRight="25dp" android:text="@string/b49" android:layout_weight="1" style="@style/sf"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="#fafafa" android:gravity="center" android:id="@+id/buf" android:background="@drawable/ou" android:layout_width="0dp" android:layout_height="44dp" android:text="@string/car" android:layout_weight="1" style="@style/sf"/>
+    </LinearLayout>
+</LinearLayout>

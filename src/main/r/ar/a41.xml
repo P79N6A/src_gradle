@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/b8x" android:layout_width="match_parent" android:layout_height="300dp" android:layout_marginTop="12dp">
+    <com.ss.android.ugc.aweme.base.ui.RemoteImageView android:layout_gravity="center" android:id="@+id/b08" android:background="@drawable/b_t" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="@string/ahk" app:actualImageScaleType="6"/>
+    <com.ss.android.ugc.aweme.feed.ui.LongPressLayout android:id="@+id/bkq" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="@string/ahk"/>
+    <com.ss.android.ugc.aweme.common.widget.DiggLayout android:id="@+id/a51" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="@string/ahk"/>
+    <View android:layout_gravity="bottom" android:background="@drawable/y1" android:layout_width="match_parent" android:layout_height="50dp"/>
+    <RelativeLayout android:layout_gravity="top|right|center_vertical|center_horizontal|center|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_marginRight="18dp" android:layout_marginEnd="18dp">
+        <LinearLayout android:layout_gravity="top|right|center_vertical|center_horizontal|center|end" android:id="@+id/a0v" android:layout_width="wrap_content" android:layout_height="20dp" android:layout_marginRight="4dp" android:layout_marginEnd="4dp"/>
+        <ImageView android:layout_width="49.5dp" android:layout_height="20dp" android:src="@drawable/axy" android:scaleType="fitXY" android:layout_toRightOf="@+id/a0v" android:layout_toEndOf="@+id/a0v"/>
+    </RelativeLayout>
+</FrameLayout>

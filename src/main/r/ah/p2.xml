@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/b80" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/b__" android:background="@color/bn" android:layout_width="match_parent" android:layout_height="match_parent" android:keepScreenOn="true">
+        <View android:id="@+id/cv0" android:layout_width="match_parent" android:layout_height="0dp"/>
+        <com.ss.android.ugc.aweme.base.opensourcemodified.android.support.v4.widget.SwipeRefreshLayout android:id="@+id/ccw" android:paddingBottom="@dimen/lw" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/cv0">
+            <RelativeLayout android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="match_parent">
+                <com.ss.android.ugc.aweme.common.widget.NestedScrollingRecyclerView android:id="@+id/bcz" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            </RelativeLayout>
+        </com.ss.android.ugc.aweme.base.opensourcemodified.android.support.v4.widget.SwipeRefreshLayout>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="14sp" android:textColor="@color/hx" android:gravity="center" android:id="@+id/ah7" android:background="@color/hu" android:visibility="gone" android:layout_width="match_parent" android:layout_height="34dp" android:layout_below="@+id/cv0"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtStatusView android:id="@+id/cuy" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <android.support.design.widget.CoordinatorLayout android:id="@+id/csg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="47dp" android:layout_alignParentBottom="true"/>
+        <com.ss.android.ugc.aweme.discover.ui.NoticeView android:id="@+id/ah1" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="44dp" android:layout_alignParentBottom="true" app:iconImage="@drawable/b93" app:titleText="@string/mx"/>
+    </RelativeLayout>
+</FrameLayout>

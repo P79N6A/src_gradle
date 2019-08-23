@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/ado" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View style="@style/ru"/>
+    <com.bytedance.ies.dmt.ui.widget.DmtTextView android:id="@+id/ab6" android:background="?attr/a2b" android:text="0" style="@style/rv"/>
+    <View style="@style/ru"/>
+    <com.bytedance.ies.dmt.ui.widget.DmtTextView android:id="@+id/ab7" android:background="?attr/a2c" android:text="1" style="@style/rw"/>
+    <View style="@style/ru"/>
+    <com.bytedance.ies.dmt.ui.widget.DmtTextView android:id="@+id/ab8" android:background="?attr/a2c" android:text="2" style="@style/rw"/>
+    <View style="@style/ru"/>
+    <com.bytedance.ies.dmt.ui.widget.DmtTextView android:id="@+id/ab9" android:background="?attr/a2c" android:text="3" style="@style/rw"/>
+    <View style="@style/ru"/>
+    <com.bytedance.ies.dmt.ui.widget.DmtTextView android:id="@+id/ab_" android:background="?attr/a2c" android:text="4" style="@style/rw"/>
+    <View style="@style/ru"/>
+    <com.bytedance.ies.dmt.ui.widget.DmtTextView android:id="@+id/aba" android:background="?attr/a2c" android:text="5" style="@style/rw"/>
+    <View style="@style/ru"/>
+</LinearLayout>

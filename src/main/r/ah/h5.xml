@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/an6" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.ss.android.ugc.aweme.base.ui.RemoteImageView android:id="@+id/ke" android:layout_width="match_parent" android:layout_height="match_parent" app:placeholderImage="@drawable/da" app:failureImage="@drawable/da" app:placeholderImageScaleType="6"/>
+    <FrameLayout android:id="@+id/kf" android:background="@color/a17" android:layout_width="match_parent" android:layout_height="match_parent" android:alpha="0.9"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/anj" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="58dp">
+        <View android:id="@+id/cv0" android:layout_width="match_parent" android:layout_height="0dp"/>
+        <RelativeLayout android:id="@+id/ht" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.ss.android.ugc.aweme.base.ui.RemoteImageView android:id="@+id/hk" android:layout_width="120dp" android:layout_height="120dp" app:placeholderImage="@drawable/bri" app:failureImage="@drawable/bri" app:roundedCornerRadius="2dp" app:roundingBorderWidth="1px" app:roundingBorderColor="@color/zk"/>
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="20dp" android:textColor="@color/e9" android:ellipsize="end" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginBottom="2dp" android:maxLines="4" android:layout_toRightOf="@+id/hk" android:lineSpacingExtra="6dp"/>
+            <ViewStub android:id="@+id/g6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_toRightOf="@+id/hk" android:layout_below="@+id/title"/>
+            <ViewStub android:gravity="center_vertical" android:id="@+id/pu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="12dp" android:layout_toRightOf="@+id/hk" android:layout_alignBottom="@+id/hk"/>
+        </RelativeLayout>
+        <ViewStub android:id="@+id/dvr" android:layout="@layout/h2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:layout_marginRight="16dp"/>
+        <ViewStub android:id="@+id/dvm" android:layout="@layout/gv" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:layout_marginRight="16dp"/>
+        <ViewStub android:id="@+id/dvp" android:layout="@layout/hk" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:layout_marginRight="16dp"/>
+        <ViewStub android:id="@+id/dvo" android:layout="@layout/h1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:layout_marginRight="16dp"/>
+        <ViewStub android:id="@+id/dvq" android:layout="@layout/hi" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:layout_marginRight="16dp"/>
+        <ViewStub android:id="@+id/dvz" android:layout="@layout/ii" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp"/>
+        <ViewStub android:id="@+id/dvt" android:layout="@layout/h3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp"/>
+        <Space android:id="@+id/ms" android:layout_width="0dp" android:layout_height="16dp"/>
+    </LinearLayout>
+</FrameLayout>

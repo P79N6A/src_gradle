@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/csw" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.bytedance.android.livesdk.widget.SpecialCombView android:id="@+id/csx" android:layout_width="@dimen/q4" android:layout_height="@dimen/q3" android:layout_margin="20dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

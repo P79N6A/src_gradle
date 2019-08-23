@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/b9h" android:background="@color/cs" android:layout_width="match_parent" android:layout_height="64dp">
+    <com.bytedance.ies.dmt.ui.widget.AutoRTLImageView android:id="@+id/azr" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginLeft="16dp" android:src="@drawable/beb" android:layout_centerVertical="true"/>
+    <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="15sp" android:textColor="@color/aig" android:ellipsize="end" android:id="@+id/dfh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:maxWidth="255dp" android:maxLines="2" android:layout_toRightOf="@+id/azr" android:layout_centerVertical="true"/>
+    <com.bytedance.ies.dmt.ui.widget.AutoRTLImageView android:id="@+id/ayn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="24dp" android:src="@drawable/auc" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+</RelativeLayout>

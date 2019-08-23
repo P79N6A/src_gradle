@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/a17" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.bytedance.ies.dmt.ui.titlebar.ButtonTitleBar android:id="@+id/p4" android:background="@color/p9" android:layout_width="match_parent" android:layout_height="@dimen/r7" app:endButtonText="@string/a0k" app:endButtonTextColor="@color/a09" app:endButtonType="0" app:titleText="@string/dsv" app:titleTextColor="@color/a09" app:useBackIcon="true"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/p4">
+        <com.ss.android.ugc.aweme.base.ui.RemoteImageView android:id="@+id/cf7" android:visibility="gone" android:layout_width="match_parent" android:layout_height="72dp" android:layout_marginTop="16dp"/>
+        <com.bytedance.ies.dmt.ui.widget.setting.Divider android:layout_width="match_parent" android:layout_height="wrap_content" app:hideLine="true" app:startText="@string/a6t"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="45dp" android:layout_marginTop="8dp" android:layout_marginBottom="16dp">
+            <ImageView android:id="@+id/b0o" android:layout_width="28dp" android:layout_height="28dp" android:src="@drawable/azv"/>
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="32sp" android:textColor="@color/anp" android:gravity="center" android:id="@+id/db5" android:layout_width="wrap_content" android:layout_height="45dp"/>
+            <LinearLayout android:gravity="end" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.bytedance.ies.dmt.ui.widget.DmtButton android:textSize="14sp" android:textColor="@color/anp" android:gravity="center" android:id="@+id/nr" android:background="@drawable/df" android:layout_width="88dp" android:layout_height="28dp" android:text="@string/dsw"/>
+            </LinearLayout>
+        </LinearLayout>
+        <com.bytedance.ies.dmt.ui.widget.setting.Divider style="@style/tt"/>
+        <android.support.v7.widget.RecyclerView android:id="@+id/ciw" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <com.bytedance.ies.dmt.ui.widget.DmtStatusView android:id="@+id/cvd" android:background="@color/a17" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/p4"/>
+</RelativeLayout>

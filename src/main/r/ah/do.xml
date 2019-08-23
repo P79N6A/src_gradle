@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/yx" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.bytedance.ies.dmt.ui.titlebar.TextTitleBar android:id="@+id/d3m" android:layout_width="match_parent" android:layout_height="@dimen/r7" app:endTextSize="15dp" app:titleText="@string/c1o" app:titleTextColor="@color/zt" app:useBackIcon="true"/>
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="98dp">
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="80dp" android:layout_height="80dp" android:src="@drawable/btj"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/zt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32dp" android:text="@string/bkw" style="@style/sa"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/zm" android:id="@+id/dhz" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/zy" android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20dp" android:text="@string/a1s" style="@style/s7"/>
+</FrameLayout>

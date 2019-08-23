@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:id="@+id/d4p" android:background="@color/zk" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginTop="10dp" android:layout_marginBottom="5dp"/>
+    <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/zt" android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="20dp" android:layout_marginTop="12dp" android:layout_marginBottom="8dp" android:singleLine="true" app:fontType="2" style="@style/sf"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/yp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <RelativeLayout android:id="@+id/dtg" android:layout_width="match_parent" android:layout_height="40dp">
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/zv" android:id="@+id/dth" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.5dp" android:text="@string/bcd" style="@style/sa"/>
+        <com.bytedance.android.live.uikit.rtl.AutoRTLImageView android:id="@+id/ce_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9dp" android:src="@drawable/bgk"/>
+    </RelativeLayout>
+    <Space android:id="@+id/m2" android:layout_width="match_parent" android:layout_height="10dp"/>
+    <View android:id="@+id/m1" android:background="@color/zk" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginBottom="10dp"/>
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/a7o" android:background="@color/yx" android:layout_width="match_parent" android:layout_height="96dp">
+    <Space android:id="@+id/a7r" android:layout_width="match_parent" android:layout_height="16dp"/>
+    <Space android:id="@+id/a7q" android:layout_width="match_parent" android:layout_height="16dp" android:layout_alignParentBottom="true"/>
+    <com.ss.android.ugc.aweme.draft.DraftItemView android:orientation="horizontal" android:id="@+id/bg2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@+id/a7q" android:layout_below="@+id/a7r">
+        <android.support.v7.widget.AppCompatCheckBox android:layout_gravity="center_vertical" android:id="@+id/sb" android:layout_width="22dp" android:layout_height="22dp" android:layout_marginLeft="-38dp" android:layout_marginRight="16dp" android:button="@drawable/fo"/>
+        <RelativeLayout android:id="@+id/cfi" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="64dp">
+            <FrameLayout android:id="@+id/afs" android:layout_width="64dp" android:layout_height="64dp" android:layout_centerVertical="true">
+                <com.ss.android.ugc.aweme.base.ui.RemoteImageView android:id="@+id/a1a" android:layout_width="64dp" android:layout_height="64dp" android:scaleType="centerCrop"/>
+                <ImageView android:layout_gravity="center" android:id="@+id/a7s" android:layout_width="24dp" android:layout_height="24dp" app:srcCompat="@drawable/amy"/>
+            </FrameLayout>
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/cd" android:gravity="center" android:id="@+id/a3d" android:background="@drawable/fq" android:visibility="gone" android:layout_width="57dp" android:layout_height="30dp" android:text="@string/a4f" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/s9"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="16dp" android:layout_toRightOf="@+id/afs" android:layout_alignTop="@+id/afs">
+                <com.ss.android.ugc.aweme.views.MentionTextView android:textColor="@color/zx" android:textColorHint="@color/zt" android:ellipsize="end" android:id="@+id/ip" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:hint="@string/a84" android:maxLines="2" android:lineSpacingExtra="3dp" style="@style/sc"/>
+                <Space android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:layout_gravity="center_vertical" android:id="@+id/rp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ax7"/>
+                    <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/zx" android:textColorHint="@color/zt" android:layout_gravity="center_vertical" android:id="@+id/ii" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="3dp" android:hint="@string/a83" android:maxLines="2" android:includeFontPadding="false" style="@style/sc"/>
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </com.ss.android.ugc.aweme.draft.DraftItemView>
+    <View android:id="@+id/da2" android:background="@color/zh" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="40dp" android:layout_height="16dp">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="right" android:orientation="horizontal" android:background="@drawable/c5" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="wrap_content" android:layout_height="16dp">
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <include android:id="@+id/abr" android:visibility="visible" layout="@layout/a7q"/>
+            <android.support.v7.widget.RecyclerView android:id="@+id/cci" android:layout_width="wrap_content" android:layout_height="match_parent"/>
+        </FrameLayout>
+        <View android:id="@+id/a5u" android:background="@drawable/aof" android:layout_width="1.5dp" android:layout_height="7dp" android:layout_marginLeft="1.5dp" android:rotation="15" android:layout_marginStart="1.5dp"/>
+        <TextView android:textSize="10dp" android:textColor="@color/a2p" android:id="@+id/d65" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1dp" android:lines="1" android:includeFontPadding="false" android:layout_marginStart="1dp"/>
+    </LinearLayout>
+</FrameLayout>

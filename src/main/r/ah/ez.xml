@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="#e8e8e8" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textStyle="bold" android:textColor="#222222" android:gravity="center_horizontal" android:id="@+id/title" android:paddingTop="17dp" android:layout_width="match_parent" android:layout_height="wrap_content" app:fontType="2" style="@style/sf"/>
+    <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="#222222" android:ellipsize="end" android:id="@+id/yp" android:paddingLeft="24dp" android:paddingTop="10dp" android:paddingRight="24dp" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="3" android:minLines="3" style="@style/sc"/>
+    <View android:background="#b4b4b4" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="44dp">
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/a4s" android:gravity="center" android:id="@+id/ob" android:background="@drawable/aly" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/bja" android:layout_weight="1" style="@style/sf"/>
+        <View android:background="#b4b4b4" android:layout_width="0.5dp" android:layout_height="match_parent"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textStyle="bold" android:textColor="@color/a4t" android:gravity="center" android:id="@+id/oy" android:background="@drawable/aly" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/bjb" android:layout_weight="1" app:fontType="2" style="@style/sf"/>
+    </LinearLayout>
+</LinearLayout>

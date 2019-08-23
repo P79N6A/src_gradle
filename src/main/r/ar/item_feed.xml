@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/duj" android:background="@color/bq" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ss.android.ugc.aweme.base.ui.RemoteImageView android:layout_gravity="center" android:id="@+id/a1a" android:background="@drawable/uz" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <View android:layout_gravity="bottom" android:id="@+id/alf" android:background="@drawable/hj" android:layout_width="match_parent" android:layout_height="90dp"/>
+    <com.ss.android.ugc.aweme.feed.ui.LongPressLayout android:id="@+id/bkq" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:layout_gravity="center" android:id="@+id/av6" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:id="@+id/apf" android:padding="8dp" android:visibility="gone" android:layout_width="300dp" android:layout_height="500dp" android:layout_marginTop="80dp"/>
+    <com.ss.android.ugc.aweme.base.ui.RemoteImageView android:id="@+id/dy4" android:visibility="gone" android:layout_width="100dp" android:layout_height="108dp" android:layout_marginTop="80dp" app:actualImageScaleType="2"/>
+    <RelativeLayout android:id="@+id/dxn" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:id="@+id/dtc" android:layout_width="wrap_content" android:layout_height="95dp" android:layout_above="@+id/m0"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/im" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@+id/m0">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/c1h" android:background="@drawable/ga" android:paddingLeft="5dp" android:paddingTop="2.5dp" android:paddingRight="5dp" android:paddingBottom="2.5dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/rd" android:layout_marginBottom="8dp" android:paddingStart="5dp" android:paddingEnd="5dp" android:layout_marginStart="@dimen/rd">
+                <ImageView android:layout_width="12dp" android:layout_height="12dp" android:src="@drawable/bhr"/>
+                <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/ao4" android:ellipsize="end" android:id="@+id/c1g" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2dp" android:maxLines="1" style="@style/s7"/>
+            </LinearLayout>
+            <com.ss.android.ugc.aweme.base.ui.RemoteImageView android:id="@+id/cq" android:visibility="gone" android:layout_width="76dp" android:layout_height="80dp" android:layout_marginLeft="@dimen/rd" android:layout_marginBottom="7dp" android:layout_marginStart="@dimen/rd" app:actualImageScaleType="2"/>
+            <include layout="@layout/apr"/>
+            <FrameLayout android:id="@+id/dsz" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.ss.android.ugc.aweme.base.ui.TagLayout android:id="@+id/dt0" android:layout_width="match_parent" android:layout_height="20dp" android:layout_marginLeft="@dimen/rd" android:layout_marginBottom="9dp" android:layout_marginStart="@dimen/rd"/>
+                <com.ss.android.ugc.aweme.base.ui.AnimationImageView android:id="@+id/dss" android:layout_width="88dp" android:layout_height="66dp" android:layout_marginBottom="9dp"/>
+            </FrameLayout>
+            <com.ss.android.ugc.aweme.commercialize.link.micro.CommerceMicroTagLayout android:id="@+id/bn1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/rd" android:layout_marginRight="100dp" android:layout_marginBottom="3dp" android:layout_marginStart="@dimen/rd" android:layout_marginEnd="100dp"/>
+            <com.ss.android.ugc.aweme.commercialize.link.video.CommerceTagLayout android:id="@+id/bci" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/rd" android:layout_marginRight="100dp" android:layout_marginBottom="3dp" android:layout_marginStart="@dimen/rd" android:layout_marginEnd="100dp"/>
+            <com.ss.android.ugc.aweme.commercialize.link.video.DouPlusTagLayout android:id="@+id/a6i" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/rd" android:layout_marginRight="100dp" android:layout_marginBottom="3dp" android:layout_marginStart="@dimen/rd" android:layout_marginEnd="100dp"/>
+            <com.ss.android.ugc.aweme.base.ui.CommerceTag android:id="@+id/xl" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="100dp" android:layout_marginBottom="9dp" android:layout_marginStart="10dp" android:layout_marginEnd="100dp"/>
+            <FrameLayout android:id="@+id/ad1" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/rd" android:layout_marginRight="@dimen/re" android:layout_marginStart="@dimen/rd" android:layout_marginEnd="@dimen/re">
+                <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="15sp" android:textColor="@color/a08" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="25dp" android:maxLines="1" android:includeFontPadding="false" android:shadowColor="@color/mc" android:shadowDy="1" android:shadowRadius="1" android:layout_weight="1" android:lineSpacingExtra="2dp"/>
+                <FrameLayout android:layout_gravity="center_vertical" android:id="@+id/dsp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <FrameLayout android:id="@+id/dta" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="6dp" android:layout_above="@+id/dtd"/>
+            <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@+id/bq7">
+                <FrameLayout android:id="@+id/dtd" android:paddingTop="2dp" android:layout_width="@dimen/k5" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/rd" android:layout_marginTop="4dp" android:layout_marginRight="90dp" android:layout_marginBottom="1dp" android:layout_marginStart="@dimen/rd" android:layout_marginEnd="90dp"/>
+            </FrameLayout>
+            <FrameLayout android:id="@+id/bq7" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.ss.android.ugc.aweme.commercialize.views.ButtonAdBottomLabelView android:id="@+id/bq8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/rd" android:layout_marginTop="10dp" android:layout_marginBottom="@dimen/k7" android:layout_marginStart="@dimen/rd"/>
+            </FrameLayout>
+            <com.ss.android.ugc.aweme.feed.ui.VideoBottomButton android:id="@+id/drt" android:visibility="gone" android:layout_width="272dp" android:layout_height="34dp" android:layout_marginLeft="@dimen/rd" android:layout_marginTop="10dp" android:layout_marginStart="@dimen/rd"/>
+        </LinearLayout>
+        <FrameLayout android:id="@+id/m0" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="47dp" android:layout_alignParentBottom="true">
+            <View android:layout_gravity="bottom" android:id="@+id/m3" android:layout_width="match_parent" android:layout_height="@dimen/bh" android:layout_marginBottom="@dimen/bk"/>
+            <com.ss.android.ugc.aweme.commercialize.views.StripAdBottomLabelView android:layout_gravity="bottom" android:id="@+id/bug" android:layout_width="match_parent" android:layout_height="@dimen/bh" android:layout_marginBottom="@dimen/bk"/>
+            <include android:id="@+id/acx" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="-83dp" layout="@layout/m4"/>
+            <include android:id="@+id/acy" android:layout_width="match_parent" android:layout_height="@dimen/bh" layout="@layout/aci"/>
+            <include android:id="@+id/il" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/bh" layout="@layout/gh"/>
+            <include android:id="@+id/cpc" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/l5" layout="@layout/a8f"/>
+            <include android:id="@+id/ad0" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/bh" layout="@layout/adj"/>
+        </FrameLayout>
+        <com.ss.android.ugc.aweme.feed.ui.VideoFloatingCard android:id="@+id/ds5" android:visibility="gone" android:layout_width="272dp" android:layout_height="130dp" android:layout_above="@+id/m0" android:layout_marginStart="@dimen/rd"/>
+        <com.ss.android.ugc.aweme.feed.ui.DebugInfoView android:id="@+id/a2p" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/rd" android:layout_marginTop="100dp" android:layout_marginRight="10dp" android:layout_marginBottom="210dp" android:layout_marginStart="@dimen/rd" android:layout_marginEnd="10dp"/>
+        <com.ss.android.ugc.aweme.setting.ui.RestrictTextView android:textSize="16sp" android:textColor="@color/a09" android:id="@+id/dhh" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/rd" android:layout_marginTop="40dp" android:shadowColor="@color/a25" android:shadowDy="1" android:shadowRadius="1" android:layout_marginStart="@dimen/rd"/>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/ceq" android:layout_width="61dp" android:layout_height="wrap_content" android:layout_above="@+id/dtc" android:layout_alignParentRight="true" android:layout_alignParentEnd="true">
+            <FrameLayout android:layout_width="61dp" android:layout_height="wrap_content" android:layout_marginBottom="21dp">
+                <ImageView android:layout_gravity="center" android:id="@+id/dqd" android:visibility="gone" android:layout_width="44dp" android:layout_height="44dp" android:scaleType="centerInside"/>
+            </FrameLayout>
+            <com.ss.android.ugc.aweme.commercialize.views.CircleWaveLayout android:layout_gravity="center_horizontal" android:id="@+id/bn" android:visibility="gone" android:layout_width="61dp" android:layout_height="61dp" android:layout_marginBottom="10dp"/>
+            <FrameLayout android:id="@+id/i5" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <FrameLayout android:id="@+id/a51" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <FrameLayout android:id="@+id/vd" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <FrameLayout android:id="@+id/cpx" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <ImageView android:id="@+id/b16" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="40dp" android:layout_marginBottom="17dp" android:layout_alignBottom="@+id/ceq" android:layout_marginEnd="-17dp" android:layout_toStartOf="@+id/ceq"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/i4" android:id="@+id/dnf" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/drx" android:layout_centerInParent="true" style="@style/sb"/>
+    </RelativeLayout>
+    <com.ss.android.ugc.aweme.commercialize.views.BlackMaskLayer android:id="@+id/li" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.ss.android.ugc.aweme.commercialize.views.AdHalfWebPageContainer android:layout_gravity="bottom|left|center_vertical|center_horizontal|center|start" android:id="@+id/c1" android:layout_width="270dp" android:layout_height="138dp" android:layout_marginLeft="10dp" android:layout_marginBottom="@dimen/bj" android:layout_marginStart="10dp"/>
+    <com.ss.android.ugc.aweme.miniapp.card.MicroAppVideoCardView android:layout_gravity="bottom|left|center_vertical|center_horizontal|center|start" android:id="@+id/bn0" android:visibility="gone" android:layout_width="256dp" android:layout_height="108dp" android:layout_marginLeft="16dp" android:layout_marginBottom="58dp" android:layout_marginStart="16dp"/>
+    <com.ss.android.ugc.aweme.commerce.card.CommerceGoodHalfCardContainer android:layout_gravity="bottom|left|center_vertical|center_horizontal|center|start" android:id="@+id/wt" android:visibility="gone" android:layout_width="272dp" android:layout_height="139dp" android:layout_marginBottom="40dp"/>
+    <com.ss.android.ugc.aweme.base.ui.PoiCardWebPageContainer android:layout_gravity="bottom|left|center_vertical|center_horizontal|center|start" android:id="@+id/bze" android:layout_width="255dp" android:layout_height="130dp" android:layout_marginLeft="10dp" android:layout_marginBottom="@dimen/bj" android:translationX="-285dp" android:layout_marginStart="10dp"/>
+    <FrameLayout android:id="@+id/c0" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include layout="@layout/u8"/>
+    </FrameLayout>
+    <ViewStub android:layout_gravity="bottom" android:id="@+id/bo5" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="12sp" android:id="@+id/dno" android:background="@color/ao4" android:padding="4dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="100dp" android:text="@string/aeh"/>
+    <com.ss.android.ugc.aweme.commercialize.views.CommerceLikeLayout android:id="@+id/bs" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ImageView android:layout_gravity="top|left|center_vertical|center_horizontal|center" android:id="@+id/a04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/awh"/>
+    <ImageView android:layout_gravity="top|right|center_vertical|center_horizontal|center" android:id="@+id/a05" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/awi"/>
+    <ImageView android:layout_gravity="bottom|left|center_vertical|center_horizontal|center" android:id="@+id/a00" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/awj"/>
+    <ImageView android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:id="@+id/a01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/awk"/>
+</FrameLayout>

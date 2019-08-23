@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/kp" android:layout_marginTop="20dp" android:layout_marginRight="@dimen/kp" android:layout_marginBottom="12dp">
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="17sp" android:ellipsize="end" android:id="@+id/c16" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bpb" android:maxLines="1" android:layout_weight="1" style="@style/tb"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="17sp" android:textStyle="bold" android:textColor="@color/ou" android:ellipsize="end" android:id="@+id/c17" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bpb" android:maxLines="1" android:layout_weight="1"/>
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView android:id="@+id/c14" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="24dp"/>
+    <View android:background="@color/xn" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="@dimen/kp" android:layout_marginRight="@dimen/kp"/>
+</LinearLayout>

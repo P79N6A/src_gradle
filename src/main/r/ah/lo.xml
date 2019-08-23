@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:layout_gravity="bottom" android:background="@drawable/qu" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="333dp"/>
+    <android.support.v7.widget.LinearLayoutCompat android:gravity="bottom" android:orientation="vertical" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:layout_gravity="right" android:orientation="vertical" android:id="@+id/b84" android:layout_width="32dp" android:layout_height="39dp" android:layout_marginRight="16dp" android:layout_marginBottom="12dp">
+            <ImageView android:layout_gravity="bottom" android:id="@+id/ark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/aqw"/>
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="9sp" android:textColor="@color/ao4" android:gravity="center" android:layout_gravity="right" android:id="@+id/d0g" android:background="@drawable/qg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="14dp" android:minWidth="14dp" android:text="0"/>
+        </FrameLayout>
+        <android.support.v7.widget.RecyclerView android:id="@+id/cc_" android:layout_width="match_parent" android:layout_height="372dp"/>
+    </android.support.v7.widget.LinearLayoutCompat>
+</FrameLayout>

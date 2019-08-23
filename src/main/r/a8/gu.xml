@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/oh" android:layout_width="180dp" android:layout_height="wrap_content" android:layout_margin="5dp" android:elevation="3dp">
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:id="@+id/cct" android:background="?android:attr/selectableItemBackground" android:padding="14dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/oj"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:id="@+id/zw" android:background="?android:attr/selectableItemBackground" android:padding="14dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/oh"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:id="@+id/bv5" android:background="?android:attr/selectableItemBackground" android:padding="14dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/oi"/>
+    </LinearLayout>
+</LinearLayout>

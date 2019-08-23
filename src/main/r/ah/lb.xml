@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/b__" android:background="@drawable/tf" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/agd" android:layout_width="match_parent" android:layout_height="@dimen/fj">
+        <com.bytedance.android.livesdk.livecommerce.view.ECHostCloseButton android:textSize="17dp" android:textColor="@color/lt" android:layout_gravity="center_vertical" android:id="@+id/d_l" android:paddingLeft="12dp" android:paddingRight="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/a8p" android:includeFontPadding="false"/>
+        <TextView android:textSize="18dp" android:textStyle="bold" android:textColor="@color/lt" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/a8r"/>
+        <com.bytedance.android.livesdk.livecommerce.view.ECHostLivingView android:gravity="center_vertical" android:layout_gravity="right|center_vertical|center_horizontal|center" android:orientation="horizontal" android:id="@+id/bh2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12dp"/>
+        <View android:layout_gravity="bottom" android:id="@+id/dqq" android:background="@color/lc" android:layout_width="match_parent" android:layout_height="1px"/>
+    </FrameLayout>
+    <android.support.v7.widget.RecyclerView android:id="@+id/cis" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/bfk" android:layout_below="@+id/agd"/>
+    <com.bytedance.android.livesdk.livecommerce.view.ECLoadingStateView android:id="@+id/a8c" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/agd"/>
+    <com.bytedance.android.livesdk.livecommerce.view.ECHostShowcaseNoPromotionLayout android:id="@+id/ao9" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/agd"/>
+    <View android:id="@+id/dqo" android:background="@color/l2" android:layout_width="match_parent" android:layout_height="1px" android:layout_above="@+id/bfk"/>
+    <LinearLayout android:id="@+id/bfk" android:layout_width="match_parent" android:layout_height="52dp" android:layout_alignParentBottom="true">
+        <LinearLayout android:layout_gravity="center_vertical" android:id="@+id/b_i" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <TextView android:textSize="13dp" android:id="@+id/dic" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:text="已选"/>
+            <TextView android:textSize="12dp" android:textColor="@color/ls" android:id="@+id/dlo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:text="点击查看已选商品" android:drawableRight="@drawable/asg"/>
+        </LinearLayout>
+        <com.bytedance.android.livesdk.livecommerce.view.ECHostDoneTextButton android:textSize="15dp" android:textColor="@color/lm" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/d_a" android:background="@drawable/sm" android:layout_width="90dp" android:layout_height="36dp" android:layout_marginLeft="10dp" android:layout_marginRight="16dp" android:text="@string/a95"/>
+    </LinearLayout>
+</RelativeLayout>

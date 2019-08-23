@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/ci4" android:layout_width="match_parent" android:layout_height="match_parent" android:animateLayoutChanges="true">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="72dp">
+        <com.ss.android.ugc.aweme.account.base.widget.ScaleImageView android:id="@+id/dms" android:padding="10dp" android:layout_width="44dp" android:layout_height="44dp" android:layout_marginLeft="6dp" android:src="@drawable/ato" android:contentDescription="@string/tw"/>
+    </RelativeLayout>
+    <android.support.constraint.ConstraintLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <android.support.constraint.Guideline android:orientation="horizontal" android:id="@+id/amc" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="0.87"/>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@+id/amc" app:layout_constraintTop_toTopOf="0">
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="36dp" android:textColor="@color/a09" android:id="@+id/bxn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/d3u" android:layout_centerHorizontal="true"/>
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="13sp" android:textColor="@color/a0b" android:id="@+id/qt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_centerHorizontal="true"/>
+            <FrameLayout android:layout_width="wrap_content" android:layout_height="44dp" android:layout_marginTop="24dp">
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.bytedance.ies.dmt.ui.widget.DmtButton android:id="@+id/bul" android:background="@drawable/jj" android:layout_width="295dp" android:layout_height="44dp" android:contentDescription="@string/bk3"/>
+                </FrameLayout>
+                <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="15sp" android:textColor="#a843f9" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bk3" android:drawablePadding="4dp"/>
+            </FrameLayout>
+            <FrameLayout android:layout_width="wrap_content" android:layout_height="44dp" android:layout_marginTop="10dp">
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.bytedance.ies.dmt.ui.widget.DmtButton android:id="@+id/buo" android:background="@drawable/jk" android:layout_width="295dp" android:layout_height="44dp" android:contentDescription="@string/bk6"/>
+                </FrameLayout>
+                <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="15sp" android:textColor="@color/hx" android:gravity="center" android:layout_gravity="center" android:id="@+id/dla" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="2dp"/>
+            </FrameLayout>
+            <com.ss.android.ugc.aweme.account.login.ui.OneLoginPrivacyViewForV2 android:id="@+id/c6b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp"/>
+            <com.ss.android.ugc.aweme.account.login.ui.ThirdPartyLoginView android:orientation="vertical" android:id="@+id/dup" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="40dp"/>
+        </LinearLayout>
+    </android.support.constraint.ConstraintLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="20dp">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp">
+            <com.ss.android.ugc.aweme.account.shortvideo.ui.PressFadeTextView android:textSize="13sp" android:textColor="@color/a1s" android:id="@+id/dna" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/b91"/>
+            <View android:id="@+id/bbv" android:background="@color/cm" android:layout_width="1dp" android:layout_height="9sp" android:layout_marginLeft="16dp" android:layout_marginRight="16dp"/>
+            <com.ss.android.ugc.aweme.account.shortvideo.ui.PressFadeTextView android:textSize="13sp" android:textColor="@color/a1s" android:id="@+id/dn_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/b90"/>
+        </LinearLayout>
+        <com.ss.android.ugc.aweme.account.shortvideo.ui.PressFadeTextView android:textSize="13sp" android:textColor="@color/a1s" android:id="@+id/dn8" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/b8d"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ss.android.ugc.aweme.im.sdk.widget.ImTextTitleBar android:id="@+id/d3m" android:background="@drawable/d2" android:layout_width="match_parent" android:layout_height="@dimen/hg" app:imRightIcon="@drawable/b4m" app:imTitle="@string/arr"/>
+    <FrameLayout android:id="@+id/afi" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>

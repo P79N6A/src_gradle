@@ -1,0 +1,124 @@
+package com.bytedance.android.livesdk.config;
+
+import android.support.annotation.Keep;
+import com.bytedance.android.live.core.setting.l;
+import com.bytedance.android.livesdk.chatroom.model.s;
+import com.bytedance.android.livesdk.effect.model.a;
+import com.bytedance.android.livesdkapi.i.b;
+import com.bytedance.android.livesdkapi.i.c;
+
+@Keep
+public interface LiveSettingKeys {
+    public static final l<Integer> BAN_BARRAGE_SWITCH_SET = new l<>("player_fullscreen_danmuku_enable", 1, "弹幕设置禁止");
+    public static final l<Integer> COMMENT_PROMOTION_DELAY = new l<>("comment_promotion_delay", 0, "进直播间几秒之后出现评论引导");
+    public static final l<Integer> DISABLE_ROOM_STICKER_NEW_BACK = new l<>("disable_room_sticker_new_back", 0, "贴纸平台选择", "0:使用新平台", "1:使用老平台");
+    public static final l<Integer> DNS_OPT_METHOD = new l<>("dns_opt_method", 0, "是否使用节点优选", "0:老版本", "1:新版本");
+    public static final l<Integer> DOUYIN_LIVE_FEED_TOP_HINT = new l<>("live_squre_sky_window_info", 0, "抖音直播广场天窗关注文案AB");
+    public static final l<Boolean> ENABLE_ASSETS_DELETE_TIME_LIMIT = new l<>("enable_assets_delete_time_limit", Boolean.TRUE, "是否开启资源删除的频控", "true:开启", "false:不开启");
+    public static final l<Boolean> ENABLE_COMMENT_BIND_PHONE = new l<>("chat_need_bind_phone", Boolean.FALSE, "发评论是否需要绑定手机号", "false:不需要绑定", "true:需要绑定");
+    public static final l<Boolean> ENABLE_FANSCLUB_SEND_GIFT = new l<>("show_fansclub_send_gift", Boolean.FALSE, "粉丝团吸底消息点击是否触发送礼", "false:不触发送礼", "true:触发送礼");
+    public static final l<Integer> ENABLE_FISSION_INVITE = new l<>("enable_fission_invite", 0, "Vigo邀好友送钻石控制开关", "0:关闭", "1:打开");
+    public static final l<Boolean> ENABLE_FLOW_CARD_TIP_NEW_STYLE = new l<>("enable_flow_card_tip_new_style", "抖音免流卡提示新策略", Boolean.FALSE, Boolean.TRUE);
+    public static final l<Boolean> ENABLE_LOAD_POKEMON = new l<>("enable_load_pokemon", Boolean.FALSE, "是否加载神奇宝贝widget", "false:不加载", "true:加载");
+    public static final l<Integer> ENABLE_READ_FROM_ASSETS = new l<>("enable_read_from_assets", 0, "是否支持effesdk直接读取assets:0-否；1-是");
+    public static final l<Integer> FAST_GIFT_STYLE = new l<>("fast_gift_style", "西瓜和头条快捷礼物样式", 1, 1);
+    public static final l<Integer> FAST_GIFT_TIME = new l<>("fast_gift_time", 60, "进入直播间后多久显示首充动画");
+    public static final l<Boolean> HIDE_CHARGE_ICON_FOR_USER = new l<>("hide_charge_icon_for_user", "是否隐藏充值按钮", Boolean.FALSE, Boolean.FALSE);
+    public static final l<Boolean> HIDE_GIFT_ICON_FOR_USER = new l<>("hide_gift_icon_for_user", "是否隐藏礼物面板", Boolean.FALSE, Boolean.FALSE);
+    public static final l<String> I18N_ASSET_AUTHORIZE_URL = new l<>("live_anchor_privacy_page_url", "", "vigo直播素材授权H5");
+    public static final l<String[]> I18N_SHARE_CHANNEL_LIST = new l<>("live_share_channel_list_i18n", new String[]{"facebook", "twitter"}, "国际化直播分享方式");
+    public static final l<Boolean> I18N_SHOW_DAILY_RANK = new l<>("i18n_show_daily_rank", Boolean.FALSE, "vigo是否显示小时榜更新逻辑", "false:不显示", "true:显示");
+    public static final l<String> INTERACT_VENDOR = new l<>("live_interact_vendor", "", "连麦供应商 (声网 -> agora, 即构 -> zego)");
+    public static final l<Integer> LIVE_ANCHOR_INFO_ABTEST = new l<>("live_anchor_info_abtest", 0, "主播个人信息widget显示信息");
+    public static final l<a> LIVE_BEAUTY_PARAM = new l<>("live_beauty_param", "直播美颜默认值及阈值设置", new a(), new a());
+    public static final l<Integer> LIVE_BEAUTY_TYPE_2;
+    public static final l<Integer> LIVE_DAILY_RANK = new l<>("hourly_rank_enable", Integer.valueOf(com.bytedance.android.live.uikit.a.a.f() ? 1 : 0), "小时榜相关tab展示类型");
+    public static final l<Integer> LIVE_ENABLE_GUARD = new l<>("live_enable_guard", 0, "是否开启守护入口", "0:关闭", "1:打开");
+    public static final l<Integer> LIVE_ENABLE_TT_CAPTURE = new l<>("enable_tt_capture", 1, "开启自研录屏推流", "0:不开启", "1:开启");
+    public static final l<Long> LIVE_FACE_STICKER_EFFECTIVELY_USE_TIME = new l<>("live_face_sticker_effectively_use_time", 30L, "贴纸使用行为的统计时长");
+    public static final l<Integer> LIVE_FANS_CLUB_ENTRY_PLAN;
+    public static final l<Integer> LIVE_FAST_GIFT_COMBO_STYLE;
+    public static final l<Long> LIVE_FILTER_EFFECTIVELY_USE_TIME = new l<>("live_filter_effectively_use_time", 30L, "滤镜使用行为的统计时长");
+    public static final l<com.bytedance.android.livesdkapi.i.a> LIVE_FIRST_CHARGE_REWARD_PACKAGE;
+    public static final l<b> LIVE_FIRST_CHARGE_REWARD_PACKAGE_V2;
+    public static final l<c> LIVE_FIRST_CHARGE_TIP_INFO;
+    public static final l<Integer> LIVE_GIFT_DIALOG_STYLE;
+    public static final l<Integer> LIVE_GIFT_GUIDE_DELAY_TIME = new l<>("live_gift_guide_delay_time", 180, "直播间送礼提醒delay时长", "3:默认时间");
+    public static final l<Integer> LIVE_GIFT_ICON_DOWNLOAD_MAX_FAIL = new l<>("live_gift_icon_download_max_fail", "礼物小图标下载时允许的最大连续失败数", 4, 3);
+    public static final l<com.bytedance.android.livesdk.gift.panel.a.a> LIVE_GIFT_PANEL_BANNER_LIST;
+    public static final l<Integer> LIVE_GIFT_PANEL_BG_STYLE = new l<>("live_gift_panel_bg_style", "mt默认使用黑色礼物面板 0，使用白色面板 1", 0, 0);
+    public static final l<Integer> LIVE_GIFT_RESOURCE_DOWNLOAD_MODE = new l<>("live_gift_resource_download_mode", 2, "礼物资源的下载模式", "0:默认模式", "1:非断点续传模式", "2:使用TTDownloader模式");
+    public static final l<Integer> LIVE_HARDWARD_DECODE_H264_ENABLE = new l<>("live_hardware_decode_h264_enable", 0, "264硬解开关", "1:打开", "0:关闭");
+    public static final l<Integer> LIVE_HARDWARD_DECODE_H265_ENABLE = new l<>("live_hardware_decode_h265_enable", 0, "265硬解开关", "1:打开", "0:关闭");
+    public static final l<Integer> LIVE_MESSAGE_QUEUE_MAX_LENGTH = new l<>("live_message_queue_max_length", 200, "直播间礼物消息队列最大长度", "5:测试长度");
+    public static final l<Boolean> LIVE_NET_ADAPTIVE_ENABLE = new l<>("live_net_adaptive_enable", Boolean.FALSE, "是否开启网络自适应", "true:开启", "false:不开启");
+    public static final l<Float> LIVE_NET_ADAPTIVE_HURRY_SPEED = new l<>("live_net_adaptive_hurry_speed", Float.valueOf(1.0f), "网络自适应追帧速度");
+    public static final l<Integer> LIVE_NET_ADAPTIVE_HURRY_TIME = new l<>("live_net_adaptive_hurry_time", 2000, "开始追帧缓存阈值");
+    public static final l<Float> LIVE_NET_ADAPTIVE_SLOW_SPEED = new l<>("live_net_adaptive_slow_speed", Float.valueOf(1.0f), "慢放速度");
+    public static final l<Integer> LIVE_NET_ADAPTIVE_SLOW_TIME = new l<>("live_net_adaptive_slow_time", 0, "慢放阈值");
+    public static final l<Boolean> LIVE_PACKAKGE_PURCHASE = new l<>("has_prop_bundle", Boolean.FALSE, "是否请求购买礼包接口", "false:不请求", "true:请求");
+    public static final l<Boolean> LIVE_PAGE_SHOW_BANNER = new l<>("live_page_show_banner", Boolean.FALSE, "开播页是否展示banner", "true:显示", "false:不显示");
+    public static final l<Boolean> LIVE_RADIO_INTERACT_ENABLE = new l<>("live_radio_interact_enable", Boolean.FALSE, "语音直播间是否显示连麦开关", "true:显示", "false:不显示");
+    public static final l<s> LIVE_RANK_CONFIG = new l<>("live_rank_config", s.class, "小时榜相关配置");
+    public static final l<Integer> LIVE_RECHARGE_DEFAULT_DEAL = new l<>("live_recharge_default_deal", 0, "火山充值半屏是否默认选中套餐", "0:不默认选套餐", "1:默认选套餐");
+    public static final l<Integer> LIVE_RECHARGE_DIALOG_TYPE = new l<>("live_douyin_recharge_dialog_type", 0, "直播间RechargeDialog弹出方式", "0:native dialog", "1:h5");
+    public static final l<Integer> LIVE_RECHARGE_HALF_DIALOG_UI = new l<>("live_recharge_half_dialog_ui", 0, "火山充值半屏UIAB", "0:老UI", "1:新UI");
+    public static final l<Integer> LIVE_ROOM_CHARGE_TYPE = new l<>("live_room_charge_type", 1, "充值弹窗 or 跳转页面");
+    public static final l<Integer> LIVE_SHARE_GET_DIAMONDS_TIME = new l<>("live_share_get_diamonds_time", 180, "分享得钻石气泡等待展示时间");
+    public static final l<Boolean> LIVE_SHOW_FANS_CLUB_RENEWAL = new l<>("show_fansclub_renewal", Boolean.FALSE, "粉丝团自动点亮", "false: 没有入口", "true: 有入口");
+    public static final l<Boolean> LIVE_SHOW_GAME_QUIZ = new l<>("live_show_game_quiz", Boolean.FALSE, " 是否显示游戏竞猜按钮");
+    public static final l<Integer> LIVE_SMALL_BEAUTY_AB_GROUP = new l<>("live_small_beauty_ab_group", 0, "直播小项AB分组");
+    public static final l<com.bytedance.android.livesdk.live.model.b> LIVE_SWITCH_TO_SQUARE_TAB = new l<>("close_live_switch_square_param", com.bytedance.android.livesdk.live.model.b.class, "退出直播间跳宿主直播广场参数");
+    public static final l<Integer> LIVE_USER_RANK;
+    public static final l<Integer> LIVE_USE_NEW_AUDIO_CODEC;
+    public static final l<Boolean> LIVE_USE_NEW_GIFT_DIALOG;
+    public static final l<Boolean> LIVE_USE_PB_MESSAGE = new l<>("live_use_pb_message", Boolean.TRUE, "直播消息使用 ProtoBuffers");
+    public static final l<Boolean> PLAYER_ENABLE_UPLOAD_TIME_LINE = new l<>("player_enable_upload_time_line", Boolean.FALSE, "播放器时间序列开关");
+    public static final l<String[]> SHARE_CHANNEL_LIST = new l<>("share_channel_list", new String[]{"分享 复制链接、保存 展现控制"});
+    public static final l<Integer> SHOW_ANCHOR_LEVEL = new l<>("show_anchor_level", 0, "是否显示主播等级相关信息");
+    public static final l<Integer> SHOW_EXCHANGE_SCORE = new l<>("show_exchange_score", "是否展示火力换钻石", 0, 0);
+    public static final l<Integer> SHOW_HUOLI_BUY_DIAMON = new l<>("show_huoli_buy_diamond", "是否展示余额购买", 0, 1);
+    public static final l<Boolean> SHOW_PROP_PACKET = new l<>("show_prop_packet", "西瓜和头条是否显示背包", Boolean.FALSE, Boolean.FALSE);
+    public static final l<Integer> START_LIVE_SHARE_TIMEOUT = new l<>("start_live_share_timeout", 5, "分享失败后直接开播");
+    public static final l<Integer> START_LIVE_STYLE = new l<>("start_live_style_v2", 1, "开播页样式", "0:旧样式", "1:新样式");
+    public static final l<Integer> STREAM_DEFINITION_LEVEL = new l<>("stream_definition_level", 0, "0线上 1普通、2高清");
+    public static final l<Integer> STREAM_HARDWARE_ENCODE = new l<>("stream_hardware_encode", 0, "推流启动硬编码 0线上 1关闭 2开启");
+    public static final l<Integer> TTLIVE_PAY_TYPE = new l<>("ttlive_pay_type", "收银台使用默认0, 使用财经 1", 0, 1);
+    public static final l<String> TURNTABLE_ICON_URL = new l<>("turntable_icon_url", "转盘入口icon url", "", "");
+    public static final l<Integer> USE_NEW_RENDER_CHAIN = new l<>("effect_sdk_use_new_render_chain", 1, "是否使用新的渲染链:0-不开启；1-开启");
+    public static final l<Integer> VIGO_FAST_GIFT_WAY = new l<>("fast_gift_way", 0, "是否展示首充优化方案", "0:老方案", "1:新方案");
+    public static final l<Boolean> VIGO_FLAME_DIAMOND_GUIDE_SWITCH = new l<>("vigo_flame_diamond_guide_switch", Boolean.FALSE, "是否展示火力引导", "true:显示；false:不显示");
+    public static final l<Integer> VIGO_SHARE_ROOM_DES_TYPE = new l<>("vigo_share_room_des_type", 0, "vigo直播间分享文案ab", "0:原来的文案", "1:加emoji的文案");
+    public static final l<com.bytedance.android.livesdk.browser.d.a> WEBVIEW_MONITOR_SWITCH_SET = new l<>("tt_live_webview_monitor_config_android", "WebView监控开关", new com.bytedance.android.livesdk.browser.d.a(), new com.bytedance.android.livesdk.browser.d.a());
+    public static final l<Integer> WITH_DRAW_NEW_VERSION = new l<>("with_draw_new_version", "新版提现", 0, 0);
+
+    static {
+        int i;
+        l lVar = new l("live_use_qingyan2", "是否启用轻颜美颜2", 0, 1, "0:关闭", "1:开启");
+        LIVE_BEAUTY_TYPE_2 = lVar;
+        l lVar2 = new l("live_use_new_audio_codec", "推流音频是否使用high profile", 0, 1, "0:关闭", "1:开启");
+        LIVE_USE_NEW_AUDIO_CODEC = lVar2;
+        if (com.bytedance.android.live.uikit.a.a.f()) {
+            i = 7;
+        } else {
+            i = 1;
+        }
+        LIVE_USER_RANK = new l<>("room_rank_enable", Integer.valueOf(i), "本场榜相关tab展示类型");
+        l lVar3 = new l("first_charge", c.class, "首充引导配置", null, null);
+        LIVE_FIRST_CHARGE_TIP_INFO = lVar3;
+        l lVar4 = new l("live_gift_dialog_style", "礼物面板送礼交互AB", 1, 0, "0:火山样式", "1:抖音样式");
+        LIVE_GIFT_DIALOG_STYLE = lVar4;
+        l lVar5 = new l("live_use_new_gift_dialog", "是否使用重构后的新礼物面板", Boolean.TRUE, Boolean.TRUE, "false:使用旧礼物面板", "true:使用新礼物面板");
+        LIVE_USE_NEW_GIFT_DIALOG = lVar5;
+        l lVar6 = new l("live_fast_gift_combo_style", "快捷礼物连发样式AB", 0, 0, "0:火山样式", "1:抖音样式");
+        LIVE_FAST_GIFT_COMBO_STYLE = lVar6;
+        l lVar7 = new l("live_fans_club_entry_plan", "抖音粉丝团入口AB", 1, 1, "0:关注后显示的入口", "1:G原抖音入口样式");
+        LIVE_FANS_CLUB_ENTRY_PLAN = lVar7;
+        l lVar8 = new l("live_gift_panel_banner_list", com.bytedance.android.livesdk.gift.panel.a.a.class, "礼物面板的banner数据", null, null);
+        LIVE_GIFT_PANEL_BANNER_LIST = lVar8;
+        l lVar9 = new l("live_first_recharge_upgrade_package", com.bytedance.android.livesdkapi.i.a.class, "首充奖励配置", null, null);
+        LIVE_FIRST_CHARGE_REWARD_PACKAGE = lVar9;
+        l lVar10 = new l("live_first_recharge_upgrade_package_v2", b.class, "VIGO首充奖励配置V2", null, null);
+        LIVE_FIRST_CHARGE_REWARD_PACKAGE_V2 = lVar10;
+    }
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/cgb" android:background="@drawable/anp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <View android:id="@+id/d5u" android:background="@color/d5" android:layout_width="match_parent" android:layout_height="0dp"/>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <FrameLayout android:id="@+id/dt9" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <FrameLayout android:layout_gravity="bottom" android:id="@+id/b9_" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <com.ss.android.ugc.aweme.story.feed.view.ui.StoryFeedGradientView android:id="@+id/ale" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <ImageView android:layout_gravity="top|left|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ao0"/>
+            <ImageView android:layout_gravity="top|right|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ao1"/>
+            <ImageView android:layout_gravity="bottom|left|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ao2"/>
+            <ImageView android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ao3"/>
+        </FrameLayout>
+        <View android:id="@+id/ms" android:background="@color/d5" android:layout_width="match_parent" android:layout_height="0dp"/>
+    </LinearLayout>
+    <include android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/a8w"/>
+</RelativeLayout>

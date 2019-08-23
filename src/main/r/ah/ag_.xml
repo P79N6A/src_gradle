@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="@dimen/o4">
+    <FrameLayout android:id="@+id/ajo" android:background="@drawable/a3_" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/o4"/>
+    <View android:background="#404040" android:layout_width="match_parent" android:layout_height="0.5dp" app:layout_constraintBottom_toBottomOf="0"/>
+    <include android:id="@+id/ai8" android:layout_width="0dp" android:layout_height="@dimen/o3" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" layout="@layout/ait"/>
+</android.support.constraint.ConstraintLayout>

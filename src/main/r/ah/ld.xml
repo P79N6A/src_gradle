@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/b__" android:background="@drawable/tf" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/agd" android:layout_width="match_parent" android:layout_height="@dimen/fj">
+        <com.bytedance.android.livesdk.livecommerce.view.ECHostCloseButton2 android:layout_gravity="center_vertical" android:id="@+id/b00" android:paddingLeft="12dp" android:paddingRight="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/asi"/>
+        <TextView android:textSize="18dp" android:textStyle="bold" android:textColor="@color/lt" android:layout_gravity="center" android:id="@+id/dkk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/a_5"/>
+        <TextView android:textSize="17dp" android:textColor="@color/lt" android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/d_j" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/a8s"/>
+        <View android:layout_gravity="bottom" android:id="@+id/dqq" android:background="@color/lc" android:layout_width="match_parent" android:layout_height="1px"/>
+    </FrameLayout>
+    <android.support.v7.widget.RecyclerView android:id="@+id/cis" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/agd"/>
+    <com.bytedance.android.livesdk.livecommerce.view.ECHostNoSelectPromotionLayout android:textSize="20dp" android:textStyle="bold" android:textColor="@color/kz" android:gravity="center_horizontal" android:id="@+id/bu8" android:paddingTop="200dp" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/a9g" android:layout_below="@+id/agd"/>
+</RelativeLayout>

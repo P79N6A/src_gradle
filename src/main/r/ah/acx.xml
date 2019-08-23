@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/a63" android:background="@drawable/y8" android:layout_width="220dp" android:layout_height="140dp">
+    <LinearLayout android:orientation="vertical" android:id="@+id/dx_" android:background="@drawable/y8" android:padding="3dp" android:layout_width="match_parent" android:layout_height="match_parent" android:hardwareAccelerated="true">
+        <com.ss.sys.ck.SCWebView android:layout_gravity="center_vertical" android:id="@+id/cm_" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1" android:hardwareAccelerated="true"/>
+    </LinearLayout>
+</RelativeLayout>

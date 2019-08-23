@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:id="@+id/co9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:layout_above="@+id/aih" android:layout_centerHorizontal="true">
+    <LinearLayout android:orientation="vertical" android:id="@+id/co7" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="48dp" android:layout_height="48dp" android:src="@drawable/c81" android:scaleType="fitXY"/>
+        <com.bytedance.android.live.core.widget.LiveTextView android:textSize="12sp" android:textColor="@color/si" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dcv" android:shadowColor="#14ffffff" android:shadowDx="2" android:shadowDy="2" android:shadowRadius="3"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/cog" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@+id/coh" android:layout_width="48dp" android:layout_height="48dp" android:src="@drawable/c84" android:scaleType="fitXY"/>
+        <com.bytedance.android.live.core.widget.LiveTextView android:textSize="12sp" android:textColor="@color/si" android:layout_gravity="center_horizontal" android:id="@+id/coi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dcx" android:shadowColor="#14ffffff" android:shadowDx="2" android:shadowDy="2" android:shadowRadius="3"/>
+    </LinearLayout>
+    <View android:id="@+id/com" android:visibility="gone" android:layout_width="30dp" android:layout_height="match_parent"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/cob" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@+id/cod" android:layout_width="48dp" android:layout_height="48dp" android:src="@drawable/c83" android:scaleType="fitXY"/>
+        <ImageView android:layout_gravity="center_horizontal" android:id="@+id/coc" android:padding="9dp" android:visibility="gone" android:layout_width="48dp" android:layout_height="48dp" android:scaleType="fitXY"/>
+        <com.bytedance.android.live.core.widget.LiveTextView android:textSize="12sp" android:textColor="@color/si" android:layout_gravity="center_horizontal" android:id="@+id/coe" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dcw" android:maxLines="1" android:shadowColor="#14ffffff" android:shadowDx="2" android:shadowDy="2" android:shadowRadius="3"/>
+    </LinearLayout>
+    <View android:id="@+id/col" android:layout_width="30dp" android:layout_height="match_parent"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/coa" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@+id/b18" android:layout_width="48dp" android:layout_height="48dp" android:src="@drawable/c43" android:scaleType="fitXY"/>
+            <View android:id="@+id/aw1" android:background="@drawable/a_j" android:visibility="gone" android:layout_width="8dp" android:layout_height="8dp" android:layout_marginTop="6dp" android:layout_marginRight="6dp" android:layout_alignTop="@+id/b18" android:layout_alignRight="@+id/b18"/>
+        </RelativeLayout>
+        <com.bytedance.android.live.core.widget.LiveTextView android:textSize="12sp" android:textColor="@color/si" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dcn" android:shadowColor="#14ffffff" android:shadowDx="2" android:shadowDy="2" android:shadowRadius="3"/>
+    </LinearLayout>
+    <View android:id="@+id/cok" android:visibility="gone" android:layout_width="30dp" android:layout_height="match_parent"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/co8" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <CheckedTextView android:layout_gravity="center_horizontal" android:id="@+id/xo" android:layout_width="48dp" android:layout_height="48dp" android:checkMark="@drawable/abc"/>
+            <TextView android:textSize="9dp" android:textColor="@color/ao4" android:gravity="center" android:id="@+id/d_s" android:background="@drawable/c40" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="13dp" android:layout_marginTop="6dp" android:layout_marginRight="6dp" android:includeFontPadding="false" android:layout_alignTop="@+id/xo" android:layout_alignRight="@+id/xo"/>
+        </RelativeLayout>
+        <com.bytedance.android.live.core.widget.LiveTextView android:textSize="12sp" android:textColor="@color/si" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dcb" android:shadowColor="#14ffffff" android:shadowDx="2" android:shadowDy="2" android:shadowRadius="3"/>
+    </LinearLayout>
+</LinearLayout>

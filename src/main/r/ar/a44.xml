@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/bjs" android:background="@drawable/gb" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.ss.android.ugc.aweme.base.ui.RemoteImageView android:id="@+id/bjt" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginRight="5dp" android:src="@drawable/b50" android:layout_marginEnd="5dp"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/a6i" android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/bjr" android:layout_width="wrap_content" android:layout_height="20dp" android:layout_marginRight="5dp" android:maxLines="1" android:layout_marginEnd="5dp" style="@style/s9"/>
+    </LinearLayout>
+    <include android:visibility="gone" layout="@layout/a4c"/>
+    <TextView android:textColor="@color/a6i" android:ellipsize="end" android:gravity="center" android:id="@+id/rg" android:background="@drawable/gb" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="wrap_content" android:layout_height="20dp" android:maxLines="1" android:includeFontPadding="false" android:drawableLeft="@drawable/ayp" android:drawablePadding="2dp" android:drawableStart="@drawable/ayp" android:paddingStart="5dp" android:paddingEnd="5dp" style="@style/s7"/>
+</LinearLayout>

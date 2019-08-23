@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/cup" android:layout_width="wrap_content" android:layout_height="72dp" android:layout_marginBottom="@dimen/k4" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <View android:layout_gravity="center" android:id="@+id/cus" android:background="@drawable/zg" android:layout_width="66dp" android:layout_height="66dp"/>
+        <RelativeLayout android:layout_gravity="center" android:id="@+id/cuq" android:paddingLeft="25dp" android:paddingRight="25dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginTop="1dp" android:layout_marginBottom="1dp" android:paddingStart="25dp" android:paddingEnd="25dp">
+            <ImageView android:id="@+id/cuu" android:layout_width="@dimen/k0" android:layout_height="@dimen/k0" android:src="@drawable/apx" android:scaleType="fitCenter" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_alignParentStart="true"/>
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="15dp" android:textColor="@color/ov" android:ellipsize="end" android:id="@+id/cut" android:paddingLeft="6dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="202dp" android:maxLines="1" android:singleLine="true" android:layout_toRightOf="@+id/cuu" android:layout_centerVertical="true" android:paddingStart="6dp" android:layout_toEndOf="@+id/cuu" app:fontType="2"/>
+        </RelativeLayout>
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,25 @@
+package com.bytedance.android.livesdk.chatroom.ui;
+
+import com.meituan.robust.ChangeQuickRedirect;
+import com.meituan.robust.PatchProxy;
+import io.reactivex.functions.Consumer;
+
+public final /* synthetic */ class bl implements Consumer {
+
+    /* renamed from: a  reason: collision with root package name */
+    public static ChangeQuickRedirect f11938a;
+
+    /* renamed from: b  reason: collision with root package name */
+    static final Consumer f11939b = new bl();
+
+    private bl() {
+    }
+
+    public final void accept(Object obj) {
+        if (PatchProxy.isSupport(new Object[]{obj}, this, f11938a, false, 5824, new Class[]{Object.class}, Void.TYPE)) {
+            PatchProxy.accessDispatch(new Object[]{obj}, this, f11938a, false, 5824, new Class[]{Object.class}, Void.TYPE);
+            return;
+        }
+        throw new RuntimeException((Throwable) obj);
+    }
+}

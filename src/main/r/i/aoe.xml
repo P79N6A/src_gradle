@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="bottom|left|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="46dp" android:layout_marginBottom="167dp">
+    <com.bytedance.android.livesdk.gift.effect.entry.view.UserEnterRankView android:layout_gravity="top|center_vertical|center_horizontal|center" android:orientation="horizontal" android:id="@+id/b9z" android:background="@drawable/bzi" android:layout_width="wrap_content" android:layout_height="16dp">
+        <TextView android:textSize="12sp" android:textColor="#ffffff" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/da0" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </com.bytedance.android.livesdk.gift.effect.entry.view.UserEnterRankView>
+    <com.bytedance.android.livesdk.gift.effect.entry.view.UserEnterLevelView android:layout_gravity="bottom|left|center_vertical|center_horizontal|center|start" android:id="@+id/dur" android:layout_width="wrap_content" android:layout_height="22dp"/>
+</FrameLayout>

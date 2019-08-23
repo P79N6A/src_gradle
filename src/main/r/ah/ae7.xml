@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ss.android.ugc.aweme.themechange.base.AVDmtPanelFrameLayout android:id="@+id/b89" android:layout_width="match_parent" android:layout_height="match_parent" app:fsPanel="true">
+        <include layout="@layout/ae_"/>
+        <include layout="@layout/aed"/>
+    </com.ss.android.ugc.aweme.themechange.base.AVDmtPanelFrameLayout>
+    <FrameLayout android:id="@+id/b8w" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@+id/b89"/>
+    <FrameLayout android:id="@+id/b81" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

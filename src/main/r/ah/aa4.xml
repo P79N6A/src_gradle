@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <GridView android:id="@+id/alh" android:background="@color/a18" android:padding="15dp" android:layout_width="match_parent" android:layout_height="match_parent" android:horizontalSpacing="@dimen/ij" android:verticalSpacing="@dimen/ij" android:numColumns="4"/>
+    <RelativeLayout android:id="@+id/buy" android:background="#800a0909" android:layout_width="match_parent" android:layout_height="@dimen/m6" android:layout_alignParentBottom="true">
+        <TextView android:enabled="false" android:id="@+id/cnd" android:paddingLeft="20dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/baz" android:layout_alignParentLeft="true" style="@style/t1"/>
+        <TextView android:id="@+id/cn7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/t1"/>
+        <TextView android:id="@+id/cn2" android:paddingRight="20dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/bax" android:layout_alignParentRight="true" style="@style/t1"/>
+    </RelativeLayout>
+    <TextView android:textSize="15sp" android:textColor="#ffffff" android:gravity="center_vertical" android:id="@+id/bm4" android:background="#aa000000" android:paddingLeft="10dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="40dp" android:text="@string/bb1" android:layout_alignBottom="@+id/alh"/>
+    <ProgressBar android:id="@+id/bjf" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/Widget.ProgressBar.Inverse"/>
+</RelativeLayout>

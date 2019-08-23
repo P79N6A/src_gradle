@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="vertical" android:id="@+id/e7" android:background="@drawable/y8" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/br">
+    <TextView android:textSize="@dimen/bt" android:textStyle="bold" android:textColor="@color/ap" android:layout_gravity="center_horizontal" android:id="@+id/eb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bq" android:text="@string/or"/>
+    <ScrollView android:id="@+id/e_" android:padding="@dimen/bs" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/bt" android:textColor="@color/ap" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@+id/e9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/op"/>
+    </ScrollView>
+    <LinearLayout android:orientation="horizontal" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:textSize="@dimen/bo" android:textColor="@color/am" android:gravity="center" android:id="@+id/e8" android:background="@drawable/y7" android:paddingTop="@dimen/bn" android:paddingBottom="@dimen/bn" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/on" android:layout_weight="1"/>
+        <Button android:textSize="@dimen/bo" android:textColor="@color/ao" android:gravity="center" android:id="@+id/ea" android:background="@drawable/y7" android:paddingTop="@dimen/bn" android:paddingBottom="@dimen/bn" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/oq" android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

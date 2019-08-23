@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <com.ss.android.ugc.aweme.base.ui.RemoteImageView android:id="@+id/bce" android:background="@drawable/ih" android:layout_width="match_parent" android:layout_height="match_parent" app:roundedCornerRadius="4dp"/>
+    <ImageView android:id="@+id/bcf" android:visibility="gone" android:layout_width="20dp" android:layout_height="20dp" android:layout_margin="5dp" android:src="@drawable/bu0"/>
+</merge>

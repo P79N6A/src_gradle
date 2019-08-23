@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="bl">
+    </style>
+    <style name="bs">
+    </style>
+    <style name="xr">
+        <item name="hw">?unknown_attr_ref: 1010571</item>
+    </style>
+    <style name="xs">
+        <item name="hw">?unknown_attr_ref: 1010571</item>
+    </style>
+    <style name="fv">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowEnterAnimation">@anim/bq</item>
+        <item name="android:windowExitAnimation">@anim/br</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+</resources>

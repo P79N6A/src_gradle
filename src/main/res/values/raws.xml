@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <raw name="baritone">r/j/baritone.zip</raw>
+    <raw name="beautify_filter">r/j/beautify_filter.zip</raw>
+    <raw name="beauty_12_1_1">r/j/beauty_12_1_1.zip</raw>
+    <raw name="chipmunk">r/j/chipmunk.zip</raw>
+    <raw name="dots_loading_lottie">r/j/dots_loading_lottie.json</raw>
+    <raw name="facereshape_v2">r/j/facereshape_v2.zip</raw>
+    <raw name="fake3d">r/j/fake3d.zip</raw>
+    <raw name="filters">r/j/filters.zip</raw>
+    <raw name="keep">r/j/keep.xml</raw>
+    <raw name="pushsound">r/j/pushsound.mp3</raw>
+    <raw name="shutter_sound_shoot">r/j/shutter_sound_shoot.mp3</raw>
+    <raw name="shutter_sound_stop">r/j/shutter_sound_stop.mp3</raw>
+    <raw name="soul_scale">r/j/soul_scale.zip</raw>
+    <raw name="tool_photo_movie_change_vertical_0">r/j/tool_photo_movie_change_vertical_0.webp</raw>
+    <raw name="tool_photo_movie_change_vertical_1">r/j/tool_photo_movie_change_vertical_1.webp</raw>
+    <raw name="tool_photo_movie_change_vertical_2">r/j/tool_photo_movie_change_vertical_2.webp</raw>
+    <raw name="tool_photo_movie_change_vertical_3">r/j/tool_photo_movie_change_vertical_3.webp</raw>
+    <raw name="tool_photo_movie_change_vertical_4">r/j/tool_photo_movie_change_vertical_4.webp</raw>
+    <raw name="tool_photo_movie_change_vertical_5">r/j/tool_photo_movie_change_vertical_5.webp</raw>
+    <raw name="tool_photo_movie_change_vertical_6">r/j/tool_photo_movie_change_vertical_6.webp</raw>
+    <raw name="tool_photo_movie_change_vertical_7">r/j/tool_photo_movie_change_vertical_7.webp</raw>
+    <raw name="tool_photo_movie_change_vertical_8">r/j/tool_photo_movie_change_vertical_8.webp</raw>
+    <raw name="tool_photo_movie_change_vertical_9">r/j/tool_photo_movie_change_vertical_9.webp</raw>
+    <raw name="tool_photo_movie_horizontal_0">r/j/tool_photo_movie_horizontal_0.webp</raw>
+    <raw name="tool_photo_movie_horizontal_1">r/j/tool_photo_movie_horizontal_1.webp</raw>
+    <raw name="tool_photo_movie_horizontal_2">r/j/tool_photo_movie_horizontal_2.webp</raw>
+    <raw name="tool_photo_movie_horizontal_3">r/j/tool_photo_movie_horizontal_3.webp</raw>
+    <raw name="tool_photo_movie_horizontal_4">r/j/tool_photo_movie_horizontal_4.webp</raw>
+    <raw name="tool_photo_movie_horizontal_5">r/j/tool_photo_movie_horizontal_5.webp</raw>
+    <raw name="tool_photo_movie_horizontal_6">r/j/tool_photo_movie_horizontal_6.webp</raw>
+    <raw name="tool_photo_movie_horizontal_7">r/j/tool_photo_movie_horizontal_7.webp</raw>
+    <raw name="tool_photo_movie_horizontal_8">r/j/tool_photo_movie_horizontal_8.webp</raw>
+    <raw name="tool_photo_movie_horizontal_9">r/j/tool_photo_movie_horizontal_9.webp</raw>
+</resources>

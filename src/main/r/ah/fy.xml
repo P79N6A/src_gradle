@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <RelativeLayout android:id="@+id/adf" android:layout_width="match_parent" android:layout_height="52dp">
+        <View android:id="@+id/adh" android:background="?attr/zq" android:layout_width="1dp" android:layout_height="16dp" android:layout_centerInParent="true"/>
+        <com.ss.android.ugc.aweme.themechange.base.AVDmtTextView android:textColor="?attr/zl" android:gravity="center" android:id="@+id/d0x" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/in" android:layout_alignRight="@+id/adh" android:layout_alignParentLeft="true" app:isChangeTextSize="false" app:isSelectState="true"/>
+        <com.ss.android.ugc.aweme.themechange.base.AVDmtTextView android:textColor="?attr/zz" android:gravity="center" android:id="@+id/d0w" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/ij" android:layout_alignLeft="@+id/adh" android:layout_alignParentRight="true" app:isChangeTextSize="false" app:isSelectState="true"/>
+    </RelativeLayout>
+</merge>

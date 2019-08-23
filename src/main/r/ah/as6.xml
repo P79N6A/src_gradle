@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:orientation="horizontal" android:id="@+id/bkj" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/za" android:id="@+id/dn9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cj6" android:layout_centerInParent="true" style="@style/s9"/>
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/bv0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:src="@drawable/b40" android:layout_toRightOf="@+id/dn9" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/byi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:layout_below="@+id/dn9">
+        <ImageView android:id="@+id/at7" android:visibility="gone" android:layout_width="44dp" android:layout_height="44dp" android:layout_marginLeft="7.5dp" android:layout_marginTop="10dp" android:layout_marginRight="7.5dp" android:layout_marginBottom="10dp" android:src="@drawable/bjt" android:contentDescription="@string/afk"/>
+        <ImageView android:id="@+id/at9" android:visibility="visible" android:layout_width="44dp" android:layout_height="44dp" android:layout_marginLeft="7.5dp" android:layout_marginTop="10dp" android:layout_marginRight="7.5dp" android:layout_marginBottom="10dp" android:src="@drawable/bk2" android:contentDescription="@string/cob"/>
+        <ImageView android:id="@+id/at8" android:layout_width="44dp" android:layout_height="44dp" android:layout_marginLeft="7.5dp" android:layout_marginTop="10dp" android:layout_marginRight="7.5dp" android:layout_marginBottom="10dp" android:src="@drawable/bjx" android:contentDescription="@string/bu9"/>
+        <ImageView android:id="@+id/ata" android:layout_width="44dp" android:layout_height="44dp" android:layout_marginLeft="7.5dp" android:layout_marginTop="10dp" android:layout_marginRight="7.5dp" android:layout_marginBottom="10dp" android:src="@drawable/bk4" android:contentDescription="@string/dtm"/>
+        <ImageView android:id="@+id/at_" android:layout_width="44dp" android:layout_height="44dp" android:layout_marginLeft="7.5dp" android:layout_marginTop="10dp" android:layout_marginRight="7.5dp" android:layout_marginBottom="10dp" android:src="@drawable/bjz" android:contentDescription="@string/dtc"/>
+    </LinearLayout>
+</merge>

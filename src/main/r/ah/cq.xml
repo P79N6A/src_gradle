@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/a17" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/cv0" android:layout_width="match_parent" android:layout_height="0dp"/>
+    <com.bytedance.ies.dmt.ui.titlebar.TextTitleBar android:id="@+id/d3m" android:layout_width="match_parent" android:layout_height="@dimen/r7" app:endTextSize="15dp" app:titleTextColor="@color/a08" app:useBackIcon="true"/>
+    <FrameLayout android:id="@+id/bt5" android:background="#0e0f1a" android:layout_width="match_parent" android:layout_height="match_parent">
+        <android.support.v4.widget.SwipeRefreshLayout android:id="@+id/btv" android:background="@color/a17" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="match_parent">
+                <android.support.v7.widget.RecyclerView android:id="@+id/bti" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            </LinearLayout>
+        </android.support.v4.widget.SwipeRefreshLayout>
+        <com.bytedance.ies.dmt.ui.widget.DmtStatusView android:id="@+id/cvd" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+</LinearLayout>

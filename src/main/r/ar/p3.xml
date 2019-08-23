@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <android.support.design.widget.AppBarLayout android:theme="@style/m8" android:id="@+id/s" android:background="@color/a17" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_scrollFlags="d">
+            <android.support.v7.widget.RecyclerView android:id="@+id/cir" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <View android:background="@color/di" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_marginStart="16dp" android:layout_marginEnd="16dp"/>
+            <LinearLayout android:orientation="vertical" android:id="@+id/b94" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <include layout="@layout/a6v"/>
+            <View android:background="@color/di" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_marginStart="16dp" android:layout_marginEnd="16dp"/>
+        </LinearLayout>
+    </android.support.design.widget.AppBarLayout>
+    <FrameLayout android:id="@+id/bqj" android:background="@color/a17" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/dw"/>
+    <com.ss.android.ugc.aweme.discover.ui.NoticeView android:layout_gravity="bottom" android:id="@+id/brl" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:titleText="@string/bkh"/>
+</android.support.design.widget.CoordinatorLayout>

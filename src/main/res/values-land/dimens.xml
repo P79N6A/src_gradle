@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="f">48dp</dimen>
+    <dimen name="bc">12dp</dimen>
+    <dimen name="be">14dp</dimen>
+    <dimen name="mq">170dp</dimen>
+    <dimen name="o0">190dp</dimen>
+    <dimen name="o2">200dp</dimen>
+    <dimen name="od">0dp</dimen>
+    <dimen name="og">14dp</dimen>
+</resources>

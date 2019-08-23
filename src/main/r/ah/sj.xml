@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.discover.widget.CategoryAdView xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="228.5dp" android:layout_marginTop="6dp">
+    <com.ss.android.ugc.aweme.discover.widget.BannerViewPager android:id="@+id/duu" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.ss.android.ugc.aweme.base.ui.RemoteImageView android:background="@drawable/fl" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.ss.android.ugc.aweme.shortvideo.ui.ViewPagerIndicatorLayout android:id="@+id/a6b" android:paddingBottom="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:indicatorSize="5dp" app:indicatorSpace="5dp" app:indicatorUnselectedAlpha="0.34"/>
+    <LinearLayout android:layout_gravity="end" android:id="@+id/d3" android:background="@drawable/ib" android:layout_width="wrap_content" android:layout_height="14dp" android:layout_marginTop="12dp" android:layout_marginRight="12dp">
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="9sp" android:textColor="@color/zt" android:layout_gravity="center_vertical" android:id="@+id/d1" android:layout_width="wrap_content" android:layout_height="wrap_content" app:fontType="7"/>
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:layout_width="match_parent" android:layout_height="60dp">
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textStyle="bold" android:textColor="@color/hy" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginRight="12dp" android:maxLines="2" android:shadowColor="#40000000" android:shadowDy="2" android:shadowRadius="6" style="@style/sc"/>
+    </FrameLayout>
+</com.ss.android.ugc.aweme.discover.widget.CategoryAdView>

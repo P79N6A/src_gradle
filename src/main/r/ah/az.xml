@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.themechange.base.AVDmtPanelFrameLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/a7l" android:layout_width="match_parent" android:layout_height="match_parent" android:keepScreenOn="true" app:fsPanel="true">
+    <com.ss.android.ugc.aweme.photomovie.CompatTextureView android:id="@+id/cxe" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ImageView android:layout_gravity="center" android:id="@+id/byk" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/amu" android:scaleType="centerInside"/>
+    <View android:layout_gravity="bottom" android:layout_width="match_parent" android:layout_height="200dp"/>
+    <View android:layout_width="match_parent" android:layout_height="84dp"/>
+    <include layout="@layout/a8k"/>
+    <ViewStub android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/ct2" android:layout="@layout/a9z" android:layout_width="222dp" android:layout_height="32dp" android:layout_marginLeft="32.5dp" android:layout_marginRight="32.5dp" android:layout_marginBottom="163dp"/>
+    <include layout="@layout/a33"/>
+    <FrameLayout android:id="@+id/drn" android:visibility="gone" android:layout_width="0dp" android:layout_height="0dp">
+        <android.support.v7.widget.RecyclerView android:id="@+id/dro" android:layout_width="match_parent" android:layout_height="74dp"/>
+    </FrameLayout>
+    <TextView android:id="@+id/d8q" android:visibility="gone" android:layout_width="0dp" android:layout_height="0dp"/>
+    <View android:id="@+id/f8" android:visibility="gone" android:layout_width="0dp" android:layout_height="0dp"/>
+    <FrameLayout android:id="@+id/crn" android:visibility="gone" android:layout_width="0dp" android:layout_height="0dp">
+        <ImageView android:id="@+id/ay_" android:visibility="gone" android:layout_width="0dp" android:layout_height="0dp"/>
+        <FrameLayout android:id="@+id/af0" android:visibility="gone" android:layout_width="0dp" android:layout_height="0dp">
+            <com.ss.android.ugc.aweme.base.ui.RemoteImageView android:id="@+id/ayb" android:layout_width="0dp" android:layout_height="0dp"/>
+        </FrameLayout>
+        <ImageView android:id="@+id/aye" android:visibility="gone" android:layout_width="0dp" android:layout_height="0dp"/>
+    </FrameLayout>
+</com.ss.android.ugc.aweme.themechange.base.AVDmtPanelFrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/hy" android:visibility="gone" android:layout_width="match_parent" android:layout_height="92dp">
+    <View android:background="#14ffffff" android:layout_width="match_parent" android:layout_height="0.4dp" android:layout_marginLeft="16dp" android:layout_marginRight="16dp"/>
+    <com.ss.android.ugc.aweme.setting.ui.Divider android:layout_width="match_parent" android:layout_height="wrap_content" app:startText="@string/jl"/>
+    <com.bytedance.ies.dmt.ui.common.views.CommonItemView android:id="@+id/hv" android:layout_width="match_parent" app:left_text="@string/jk" app:left_text_color="#e6ffffff" app:right_text="@string/jj" app:right_text_color="#57ffffff" style="@style/f5"/>
+</LinearLayout>

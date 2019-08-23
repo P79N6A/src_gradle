@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/yx" android:fitsSystemWindows="true" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout android:theme="@style/m8" android:id="@+id/ck9" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <android.support.design.widget.CollapsingToolbarLayout android:id="@+id/tz" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent" android:minHeight="@dimen/r7" android:layout_weight="1" app:layout_scrollFlags="3">
+            <com.ss.android.ugc.aweme.base.ui.RemoteImageView android:id="@+id/asl" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/ap1" android:scaleType="centerCrop" app:layout_collapseMode="2" app:layout_collapseParallaxMultiplier="0.5"/>
+            <com.bytedance.ies.dmt.ui.titlebar.NormalTitleBar android:id="@+id/d3m" android:layout_width="match_parent" android:layout_height="@dimen/r7" app:layout_collapseMode="1" app:endDrawable="@drawable/b9j" app:titleText="@string/cln" app:titleTextColor="@color/zt" app:useBackIcon="true"/>
+        </android.support.design.widget.CollapsingToolbarLayout>
+        <android.support.constraint.ConstraintLayout android:id="@+id/by7" android:background="@color/yx" android:layout_width="match_parent" android:layout_height="48dp">
+            <LinearLayout android:orientation="horizontal" android:id="@+id/by8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintTop_toTopOf="0">
+                <TextView android:textSize="13sp" android:textColor="@color/a6m" android:id="@+id/a1u" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:layout_marginStart="16dp"/>
+                <ImageView android:id="@+id/b3x" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.5dp" android:layout_marginTop="12dp" android:layout_marginRight="16dp" android:src="@drawable/b4h" android:rotation="90" android:layout_marginStart="6.5dp" android:layout_marginEnd="16dp"/>
+            </LinearLayout>
+            <TextView android:textSize="13sp" android:textColor="@color/zl" android:id="@+id/c_o" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_marginRight="16dp" android:text="@string/bv6" android:layout_marginEnd="16dp" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toTopOf="0"/>
+        </android.support.constraint.ConstraintLayout>
+    </android.support.design.widget.AppBarLayout>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/dw">
+        <android.support.v7.widget.RecyclerView android:id="@+id/cil" android:background="@color/bn" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtStatusView android:id="@+id/cvd" android:background="@color/yx" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="400dp"/>
+    </FrameLayout>
+</android.support.design.widget.CoordinatorLayout>

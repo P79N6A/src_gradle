@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/ag1" android:background="@color/yx" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ss.android.ugc.aweme.discover.widget.BannerSwipeRefreshLayout android:id="@+id/ne" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <include android:id="@+id/cl0" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/r7" layout="@layout/arq"/>
+            <com.ss.android.ugc.aweme.discover.widget.DiscoveryRecyclerView android:id="@+id/bcz" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </LinearLayout>
+    </com.ss.android.ugc.aweme.discover.widget.BannerSwipeRefreshLayout>
+    <com.bytedance.ies.dmt.ui.widget.DmtStatusView android:id="@+id/cvd" android:background="@color/yx" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <View android:id="@+id/cv0" android:background="@color/z4" android:layout_width="match_parent" android:layout_height="0dp"/>
+    <com.ss.android.ugc.aweme.discover.ui.NoticeView android:id="@+id/bx8" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" app:iconImage="@drawable/b9t" app:titleText="@string/blv"/>
+    <View android:id="@+id/a5g" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</RelativeLayout>

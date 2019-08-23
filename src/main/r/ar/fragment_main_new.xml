@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/ag1" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ss.android.ugc.aweme.base.opensourcemodified.android.support.v4.widget.SwipeRefreshLayout android:id="@+id/ctx" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.ss.android.ugc.aweme.feed.ui.CustomInterceptTouchEventFrameLayout android:id="@+id/afe" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.ss.android.ugc.aweme.common.widget.FlippableViewPager android:id="@+id/duu" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <ImageView android:id="@+id/d3y" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/nb"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <View android:id="@+id/cv0" android:layout_width="match_parent" android:layout_height="0dp"/>
+                <FrameLayout android:id="@+id/d3n" android:layout_width="match_parent" android:layout_height="52dp">
+                    <RelativeLayout android:gravity="center_vertical" android:id="@+id/xv" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+                        <com.ss.android.ugc.aweme.common.widget.MainTabStrip android:gravity="center_vertical" android:layout_gravity="center" android:id="@+id/bw7" android:background="@color/ano" android:layout_width="match_parent" android:layout_height="44dp" android:layout_centerHorizontal="true" android:layout_centerVertical="true"/>
+                        <LinearLayout android:gravity="center_vertical" android:id="@+id/afo" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="44dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="11dp" android:layout_alignParentEnd="true">
+                            <ImageView android:id="@+id/azc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/az5" android:scaleType="centerInside" android:alpha="0.6"/>
+                            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="15dp" android:textStyle="bold" android:textColor="@color/hx" android:gravity="center" android:id="@+id/di0" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="1dp" android:text="@string/c1z" android:alpha="0.6"/>
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:id="@+id/biu" android:layout_width="wrap_content" android:layout_height="44dp" android:layout_toLeftOf="@+id/afo" android:layout_centerVertical="true" android:layout_toStartOf="@+id/afo">
+                            <com.ss.android.ugc.aweme.base.ui.AnimationImageView android:layout_gravity="center_vertical" android:id="@+id/azf" android:padding="2dp" android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/ayu"/>
+                            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="15dp" android:textStyle="bold" android:textColor="@color/hx" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/ddt" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/b65" android:alpha="0.6" android:layout_marginStart="@dimen/hy"/>
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/cfe" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="16dp" android:layout_centerVertical="true" android:layout_marginStart="16dp">
+                            <ImageView android:layout_gravity="center_vertical" android:id="@+id/aze" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginLeft="1dp" android:src="@drawable/bku" android:alpha="0.6" android:layout_marginStart="1dp"/>
+                            <TextView android:textSize="15dp" android:textStyle="bold" android:textColor="@color/ao4" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/d9q" android:paddingBottom="1dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="@string/b9p" android:shadowColor="@color/mc" android:shadowDy="2" android:shadowRadius="2" android:lineSpacingExtra="2dp" android:alpha="0.6" android:layout_marginStart="5dp"/>
+                        </LinearLayout>
+                    </RelativeLayout>
+                    <com.ss.android.ugc.aweme.views.HotRightSearchGuideView android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/dvu" android:background="@drawable/ht" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="36dp" android:layout_marginEnd="10dp"/>
+                    <ViewStub android:layout_gravity="center" android:id="@+id/czy" android:layout="@layout/as2" android:inflatedId="@+id/czw" android:layout_width="match_parent" android:layout_height="44dp"/>
+                </FrameLayout>
+                <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/bgo" android:background="@drawable/l6" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:alpha="0">
+                    <ImageView android:layout_width="16dp" android:layout_height="16dp" android:layout_marginLeft="10dp" android:layout_marginTop="6dp" android:layout_marginRight="4dp" android:layout_marginBottom="6dp" android:src="@drawable/b6f" android:layout_marginStart="10dp" android:layout_marginEnd="4dp"/>
+                    <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="14sp" android:textColor="@color/aod" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bgs" android:layout_marginEnd="10dp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </com.ss.android.ugc.aweme.feed.ui.CustomInterceptTouchEventFrameLayout>
+    </com.ss.android.ugc.aweme.base.opensourcemodified.android.support.v4.widget.SwipeRefreshLayout>
+    <FrameLayout android:id="@+id/afc" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <View android:layout_gravity="bottom" android:id="@+id/dqw" android:background="@color/a2t" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="@dimen/lw"/>
+</FrameLayout>

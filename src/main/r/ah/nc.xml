@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <SurfaceView android:id="@+id/drp" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ImageView android:layout_gravity="center" android:id="@+id/ayc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/amu" android:scaleType="centerInside"/>
+    <View android:layout_gravity="bottom" android:layout_width="match_parent" android:layout_height="200dp"/>
+    <View android:layout_width="match_parent" android:layout_height="84dp"/>
+    <include android:id="@+id/ml" layout="@layout/a32"/>
+    <ViewStub android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/cwd" android:layout="@layout/a9z" android:layout_width="222dp" android:layout_height="32dp" android:layout_marginLeft="32.5dp" android:layout_marginRight="32.5dp" android:layout_marginBottom="163dp"/>
+    <include android:id="@+id/d3x" layout="@layout/a8l"/>
+</FrameLayout>

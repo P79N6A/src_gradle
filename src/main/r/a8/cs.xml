@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/chu" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ss.android.ugc.aweme.photo.PhotoView android:id="@+id/bxq" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" android:transitionName="photo"/>
+    <LinearLayout android:id="@+id/a1j" android:background="@drawable/nz" android:layout_width="match_parent" android:layout_height="84dp"/>
+    <LinearLayout android:layout_gravity="bottom" android:background="@drawable/ny" android:layout_width="match_parent" android:layout_height="334dp"/>
+    <RelativeLayout android:id="@+id/d3v" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="28dp">
+        <ImageView android:layout_gravity="top" android:id="@+id/iu" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginLeft="16dp" android:src="@drawable/avc" android:layout_marginStart="16dp"/>
+    </RelativeLayout>
+    <FrameLayout android:layout_gravity="bottom" android:id="@+id/b82" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="20dp">
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/a30" android:gravity="center" android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/bqm" android:background="@drawable/lc" android:layout_width="69dp" android:layout_height="32dp" android:layout_marginRight="16dp" android:layout_marginBottom="11.5dp" android:text="@string/bgv" android:layout_marginEnd="16dp" style="@style/sc"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/a30" android:gravity="center" android:layout_gravity="bottom" android:id="@+id/ade" android:layout_width="44dp" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:text="@string/aes" android:drawableTop="@drawable/bc2" android:drawablePadding="@dimen/la" android:layout_marginStart="16dp" style="@style/s3"/>
+    </FrameLayout>
+    <include layout="@layout/hu"/>
+</FrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/dt9" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <android.support.constraint.ConstraintLayout android:id="@+id/d0r" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/d0s" android:layout_width="0dp" android:layout_height="0dp" android:scaleType="fitXY" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+        <TextView android:gravity="center_horizontal" android:id="@+id/d0t" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toTopOf="0"/>
+    </android.support.constraint.ConstraintLayout>
+    <com.bytedance.android.livesdk.widget.GiftUserInfoView android:id="@+id/dqk" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="80dp" android:layout_centerHorizontal="true"/>
+</RelativeLayout>

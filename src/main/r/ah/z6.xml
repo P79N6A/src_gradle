@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="52dp">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+        <ImageView android:id="@+id/c6h" android:layout_width="20dp" android:layout_height="20dp" android:src="@drawable/b5t" android:importantForAccessibility="no"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/zt" android:id="@+id/c6e" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:text="@string/brc" android:maxLines="2" style="@style/sc"/>
+        <ImageView android:layout_gravity="center" android:id="@+id/c6g" android:visibility="gone" android:layout_width="7dp" android:layout_height="7dp" android:layout_marginLeft="2dp" android:layout_marginBottom="7dp" android:src="@drawable/ux" android:importantForAccessibility="no"/>
+        <com.ss.android.ugc.aweme.views.SmartAnimatedImageView android:id="@+id/byr" android:visibility="gone" android:layout_width="140dp" android:layout_height="14dp" android:layout_marginLeft="7dp" android:importantForAccessibility="no" app:placeholderImage="@color/a7l" app:actualImageScaleType="0"/>
+    </LinearLayout>
+    <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/zx" android:id="@+id/c6l" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2dp" android:text="@string/bsw" style="@style/sc"/>
+    <com.ss.android.ugc.aweme.views.AutoRTLImageView android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/aqn" android:layout_width="20dp" android:layout_height="20dp" android:src="@drawable/bl3" android:scaleType="center" android:importantForAccessibility="no"/>
+</LinearLayout>

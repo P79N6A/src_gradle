@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@drawable/e7" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:paddingTop="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/a2j" android:layout_gravity="center" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/q_" style="@style/s7"/>
+        <ImageView android:layout_gravity="end" android:id="@+id/azy" android:padding="4dp" android:layout_width="21dp" android:layout_height="21dp" android:layout_marginRight="15dp" android:src="@drawable/av1"/>
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30dp">
+        <com.ss.android.ugc.aweme.base.ui.AnimatedImageView android:layout_gravity="center_horizontal" android:id="@+id/azk" android:layout_width="262.5dp" android:layout_height="150dp" app:placeholderImage="@drawable/b2h"/>
+        <com.ss.android.ugc.aweme.base.ui.AnimatedImageView android:id="@+id/b0s" android:layout_width="wrap_content" android:layout_height="wrap_content" app:placeholderImage="@color/ano"/>
+    </FrameLayout>
+    <FrameLayout android:paddingLeft="56dp" android:paddingRight="56dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/a2j" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/q9" style="@style/sa"/>
+        <ImageView android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/b4b" android:padding="1dp" android:layout_width="20dp" android:layout_height="20dp" android:src="@drawable/b6i"/>
+    </FrameLayout>
+    <com.ss.android.ugc.aweme.captcha.ui.DragBar android:layout_gravity="center_horizontal" android:id="@+id/a7w" android:layout_width="259dp" android:layout_height="40dp" android:layout_marginTop="32.5dp" android:layout_marginBottom="32.5dp"/>
+</LinearLayout>

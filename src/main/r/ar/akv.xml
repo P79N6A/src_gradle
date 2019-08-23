@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/byh" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+    <LinearLayout android:orientation="vertical" android:background="@color/aa0" android:paddingLeft="13dp" android:paddingTop="25dp" android:paddingRight="13dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="13dp" android:paddingEnd="13dp">
+        <com.bytedance.android.live.uikit.layout.WrapLineFlowLayout android:id="@+id/czp" android:layout_width="match_parent" android:layout_height="wrap_content" app:hSpacing="15dp" app:vSpacing="25dp"/>
+        <TextView android:textSize="12sp" android:textColor="@color/a9f" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25dp" android:text="@string/dd7"/>
+        <TextView android:enabled="false" android:textSize="16sp" android:textColor="@drawable/abd" android:gravity="center" android:id="@+id/dyc" android:background="@drawable/abd" android:layout_width="match_parent" android:layout_height="40dp" android:layout_marginTop="10dp" android:text="@string/cqy"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="bottom" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <Space android:id="@+id/ms" android:layout_width="match_parent" android:layout_height="0dp" android:layout_alignParentBottom="true"/>
+    <com.ss.android.ugc.aweme.base.ui.AudioControlView android:layout_gravity="bottom" android:id="@+id/gk" android:layout_width="match_parent" android:layout_height="1dp" android:layout_above="@+id/ms" android:alpha="0.8" app:foregroundColor="@color/a1s"/>
+    <FrameLayout android:id="@+id/a3o" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginBottom="11dp" android:layout_above="@+id/ms">
+        <LinearLayout android:orientation="vertical" android:id="@+id/yu" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/b7" android:paddingLeft="4.5dp" android:paddingTop="2dp" android:paddingRight="5dp" android:paddingBottom="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8dp">
+                <FrameLayout android:id="@+id/bvr" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="13dp" android:textColor="@color/ao4" android:id="@+id/b8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0.6"/>
+            </LinearLayout>
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="18dp" android:textColor="@color/fz" android:id="@+id/b6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5dp" android:maxWidth="270dp" android:shadowColor="@color/mc" android:shadowDy="1" android:shadowRadius="1"/>
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="15dp" android:textColor="@color/fz" android:id="@+id/b1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="3dp" android:maxWidth="270dp"/>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10dp">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="9dp" android:src="@drawable/ayy" android:alpha="0.9"/>
+                <com.ss.android.ugc.aweme.feed.widget.MarqueeView android:id="@+id/b5" android:layout_width="wrap_content" android:layout_height="wrap_content" app:txt_color="@color/fz" app:txt_size="15sp"/>
+            </LinearLayout>
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="15dp" android:textColor="@color/ao4" android:gravity="center" android:id="@+id/b2" android:paddingTop="9dp" android:paddingBottom="9dp" android:layout_width="270dp" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <com.ss.android.ugc.aweme.commercialize.symphony.SymphonyCard android:layout_gravity="bottom" android:id="@+id/cyf" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/bo9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="11dp" android:layout_above="@+id/ms" android:layout_alignParentRight="true">
+        <com.ss.android.ugc.aweme.feed.widget.PeriscopeLayout android:id="@+id/bre" android:background="@android:color/transparent" android:layout_width="95dp" android:layout_height="95dp" android:layout_marginRight="21dp" android:layout_marginBottom="-22dp"/>
+        <FrameLayout android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/bo8" android:layout_width="49dp" android:layout_height="49dp" android:layout_marginRight="@dimen/g4" android:layout_marginBottom="1.5dp">
+            <com.ss.android.ugc.aweme.base.ui.CircleImageView android:layout_width="@dimen/g5" android:layout_height="@dimen/g5" app:placeholderImage="@drawable/b0l"/>
+            <com.ss.android.ugc.aweme.base.ui.CircleImageView android:layout_gravity="center" android:id="@+id/bvb" android:layout_width="27dp" android:layout_height="27dp" app:placeholderImage="@drawable/bdg"/>
+        </FrameLayout>
+    </FrameLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/bmc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6dp" android:layout_marginBottom="26dp" android:layout_above="@+id/bo9" android:layout_alignParentRight="true">
+        <FrameLayout android:id="@+id/b4" android:background="@drawable/ab" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginBottom="38dp">
+            <com.ss.android.ugc.aweme.base.ui.CircleImageView android:layout_gravity="center" android:id="@+id/b3" android:layout_width="49dp" android:layout_height="49dp" app:placeholderImage="@drawable/bdg"/>
+        </FrameLayout>
+        <ImageView android:id="@+id/pp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="39dp" android:src="@drawable/bf5"/>
+        <ImageView android:id="@+id/pm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="36dp" android:src="@drawable/bf1"/>
+        <ImageView android:id="@+id/po" android:visibility="gone" android:layout_width="36dp" android:layout_height="36dp" android:layout_marginBottom="12dp"/>
+        <ImageView android:id="@+id/pr" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</RelativeLayout>

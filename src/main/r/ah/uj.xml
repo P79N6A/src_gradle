@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:id="@+id/c2p" android:background="@color/xn" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="@dimen/kp" android:layout_marginRight="@dimen/kp"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/kp" android:layout_marginTop="20dp" android:layout_marginRight="@dimen/kp" android:layout_marginBottom="12dp">
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textStyle="bold" android:textColor="@color/xo" android:ellipsize="end" android:id="@+id/c2s" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bpb" android:maxLines="1" android:layout_weight="1" style="@style/s_"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/e8" android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/c2r" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bce" android:maxLines="1" android:drawableRight="@drawable/bfg" android:drawableEnd="@drawable/bfg" style="@style/s8"/>
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView android:id="@+id/c2q" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/kp"/>
+    <View android:id="@+id/c2o" android:background="@color/xn" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="@dimen/kp" android:layout_marginRight="@dimen/kp"/>
+</LinearLayout>

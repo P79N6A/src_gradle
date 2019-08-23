@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="25dp" android:layout_height="25dp" android:layout_marginRight="5dp" android:src="@drawable/a06" android:scaleType="fitCenter" android:layout_weight="0"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="0" style="@style/gf"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:gravity="center" android:id="@+id/c80" android:layout_width="30dp" android:layout_height="wrap_content" android:layout_marginRight="5dp" android:layout_weight="0" style="@style/ge"/>
+        <ProgressBar android:id="@+id/c7k" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" style="@style/Widget.ProgressBar.Horizontal"/>
+    </LinearLayout>
+</LinearLayout>

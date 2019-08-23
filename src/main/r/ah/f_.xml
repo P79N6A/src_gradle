@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/dui" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/anj" android:background="@color/yx" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/d_9" android:src="@drawable/b9d" style="@style/wz"/>
+        <ImageView android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/d__" android:src="@drawable/b9h" style="@style/wz"/>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/cc9" android:background="@color/yx" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="136dp" android:layout_alignParentBottom="true">
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/zx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="17dp" android:layout_marginBottom="17dp" android:text="@string/bcj" style="@style/s7"/>
+        <com.ss.android.ugc.aweme.shortvideo.widget.ChooseVideoCoverView android:layout_gravity="bottom" android:id="@+id/sq" android:layout_width="match_parent" android:layout_height="64dp" android:layout_marginBottom="20dp"/>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/dt3" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/cc9" android:layout_below="@+id/anj" android:layout_centerHorizontal="true"/>
+</RelativeLayout>

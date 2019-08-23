@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/bgy" android:layout_width="match_parent" android:layout_height="52dp">
+    <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textStyle="normal|bold|italic" android:gravity="center" android:id="@+id/dfl" android:layout_width="24dp" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_centerVertical="true" app:fontType="2" style="@style/sc"/>
+    <LinearLayout android:gravity="center_vertical" android:id="@+id/bhg" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="7dp" android:layout_marginRight="57dp" android:layout_toRightOf="@+id/dfl">
+        <View android:id="@+id/duc" android:background="@drawable/hx" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginRight="12dp"/>
+        <View android:id="@+id/dub" android:background="@color/bs" android:layout_width="123dp" android:layout_height="18dp"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:id="@+id/bg4" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="7dp" android:layout_marginRight="12dp" android:layout_toLeftOf="@+id/daa" android:layout_toRightOf="@+id/dfl">
+        <com.ss.android.ugc.aweme.base.ui.RemoteImageView android:id="@+id/b2e" android:background="@drawable/j_" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginRight="12dp" android:scaleType="fitXY" app:placeholderImage="@color/a2u" app:roundedCornerRadius="2dp" app:roundWithOverlayColor="@color/bn"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/a6i" android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/da0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3dp" android:maxLines="1" android:drawablePadding="4dp" style="@style/sc"/>
+    </LinearLayout>
+    <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/p2" android:id="@+id/daa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16dp" android:maxLines="1" android:drawableLeft="@drawable/bfi" android:drawablePadding="4dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:drawableStart="@drawable/bfi" style="@style/s9"/>
+</RelativeLayout>

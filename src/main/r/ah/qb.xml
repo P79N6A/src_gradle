@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/yx" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ss.android.ugc.aweme.common.widget.ZeusFrameLayout android:id="@+id/bcu" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.ss.android.ugc.aweme.base.opensourcemodified.android.support.v4.widget.SwipeRefreshLayout android:id="@+id/ccw" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.ss.android.ugc.aweme.common.widget.NestedScrollingRecyclerView android:id="@+id/bcz" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="6dp"/>
+        </com.ss.android.ugc.aweme.base.opensourcemodified.android.support.v4.widget.SwipeRefreshLayout>
+        <com.bytedance.ies.dmt.ui.widget.DmtStatusView android:id="@+id/cuy" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </com.ss.android.ugc.aweme.common.widget.ZeusFrameLayout>
+    <com.bytedance.ies.dmt.ui.widget.DmtStatusView android:id="@+id/cvd" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</FrameLayout>

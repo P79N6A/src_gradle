@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/chy" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ss.android.ugc.aweme.im.sdk.widget.DragView android:id="@+id/b9p" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/cjb" android:layout_width="44dp" android:layout_height="44dp" android:layout_marginRight="8dp" android:layout_marginBottom="8dp" android:layout_marginEnd="8dp">
+        <com.bytedance.ies.dmt.ui.widget.AutoRTLImageView android:layout_gravity="center" android:id="@+id/cja" android:background="@drawable/jl" android:padding="4dp" android:layout_width="28dp" android:layout_height="28dp" android:src="@drawable/bq7"/>
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/dt_" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ss.android.ugc.aweme.base.ui.RemoteImageView android:layout_gravity="center" android:id="@+id/b08" android:background="@drawable/b_t" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <View android:background="@drawable/y1" android:layout_width="match_parent" android:layout_height="75dp" android:layout_alignParentBottom="true"/>
+    <com.ss.android.ugc.aweme.shortvideo.ui.VideoPlayerProgressbar android:layout_gravity="bottom" android:id="@+id/dsn" android:layout_width="match_parent" android:layout_height="1dp" android:layout_alignParentBottom="true" app:reached_color="@color/a09" app:reached_height="1dp"/>
+</RelativeLayout>

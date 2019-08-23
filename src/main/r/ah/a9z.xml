@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:id="@+id/c9z" android:background="@drawable/j6" android:layout_width="wrap_content" android:layout_height="32dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+    <RadioButton android:id="@+id/c_r" android:background="@drawable/mg" android:text="@string/c8w" style="@style/r2"/>
+    <RadioButton android:id="@+id/c_s" android:background="@drawable/mg" android:checked="true" android:text="@string/ccm" style="@style/r2"/>
+    <RadioButton android:id="@+id/c_t" android:background="@drawable/mg" android:text="@string/adk" style="@style/r2"/>
+</RadioGroup>

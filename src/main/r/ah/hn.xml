@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+    <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/ao4" android:gravity="center" android:id="@+id/br8" android:background="@drawable/afp" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/wo" android:layout_weight="1" style="@style/s9"/>
+    <View android:id="@+id/br7" android:layout_width="1px" android:layout_height="match_parent"/>
+    <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/ao4" android:gravity="center" android:id="@+id/br9" android:background="@drawable/afq" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/p5" android:layout_weight="1" style="@style/s9"/>
+</merge>

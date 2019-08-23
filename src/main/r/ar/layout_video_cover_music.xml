@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.ss.android.ugc.aweme.feed.widget.PeriscopeLayout android:id="@+id/brf" android:background="@android:color/transparent" android:layout_width="95dp" android:layout_height="95dp" android:layout_marginRight="21dp" android:layout_marginBottom="-22dp" android:layout_above="@+id/m0" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_marginEnd="21dp" android:layout_alignParentEnd="true"/>
+    <FrameLayout android:id="@+id/bob" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="49dp" android:layout_height="49dp" android:layout_marginRight="@dimen/g4" android:layout_marginBottom="1.5dp" android:layout_above="@+id/m0" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_marginEnd="@dimen/g4" android:layout_alignParentEnd="true">
+        <com.ss.android.ugc.aweme.base.ui.CircleImageView android:id="@+id/boa" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="@dimen/g5" android:layout_height="@dimen/g5" app:placeholderImage="@drawable/b0l"/>
+        <com.ss.android.ugc.aweme.base.ui.CircleImageView android:layout_gravity="center" android:id="@+id/bvc" android:focusable="false" android:focusableInTouchMode="false" android:visibility="gone" android:layout_width="27dp" android:layout_height="27dp"/>
+    </FrameLayout>
+</RelativeLayout>

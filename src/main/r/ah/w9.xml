@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/chy" android:background="@color/a25" android:layout_width="match_parent" android:layout_height="wrap_content" app:frMode="1" app:whRatio="0.75">
+    <com.ss.android.ugc.aweme.base.ui.RemoteImageView android:id="@+id/d2o" android:layout_width="match_parent" android:layout_height="match_parent" app:placeholderImage="@color/a0i" app:failureImage="@color/a0i" app:actualImageScaleType="6"/>
+</com.ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout>

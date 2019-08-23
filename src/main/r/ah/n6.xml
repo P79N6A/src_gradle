@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/cfg" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/bfs" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.ss.android.ugc.aweme.challenge.ui.ChallengeSwipeRefreshLayout android:id="@+id/b_4" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.ss.android.ugc.aweme.common.widget.scrollablelayout.ScrollableLayout android:id="@+id/ck9" android:layout_width="match_parent" android:layout_height="match_parent" app:tabs_marginTop="@dimen/r7">
+                <LinearLayout android:id="@+id/anj" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <com.ss.android.ugc.aweme.views.AwemeViewPagerNavigator android:id="@+id/bq0" android:background="@color/a26" android:layout_width="match_parent" android:layout_height="45dp"/>
+                <View android:id="@+id/bq1" android:background="@color/p" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="16dp" android:layout_marginRight="16dp"/>
+                <com.ss.android.ugc.aweme.views.ChallengeViewPager android:id="@+id/duu" android:background="@color/a17" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            </com.ss.android.ugc.aweme.common.widget.scrollablelayout.ScrollableLayout>
+        </com.ss.android.ugc.aweme.challenge.ui.ChallengeSwipeRefreshLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/d3v" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:id="@+id/cv0" android:background="@color/a17" android:layout_width="match_parent" android:layout_height="0dp"/>
+        <RelativeLayout android:gravity="center_vertical" android:background="@color/ano" android:layout_width="match_parent" android:layout_height="@dimen/r7">
+            <View android:id="@+id/d3q" android:background="@color/a17" android:layout_width="match_parent" android:layout_height="match_parent" android:alpha="1"/>
+            <com.ss.android.ugc.aweme.views.AutoRTLImageView android:id="@+id/ix" android:layout_width="44dp" android:layout_height="44dp" android:src="@drawable/caj" android:layout_centerVertical="true" style="@style/wx"/>
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/a09" android:ellipsize="end" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/cm" android:singleLine="true" android:drawablePadding="3dp" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:alpha="0" style="@style/sf"/>
+            <ImageView android:id="@+id/cp9" android:padding="10dp" android:layout_width="44dp" android:layout_height="44dp" android:src="@drawable/b9j" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@+id/cup" android:layout_width="96dp" android:layout_height="96dp" android:layout_marginBottom="8dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <View android:layout_gravity="center" android:id="@+id/cus" android:background="@drawable/av_" android:layout_width="71dp" android:layout_height="71dp"/>
+        <ImageView android:id="@+id/cur" android:background="@drawable/av8" android:layout_width="96dp" android:layout_height="96dp"/>
+    </FrameLayout>
+    <com.bytedance.ies.dmt.ui.widget.DmtStatusView android:id="@+id/cvd" android:background="@color/yx" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/r7"/>
+</RelativeLayout>

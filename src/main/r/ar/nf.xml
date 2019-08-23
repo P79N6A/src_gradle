@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:id="@+id/bgw" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/chy" android:background="@color/d5" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include layout="@layout/np"/>
+        <View android:id="@+id/a48" android:background="@drawable/hm" android:layout_width="match_parent" android:layout_height="90dp"/>
+        <ViewStub android:id="@+id/cx1" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <android.support.constraint.ConstraintLayout android:id="@+id/aie" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.ss.android.ugc.aweme.views.AutoRTLImageView android:id="@+id/ix" android:padding="10dp" android:layout_width="44dp" android:layout_height="44dp" android:layout_marginLeft="6dp" android:src="@drawable/b99" android:layout_marginStart="6dp" app:layout_constraintLeft_toLeftOf="0"/>
+            <ImageView android:id="@+id/b4s" android:visibility="gone" android:layout_width="44dp" android:layout_height="44dp" android:src="@drawable/aws" android:scaleType="center" android:layout_marginEnd="6.5dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0"/>
+            <ViewStub android:id="@+id/aif" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toTopOf="0"/>
+            <ViewStub android:id="@+id/aid" android:layout="@layout/ng" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:layout_marginStart="24dp" android:layout_marginEnd="16dp" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toEndOf="@+id/ix" app:layout_constraintTop_toTopOf="@+id/ix"/>
+        </android.support.constraint.ConstraintLayout>
+        <ViewStub android:id="@+id/cwn" android:layout="@layout/m2" android:inflatedId="@+id/act" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <ViewStub android:id="@+id/cx3" android:layout="@layout/m6" android:inflatedId="@+id/b4r" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <include layout="@layout/a4q"/>
+        <com.ss.android.ugc.aweme.base.ui.AudioControlView android:layout_gravity="bottom" android:id="@+id/gk" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginBottom="47dp" android:alpha="0" app:foregroundColor="@color/a1s"/>
+        <com.ss.android.ugc.aweme.shortvideo.ui.VideoPlayerProgressbar android:layout_gravity="bottom" android:id="@+id/dsn" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginBottom="47dp" app:reached_color="@color/a09" app:reached_height="1dp"/>
+        <com.ss.android.ugc.aweme.feed.ui.DisLikeAwemeLayout android:id="@+id/a5m" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,22 @@
+{
+"faceID" : [
+0
+],
+"standFaceTexcoord" : {
+  "standFaceTexcoordPath" : "mask\/texcoord.json"
+},
+"blendMode" : 17,
+"maskPath" : "maskSeq000.png",
+"skinIntensity" : 1,
+"filterType" : "mask",
+"standFaceWidth" : 1200,
+"standFaceHeight" : 1200,
+"maskRect" : {
+      "x" : 290,
+      "y" : 122,
+      "width" : 633,
+      "height" : 785
+},
+"maskType" : 1,
+"version" : "1.1"
+}

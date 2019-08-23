@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ss.android.ugc.aweme.commerce.floatvideo.widget.DragRelativeLayout android:id="@+id/a7x" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="48dp" app:dock_mode="2">
+        <RelativeLayout android:id="@+id/bvt" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true">
+            <com.ss.android.ugc.aweme.feed.widget.KeepSurfaceTextureView android:id="@+id/dt2" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+    </com.ss.android.ugc.aweme.commerce.floatvideo.widget.DragRelativeLayout>
+</RelativeLayout>

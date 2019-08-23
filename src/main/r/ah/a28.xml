@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="11dp" android:textColor="@color/ao4" android:id="@+id/cm2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp"/>
+    <LinearLayout android:gravity="center" android:id="@+id/a0_" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp">
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="11sp" android:textStyle="bold" android:textColor="@color/ao4" android:gravity="center" android:id="@+id/a09" android:background="@drawable/pi" android:layout_width="20dp" android:layout_height="20dp"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="11sp" android:textStyle="bold" android:textColor="@color/ao4" android:gravity="center" android:layout_width="7.5dp" android:layout_height="wrap_content" android:text="@string/c37"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="11sp" android:textStyle="bold" android:textColor="@color/ao4" android:gravity="center" android:id="@+id/a0a" android:background="@drawable/pi" android:layout_width="20dp" android:layout_height="20dp"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="11sp" android:textStyle="bold" android:textColor="@color/ao4" android:gravity="center" android:layout_width="7.5dp" android:layout_height="wrap_content" android:text="@string/c37"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="11sp" android:textStyle="bold" android:textColor="@color/ao4" android:gravity="center" android:id="@+id/a0b" android:background="@drawable/pi" android:layout_width="20dp" android:layout_height="20dp"/>
+    </LinearLayout>
+</LinearLayout>

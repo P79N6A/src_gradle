@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout android:id="@+id/jf" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="12dp" app:whRatio="4.787">
+        <com.ss.android.ugc.aweme.discover.widget.BannerViewPager android:id="@+id/duu" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <com.ss.android.ugc.aweme.discover.widget.IndicatorView android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/a6b" android:paddingBottom="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" app:indicatorSize="5dp" app:indicatorSpace="5dp" app:indicatorUnselectedAlpha="0.34"/>
+    </com.ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/c2n" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:paddingLeft="16dp" android:paddingRight="16dp" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="48dp">
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/a6m" android:id="@+id/c2a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bpa" android:layout_alignParentBottom="true" style="@style/s9"/>
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/zn" android:gravity="bottom" android:id="@+id/c2_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bpu" android:drawableRight="@drawable/aue" android:drawablePadding="4.5dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:drawableEnd="@drawable/aue" style="@style/s9"/>
+        </RelativeLayout>
+        <android.support.v4.view.ViewPager android:id="@+id/c46" android:layout_width="match_parent" android:layout_height="240dp"/>
+        <View android:background="@color/p" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="16dp" android:layout_marginTop="12dp" android:layout_marginRight="16dp"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/a6m" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="@string/bos" style="@style/s9"/>
+        <View android:layout_width="match_parent" android:layout_height="20dp"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="13sp" android:textColor="@color/a6m" android:gravity="center" android:id="@+id/ij" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="@string/bol"/>
+    </LinearLayout>
+</LinearLayout>

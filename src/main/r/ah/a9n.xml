@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <android.support.v7.widget.ViewStubCompat android:layout_gravity="bottom" android:id="@+id/cwe" android:layout="@layout/fq" android:inflatedId="@layout/fq" android:layout_width="match_parent" android:layout_height="160dp" android:layout_marginBottom="25dp"/>
+        <RelativeLayout android:layout_gravity="bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginBottom="8dp">
+            <FrameLayout android:id="@+id/b_y" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.ss.android.ugc.aweme.themechange.base.AVDmtView android:layout_gravity="center" android:id="@+id/b_z" android:layout_width="36dp" android:layout_height="36dp" app:effectPanel="true" app:isCircle="true"/>
+                <com.ss.android.ugc.aweme.music.ui.CheckableImageView android:layout_gravity="center" android:id="@+id/atr" android:layout_width="20dp" android:layout_height="20dp"/>
+            </FrameLayout>
+        </RelativeLayout>
+    </FrameLayout>
+    <android.support.v7.widget.ViewStubCompat android:id="@+id/cwy" android:layout="@layout/abj" android:inflatedId="@layout/abj" android:layout_width="match_parent" android:layout_height="65dp" android:layout_marginLeft="7.5dp" android:layout_marginRight="7.5dp" android:layout_marginBottom="6dp"/>
+    <android.support.v7.widget.ViewStubCompat android:id="@+id/cwj" android:layout="@layout/m0" android:inflatedId="@layout/m0" android:layout_width="match_parent" android:layout_height="65dp" android:layout_marginLeft="7.5dp" android:layout_marginRight="7.5dp" android:layout_marginBottom="6dp"/>
+    <android.support.v7.widget.ViewStubCompat android:id="@+id/cww" android:layout="@layout/aah" android:inflatedId="@layout/aah" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="7.5dp" android:layout_marginRight="7.5dp" android:layout_marginBottom="6dp"/>
+    <com.ss.android.ugc.aweme.themechange.base.AVDmtPanelLinearLayout android:orientation="vertical" android:id="@+id/ba3" android:layout_width="match_parent" android:layout_height="match_parent" app:effectPanel="true">
+        <com.ss.android.ugc.aweme.themechange.base.AVDmtPanelRelativeLayout android:orientation="horizontal" android:id="@+id/ba2" android:background="@drawable/a0i" android:layout_width="match_parent" android:layout_height="36dp" app:effectPanel="true" app:secondPanel="true">
+            <com.ss.android.ugc.aweme.themechange.base.AVDmtImageView android:id="@+id/as_" android:focusableInTouchMode="true" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:src="@drawable/b9y" android:layout_centerVertical="true" android:contentDescription="@string/s" app:fsPanel="true" app:isSelected="false" app:secondPanel="true"/>
+            <com.ss.android.ugc.aweme.themechange.base.AVDmtTabLayout android:id="@+id/cz5" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_toRightOf="@+id/as_" android:overScrollHeader="@color/v3" android:overScrollFooter="@color/v3" app:tabGravity="0" app:tabIndicatorColor="@color/a08" app:tabIndicatorHeight="2dp" app:tabMinWidth="30dp" app:tabMode="0" app:tabPaddingEnd="0dp" app:tabPaddingStart="0dp" app:theme="@style/p4"/>
+            <com.ss.android.ugc.aweme.themechange.base.AVDmtView android:id="@+id/cz4" android:layout_width="0.5dp" android:layout_height="16dp" android:layout_alignLeft="@+id/cz5" android:layout_centerVertical="true" app:subView="true"/>
+        </com.ss.android.ugc.aweme.themechange.base.AVDmtPanelRelativeLayout>
+        <com.ss.android.ugc.aweme.views.RtlViewPager android:id="@+id/duz" android:layout_width="match_parent" android:layout_height="220dp" android:overScrollHeader="@color/a0k" android:overScrollFooter="@color/a0k"/>
+    </com.ss.android.ugc.aweme.themechange.base.AVDmtPanelLinearLayout>
+</LinearLayout>

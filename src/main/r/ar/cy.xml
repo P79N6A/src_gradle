@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/bn" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ss.android.ugc.aweme.photo.setfilter.SetFilterLayout android:id="@+id/ads" android:background="@drawable/c8" android:layout_width="match_parent" android:layout_height="160dp" android:layout_alignParentBottom="true"/>
+    <com.ss.android.ugc.aweme.photo.PhotoView android:id="@+id/bxq" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="160dp"/>
+    <ImageView android:id="@+id/adk" android:layout_width="36dp" android:layout_height="36dp" android:layout_marginRight="10dp" android:layout_marginBottom="174dp" android:src="@drawable/buj" android:scaleType="fitCenter" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_marginEnd="10dp" android:layout_alignParentEnd="true"/>
+</RelativeLayout>

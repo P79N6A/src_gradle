@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/d4c" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:layout_gravity="top" android:id="@+id/bxv" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="20dp" android:layout_marginRight="16dp">
+        <RelativeLayout android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.ss.android.ugc.aweme.views.AutoRTLImageView android:id="@+id/asx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/avc" android:layout_centerVertical="true"/>
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/a08" android:id="@+id/d1a" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2dp" android:text="@string/cns" android:layout_toRightOf="@+id/asx" android:layout_centerVertical="true" style="@style/sc"/>
+        </RelativeLayout>
+        <LinearLayout android:layout_gravity="end" android:orientation="vertical" android:id="@+id/des" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.ss.android.ugc.aweme.base.ui.RemoteImageView android:layout_gravity="center_horizontal" android:id="@+id/asv" android:layout_width="28dp" android:layout_height="28dp" app:placeholderImage="@drawable/b0l" app:roundAsCircle="true" app:placeholderImageScaleType="6"/>
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/a30" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/la" android:text="@string/rw" style="@style/t6"/>
+        </LinearLayout>
+    </FrameLayout>
+    <RelativeLayout android:layout_gravity="bottom" android:id="@+id/bxu" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="20dp">
+        <com.ss.android.ugc.aweme.shortvideo.ScaleOnTouchTextView android:id="@+id/der" android:text="@string/aes" android:drawableTop="@drawable/bc2" android:drawablePadding="@dimen/la" style="@style/t6"/>
+        <com.ss.android.ugc.aweme.shortvideo.ScaleOnTouchTextView android:id="@+id/deq" android:layout_marginLeft="16dp" android:text="@string/cno" android:drawableTop="@drawable/bc0" android:drawablePadding="@dimen/la" android:layout_toRightOf="@+id/der" style="@style/t6"/>
+        <FrameLayout android:layout_width="69dp" android:layout_height="32dp" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <com.ss.android.ugc.aweme.shortvideo.ScaleOnTouchTextView android:textSize="15sp" android:textColor="@color/ao4" android:gravity="center" android:id="@+id/det" android:background="@drawable/lc" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/bgv"/>
+        </FrameLayout>
+    </RelativeLayout>
+</merge>

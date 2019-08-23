@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/yx" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <Space android:id="@+id/csr" android:layout_width="match_parent" android:layout_height="0dp"/>
+    <android.support.v4.widget.NestedScrollView android:id="@+id/cka" android:paddingTop="16dp" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" android:animateLayoutChanges="true">
+            <ViewStub android:id="@+id/dw1" android:layout="@layout/a9k" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <ViewStub android:id="@+id/dvs" android:layout="@layout/a3d" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <LinearLayout android:orientation="vertical" android:id="@+id/sl" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+                <View android:id="@+id/z" android:visibility="gone" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" style="@style/u0"/>
+            </LinearLayout>
+        </FrameLayout>
+    </android.support.v4.widget.NestedScrollView>
+    <com.bytedance.ies.dmt.ui.common.views.CommonItemView android:id="@+id/bv3" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:hide_right_icon="true" app:left_icon="@drawable/b1t"/>
+    <com.bytedance.ies.dmt.ui.common.views.CommonItemView android:id="@+id/dr_" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:hide_right_icon="true" app:left_icon="@drawable/b38" app:left_text="@string/bbc"/>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/dy" android:layout_width="280dp" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:layout_gravity="end" android:id="@+id/ti" android:paddingTop="8dp" android:paddingRight="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/b26"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="17sp" android:textStyle="bold" android:textColor="#161823" android:gravity="center" android:layout_width="match_parent" android:layout_height="24dp" android:text="@string/a37"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="15sp" android:textColor="#c0161823" android:gravity="center" android:layout_width="match_parent" android:layout_height="21dp" android:layout_marginTop="20dp" android:text="@string/a31"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="15sp" android:textColor="#c0161823" android:gravity="center" android:id="@+id/a1_" android:layout_width="match_parent" android:layout_height="21dp" android:layout_marginTop="4dp"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="15sp" android:textColor="@color/ao4" android:gravity="center" android:id="@+id/bue" android:background="@drawable/et" android:layout_width="match_parent" android:layout_height="44dp" android:layout_marginLeft="15dp" android:layout_marginTop="20dp" android:layout_marginRight="15dp" android:layout_marginBottom="12dp" android:text="@string/dop"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="12sp" android:textColor="#c0161823" android:gravity="center" android:id="@+id/akz" android:layout_width="match_parent" android:layout_height="20dp" android:layout_marginBottom="12dp" android:text="@string/aju"/>
+    </LinearLayout>
+</RelativeLayout>

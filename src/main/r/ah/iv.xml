@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_gravity="bottom" android:layout_width="match_parent" android:layout_height="204dp">
+        <FrameLayout android:background="@drawable/g5" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="8dp"/>
+        <com.ss.android.ugc.aweme.base.ui.AvatarWithBorderView android:id="@+id/dpn" android:layout_width="84dp" android:layout_height="84dp" android:scaleType="centerInside" android:layout_centerHorizontal="true" app:border_color="@color/a0b" app:border_width="2dp"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/i0" android:ellipsize="end" android:id="@+id/dq5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="12dp" android:layout_marginRight="16dp" android:maxLines="1" android:layout_below="@+id/dpn" android:layout_centerHorizontal="true" style="@style/sf"/>
+        <ImageView android:id="@+id/abo" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginTop="16dp" android:layout_marginRight="12dp" android:src="@drawable/axr" android:scaleType="fitCenter" android:layout_alignParentRight="true"/>
+        <LinearLayout android:id="@+id/abj" android:layout_width="match_parent" android:layout_height="54dp" android:layout_alignParentBottom="true">
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/i1" android:gravity="center" android:id="@+id/abl" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/acn" android:layout_weight="1" style="@style/se"/>
+            <View android:background="@color/hl" android:layout_width="1px" android:layout_height="match_parent"/>
+            <com.ss.android.ugc.aweme.face2face.ui.Face2FaceFollowTextView android:textColor="@color/hs" android:gravity="center" android:id="@+id/abk" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/acm" android:layout_weight="1" style="@style/se"/>
+        </LinearLayout>
+        <View android:background="@color/hl" android:layout_width="match_parent" android:layout_height="1px" android:layout_above="@+id/abj"/>
+    </RelativeLayout>
+</FrameLayout>

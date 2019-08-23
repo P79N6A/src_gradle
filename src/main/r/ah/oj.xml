@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/yx" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/d3v" layout="@layout/aby"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/a0g" android:gravity="start" android:paddingLeft="20dp" android:paddingTop="23dp" android:paddingRight="20dp" android:paddingBottom="10.5dp" android:layout_width="match_parent" android:layout_height="66.5dp" android:text="@string/b87" style="@style/s7"/>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <android.support.v7.widget.RecyclerView android:id="@+id/a4c" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <com.bytedance.ies.dmt.ui.widget.DmtStatusView android:layout_gravity="center_vertical" android:id="@+id/cvd" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

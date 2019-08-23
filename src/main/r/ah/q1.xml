@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/b_f" android:background="@color/yx" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ss.android.ugc.aweme.common.widget.tablayout.CommonTabLayout android:id="@+id/cyz" android:layout_width="match_parent" android:layout_height="40dp" app:tabBackground="@null" app:tabIndicatorColor="@color/zo" app:tabIndicatorHeight="2dp" app:tabMinWidth="0dp" app:tabMode="0" app:tabPaddingEnd="12dp" app:tabPaddingStart="12dp"/>
+    <View android:id="@+id/clr" android:background="@color/p" android:layout_width="match_parent" android:layout_height="1px" android:layout_below="@+id/cyz"/>
+    <com.ss.android.ugc.aweme.views.RtlViewPager android:id="@+id/duy" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/clr"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/b_g" android:background="@color/yx" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/a8c"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/wp" android:gravity="center" android:background="@color/a25" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/c2m" style="@style/s9"/>
+    </LinearLayout>
+</RelativeLayout>

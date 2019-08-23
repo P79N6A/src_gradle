@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/c36" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:id="@+id/c3k" android:background="@drawable/k5" android:visibility="visible" android:layout_width="match_parent" android:layout_height="126dp"/>
+    <View android:id="@+id/c33" android:layout_width="match_parent" android:layout_height="0dp"/>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="@dimen/r7" android:layout_below="@+id/c33">
+        <com.ss.android.ugc.aweme.views.AutoRTLImageView android:id="@+id/c2u" android:layout_width="44dp" android:layout_height="44dp" android:src="@drawable/b3s" android:layout_centerVertical="true" style="@style/wx"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/c32" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentEnd="true">
+            <include layout="@layout/a7f"/>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

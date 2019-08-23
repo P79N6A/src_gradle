@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/ao4" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/p9" android:gravity="center" android:id="@+id/dcx" android:paddingTop="12dp" android:paddingBottom="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bf2" style="@style/sc"/>
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:id="@+id/dda" android:background="@color/p9" android:layout_width="match_parent" android:layout_height="2dp"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/p9" android:gravity="center" android:id="@+id/d_p" android:paddingTop="12dp" android:paddingBottom="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bez" style="@style/sc"/>
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:id="@+id/dd_" android:background="@color/p9" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="2dp"/>
+        </LinearLayout>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/p_" android:gravity="center" android:id="@+id/de7" android:paddingTop="12dp" android:paddingBottom="12dp" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/bf1" android:layout_weight="1" style="@style/sc"/>
+    </LinearLayout>
+    <com.bytedance.ies.dmt.ui.widget.DmtTextView android:background="@color/a1h" android:layout_width="match_parent" android:layout_height="1px"/>
+</LinearLayout>

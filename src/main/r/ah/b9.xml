@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.ss.android.ugc.aweme.im.sdk.widget.ImTextTitleBar android:id="@+id/d3m" android:background="@color/ph" android:layout_width="match_parent" android:layout_height="@dimen/hg" app:imLeftText="@string/apy" app:imRightText="@string/auo" app:imTitle="@string/aot"/>
+    <android.support.v7.widget.RecyclerView android:id="@+id/a9f" android:background="@color/ajh" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1"/>
+    <FrameLayout android:id="@+id/a3e" android:background="@color/ajh" android:visibility="gone" android:layout_width="match_parent" android:layout_height="49dp">
+        <View android:background="@color/al9" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_alignParentBottom="true"/>
+        <TextView android:textColor="@color/qy" android:gravity="center" android:id="@+id/a3j" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/aqm" style="@style/se"/>
+    </FrameLayout>
+</LinearLayout>

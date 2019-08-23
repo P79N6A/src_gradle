@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.newfollow.ui.FollowFeedLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:paddingLeft="@dimen/kp" android:paddingRight="@dimen/kp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <include layout="@layout/a7b"/>
+    <include layout="@layout/a7a"/>
+    <include layout="@layout/a7c"/>
+    <include layout="@layout/a7_"/>
+</com.ss.android.ugc.aweme.newfollow.ui.FollowFeedLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/alv" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="17dp">
+        <RelativeLayout android:id="@+id/dtq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_weight="1">
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/a6m" android:id="@+id/su" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/a3n" android:drawableLeft="@drawable/bgy" android:drawablePadding="3dp" android:layout_centerVertical="true" android:drawableStart="@drawable/bgy" style="@style/s9"/>
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/a6m" android:id="@+id/sw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/a3p" android:layout_toRightOf="@+id/su" android:layout_centerVertical="true" style="@style/s9"/>
+        </RelativeLayout>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/a6m" android:id="@+id/dun" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="19dp" android:text="@string/t_" android:drawableRight="@drawable/bb5" android:drawablePadding="3dp" android:contentDescription="@string/t_" android:drawableEnd="@drawable/bb5" style="@style/s9"/>
+    </LinearLayout>
+    <View android:id="@+id/css" android:layout_width="match_parent" android:layout_height="12dp" android:layout_below="@+id/alv"/>
+    <RelativeLayout android:id="@+id/c3z" android:layout_width="match_parent" android:layout_height="83dp" android:layout_below="@+id/css">
+        <View android:background="@color/zh" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="16dp" android:layout_marginRight="16dp"/>
+        <android.support.v7.widget.RecyclerView android:id="@+id/c42" android:layout_width="match_parent" android:layout_height="63dp" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <com.ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout android:id="@+id/jf" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginTop="10dp" android:layout_marginRight="8dp" android:layout_marginBottom="20dp" android:layout_below="@+id/c3z" app:whRatio="4.787">
+        <com.ss.android.ugc.aweme.discover.widget.BannerViewPager android:id="@+id/duu" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <com.ss.android.ugc.aweme.discover.widget.IndicatorView android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/a6b" android:paddingBottom="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" app:indicatorSize="5dp" app:indicatorSpace="5dp" app:indicatorUnselectedAlpha="0.34"/>
+    </com.ss.android.ugc.aweme.base.widget.FixedRatioFrameLayout>
+</RelativeLayout>

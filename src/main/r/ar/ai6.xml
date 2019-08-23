@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="#ffffff" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="216dp">
+    <TextView android:textSize="12sp" android:textColor="#808080" android:gravity="bottom" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="40dp" android:text="@string/d5b" android:paddingStart="16dp" android:paddingEnd="16dp"/>
+    <FrameLayout android:background="@color/si" android:layout_width="match_parent" android:layout_height="48dp">
+        <TextView android:textSize="14sp" android:textColor="#161823" android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="@string/coj" android:layout_marginStart="20dp"/>
+        <Switch android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/cy2" android:layout_width="46dp" android:layout_height="24dp" android:layout_marginRight="16dp" android:checked="false" android:thumb="@drawable/abh" android:track="@drawable/ab9" android:layout_marginEnd="16dp"/>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/af5" android:background="@color/si" android:layout_width="match_parent" android:layout_height="48dp">
+        <TextView android:textSize="14sp" android:textColor="#161823" android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="@string/d4c" android:layout_marginStart="20dp"/>
+        <Switch android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/cy3" android:layout_width="46dp" android:layout_height="24dp" android:layout_marginRight="16dp" android:checked="false" android:thumb="@drawable/abh" android:track="@drawable/ab9" android:layout_marginEnd="16dp"/>
+    </FrameLayout>
+</LinearLayout>

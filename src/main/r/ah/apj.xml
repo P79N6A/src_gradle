@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:id="@+id/cv0" android:layout_height="0dp" style="@style/h1"/>
+    <com.bytedance.ies.dmt.ui.titlebar.ButtonTitleBar android:id="@+id/d3m" android:layout_width="match_parent" android:layout_height="@dimen/r7" app:endButtonText="@string/c12" app:endButtonType="1" app:titleText="@string/bsa" app:titleTextColor="@color/a09"/>
+</LinearLayout>

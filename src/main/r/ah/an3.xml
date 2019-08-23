@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:id="@+id/ac" android:background="@color/a_q" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="47dp">
+        <TextView android:textColor="@color/a_b" android:id="@+id/al2" android:visibility="gone" android:layout_height="match_parent" android:text="@string/d9o" android:drawableRight="@drawable/aa_" android:drawableEnd="@drawable/aa_" style="@style/we"/>
+        <TextView android:textColor="@color/ai1" android:id="@+id/agq" android:layout_height="match_parent" android:text="@string/d9k" android:drawableRight="@drawable/aa_" android:drawableEnd="@drawable/aa_" style="@style/we"/>
+        <TextView android:textColor="@color/a9f" android:id="@+id/ah_" android:layout_height="match_parent" android:text="@string/d9l" android:drawableRight="@drawable/aa_" android:drawableEnd="@drawable/aa_" style="@style/we"/>
+        <TextView android:textColor="@color/a_b" android:gravity="center" android:id="@+id/g0" android:layout_height="match_parent" android:text="@string/d9h" android:drawableRight="@drawable/aa_" android:drawableEnd="@drawable/aa_" style="@style/we"/>
+        <TextView android:textColor="@color/a_b" android:id="@+id/aoe" android:layout_height="match_parent" android:text="@string/cz0" style="@style/we"/>
+    </LinearLayout>
+</LinearLayout>

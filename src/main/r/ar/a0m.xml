@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:descendantFocusability="blocksDescendants" android:layout_width="64dp" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:layout_marginStart="6dp">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp">
+        <com.ss.android.ugc.aweme.base.ui.AvatarImageView android:id="@+id/i4" android:padding="8dp" android:layout_width="64dp" android:layout_height="64dp"/>
+        <View android:layout_gravity="center" android:id="@+id/aml" android:background="@drawable/aw1" android:visibility="gone" android:layout_width="48dp" android:layout_height="48dp"/>
+        <android.support.constraint.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8dp" android:layout_marginBottom="8dp" android:layout_marginEnd="8dp" style="@style/g0">
+            <ImageView android:id="@+id/dr5" style="@style/fx"/>
+            <View android:layout_gravity="center" android:id="@+id/dr6" android:background="@drawable/lm" android:visibility="gone" android:layout_width="0dp" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="@+id/dr5" app:layout_constraintLeft_toLeftOf="@+id/dr5" app:layout_constraintRight_toRightOf="@+id/dr5" app:layout_constraintTop_toTopOf="@+id/dr5"/>
+        </android.support.constraint.ConstraintLayout>
+    </FrameLayout>
+    <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="11dp" android:textColor="@color/a3w" android:gravity="center" android:id="@+id/bps" android:layout_width="@dimen/hc" android:layout_height="wrap_content" android:layout_marginTop="1dp" android:maxLines="2" android:lineSpacingExtra="1dp" android:lineSpacingMultiplier="0.9"/>
+</LinearLayout>

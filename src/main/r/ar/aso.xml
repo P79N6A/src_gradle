@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@drawable/o4" android:layout_width="750px" android:layout_height="1335px">
+    <ImageView android:id="@+id/cpu" android:layout_width="750px" android:layout_height="1335px" android:antialias="true" android:scaleType="fitStart"/>
+    <RelativeLayout android:background="@color/ao4" android:layout_width="750px" android:layout_height="444px" android:layout_alignParentBottom="true">
+        <ImageView android:layout_width="162px" android:layout_height="82px" android:layout_marginLeft="32px" android:layout_marginTop="32px" android:src="@drawable/bjo" android:layout_marginStart="32px"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="38px" android:textStyle="bold" android:textColor="@color/i0" android:ellipsize="end" android:id="@+id/cpl" android:layout_width="478px" android:layout_height="wrap_content" android:layout_marginLeft="32px" android:layout_marginTop="138px" android:text="@string/c1d" android:lines="1" android:layout_marginStart="32px" app:fontType="7"/>
+        <ImageView android:id="@+id/cqg" android:layout_width="165px" android:layout_height="165px" android:layout_marginTop="32px" android:layout_marginRight="40px" android:src="@drawable/bt5" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_marginEnd="40px" android:layout_alignParentEnd="true"/>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <include layout="@layout/a7z"/>
+        </FrameLayout>
+    </RelativeLayout>
+</RelativeLayout>

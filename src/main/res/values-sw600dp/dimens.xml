@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="d">24dp</dimen>
+    <dimen name="e">80dp</dimen>
+    <dimen name="f">64dp</dimen>
+    <dimen name="g">8dp</dimen>
+    <dimen name="h">8dp</dimen>
+    <dimen name="a0">580dp</dimen>
+    <dimen name="bc">16dp</dimen>
+    <dimen name="be">20dp</dimen>
+    <dimen name="ed">320dp</dimen>
+    <dimen name="eg">0dp</dimen>
+    <dimen name="eh">2dp</dimen>
+    <dimen name="ej">24dp</dimen>
+    <dimen name="ek">576dp</dimen>
+    <dimen name="el">320dp</dimen>
+    <dimen name="eo">@dimen/en</dimen>
+    <dimen name="er">160dp</dimen>
+</resources>

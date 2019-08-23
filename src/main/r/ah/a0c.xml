@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="52dp">
+    <ImageView android:id="@+id/b20" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ayh" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/i0" android:ellipsize="end" android:id="@+id/dct" android:layout_width="0dp" android:layout_height="wrap_content" android:maxLines="1" android:alpha="0.9" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toStartOf="@+id/azu" app:layout_constraintStart_toEndOf="@+id/b20" app:layout_constraintTop_toTopOf="0" style="@style/sc"/>
+    <ImageView android:id="@+id/azu" android:layout_width="30dp" android:layout_height="30dp" android:src="@drawable/aw5" android:scaleType="center" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0"/>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/aic" android:layout_width="280dp" android:layout_height="wrap_content">
+    <View android:id="@+id/bdx" android:visibility="gone" android:layout_width="match_parent" android:layout_height="40dp"/>
+    <com.bytedance.android.live.core.widget.HSImageView android:id="@+id/bdw" android:background="@color/aic" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginLeft="50dp" android:layout_marginRight="50dp"/>
+    <View android:id="@+id/be2" android:layout_width="match_parent" android:layout_height="24dp"/>
+    <TextView android:textSize="17sp" android:textStyle="bold" android:textColor="#222222" android:gravity="start" android:id="@+id/be0" android:background="@color/aic" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <View android:id="@+id/be1" android:layout_width="match_parent" android:layout_height="16dp"/>
+    <TextView android:textSize="15sp" android:textColor="#999999" android:gravity="left" android:id="@+id/bdz" android:background="@color/aic" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:includeFontPadding="false" android:lineSpacingExtra="2dp" android:textAllCaps="false"/>
+    <View android:id="@+id/bdn" android:visibility="gone" android:layout_width="match_parent" android:layout_height="24dp"/>
+    <FrameLayout android:id="@+id/bdv" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <LinearLayout android:gravity="end" android:orientation="horizontal" android:id="@+id/bdr" android:paddingLeft="16dp" android:paddingTop="5dp" android:paddingRight="16dp" android:paddingBottom="8dp" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:textSize="15sp" android:textColor="#2a90d7" android:id="@+id/bdp" android:background="@color/aic" android:layout_width="65dp" android:layout_height="36dp" android:text="@string/cpz"/>
+        <Button android:textSize="15sp" android:textColor="#2a90d7" android:id="@+id/bdo" android:background="@color/aic" android:layout_width="65dp" android:layout_height="36dp" android:layout_marginLeft="9dp" android:text="@string/d30"/>
+    </LinearLayout>
+</LinearLayout>

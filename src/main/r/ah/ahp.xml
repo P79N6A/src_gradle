@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/a7l" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/yg" android:background="@drawable/a_6" android:paddingTop="16dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="128dp" android:layout_alignParentBottom="true">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.bytedance.android.live.core.widget.HSImageView android:id="@+id/ayr" android:layout_width="48dp" android:layout_height="48dp" android:layout_marginLeft="16dp" app:placeholderImage="@drawable/c__" app:roundAsCircle="true"/>
+            <TextView android:textSize="16sp" android:textColor="@color/ad1" android:ellipsize="marquee" android:id="@+id/dfb" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" android:lineSpacingExtra="4sp"/>
+            <TextView android:textSize="14sp" android:textColor="@color/ad0" android:id="@+id/dau" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginTop="4dp" android:layout_marginRight="16dp" android:text="@string/djk" android:includeFontPadding="false" android:lineSpacingExtra="2sp"/>
+        </LinearLayout>
+        <TextView android:textSize="14dp" android:textColor="@color/si" android:gravity="center" android:id="@+id/dig" android:background="@drawable/a_5" android:layout_width="match_parent" android:layout_height="40dp" android:layout_marginLeft="16dp" android:layout_marginTop="8dp" android:layout_marginRight="16dp" android:text="@string/djh"/>
+    </LinearLayout>
+    <View android:id="@+id/yc" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/yg"/>
+</RelativeLayout>

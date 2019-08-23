@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/zq" android:background="@color/ano" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/czc" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <include layout="@layout/a2n"/>
+        <include layout="@layout/a2o"/>
+        <include layout="@layout/a8p"/>
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/b83" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <View android:id="@+id/cvy" android:background="@color/ano" android:layout_width="match_parent" android:layout_height="match_parent" android:soundEffectsEnabled="false" android:importantForAccessibility="no"/>
+    <FrameLayout android:layout_gravity="bottom" android:id="@+id/cvg" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include layout="@layout/a9n"/>
+    </FrameLayout>
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/aln" android:background="@color/a17" android:layout_width="match_parent" android:layout_height="89.5dp">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.5dp" android:layout_marginTop="15dp" android:layout_marginStart="15.5dp">
+            <ImageView android:id="@+id/b2d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bgx"/>
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/a09" android:id="@+id/sv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.5dp" android:text="@string/a3k" android:layout_marginStart="2.5dp" style="@style/s7"/>
+        </LinearLayout>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/a0b" android:gravity="center_vertical" android:id="@+id/dan" android:paddingLeft="17dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="5dp" android:paddingStart="17dp" style="@style/sc"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/alp" android:background="@color/a17" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.5dp" android:layout_marginTop="15dp" android:layout_marginStart="15.5dp">
+            <ImageView android:id="@+id/b2c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bgu"/>
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/a09" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.5dp" android:text="@string/amb" android:layout_marginStart="2.5dp" style="@style/s7"/>
+        </LinearLayout>
+        <com.ss.android.ugc.aweme.feed.widget.CityViewTagLayout android:id="@+id/ao8" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_marginTop="15dp" android:layout_marginRight="26dp" android:layout_marginBottom="15dp" android:layout_marginStart="15dp" android:layout_marginEnd="26dp"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/alq" android:background="@color/a17" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.5dp" android:layout_marginTop="15dp" android:layout_marginStart="15.5dp">
+            <ImageView android:id="@+id/b2a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bgv"/>
+            <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/a09" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.5dp" android:text="@string/ami" android:layout_marginStart="2.5dp" style="@style/s7"/>
+        </LinearLayout>
+        <com.ss.android.ugc.aweme.feed.widget.CityViewTagLayout android:id="@+id/ap4" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_marginTop="15dp" android:layout_marginRight="26dp" android:layout_marginBottom="15dp" android:layout_marginStart="15dp" android:layout_marginEnd="26dp"/>
+    </LinearLayout>
+</LinearLayout>

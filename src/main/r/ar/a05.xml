@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:paddingTop="10dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="17dp" android:textStyle="bold" android:textColor="@color/hx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/c2a" android:layout_centerVertical="true" android:layout_marginStart="16dp"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="14dp" android:textColor="@color/zx" android:id="@+id/t8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/td" android:layout_centerVertical="true" android:layout_toStartOf="@+id/b0t"/>
+        <ImageView android:id="@+id/b0t" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/b7e" android:layout_centerVertical="true" android:layout_marginEnd="16dp" android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+    <com.ss.android.ugc.aweme.widget.flowlayout.TagFlowLayout android:id="@+id/czb" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginBottom="16dp" android:layout_marginStart="16dp" android:layout_marginEnd="16dp" app:max_select="1" app:tag_gravity="-1" app:tag_maxline="2" app:tag_space_horizontal="12dp" app:tag_space_vertical="12dp"/>
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ss.android.ugc.aweme.shortvideo.ui.VideoRecordGestureLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/ajc" android:saveEnabled="false" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/cxg" android:background="@color/d5" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <View android:id="@+id/lw" android:background="@color/ao4" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <View android:background="@drawable/b7" android:layout_width="match_parent" android:layout_height="90dp"/>
+    <View android:layout_gravity="bottom" android:background="@drawable/b6" android:layout_width="match_parent" android:layout_height="200dp"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <Space android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="6"/>
+        <com.ss.android.ugc.aweme.story.widget.CompositeStoryFilterIndicator android:layout_gravity="center" android:id="@+id/adq" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <Space android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="10"/>
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="120dp" android:layout_marginBottom="35dp">
+        <android.support.v7.widget.RecyclerView android:layout_gravity="center" android:id="@+id/cjs" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </FrameLayout>
+    <com.ss.android.ugc.aweme.shortvideo.widget.StoryRecordLayout android:enabled="false" android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/ca_" android:clipToPadding="false" android:layout_width="120dp" android:layout_height="120dp" android:layout_marginBottom="35dp" android:contentDescription="@string/x"/>
+    <android.support.v7.widget.AppCompatImageView android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/b5n" android:visibility="gone" android:layout_width="25dp" android:layout_height="25dp" android:layout_marginBottom="82.5dp" android:src="@drawable/b8h"/>
+    <RelativeLayout android:id="@+id/py" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include android:layout_width="match_parent" android:layout_height="115dp" android:layout_marginBottom="40dp" android:layout_alignParentBottom="true" layout="@layout/a7x"/>
+        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textSize="13dp" android:textColor="@color/ao4" android:gravity="center" android:id="@+id/dh9" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="160dp" android:text="@string/cfd" android:shadowColor="@color/a2f" android:shadowDy="1" android:shadowRadius="2" android:layout_alignParentBottom="true" android:alpha="0"/>
+        <FrameLayout android:id="@+id/d4e" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.ss.android.ugc.aweme.story.shootvideo.textrecord.StoryTextRecordLayout android:id="@+id/dng" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <LinearLayout android:gravity="center_vertical" android:id="@+id/cc0" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp">
+                <com.ss.android.ugc.aweme.views.AutoRTLImageView android:id="@+id/asa" android:layout_width="24dp" android:layout_height="44dp" android:src="@drawable/b7y" android:scaleType="centerInside" android:contentDescription="@string/m"/>
+                <View android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
+                <ImageView android:id="@+id/b1c" android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/avi"/>
+                <ImageView android:id="@+id/azi" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginLeft="12dp" android:src="@drawable/avl" android:contentDescription="@string/y"/>
+            </LinearLayout>
+            <com.ss.android.ugc.aweme.story.widget.TabHost android:layout_gravity="bottom" android:id="@+id/mu" android:layout_width="match_parent" android:layout_height="40dp" android:importantForAccessibility="no">
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/y9" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/uq" android:gravity="center" android:tag="文字" android:paddingLeft="10dp" android:paddingRight="10dp" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="文字" android:shadowColor="@color/ce" android:shadowDx="0" android:shadowDy="2" android:shadowRadius="2" style="@style/sc"/>
+                        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/uq" android:gravity="center" android:tag="@string/cff" android:paddingLeft="10dp" android:paddingRight="10dp" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cff" android:shadowColor="@color/ce" android:shadowDx="0" android:shadowDy="2" android:shadowRadius="2" style="@style/sc"/>
+                        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/uq" android:gravity="center" android:tag="@string/cfe" android:paddingLeft="10dp" android:paddingRight="10dp" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cfe" android:shadowColor="@color/ce" android:shadowDx="0" android:shadowDy="2" android:shadowRadius="2" style="@style/sc"/>
+                        <com.bytedance.ies.dmt.ui.widget.DmtTextView android:textColor="@color/uq" android:gravity="center" android:tag="@string/cfg" android:paddingLeft="10dp" android:paddingRight="10dp" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cfg" android:shadowColor="@color/ce" android:shadowDx="0" android:shadowDy="2" android:shadowRadius="2" style="@style/sc"/>
+                    </LinearLayout>
+                    <ImageView android:layout_gravity="center_horizontal" android:id="@+id/cbq" android:layout_width="5dp" android:layout_height="0dp" android:src="@drawable/xs" android:scaleType="center" android:layout_weight="1"/>
+                </LinearLayout>
+            </com.ss.android.ugc.aweme.story.widget.TabHost>
+        </FrameLayout>
+        <FrameLayout android:id="@+id/ag7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="156dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+    <FrameLayout android:id="@+id/b_3" android:background="@color/ano" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:id="@+id/b_1" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+    <include layout="@layout/a92"/>
+    <include layout="@layout/hu"/>
+</com.ss.android.ugc.aweme.shortvideo.ui.VideoRecordGestureLayout>
